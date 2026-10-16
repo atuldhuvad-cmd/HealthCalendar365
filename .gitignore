@@ -1,0 +1,56 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Python and JavaScript dependencies/caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime generation, recovery, and transaction state
+photos/staging/
+data/transactions/
+data/active_transaction.json
+data/generation_journal.json
+data/*.quarantine*
+*.tmp
+*.bak
+
+# Reproducible review outputs and temporary inspection files
+review/rendered_posters/
+temp_inspect/
+scratch/*.png
+scratch/*.jpg
+scratch/*.jpeg
+scratch/*.webp
+scratch/*.txt
+scratch/cards_40_dump.json
+scratch/rejected_inspection.txt
+
+# Test and coverage output
+.coverage
+htmlcov/
+coverage/
+test-results/
+playwright-report/

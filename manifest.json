@@ -1,0 +1,25 @@
+{
+  "name": "365-Day Health Poster Studio - India",
+  "short_name": "HealthStudio365",
+  "description": "Offline-First Mobile PWA for Doctors to generate bilingual Square and Vertical WhatsApp health posters.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#061320",
+  "theme_color": "#061320",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "health", "education", "utilities"]
+}

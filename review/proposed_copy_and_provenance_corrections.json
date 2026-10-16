@@ -1,0 +1,237 @@
+{
+  "notice": "PRODUCTION HOLD ACTIVE: Copy revisions are staged for clinical/language review. Production database health_365.json remains 100% UNCHANGED.",
+  "health_observance_provenance": {
+    "10-15": {
+      "observance_name_en": "Global Handwashing Day",
+      "observance_name_gu": "વિશ્વ હાથ ધોવા દિવસ",
+      "date": "October 15",
+      "official_sponsoring_body": "Global Handwashing Partnership (GHP)",
+      "international_status": "Officially designated global health advocacy day",
+      "source_citation": "Global Handwashing Partnership (https://globalhandwashing.org/global-handwashing-day/)",
+      "attribution_category": "OFFICIAL_SPONSOR_VERIFIED",
+      "display_badge": "Global Handwashing Partnership (GHP)",
+      "provenance_notes": "Official partnership founded by CDC, UNICEF, USAID, World Bank and academic institutions."
+    },
+    "10-15-cane": {
+      "observance_name_en": "White Cane Safety Day / World White Cane Day",
+      "observance_name_gu": "વિશ્વ સફેદ લાકડી દિવસ (પ્રજ્ઞાચક્ષુ સન્માન)",
+      "date": "October 15",
+      "official_sponsoring_body": "World Blind Union (WBU) / National Federation of the Blind (NFB)",
+      "international_status": "Historically recognized advocacy observance (US Joint Resolution 1964; WBU global commemoration)",
+      "source_citation": "World Blind Union (https://worldblindunion.org/) & NFB",
+      "attribution_category": "HISTORICAL_ADVOCACY_OBSERVANCE",
+      "display_badge": "World Blind Union (WBU) Observance",
+      "provenance_notes": "Grassroots and organizational advocacy day; not a formal UN treaty day."
+    },
+    "10-16": {
+      "observance_name_en": "World Food Day",
+      "observance_name_gu": "વિશ્વ ખાદ્ય દિવસ",
+      "date": "October 16",
+      "official_sponsoring_body": "Food and Agriculture Organization of the United Nations (FAO)",
+      "international_status": "Official United Nations International Day (UN General Assembly Resolution 34/83)",
+      "source_citation": "FAO World Food Day Portal (https://www.fao.org/world-food-day/en)",
+      "attribution_category": "OFFICIAL_UN_AGENCY_VERIFIED",
+      "display_badge": "UN Food & Agriculture Organization (FAO)",
+      "provenance_notes": "Established November 1979 at FAO's 20th General Conference."
+    },
+    "10-16-spine": {
+      "observance_name_en": "World Spine Day",
+      "observance_name_gu": "વિશ્વ કરોડરજ્જુ દિવસ",
+      "date": "October 16",
+      "official_sponsoring_body": "World Federation of Chiropractic (WFC) / Global Alliance for Musculoskeletal Health",
+      "international_status": "Global health awareness campaign under Bone and Joint Decade initiative",
+      "source_citation": "World Spine Day Official Registry (http://www.worldspineday.org/)",
+      "attribution_category": "ORGANIZATIONAL_CAMPAIGN_VERIFIED",
+      "display_badge": "World Spine Day (WFC / GASH)",
+      "provenance_notes": "Global musculoskeletal health awareness campaign organized annually on Oct 16."
+    },
+    "10-17": {
+      "observance_name_en": "World Trauma Day (World Trauma Prevention Day)",
+      "observance_name_gu": "વિશ્વ ટ્રોમા નિવારણ દિવસ",
+      "date": "October 17",
+      "official_sponsoring_body": "Grassroots Clinical Initiative (Indian Emergency Care & Trauma Community)",
+      "international_status": "Grassroots clinical awareness day (NOT an official UN or WHO designated international day)",
+      "source_citation": "Trauma Association of India / Indian Emergency Medicine Literature",
+      "attribution_category": "ORGANIZATION_NEUTRAL_DAILY_GUIDANCE",
+      "display_badge": "Emergency Trauma Care Guidance",
+      "provenance_notes": "Caution: Not a UN or WHO recognized international day. Removal of WHO badge confirmed. Founding origin in India (2011) recorded as historical context pending primary charter evidence."
+    },
+    "10-18": {
+      "observance_name_en": "World Menopause Day",
+      "observance_name_gu": "વિશ્વ મેનોપોઝ દિવસ",
+      "date": "October 18",
+      "official_sponsoring_body": "International Menopause Society (IMS)",
+      "international_status": "Officially designated global health campaign (established 2009 by IMS)",
+      "source_citation": "International Menopause Society (https://www.imsociety.org/education/world-menopause-day/)",
+      "attribution_category": "OFFICIAL_SPONSOR_VERIFIED",
+      "display_badge": "International Menopause Society (IMS)",
+      "provenance_notes": "Official annual campaign led by IMS with expert White Papers."
+    },
+    "10-19": {
+      "observance_name_en": "Ear & Hearing Health",
+      "observance_name_gu": "કાન અને શ્રવણ સ્વાસ્થ્ય",
+      "date": "October 19",
+      "official_sponsoring_body": "None (Daily Health Guidance)",
+      "international_status": "Organization-neutral daily clinical guidance (Official WHO World Hearing Day is March 3)",
+      "source_citation": "Primary Clinical Guidance / Indian ENT Clinical Standards",
+      "attribution_category": "ORGANIZATION_NEUTRAL_DAILY_GUIDANCE",
+      "display_badge": "Daily Health Guidance",
+      "provenance_notes": "Routine primary clinical education; no international day designation."
+    },
+    "10-19-oral": {
+      "observance_name_en": "Oral Health & Tobacco-Free Life",
+      "observance_name_gu": "મુખનું આરોગ્ય અને તમાકુ મુક્તિ",
+      "date": "October 19",
+      "official_sponsoring_body": "None (Daily Health Guidance)",
+      "international_status": "Organization-neutral daily clinical guidance (Official FDI/WHO World Oral Health Day is March 20)",
+      "source_citation": "Dental Council of India / National Oral Health Programme guidelines",
+      "attribution_category": "ORGANIZATION_NEUTRAL_DAILY_GUIDANCE",
+      "display_badge": "Daily Health Guidance",
+      "provenance_notes": "High-priority clinical guidance card for betel quid / tobacco cessation."
+    },
+    "10-20": {
+      "observance_name_en": "World Osteoporosis Day",
+      "observance_name_gu": "વિશ્વ ઓસ્ટીયોપોરોસીસ દિવસ",
+      "date": "October 20",
+      "official_sponsoring_body": "International Osteoporosis Foundation (IOF)",
+      "international_status": "Official international health campaign (launched 1996 by UK National Osteoporosis Society, led globally by IOF)",
+      "source_citation": "International Osteoporosis Foundation (https://www.osteoporosis.foundation/)",
+      "attribution_category": "OFFICIAL_SPONSOR_VERIFIED",
+      "display_badge": "International Osteoporosis Foundation (IOF)",
+      "provenance_notes": "Dedicated international bone health campaign."
+    },
+    "10-21": {
+      "observance_name_en": "Global Iodine Deficiency Disorders Prevention Day (World Iodine Deficiency Day)",
+      "observance_name_gu": "વિશ્વ આયોડિન અલ્પતા નિવારણ દિવસ",
+      "date": "October 21",
+      "official_sponsoring_body": "Supported by Iodine Global Network (IGN) advocacy",
+      "international_status": "Organically developed awareness date (NOT a recognized official UN or WHO international day)",
+      "source_citation": "Iodine Global Network: 'Our hopes on World Iodine Deficiency Prevention Day' (https://ign.org/latest/blog/our-hopes-on-world-iodine-deficiency-prevention-day/)",
+      "attribution_category": "ORGANIC_AWARENESS_DATE_NOT_UN_OFFICIAL",
+      "display_badge": "Iodine Deficiency Prevention Guidance",
+      "provenance_notes": "CRITICAL CORRECTION: IGN explicitly notes this observance grew organically and is NOT an official UN/WHO mandated day. Sponsoring coalition claims remain unverified."
+    }
+  },
+  "staged_copy_audit_and_corrections": [
+    {
+      "slot": "10-15_day_title",
+      "category": "EDITORIAL_GRAMMAR_PROPOSAL",
+      "current_en": "Global Handwashing Day",
+      "current_gu": "વિશ્વ હાથ ધોવાના દિવસ (ગ્લોબલ હેન્ડવોશિંગ ડે)",
+      "proposed_en": "Global Handwashing Day",
+      "proposed_gu": "વિશ્વ હાથ ધોવા દિવસ (ગ્લોબલ હેન્ડવોશિંગ ડે)",
+      "rationale": "Corrects Gujarati genitive case marker ('ધોવાના' -> 'ધોવા'). Staged for qualified Gujarati language reviewer verification.",
+      "clinical_evidence_source": "Gujarati Lexicon / Standard Public Health Gujarati usage",
+      "requires_clinician_sign_off": false,
+      "staging_status": "STAGED_FOR_LANGUAGE_REVIEW"
+    },
+    {
+      "slot": "10-15_card2_desc",
+      "category": "MEDICAL_CLAIM_REVISION",
+      "current_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where 80% of germs hide.",
+      "current_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં મોટાભાગના કીટાણુ છુપાયેલા હોય છે.",
+      "proposed_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where pathogens and dirt frequently accumulate.",
+      "proposed_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં ધૂળ અને કીટાણુઓ સૌથી વધુ જમા થાય છે.",
+      "rationale": "CDC Hand Hygiene Guidelines support cleaning under nails and between fingers for at least 20 seconds, but do NOT establish the exact '80%' statistic. Replaces unsupported precise statistic with evidence-backed clinical phrasing.",
+      "clinical_evidence_source": "CDC Clean Hands FAQ (https://www.cdc.gov/clean-hands/faq/index.html)",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-16-spine_card4_desc",
+      "category": "BIOMECHANICAL_CLAIM_CONTEXT",
+      "current_en": "Bending neck forward puts 27 kg of pressure on cervical vertebrae. Hold your smartphone up closer to eye level.",
+      "current_gu": "મોબાઈલમાં સતત નીચું જોવાથી ડોકના મણકા પર ૨૭ કિલો વજન આવે છે; ફોનને હંમેશા આંખની સામે રાખીને વાપરો.",
+      "proposed_en": "Severe forward neck flexion significantly increases mechanical load on cervical vertebrae. Hold devices closer to eye level and change posture frequently.",
+      "proposed_gu": "ડોક વધારે પડતી નીચી નમાવવાથી સર્વાઇકલ મણકા પર ભારે દબાણ આવે છે; ફોનને આંખની સામે રાખો અને વચ્ચે-વચ્ચે ગરદન હળવી કરો.",
+      "rationale": "The 27 kg (60 lbs) figure originates from a specific 2014 mathematical finite element model (Hansraj KK, Surg Technol Int), but clinical consensus emphasizes posture variation and movement breaks over a rigid static weight claim.",
+      "clinical_evidence_source": "Hansraj KK (2014) Assessment of Stresses in the Cervical Spine Caused by Posture and Position of the Head. Surg Technol Int 25:277-9",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-17_card3_title",
+      "category": "EDITORIAL_ALIGNMENT",
+      "current_en": "Controlled Speed & Helmet Discipline",
+      "current_gu": "નિયંત્રિત ગતિ અને હેલ્મેટ શિસ્ત",
+      "proposed_en": "Controlled Speed & Zero Phone Distraction",
+      "proposed_gu": "નિયંત્રિત ગતિ અને ફોનથી સાવધાની",
+      "rationale": "Card 1 already covers helmet discipline; Card 3 description covers mobile phones and speeding. Clarifies title to match body copy.",
+      "clinical_evidence_source": "Motor Vehicles (Amendment) Act 2019 / WHO Global Status Report on Road Safety",
+      "requires_clinician_sign_off": false,
+      "staging_status": "STAGED_FOR_EDITORIAL_REVIEW"
+    },
+    {
+      "slot": "10-18_card3_and_card4",
+      "category": "CLINICAL_INVERSION_CORRECTION",
+      "current_en": "Card 3 Title: Bone Density & Joint Care (Desc: hot flashes & consulting gynecologist) | Card 4 Title: Qualified Gynecologist Consultation (Desc: diet & caffeine)",
+      "current_gu": "કાર્ડ ૩: હાડકાંની મજબૂતી (વર્ણન: ગાયનેકોલોજિસ્ટની સલાહ) | કાર્ડ ૪: ગાયનેકોલોજિસ્ટની સલાહ (વર્ણન: ચા-કૉફીથી પરેજી)",
+      "proposed_en": "Card 3 Title: 'Consult Gynecologist for Menopause Symptoms' | Card 4 Title: 'Moderate Caffeine, Sugar & Spices'",
+      "proposed_gu": "કાર્ડ ૩: 'મેનોપોઝના લક્ષણો માટે ગાયનેકોલોજિસ્ટની સલાહ' | કાર્ડ ૪: 'ચા, કૉફી અને વધુ પડતી ખાંડની પરેજી'",
+      "rationale": "Severe semantic title/desc inversion. Aligns card titles with their respective medical instructions.",
+      "clinical_evidence_source": "International Menopause Society (IMS) White Paper on Menopausal Health",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-20_card3_title_and_desc",
+      "category": "CLINICAL_CONFLICT_AND_EPIDEMIOLOGY_REVISION",
+      "current_en": "Title: Regular Movement & Postural Balance | Desc: Wet floors and loose electrical wires are the #1 cause of catastrophic hip fractures in elders.",
+      "current_gu": "શીર્ષક: બેઠાડુ જીવન છોડી નિયમિત સક્રિયતા | વર્ણન: ફ્લોર ભીનો ન રાખો; અંધારામાં ચાલવું કે ફ્લોર પર વાયરો રાખવાથી વડીલો લપસીને થાપાનું ફ્રેક્ચર ભોગવી શકે છે.",
+      "proposed_en": "Title: 'Eliminate Slip, Trip & Fall Hazards at Home' | Desc: 'Slippery wet floors and loose cords are a leading avoidable cause of falls and hip fractures in elders.'",
+      "proposed_gu": "શીર્ષક: 'ઘરમાં લપસી પડવાના અને ઠોકર ખાવાના જોખમો દૂર કરો' | વર્ણન: 'ભીનો ફ્લોર અને છૂટા વાયરો વડીલોમાં થાપાના ફ્રેક્ચરનું એક મુખ્ય ટાળી શકાય તેવું કારણ છે.'",
+      "rationale": "Resolves conflict between exercise title and domestic hazard description. Moderates '#1 cause' claim to 'a leading avoidable cause'.",
+      "clinical_evidence_source": "IOF Fall Prevention Guidelines & WHO Global Report on Falls Prevention in Older Age",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-20_card4_title_and_desc",
+      "category": "MEDICAL_EVIDENCE_REVISION_UNSUPPORTED_CLAIM",
+      "current_en": "Title: Non-Slip Flooring & Lighting | Desc: High sodium and dark aerated sodas deplete bone calcium through urinary leaching, creating porous brittle bones.",
+      "current_gu": "શીર્ષક: લપસણા ફ્લોરિંગ સામે સુરક્ષા | વર્ણન: કાચું મીઠું છાંટવું અને સોડા-કોલ્ડડ્રિંક્સ પીવાથી હાડકાંમાંથી કેલ્શિયમ પેશાબ વાટે ધોવાઈ જાય છે અને હાડકાં પોલાં બને છે.",
+      "proposed_en": "Title: 'Limit Excessive Salt Intake & Choose Wholesome Hydration' | Desc: 'Excessive dietary salt increases urinary calcium loss. For adults, keep total salt from all foods below 5 g/day (equivalent to less than 2 g/day sodium). Choose water or traditional unsalted buttermilk.'",
+      "proposed_gu": "શીર્ષક: 'વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ' | વર્ણન: 'વધારે પડતું મીઠું ખાવાથી પેશાબ વાટે કેલ્શિયમ નીકળી જાય છે; પુખ્ત વયના લોકો માટે દિવસભરના બધા ખોરાકમાંથી મળતું કુલ મીઠું ૫ ગ્રામથી ઓછું રાખો (આશરે ૨ ગ્રામથી ઓછું સોડિયમ). પાણી અથવા મીઠું ઉમેર્યા વગરની છાશ પસંદ કરો.'",
+      "rationale": "CRITICAL MEDICAL REVISION: IOF explicitly notes there is no firm scientific evidence that fizzy soft drinks directly weaken bones. WHO recommends adults consume less than 2 g/day sodium, equivalent to less than 5 g/day total dietary salt; these are intake recommendations, not a hypercalciuria diagnostic threshold. Staged copy removes unsupported causal claim about dark sodas while promoting evidence-based sodium moderation and healthy hydration.",
+      "clinical_evidence_source": "International Osteoporosis Foundation (IOF) Guidance: Protein and Other Nutrients (https://www.osteoporosis.foundation/patients/prevention/protein-other-nutrients)",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-21_card2_desc",
+      "category": "FOOD_CHEMISTRY_AND_STABILITY_REVISION",
+      "current_en": "Excessive prolonged boiling evaporates volatile iodine. Add salt near the finish to preserve full iodine value.",
+      "current_gu": "વધારે ઉકાળવાથી આયોડિન ઉડી જાય છે; શાક કે દાળ ઉતારતી વખતે છેલ્લે મીઠું ઉમેરવાથી આયોડિન જળવાઈ રહે છે.",
+      "proposed_en": "Prolonged high-heat boiling can degrade and leach fortified iodine compounds. Adding iodized salt towards the end of cooking helps retain full micronutrient value.",
+      "proposed_gu": "લાંબા સમય સુધી વધુ ગરમીમાં ઉકાળવાથી આયોડિનનું પ્રમાણ ઘટી શકે છે; રસોઈ પૂરી થવાના સમયે મીઠું ઉમેરવાથી આયોડિનનું મૂલ્ય જળવાય છે.",
+      "rationale": "Potassium iodate (KIO3) is a non-volatile ionic salt (melting point >500C); it does not simply 'evaporate' like elemental iodine. Loss occurs through chemical reduction, thermal degradation, and aqueous leaching. Replaces incorrect volatility claim with accurate food science explanation.",
+      "clinical_evidence_source": "WHO / FAO Guidelines on Food Fortification with Micronutrients, Part 3 (https://www.who.int/docs/default-source/micronutrients/gff-part-3-en.pdf)",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-21_card3_title",
+      "category": "CLINICAL_CONFLICT_RESOLUTION",
+      "current_en": "Dry & Airtight Salt Storage",
+      "current_gu": "મીઠાને ભેજ અને ગરમીથી બચાવો",
+      "proposed_en": "Avoid Unbranded Loose Coarse Salt",
+      "proposed_gu": "ખુલ્લું અને બિન-આયોડાઇઝ્ડ મીઠું વાપરવાનું ટાળો",
+      "rationale": "Resolves redundancy with Cards 1 & 4. Description focuses on the severe risk of uniodized loose salt for child neurological development. Safety: Does not imply crystal/rock salt is naturally iodized; does not recommend increasing total salt intake.",
+      "clinical_evidence_source": "Universal Salt Iodization (USI) Standards / Iodine Global Network",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    },
+    {
+      "slot": "10-21_card4_title",
+      "category": "CLINICAL_CONFLICT_RESOLUTION",
+      "current_en": "Balanced Micronutrient Diet",
+      "current_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
+      "proposed_en": "Protect Salt from Direct Stove Heat & Moisture",
+      "proposed_gu": "મીઠાની બરણી ગેસની જ્વાળા અને ભેજથી દૂર રાખો",
+      "rationale": "Title was generic 'balanced micronutrient diet', while description explicitly warns against stove heat and open damp containers degrading iodate. Aligns title with storage instruction.",
+      "clinical_evidence_source": "Food Safety and Standards Authority of India (FSSAI) Salt Storage Guidelines",
+      "requires_clinician_sign_off": true,
+      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+    }
+  ]
+}
