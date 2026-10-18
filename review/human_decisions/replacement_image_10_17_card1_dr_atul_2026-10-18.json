@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "decision_type": "replacement_image_approval_and_promotion",
+  "submitted_at": "2026-10-18T11:51:08-04:00",
+  "reviewer": {
+    "name": "Dr. Atul",
+    "qualification": "MBBS",
+    "role": "Trainer in Health Department since 2002",
+    "professional_role": "Trainer in Health Department since 2002"
+  },
+  "decision_verbatim": "Dr. Atul has explicitly APPROVED the replacement candidate for 10-17_card1.",
+  "normalized_decision": "APPROVE_REPLACEMENT_AND_PROMOTE",
+  "scope": [
+    "10-17_card1"
+  ],
+  "candidate_verification": {
+    "slot": "10-17_card1",
+    "day_id": "10-17",
+    "card_idx": 1,
+    "candidate_path": "photos/staging/candidate_10_17_card1_v1.png",
+    "candidate_sha256": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6",
+    "format": "PNG",
+    "dimensions": {
+      "width": 1200,
+      "height": 900
+    },
+    "aspect_ratio": "4:3",
+    "mode": "RGB",
+    "pixel_decompression": "PASS",
+    "visual_criteria_verification": {
+      "rhd_driver_count": 1,
+      "steering_wheel_count": 1,
+      "occupant_seatbelts_fastened": "PASS",
+      "text_or_watermarks_present": "NONE",
+      "duplicate_controls_present": "NONE",
+      "anatomical_anomalies_present": "NONE",
+      "indian_cultural_authenticity": "PASS"
+    }
+  },
+  "promoted_target": {
+    "target_live_path": "photos/oct17_do1.png",
+    "promoted_sha256": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6",
+    "spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1"
+  },
+  "historical_rejection_evidence": {
+    "rejected_image_path": "photos/oct17_do1.png",
+    "rejected_image_sha256": "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e",
+    "defect_finding_verbatim": "Two person driving the car",
+    "defect_classification": "AI_VISUAL_HALLUCINATION_DUAL_STEERING_WHEELS",
+    "archived_in": "review/superseded/rejected_assets_10_17_card1_pre_replacement_2026-10-18.json"
+  },
+  "transaction_id": "tx_20261018_approved_replacement_10_17_card1",
+  "governance": {
+    "generation_mode": "ChatGPT built-in image generator",
+    "external_project_api_calls": 0,
+    "actual_provider_spend_usd": 0.0,
+    "production_hold": "ACTIVE_PENDING_PHYSICAL_DEVICE_GATES"
+  }
+}

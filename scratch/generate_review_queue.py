@@ -64,7 +64,7 @@ REQUIRED_VISUALS = {
     ('10-21', 1): "Authentic Indian kitchen: Scooping fine iodized salt from an airtight glass or ceramic jar (smiling sun logo visible)",
     ('10-21', 2): "Iodine preservation in cooking: Indian home cook adding a measured pinch of iodized salt near the completion of vegetable curry",
     ('10-21', 3): "Uniodized salt hazard: Contrast between unbranded loose coarse salt (lacks iodine) vs packaged iodized salt for maternal/child health",
-    ('10-21', 4): "Proper salt storage: Tightly sealed salt jar placed in a cool dry kitchen pantry cupboard away from stove heat and humidity"
+    ('10-21', 4): "Proper salt storage: Tightly sealed salt jar placed in a cool, dry kitchen pantry cupboard protected from moisture"
 }
 
 POLARITY_MAP = {
@@ -93,7 +93,12 @@ for d_id in DAYS:
         actual_photo_hash = get_sha256(photo_rel)
         
         findings = m_entry.get('clinical_review', {}).get('findings', '') if m_entry else ''
-        observed_issue = findings if status == 'REJECTED_MISMATCH' else 'Awaiting formal board clinical sign-off and physical review verification.'
+        if status == 'REJECTED_MISMATCH':
+            observed_issue = findings
+        elif status == 'APPROVED':
+            observed_issue = findings if findings else 'Promoted replacement image approved by Dr. Atul; verified against clinical specification.'
+        else:
+            observed_issue = 'Awaiting formal board clinical sign-off and physical review verification.'
         
         source_evidence = {
             "day_id": d_id,
@@ -135,7 +140,7 @@ with open(out_path, 'w', encoding='utf-8') as f:
     json.dump({
         "total_cards": len(review_queue),
         "status_summary": {
-            "APPROVED": 0,
+            "APPROVED": sum(1 for c in review_queue if c['review_status'] == 'APPROVED'),
             "PENDING_CLINICAL_SIGN_OFF": sum(1 for c in review_queue if c['review_status'] == 'PENDING_CLINICAL_SIGN_OFF'),
             "REJECTED_MISMATCH": sum(1 for c in review_queue if c['review_status'] == 'REJECTED_MISMATCH')
         },

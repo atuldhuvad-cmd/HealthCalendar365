@@ -104,10 +104,29 @@ def test_spec_bound_and_rejected_manifest():
     with open(gwg.APPROVED_MANIFEST_PATH, "r", encoding="utf-8") as f:
         manifest = json.load(f)
     
-    # Check that known mismatches are REJECTED_MISMATCH
+    # Check evidence-reconciled active manifest totals.
+    approved_entries = [v for v in manifest.values() if v.get("status") == "APPROVED"]
+    pending_entries = [v for v in manifest.values() if v.get("status") == "PENDING_CLINICAL_SIGN_OFF"]
     rejected_entries = [v for v in manifest.values() if v.get("status") == "REJECTED_MISMATCH"]
-    assert len(rejected_entries) == 9, f"Expected 9 rejected mismatch entries, found {len(rejected_entries)}"
-    print(f"  [PASS] {len(rejected_entries)} mismatched assets correctly recorded as REJECTED_MISMATCH")
+    assert len(approved_entries) == 13, f"Expected 13 approved entries, found {len(approved_entries)}"
+    assert len(pending_entries) == 27, f"Expected 27 pending entries, found {len(pending_entries)}"
+    assert len(rejected_entries) == 0, f"Expected 0 active rejected mismatch entries, found {len(rejected_entries)}"
+
+    # Check historical rejected records preserved in superseded archives
+    superseded_path_1 = os.path.join(PROJECT_DIR, "review", "superseded", "rejected_assets_pre_replacement_2026-10-16.json")
+    assert os.path.exists(superseded_path_1), f"Superseded rejected archive missing: {superseded_path_1}"
+    with open(superseded_path_1, "r", encoding="utf-8") as f:
+        superseded_data_1 = json.load(f)
+    historical_rejected_1 = superseded_data_1.get("records", {})
+    assert len(historical_rejected_1) == 9, f"Expected 9 historical rejected records in superseded archive 1, found {len(historical_rejected_1)}"
+
+    superseded_path_2 = os.path.join(PROJECT_DIR, "review", "superseded", "rejected_assets_10_17_card1_pre_replacement_2026-10-18.json")
+    assert os.path.exists(superseded_path_2), f"Superseded rejected archive missing: {superseded_path_2}"
+    with open(superseded_path_2, "r", encoding="utf-8") as f:
+        superseded_data_2 = json.load(f)
+    historical_rejected_2 = superseded_data_2.get("record", {})
+    assert len(historical_rejected_2) == 1, f"Expected 1 historical rejected record in superseded archive 2, found {len(historical_rejected_2)}"
+    print(f"  [PASS] 13 approved, 27 pending, 0 rejected active records; historical rejected records preserved across superseded archives")
 
     # Verify that spec_hash is bound
     for k, v in manifest.items():

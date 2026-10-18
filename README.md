@@ -22,13 +22,17 @@ An offline-first, mobile-responsive **Progressive Web App (PWA)** created specif
   - Large bold bilingual title in Plus Jakarta Sans + Noto Sans Gujarati.
   - Clinical Theme Subtitle Capsule.
 - **Center 4-Card Grid:**
-  - 4 independent high-resolution 4:3 photographs.
+  - 4 independent high-resolution photographs (source assets are 4:3, 720x540 or 1200x900).
+  - Rendered crop differs by format: Vertical draws 465x350 (4:3); Square draws 465x215 (a wider editorial crop).
   - Clean rounded containers with subtle clinical border (`#284454`) and soft shadow.
   - Distinct Action Badges (`માર્ગદર્શન #૧`, `માર્ગદર્શન #૨`, `માર્ગદર્શન #૩`, `માર્ગદર્શન #૪`).
   - Bilingual Action Header and concise medical captions.
-- **Bottom Footer Bar:**
-  - Toggle between **Official Public Interest**: `Issued in Public Interest for Health Awareness | જાહેર આરોગ્ય હિતમાં`
-  - Or **Custom Doctor Branding**: Doctor Name, Degree, Specialty, Hospital/Clinic Name & WhatsApp Contact with WhatsApp icon.
+- **Bottom Area:**
+  - **No footer bar.** The poster ends with the 4-card grid. Earlier builds carried an
+    `Issued in Public Interest for Health Awareness | જાહેર આરોગ્ય હિતમાં` / custom
+    doctor-branding footer; it was removed on 2026-10-18.
+  - The **Doctor Branding** settings panel is still present in the UI and still saves to
+    local storage, but while the footer is absent none of its fields are drawn on the poster.
 
 ---
 
@@ -94,18 +98,57 @@ The following old scripts have been retired and deprecated:
 
 ## 🚀 How to Run the App
 
-1. Double-click **`start_studio.bat`** (or open terminal and run `python serve.py`).
-2. The browser will open automatically to the active address (e.g. `http://127.0.0.1:8000` or `http://127.0.0.1:8080`).
-3. To install as a PWA on your phone or laptop, click the **"Install App"** icon in the browser address bar.
+### On this computer
+
+1. Double-click **`start_studio.bat`** (or run `python serve.py`).
+2. The browser opens automatically at `http://127.0.0.1:<port>/index.html`.
+3. Click the **Install App** icon in the address bar to install the PWA on this machine.
+
+`serve.py` binds to `127.0.0.1` only by default, so nothing is exposed to your network.
+
+### On an Android phone (same Wi-Fi)
+
+A phone **cannot** reach `http://127.0.0.1` — that address means "this computer" on the
+phone itself. Serve the build mirror over the LAN instead:
+
 ```bash
-# Verify integrity of calendar posters, spotlight days, and PWA assets
+# 1. Build the deterministic mirror of exactly the 97 precached assets (SHA-256 verified)
+python build_preview_runtime.py
+
+# 2. Serve that mirror on the local network (keep the port fixed across sessions)
+python serve.py --host 0.0.0.0 --root build/preview-runtime --port 8080
+```
+
+The server prints the phone URL and the exact origin string to enter under
+`chrome://flags/#unsafely-treat-insecure-origin-as-secure` in Android Chrome. Service
+workers require a secure context, and a plain-HTTP LAN origin is not one by default.
+Full procedure: [`review/ANDROID_NO_USB_TEST_INSTRUCTIONS.md`](review/ANDROID_NO_USB_TEST_INSTRUCTIONS.md).
+
+> **Serve `build/preview-runtime`, never the repo root.** The root also contains
+> `review/`, `.git` and transaction data, which would be readable by anything on the same
+> network. `start_studio.bat` serves the root and is safe only because it stays on loopback.
+
+> **Keep the origin stable.** A PWA's service worker, Cache Storage and IndexedDB are bound
+> to `(scheme, host, port)`. Changing the IP or the port makes Android treat it as a
+> different site and discards the installed app's cached state.
+
+### Maintenance commands
+
+```bash
+# Verify calendar posters, spotlight days and PWA assets
 python validate_integrity.py
 
-# Rebuild PWA offline precache manifest
-python build_precache_manifest.py
+# Rebuild the preview mirror after any source change
+python build_preview_runtime.py
 
-# Run isolated remediation verification test suites
+# Isolated remediation verification suites
 python test_remediation_round3.py
 python test_remediation_round4.py
 python test_remediation_round5.py
+python test_remediation_round6.py
 ```
+
+> ⚠️ **`build_precache_manifest.py` is not routine.** It rewrites `PRECACHE_ASSETS` in
+> `sw.js` but does **not** bump `CACHE_NAME`. Run it only if you also raise the cache
+> version by hand — otherwise changed assets ship under the existing version and every
+> installed client keeps serving the old ones from cache.

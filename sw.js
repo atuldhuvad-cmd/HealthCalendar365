@@ -3,7 +3,7 @@
  * Complete offline caching for all assets, fonts, JSON, and photo graphics.
  */
 
-const CACHE_NAME = 'health-poster-v1.1';
+const CACHE_NAME = 'health-poster-v1.6';
 
 const PRECACHE_ASSETS = [
   './',

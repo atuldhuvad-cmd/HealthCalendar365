@@ -1,0 +1,166 @@
+[
+  {
+    "slot": "10-15_card2",
+    "day_id": "10-15",
+    "card_idx": 2,
+    "day_title_en": null,
+    "day_title_gu": null,
+    "category": null,
+    "card": {
+      "type": "message",
+      "index": 2,
+      "badge_en": "Action #2",
+      "badge_gu": "માર્ગદર્શન #૨",
+      "title_en": "Follow 6 Handwashing Steps",
+      "title_gu": "હાથ ધોવાના ૬ પગલાં અનુસરો",
+      "desc_en": "Rub palms, backs of hands, between fingers, fingertips and nails, thumbs, and wrists with soap for at least 20 seconds.",
+      "desc_gu": "હથેળી, હાથનો પાછળનો ભાગ, આંગળીઓની વચ્ચે, આંગળીના ટેરવા અને નખ, અંગૂઠા તથા કાંડા સાબુથી ઓછામાં ઓછા ૨૦ સેકન્ડ ઘસો.",
+      "photo": "photos/oct15_card2_scrub.png",
+      "ai_prompt": "Ultra-photorealistic 4:3 macro close-up photograph of Indian hands actively demonstrating proper handwashing scrub technique, interlacing soapy fingers and rubbing nail tips and thumbs with rich white soap lather over a clean washbasin. Warm natural lighting, crisp water droplets, authentic Indian skin tone, clinical hygiene, cinematic depth of field, 8k resolution, editorial health education quality. No text, no logos, no distorted hands."
+    },
+    "ledger_hash": "3e9ac5263a3d21e7694168ece237b91cb8617297d476068e3af44553c7592eb9",
+    "ledger_entry": {
+      "day_id": "10-15",
+      "card_idx": 2,
+      "status": "PENDING_CLINICAL_SIGN_OFF",
+      "spec_hash": "4f6b8cf63cc3f097a6e18a9f52974a2bcca2f9a59b79af3b567eaa52b13d7246",
+      "reviewer": {
+        "name": "Pending Clinical Reviewer Sign-Off",
+        "role": "Clinical Medical Reviewer (Pending Assignment)",
+        "organization": "Health Calendar 365 Editorial Review"
+      },
+      "timestamp": "2026-10-15T19:35:00Z",
+      "clinical_review": {
+        "visual_concordance": "PENDING_AUDIT",
+        "cultural_authenticity": "PENDING_AUDIT",
+        "polarity_match": "PENDING_AUDIT",
+        "safety_equipment_check": "PENDING_AUDIT",
+        "findings": "Copy revised at Dr. Atul request to state six washing areas including thumbs and wrists; revised copy requires scoped re-approval."
+      },
+      "file_reference": "photos/oct15_card2_scrub.png"
+    }
+  },
+  {
+    "slot": "10-16-spine_card4",
+    "day_id": "10-16-spine",
+    "card_idx": 4,
+    "day_title_en": null,
+    "day_title_gu": null,
+    "category": null,
+    "card": {
+      "type": "message",
+      "index": 4,
+      "badge_en": "Action #4",
+      "badge_gu": "માર્ગદર્શન #૪",
+      "title_en": "Avoid 60° Mobile Text-Neck Slouch",
+      "title_gu": "મોબાઈલ જોતી વખતે ગરદન વાંકી ન વાળો",
+      "desc_en": "Severe forward neck flexion significantly increases mechanical load on cervical vertebrae. Hold devices closer to eye level and change posture frequently.",
+      "desc_gu": "ડોક વધારે પડતી નીચી નમાવવાથી સર્વાઇકલ મણકા પર ભારે દબાણ આવે છે; ફોનને આંખની સામે રાખો અને વચ્ચે-વચ્ચે ગરદન હળવી કરો.",
+      "photo": "photos/oct16_spine_card4.png",
+      "ai_prompt": "Ultra-photorealistic 4:3 educational photo of an Indian youth holding a smartphone up at eye level with straight upright posture, clean modern aesthetic, 8k."
+    },
+    "ledger_hash": "85fe501dd2645151923e249de80da365f71c91d4f8428deb891ddf2d29946edb",
+    "ledger_entry": {
+      "day_id": "10-16-spine",
+      "card_idx": 4,
+      "status": "PENDING_CLINICAL_SIGN_OFF",
+      "spec_hash": "5e5dfd6485ce70f7f5a21d75648de82d77d03b0b1e620c23f4d87494ca1dba77",
+      "reviewer": {
+        "name": "Pending Clinical Reviewer Sign-Off",
+        "role": "Clinical Medical Reviewer (Pending Assignment)",
+        "organization": "Health Calendar 365 Editorial Review"
+      },
+      "timestamp": "2026-10-15T19:35:00Z",
+      "clinical_review": {
+        "visual_concordance": "PENDING_AUDIT",
+        "cultural_authenticity": "PENDING_AUDIT",
+        "polarity_match": "PENDING_AUDIT",
+        "safety_equipment_check": "PENDING_AUDIT",
+        "findings": "Clinical copy revised at Dr. Atul request to remove the 27 kg claim; revised copy requires scoped re-approval."
+      },
+      "file_reference": "photos/oct16_spine_card4.png"
+    }
+  },
+  {
+    "slot": "10-17_card1",
+    "day_id": "10-17",
+    "card_idx": 1,
+    "day_title_en": null,
+    "day_title_gu": null,
+    "category": null,
+    "card": {
+      "type": "message",
+      "index": 1,
+      "badge_en": "Message #1",
+      "badge_gu": "માર્ગદર્શન #૧",
+      "title_en": "Wear ISI-Marked Full-Face Helmet & Seatbelt",
+      "title_gu": "ISI ચિહ્નિત ફુલ-ફેસ હેલ્મેટ અને સીટબેલ્ટ પહેરો",
+      "desc_en": "Fasten chin strap on two-wheelers; click three-point seatbelt in cars for front and rear passengers.",
+      "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI ચિહ્નિત હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો.",
+      "photo": "photos/oct17_do1.png",
+      "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of responsible Indian two-wheeler commuter securely fastening an ISI certified full-face safety helmet before riding. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
+    },
+    "ledger_hash": "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e",
+    "ledger_entry": {
+      "day_id": "10-17",
+      "card_idx": 1,
+      "status": "PENDING_CLINICAL_SIGN_OFF",
+      "spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1",
+      "reviewer": {
+        "name": "Pending Clinical Reviewer Sign-Off",
+        "role": "Clinical Medical Reviewer (Pending Assignment)",
+        "organization": "Health Calendar 365 Editorial Review"
+      },
+      "timestamp": "2026-10-15T19:35:00Z",
+      "clinical_review": {
+        "visual_concordance": "PENDING_AUDIT",
+        "cultural_authenticity": "PENDING_AUDIT",
+        "polarity_match": "PENDING_AUDIT",
+        "safety_equipment_check": "PENDING_AUDIT",
+        "findings": "English and Gujarati helmet wording revised at Dr. Atul request to specify an ISI-marked helmet; revised copy requires scoped re-approval."
+      },
+      "file_reference": "photos/oct17_do1.png"
+    }
+  },
+  {
+    "slot": "10-18_card4",
+    "day_id": "10-18",
+    "card_idx": 4,
+    "day_title_en": null,
+    "day_title_gu": null,
+    "category": null,
+    "card": {
+      "type": "message",
+      "index": 4,
+      "badge_en": "Message #4",
+      "badge_gu": "માર્ગદર્શન #૪",
+      "title_en": "Qualified Gynecologist Consultation",
+      "title_gu": "ગાયનેકોલોજિસ્ટની યોગ્ય સલાહ",
+      "desc_en": "Excess tea, coffee, and sugary Indian sweets trigger severe hot flashes and accelerate bone calcium loss.",
+      "desc_gu": "વધુ પડતી ચા-કૉફી અને ખાંડવાળી ભારતીય મીઠાઈઓથી તીવ્ર હોટ ફ્લશ થઈ શકે છે અને હાડકાંમાં કેલ્શિયમનું નુકસાન ઝડપથી વધી શકે છે.",
+      "photo": "photos/oct18_dont2.png",
+      "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of warm and supportive healthcare consultation between an Indian woman and an experienced female gynecologist in a clinic. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
+    },
+    "ledger_hash": "eae08f7a2d1f1ee40965f58cc9d91bd592fa3a0d3dae706137528ea7f7a76c5f",
+    "ledger_entry": {
+      "day_id": "10-18",
+      "card_idx": 4,
+      "status": "PENDING_CLINICAL_SIGN_OFF",
+      "spec_hash": "8872071b598820b71e714324724ec0c6bba4e30e2dd9073457e1f331581cf42c",
+      "reviewer": {
+        "name": "Pending Clinical Reviewer Sign-Off",
+        "role": "Clinical Medical Reviewer (Pending Assignment)",
+        "organization": "Health Calendar 365 Editorial Review"
+      },
+      "timestamp": "2026-10-15T19:35:00Z",
+      "clinical_review": {
+        "visual_concordance": "PENDING_AUDIT",
+        "cultural_authenticity": "PENDING_AUDIT",
+        "polarity_match": "PENDING_AUDIT",
+        "safety_equipment_check": "PENDING_AUDIT",
+        "findings": "Gujarati description revised at Dr. Atul request to translate “Excess tea, coffee” accurately; revised copy requires scoped re-approval."
+      },
+      "file_reference": "photos/oct18_dont2.png"
+    }
+  }
+]

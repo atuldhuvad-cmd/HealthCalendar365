@@ -1,0 +1,353 @@
+{
+  "manifest_type": "acceptance_evidence_manifest",
+  "manifest_version": "1.0.0",
+  "created_at": "2026-10-18",
+  "branch": "main",
+  "head_commit": "e43caa77f5879a39e4b0d3d6d0678dc7716cc003",
+  "working_tree_state": "DIRTY",
+  "hash_algorithm": "SHA-256",
+  "spending_status": "USD 0.00",
+  "production_hold_status": "STRICTLY_ACTIVE",
+  "reference_candidate_payload_manifest": {
+    "path": "review/candidate_payload_manifest.json",
+    "sha256": "f02c4fe60c56a581c7fcda69d1f5c8a07f7c825c14304f9c83d0cd095b204861",
+    "total_payload_files": 110,
+    "total_payload_bytes": 49368558
+  },
+  "deferred_final_acceptance_register": [
+    {
+      "id": "DEF-ACC-01",
+      "item": "Physical Android-device testing",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-02",
+      "item": "Manual PWA installation",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-03",
+      "item": "WhatsApp export, sharing and compression review",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-04",
+      "item": "Human visual inspection",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-05",
+      "item": "User experience and usability testing",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-06",
+      "item": "User acceptance testing",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-07",
+      "item": "Clinical review and sign-off",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-08",
+      "item": "Gujarati-language review and sign-off",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-09",
+      "item": "Accessibility testing with actual users",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "DEF-ACC-10",
+      "item": "Human approval of images, messages and poster compositions",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    }
+  ],
+  "total_files": 70,
+  "total_bytes": 4402568,
+  "files": {
+    "review/ANTIGRAVITY_HANDOFF_2026-10-18.md": {
+      "sha256": "2d4e1c5b0ac9e6f4324c6e5efa5418ce5129f42afff3431f9bd2ea76d4b58175",
+      "bytes": 3177
+    },
+    "review/AUTOMATED_BROWSER_PWA_TEST_REPORT.md": {
+      "sha256": "56315854bc9be3e1ed7792c52e210daeec7ed488182860f25ac1b9f19f7b4259",
+      "bytes": 9166
+    },
+    "review/CLINICAL_GUJARATI_VISUAL_DECISION_REGISTER.json": {
+      "sha256": "9251a9c6e0fe1a660f90214308e29167dbb6872f4fd78e9a7a688548fb46857b",
+      "bytes": 199670
+    },
+    "review/CLINICAL_GUJARATI_VISUAL_DECISION_REGISTER.md": {
+      "sha256": "3dd247c842b72fcb49655af013ddf0a1657b460d8230edef8bad5fcbe77f9834",
+      "bytes": 8927
+    },
+    "review/CONTENT_RELEASE_ACCEPTANCE.md": {
+      "sha256": "a08710d2771e26d05ac44d4484f9dd8200cece79e78c66f4159e73b02dee5db0",
+      "bytes": 1934
+    },
+    "review/FINAL_ACCEPTANCE_PACKET.md": {
+      "sha256": "1787db0f77fa062485f57b8e716f4c076f0c44b86addfb6ff137c12b86ea4575",
+      "bytes": 1486
+    },
+    "review/FINAL_AUTOMATED_PHASE_REVIEW.md": {
+      "sha256": "f5cb62702d84827684de6345ac4e89887d988fb499d71cc254781e39668d4d14",
+      "bytes": 9298
+    },
+    "review/FREEZE_CHAIN_OF_CUSTODY.md": {
+      "sha256": "917ec54f0eace88f10a52d33ffc95b6f93bafb748eb38c2e1dea5e583b6ea9f5",
+      "bytes": 13441
+    },
+    "review/FULL_CALENDAR_AUDIT_REPORT.md": {
+      "sha256": "5efaaf9af667d4c86e0a8ba5a2ead41c398229357048700e86128c9f3b89d846",
+      "bytes": 6500
+    },
+    "review/MISSING_EVIDENCE_REGISTER.md": {
+      "sha256": "2f8e3553fbf478a5968c7a5e83741072ad50e2590c6f242d37fccb61ab680be9",
+      "bytes": 1420
+    },
+    "review/NINE_CANDIDATE_PILOT_PLAN.json": {
+      "sha256": "cbe23530a8a97ae8810ee4d7b05dfa444cdd30e3a5a05ea6f798795d9b0df250",
+      "bytes": 36853
+    },
+    "review/NINE_CANDIDATE_PILOT_PLAN.md": {
+      "sha256": "15ca95cce7c669f81550cc4b6b5a312c2d8c345a37823a36b69caa45421adb62",
+      "bytes": 3926
+    },
+    "review/PHYSICAL_DEVICE_FINAL_CHECKLIST.md": {
+      "sha256": "9d555cead9c3fe484a5717c8decf77d368e71ea89a3cd7f2c8750c0d4c650301",
+      "bytes": 8057
+    },
+    "review/PILOT_SPENDING_AUTHORIZATION_SHEET.md": {
+      "sha256": "34e2c7157fc28c00cd23382e5f69006f9398857b46cc1d85fc4895cffdb54eeb",
+      "bytes": 13522
+    },
+    "review/PRODUCTION_HOSTING_EVALUATION.md": {
+      "sha256": "a7e1edb26d42983e124dedf84b26f22c58cf4637b1782d92276415fe23881828",
+      "bytes": 6197
+    },
+    "review/RELEASE_GOVERNANCE.md": {
+      "sha256": "0151545cf7fcb7416b682cf85a8c2a5d60177a46b1aa64ec99ae538462266226",
+      "bytes": 16707
+    },
+    "review/REPLACEMENT_CANDIDATE_REVIEW.md": {
+      "sha256": "b626ad9e78377216973dfb973f22b1f908f0ac35a6432d693c01719b5ddd4ddc",
+      "bytes": 5115
+    },
+    "review/REPLACEMENT_SPECIFICATION_AND_AUTHORIZATION_10_17_CARD1.md": {
+      "sha256": "160463ae47eb120ec6af0214d04257dea3f160581a8e9ef04160c7fa87dee1ac",
+      "bytes": 5407
+    },
+    "review/REVIEW_PACKET.md": {
+      "sha256": "0930c8dc047dbb0258f72c5d3850ecab4ab50e27a5ae9de993c46f484f7164ef",
+      "bytes": 87280
+    },
+    "review/RUNTIME_OFFLINE_PWA_TEST_REPORT.md": {
+      "sha256": "63d7b748387765cbb0a7f339fb48e2cb01d6f210eb98c8e1d328ad18b17e34f7",
+      "bytes": 14817
+    },
+    "review/SCOPED_CLINICAL_REAPPROVAL_PACKET.md": {
+      "sha256": "5107e2ba05b215e65f606b5232e6a5d3ff0c29b7ae253d628fa87da4688b34dd",
+      "bytes": 12933
+    },
+    "review/approval_ledger_reconciliation_2026-10-18.json": {
+      "sha256": "a89e45512bcd8669f2d93aea47056e64a478930da6639270e8c8f29d5485bea3",
+      "bytes": 18063
+    },
+    "review/automated_browser_pwa_test_results.json": {
+      "sha256": "a7dba911a124db6b1b76448a3969b00dc010dbbcef22603b71f60c7d8b1f5e0e",
+      "bytes": 3749
+    },
+    "review/candidate_generation_queue.json": {
+      "sha256": "4fd98a311023be811d9dbd90387bf7d5502f6c19a130751364d1d6a7dca2fa30",
+      "bytes": 4955
+    },
+    "review/candidate_specifications_9_rejected.json": {
+      "sha256": "b806dd4171ca2a70870bd07c7048dd8b522aa4162e5458c88a6c64b0baab43a1",
+      "bytes": 15312
+    },
+    "review/final_automated_phase_results.json": {
+      "sha256": "a37e66f0f8c923b9c5519526417a64cdea995be2bc196ae0909bc5128e81176c",
+      "bytes": 5856
+    },
+    "review/full_calendar_audit.json": {
+      "sha256": "f7fb00695a3ce61004784b9c7620851fb93644089f27e243bef624d8f3897e54",
+      "bytes": 519618
+    },
+    "review/human_decisions/clinical_decision_transition_2026-10-16.json": {
+      "sha256": "f6e4566be86911a49568fe1353ac4e1d4bc8925466d476afb20f66786f9fd998",
+      "bytes": 3169
+    },
+    "review/human_decisions/clinical_dr_atul_2026-10-16.json": {
+      "sha256": "522dd291359b76eb916a36cef61e04391dbe560953e44f62954c7df920108d34",
+      "bytes": 1615
+    },
+    "review/human_decisions/clinical_dr_atul_2026-10-16_card_bindings.json": {
+      "sha256": "0a3075b9ca5292bdc3c854174b5f468fda6e5db758cb146c6dc91ee43f28cd90",
+      "bytes": 7902
+    },
+    "review/human_decisions/replacement_image_10_17_card1_dr_atul_2026-10-18.json": {
+      "sha256": "11c7044db348e11985688017148e8223a6f9bbc9b08060a8e208b996a26585a0",
+      "bytes": 2266
+    },
+    "review/human_decisions/replacement_images_dr_atul_2026-10-16.json": {
+      "sha256": "63778b60c1351be4234286737e625d42efa8ffab1d4649a3df9e0c8ccbd5352f",
+      "bytes": 709
+    },
+    "review/human_decisions/scoped_reapproval_dr_atul_2026-10-16.json": {
+      "sha256": "c582bde89e962161d3c0425dab6b583958343248e0f37d7ab613be58f6b5e1fb",
+      "bytes": 4116
+    },
+    "review/proposed_copy_and_provenance_corrections.json": {
+      "sha256": "0a3696fbd258e908c0b7c28bfbdcb9451b6cbd0f7e774efa823a1a2d6ba965f0",
+      "bytes": 21785
+    },
+    "review/replacement-candidates.html": {
+      "sha256": "6e180d18ab6e756d356c9482c70326828c120f510c540535194d4703c975aa90",
+      "bytes": 4217
+    },
+    "review/replacement_candidate_generation_2026-10-16.json": {
+      "sha256": "fd28d2c93c38faed2dbbdd1544fc57019d8cd8eec9c3d3dae2b121a82ee5547f",
+      "bytes": 6404
+    },
+    "review/review_queue.json": {
+      "sha256": "6997719bec0322031513613a29caccaf3e7f8f5d19051c67b5a332c3c117abfe",
+      "bytes": 101507
+    },
+    "review/runtime_offline_pwa_test_results.json": {
+      "sha256": "ea1301204020287c6a3936ca1c4b7a1840efd6d5f7a2e4220da7b86ab5d7b510",
+      "bytes": 9250
+    },
+    "review/scoped-clinical-reapproval.html": {
+      "sha256": "6440fa2918ea680d37bc27e8fe8d44dba4c4ad9d07e4c7760e77bd5422f42c0d",
+      "bytes": 37131
+    },
+    "review/scoped_clinical_reapproval_packet.json": {
+      "sha256": "d455d6ff5693a96eec7ed9e6b95e85f7e64141e373d674e48e290d3640924307",
+      "bytes": 12741
+    },
+    "review/superseded/final_acceptance_candidate_manifest_v2_58a718fa.json": {
+      "sha256": "58a718fa92e29192012d5bf827cda46a324f7b368b199479c4a4a2241ece8034",
+      "bytes": 30774
+    },
+    "review/superseded/rejected_assets_10_17_card1_pre_replacement_2026-10-18.json": {
+      "sha256": "308fba5b2580a5c324f7e852be1f1f6348e734d98df5086a5752f72523242b53",
+      "bytes": 1254
+    },
+    "review/superseded/rejected_assets_pre_replacement_2026-10-16.json": {
+      "sha256": "145ddc9b8696b386776b041a94adc872ca44ff607c678455ff58cb8341ceafac",
+      "bytes": 7824
+    },
+    "review/screenshots/cold_offline_launch.png": {
+      "sha256": "9f05e8e52b0e1cbbce1741620f5855f32ee8168458d27a2431a7334aeb9c9c5d",
+      "bytes": 121622
+    },
+    "review/screenshots/network_restored.png": {
+      "sha256": "9f05e8e52b0e1cbbce1741620f5855f32ee8168458d27a2431a7334aeb9c9c5d",
+      "bytes": 121622
+    },
+    "review/screenshots/offline_360x740.png": {
+      "sha256": "2ea0ec42e040e7fe9afe4e723b0e034624ac07e1d19349f5d50ceb04ea12a379",
+      "bytes": 89415
+    },
+    "review/screenshots/offline_412x915.png": {
+      "sha256": "cd7d9377d3a9c169c03b92d9e57f4400d0ee8ab26060e83400d6d46cf5b77a47",
+      "bytes": 116441
+    },
+    "review/screenshots/offline_date_navigation.png": {
+      "sha256": "0f62fed7ea7dcc0493ab5b614536665ec86995cd3b20f1467ba71f32601ef04f",
+      "bytes": 123088
+    },
+    "review/screenshots/online_360x740.png": {
+      "sha256": "e81047e1d4e2736eeeac2ecd212f76a0a7a8e4fe9917ac495d414a353d3b41c8",
+      "bytes": 89581
+    },
+    "review/screenshots/online_412x915.png": {
+      "sha256": "a9dc17e118c2ad1841722d1a981ad84ad842e9275a7923566f8848674dee2e06",
+      "bytes": 120052
+    },
+    "review/screenshots/post_update_360x740.png": {
+      "sha256": "f5a307db1d673bccf0f0c887f80baf1b8134dcbc56f62f03e7997d0f79d7b27b",
+      "bytes": 89746
+    },
+    "review/screenshots/post_update_412x915.png": {
+      "sha256": "31367afa9b4360706a17f17824746ca337d68a433b443d3ceeddda16df59abda",
+      "bytes": 120901
+    },
+    "review/screenshots/replacement_candidates_contact_sheet.png": {
+      "sha256": "e5a2d502505ce96452731e4ea644a68b005527fe4296b9de2f8337385c4cd077",
+      "bytes": 1957633
+    },
+    "scratch/generate_acceptance_docs.py": {
+      "sha256": "27edefbbb8fc88918059317869e6663bf64a993077748ac867e3be6d1f79c2d1",
+      "bytes": 259
+    },
+    "scratch/generate_review_queue.py": {
+      "sha256": "028c4664d8d631f796a4c60405e3b84d1d0ace99f60c150d2fb438242e1c1446",
+      "bytes": 10693
+    },
+    "scratch/generate_stage1_md.py": {
+      "sha256": "a229a4f8682ee7d278a2017c5f6e39ae60fc0274e951e57db0c5c1e24a93a3bd",
+      "bytes": 3209
+    },
+    "scratch/generate_stage1_register.py": {
+      "sha256": "8db5128170eddcc6c8f89e3b6e01cbae115d4824d580eeb92bcfd49b07d1e64b",
+      "bytes": 11974
+    },
+    "scratch/inspect_reconcile_data.py": {
+      "sha256": "fdf0a9cf304e4a946eec345842ba5576f54ab1e1cd40fad9190dc70b91a42c78",
+      "bytes": 1318
+    },
+    "scratch/reconcile_and_freeze.py": {
+      "sha256": "98a785a2bd4cd196e0dcb58e764cf9b92f8bfa9dd8b1efc0d9002449da337834",
+      "bytes": 24339
+    },
+    "scratch/reconcile_approval_ledger_2026_10_18.py": {
+      "sha256": "f4c1f2eda5cb1faa40507d85b7cfc991a211832b142d35946ffe5df2b8b6e5bc",
+      "bytes": 9252
+    },
+    "scratch/test_all_widths.cjs": {
+      "sha256": "2b69516ff446de12be8d1770fefbf3bcb70e5c2e4dcb4dfc38ea0586e0924054",
+      "bytes": 4718
+    },
+    "scratch/test_browser_pwa_lifecycle.cjs": {
+      "sha256": "4d2fe078f90729baeab6c128afcd2576f0c9bf5c2b468ba22b790700597300c1",
+      "bytes": 10176
+    },
+    "scratch/test_runtime_offline_pwa.cjs": {
+      "sha256": "429478772ff402885584849b62bb4e3998e6e6bd7899f0f2288a894160659446",
+      "bytes": 25653
+    },
+    "scratch/update_current_acceptance_docs.py": {
+      "sha256": "67464533f580edf124314ffdb81ad1b4d28ead3efe9d1b82cb76f2b28ee77151",
+      "bytes": 6025
+    },
+    "scratch/verify_phase_precheck.py": {
+      "sha256": "5e5948357eaa5820ef54fa7feb2efba585a84be3d5c57444ee92d5c7886b2e8b",
+      "bytes": 5433
+    },
+    "scratch/verify_promotion_step5.py": {
+      "sha256": "40bf40d04e4d2e20ba632257cd95a2fce194cfc531572c7757d899c20f1b665b",
+      "bytes": 4169
+    },
+    "test_remediation_round3.py": {
+      "sha256": "2334078bdef845365ef092dad468dbfdc9b53a599aeacb2935ed640a02de5987",
+      "bytes": 12059
+    },
+    "test_remediation_round4.py": {
+      "sha256": "78e201580902d4772687b349a840d9fce3967156061e26308fcc68526924675e",
+      "bytes": 11545
+    },
+    "test_remediation_round5.py": {
+      "sha256": "20a4694c9874625d62d9d8fab3c53e36af75a5a428524eb605c157c0994ec108",
+      "bytes": 12446
+    },
+    "test_remediation_round6.py": {
+      "sha256": "932fd284135e7eb0510e751a1a49c727b3b4407516a16ccaab069d7b2f2e9b62",
+      "bytes": 13149
+    }
+  }
+}

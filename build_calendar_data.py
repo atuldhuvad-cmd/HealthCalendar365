@@ -135,10 +135,10 @@ KNOWN_OBSERVANCES = {
             {
                 "type": "do", "index": 1,
                 "badge_en": "DO #1", "badge_gu": "આટલું જરૂર કરો #૧",
-                "title_en": "Wear ISI Full-Face Helmet & Seatbelt",
-                "title_gu": "ISI હેલ્મેટ અને સીટબેલ્ટ હંમેશા પહેરો",
+                "title_en": "Wear ISI-Marked Full-Face Helmet & Seatbelt",
+                "title_gu": "ISI ચિહ્નિત ફુલ-ફેસ હેલ્મેટ અને સીટબેલ્ટ પહેરો",
                 "desc_en": "Fasten chin strap on two-wheelers; click three-point seatbelt in cars for front and rear passengers.",
-                "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો.",
+                "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI ચિહ્નિત હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો.",
                 "photo": "photos/oct17_do1.png",
                 "ai_prompt": "Sharp commercial photograph of high-grade matte black ISI motorcycle helmet with fastened chin strap and car 3-point seatbelt buckle clicked, safety aesthetic, 8k."
             },
@@ -217,7 +217,7 @@ KNOWN_OBSERVANCES = {
                 "title_en": "Heavy Caffeine, High Sugar & Sedentary Habit",
                 "title_gu": "વધારે ચા-કૉફી, મીઠાઈ અને નિષ્ક્રિય જીવનશૈલી",
                 "desc_en": "Excess tea, coffee, and sugary Indian sweets trigger severe hot flashes and accelerate bone calcium loss.",
-                "desc_gu": "દિવસમાં ૪-૫ કપ કડક ચા-કૉફી, વધુ પડતી મીઠાઈ અને આખો દિવસ બેસી રહેવાની આદતથી દૂર રહો.",
+                "desc_gu": "વધુ પડતી ચા-કૉફી અને ખાંડવાળી ભારતીય મીઠાઈઓથી તીવ્ર હોટ ફ્લશ થઈ શકે છે અને હાડકાંમાં કેલ્શિયમનું નુકસાન ઝડપથી વધી શકે છે.",
                 "photo": "photos/oct18_dont2.png",
                 "ai_prompt": "Realistic still life of multiple empty coffee cups, overflowing sugar cubes, and couch silhouette, red prohibited stamp, clear educational visual."
             }
@@ -302,22 +302,22 @@ KNOWN_OBSERVANCES = {
             {
                 "type": "dont", "index": 3,
                 "badge_en": "DON'T #1", "badge_gu": "આટલું ક્યારેય ન કરો #૧",
-                "title_en": "Slippery Wet Tiles, Dark Rooms & Clutter",
-                "title_gu": "ભીનો લપસણો ફ્લોર, અંધારું અને જમીન પર કચરો",
-                "desc_en": "Wet floors and loose electrical wires are the #1 cause of catastrophic hip fractures in elders.",
-                "desc_gu": "ફ્લોર ભીનો ન રાખો; અંધારામાં ચાલવું કે ફ્લોર પર વાયરો રાખવાથી વડીલો લપસીને થાપાનું ફ્રેક્ચર ભોગવી શકે છે.",
+                "title_en": "Eliminate Slip, Trip & Fall Hazards at Home",
+                "title_gu": "ઘરમાં લપસી પડવાના અને ઠોકર ખાવાના જોખમો દૂર કરો",
+                "desc_en": "Slippery wet floors and loose cords are a leading avoidable cause of falls and hip fractures in elders.",
+                "desc_gu": "ભીનો ફ્લોર અને છૂટા વાયરો વડીલોમાં થાપાના ફ્રેક્ચરનું એક મુખ્ય ટાળી શકાય તેવું કારણ છે.",
                 "photo": "photos/oct20_dont1.png",
-                "ai_prompt": "Danger perspective photo of slick wet marble tiles with water reflection and loose sliding rug, slip hazard warning, red prohibited overlay."
+                "ai_prompt": "Ultra-photorealistic 4:3 photograph of an Indian elder living room demonstrating fall hazard prevention: completely clear, uncluttered walkways with electrical cords safely bound and secured along the wall baseboard. A senior Indian grandfather is standing steadily near a firm armchair, wearing non-slip footwear. Warm indoor daylight, dry matte tiled flooring, authentic Indian domestic setting, 8k resolution. No text, no warning icons, no injured bodies."
             },
             {
                 "type": "dont", "index": 4,
                 "badge_en": "DON'T #2", "badge_gu": "આટલું ક્યારેય ન કરો #૨",
-                "title_en": "Excess Table Salt & Phosphoric Colas",
-                "title_gu": "વધારે પડતું મીઠું અને કાર્બોનેટેડ સોડા-કોલ્ડડ્રિંક્સ",
-                "desc_en": "High sodium and dark aerated sodas deplete bone calcium through urinary leaching, creating porous brittle bones.",
-                "desc_gu": "કાચું મીઠું છાંટવું અને સોડા-કોલ્ડડ્રિંક્સ પીવાથી હાડકાંમાંથી કેલ્શિયમ પેશાબ વાટે ધોવાઈ જાય છે અને હાડકાં પોલાં બને છે.",
+                "title_en": "Limit Excessive Salt Intake & Choose Wholesome Hydration",
+                "title_gu": "વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ",
+                "desc_en": "Excessive dietary salt increases urinary calcium loss. For adults, keep total salt from all foods below 5 g/day (equivalent to less than 2 g/day sodium). Choose water or traditional unsalted buttermilk.",
+                "desc_gu": "વધારે પડતું મીઠું ખાવાથી પેશાબ વાટે કેલ્શિયમ નીકળી જાય છે; પુખ્ત વયના લોકો માટે દિવસભરના બધા ખોરાકમાંથી મળતું કુલ મીઠું ૫ ગ્રામથી ઓછું રાખો (આશરે ૨ ગ્રામથી ઓછું સોડિયમ). પાણી અથવા મીઠું ઉમેર્યા વગરની છાશ પસંદ કરો.",
                 "photo": "photos/oct20_dont2.png",
-                "ai_prompt": "Realistic visual of salt shaker heavily dumping sodium next to bubbling dark soda glass with porous brittle bone warning, red cross."
+                "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of an Indian dining table setting demonstrating healthy bone nutrition: a glass of fresh homemade buttermilk (chaas) and clean water in focus, with an open salt shaker pushed away to the background. Wholesome Indian meal setting with brass or stainless steel plate, warm natural daylight, 8k resolution. Strictly no brand logos, no text labels."
             }
         ]
     },
@@ -343,30 +343,30 @@ KNOWN_OBSERVANCES = {
                 "badge_en": "DO #2", "badge_gu": "આટલું જરૂર કરો #૨",
                 "title_en": "Add Iodized Salt Towards the End of Cooking",
                 "title_gu": "રાંધતી વખતે મીઠું છેલ્લે ઉમેરવાની ટેવ પાડો",
-                "desc_en": "Excessive prolonged boiling evaporates volatile iodine. Add salt near the finish to preserve full iodine value.",
-                "desc_gu": "વધારે ઉકાળવાથી આયોડિન ઉડી જાય છે; શાક કે દાળ ઉતારતી વખતે છેલ્લે મીઠું ઉમેરવાથી આયોડિન જળવાઈ રહે છે.",
+                "desc_en": "Prolonged high-heat boiling can degrade and leach fortified iodine compounds. Adding iodized salt towards the end of cooking helps retain full micronutrient value.",
+                "desc_gu": "લાંબા સમય સુધી વધુ ગરમીમાં ઉકાળવાથી આયોડિનનું પ્રમાણ ઘટી શકે છે; રસોઈ પૂરી થવાના સમયે મીઠું ઉમેરવાથી આયોડિનનું મૂલ્ય જળવાય છે.",
                 "photo": "photos/oct21_do2.png",
-                "ai_prompt": "Cinematic culinary photograph of an Indian hand gently sprinkling a pinch of iodized salt into a steaming brass kadhai of vegetables, warm steam, 8k."
+                "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of an Indian home cook gently sprinkling a measured pinch of iodized salt into a stainless steel kadai of freshly cooked vegetables near the end of cooking, warm steam, 8k resolution. No text, no logos."
             },
             {
                 "type": "dont", "index": 3,
                 "badge_en": "DON'T #1", "badge_gu": "આટલું ક્યારેય ન કરો #૧",
-                "title_en": "Buying Loose, Open, Non-Iodized Salt",
-                "title_gu": "ખુલ્લું કે સાદું બિન-આયોડાઇઝ્ડ મીઠું વાપરવું નહીં",
+                "title_en": "Avoid Unbranded Loose Coarse Salt",
+                "title_gu": "ખુલ્લું અને બિન-આયોડાઇઝ્ડ મીઠું વાપરવાનું ટાળો",
                 "desc_en": "Unbranded loose coarse salt lacks iodine; iodine deficiency in pregnant mothers leads to child mental retardation.",
                 "desc_gu": "ખુલ્લું બિન-આયોડાઇઝ્ડ મીઠું વાપરશો નહીં; આયોડિનની કમીથી બાળકોમાં માનસિક મંદતા અને ગલગંડ (ગોઇટર) થાય છે.",
                 "photo": "photos/oct21_dont1.png",
-                "ai_prompt": "Photo of an open dirty gunny sack of unrefined rock salt exposed to roadside moisture and flies, red warning sign, medical awareness."
+                "ai_prompt": "Ultra-photorealistic 4:3 photo showing packaged sealed iodized salt with smiling sun logo selected while unbranded loose coarse salt in an open sack is pushed aside, medical awareness, 8k."
             },
             {
                 "type": "dont", "index": 4,
                 "badge_en": "DON'T #2", "badge_gu": "આટલું ક્યારેય ન કરો #૨",
-                "title_en": "Storing Salt Beside Blazing Gas Stoves",
-                "title_gu": "ગરમ ચૂલા કે ગેસ સ્ટવની એકદમ બાજુમાં મીઠું ન રાખવું",
-                "desc_en": "Direct kitchen stove heat and open damp containers rapidly degrade potassium iodate from salt.",
-                "desc_gu": "મીઠાની બરણીને ક્યારેય ખુલ્લી કે ગેસની જ્વાળાની એકદમ નજીક ન રાખો; ગરમીથી આયોડિન નાશ પામે છે.",
+                "title_en": "Keep Iodized Salt Dry & Covered",
+                "title_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+                "desc_en": "Store iodized salt in a tightly closed container in a cool, dry place away from moisture.",
+                "desc_gu": "આયોડાઇઝ્ડ મીઠું હવાચુસ્ત બરણીમાં, ઠંડી અને સૂકી જગ્યાએ ભેજથી દૂર રાખો.",
                 "photo": "photos/oct21_dont2.png",
-                "ai_prompt": "Realistic kitchen photo showing open salt jar right next to high flame gas stove with heat distortion effect, warning slash, 8k."
+                "ai_prompt": "Realistic Indian kitchen pantry photo showing iodized salt in a tightly closed ceramic or glass container on a clean, cool, dry shelf away from moisture, 8k."
             }
         ]
     }

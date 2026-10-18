@@ -1,0 +1,130 @@
+{
+  "test_run_at": "2026-10-18T16:32:40.138Z",
+  "tests": [
+    {
+      "name": "Root URL Loading",
+      "pass": true,
+      "details": "HTTP status 200"
+    },
+    {
+      "name": "Page Title Present",
+      "pass": true,
+      "details": "Title: \"365-Day Health Poster Studio - India | આરોગ્ય કેલેન્ડર ૩૬૫\""
+    },
+    {
+      "name": "Mobile Viewport Tag Present",
+      "pass": true,
+      "details": "Found meta viewport tag"
+    },
+    {
+      "name": "Manifest Syntax & Identity",
+      "pass": true,
+      "details": "name: \"365-Day Health Poster Studio - India\", display: \"standalone\""
+    },
+    {
+      "name": "Manifest High-Res Icons",
+      "pass": true,
+      "details": "Total icons: 2, has 192x192: true, has 512x512: true"
+    },
+    {
+      "name": "Google Fonts Loaded",
+      "pass": true,
+      "details": "Noto Sans Gujarati: true, Plus Jakarta Sans: true, Total fonts: 40"
+    },
+    {
+      "name": "Full Calendar Dataset Loaded",
+      "pass": true,
+      "details": "window.HEALTH_CALENDAR_DATA count: 368"
+    },
+    {
+      "name": "Calendar UI Controls Present",
+      "pass": true,
+      "details": "Date selector UI controls initialized"
+    },
+    {
+      "name": "Render 10-15 [square] [english]",
+      "pass": true,
+      "details": "Dimensions: 1080x1080, PNG DataURL length: 1848714"
+    },
+    {
+      "name": "Render 10-15 [square] [gujarati]",
+      "pass": true,
+      "details": "Dimensions: 1080x1080, PNG DataURL length: 1881238"
+    },
+    {
+      "name": "Render 10-15 [square] [bilingual]",
+      "pass": true,
+      "details": "Dimensions: 1080x1080, PNG DataURL length: 1987030"
+    },
+    {
+      "name": "Render 10-15 [vertical] [english]",
+      "pass": true,
+      "details": "Dimensions: 1080x1920, PNG DataURL length: 2868098"
+    },
+    {
+      "name": "Render 10-15 [vertical] [gujarati]",
+      "pass": true,
+      "details": "Dimensions: 1080x1920, PNG DataURL length: 2896534"
+    },
+    {
+      "name": "Render 10-15 [vertical] [bilingual]",
+      "pass": true,
+      "details": "Dimensions: 1080x1920, PNG DataURL length: 3021766"
+    },
+    {
+      "name": "Service Worker Lifecycle Handlers",
+      "pass": true,
+      "details": "install, activate, and fetch listeners present"
+    },
+    {
+      "name": "Service Worker Precache Asset List",
+      "pass": true,
+      "details": "Precache asset count: 97"
+    },
+    {
+      "name": "Scoped Cache Eviction Logic",
+      "pass": true,
+      "details": "Cache deletion strictly scoped to owned cache prefix (health-poster-)"
+    },
+    {
+      "name": "Viewport Overflow [Ultra-compact Mobile (320px)]",
+      "pass": true,
+      "details": "scrollWidth: 320 vs innerWidth: 320"
+    },
+    {
+      "name": "Viewport Overflow [Small Mobile (360px)]",
+      "pass": true,
+      "details": "scrollWidth: 360 vs innerWidth: 360"
+    },
+    {
+      "name": "Viewport Overflow [Mid Mobile (390px)]",
+      "pass": true,
+      "details": "scrollWidth: 390 vs innerWidth: 390"
+    },
+    {
+      "name": "Viewport Overflow [Modern Android (412px)]",
+      "pass": true,
+      "details": "scrollWidth: 412 vs innerWidth: 412"
+    },
+    {
+      "name": "Viewport Overflow [Tablet Portrait (768px)]",
+      "pass": true,
+      "details": "scrollWidth: 768 vs innerWidth: 768"
+    },
+    {
+      "name": "Viewport Overflow [Desktop Wide (1440px)]",
+      "pass": true,
+      "details": "scrollWidth: 1440 vs innerWidth: 1440"
+    },
+    {
+      "name": "Interactive Elements Focusability",
+      "pass": true,
+      "details": "Found 49 focusable controls, 0 excluded with tabindex=-1"
+    },
+    {
+      "name": "Zero Browser Console Errors",
+      "pass": true,
+      "details": "No errors"
+    }
+  ]
+}

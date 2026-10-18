@@ -21842,10 +21842,10 @@
         "index": 2,
         "badge_en": "Action #2",
         "badge_gu": "માર્ગદર્શન #૨",
-        "title_en": "Scrub Fingers, Nails & Thumbs",
-        "title_gu": "આંગળીઓ, નખ અને અંગૂઠા ૨૦ સેકન્ડ ઘસો",
-        "desc_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where 80% of germs hide.",
-        "desc_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં મોટાભાગના કીટાણુ છુપાયેલા હોય છે.",
+        "title_en": "Follow 6 Handwashing Steps",
+        "title_gu": "હાથ ધોવાના ૬ પગલાં અનુસરો",
+        "desc_en": "Rub palms, backs of hands, between fingers, fingertips and nails, thumbs, and wrists with soap for at least 20 seconds.",
+        "desc_gu": "હથેળી, હાથનો પાછળનો ભાગ, આંગળીઓની વચ્ચે, આંગળીના ટેરવા અને નખ, અંગૂઠા તથા કાંડા સાબુથી ઓછામાં ઓછા ૨૦ સેકન્ડ ઘસો.",
         "photo": "photos/oct15_card2_scrub.png",
         "ai_prompt": "Ultra-photorealistic 4:3 macro close-up photograph of Indian hands actively demonstrating proper handwashing scrub technique, interlacing soapy fingers and rubbing nail tips and thumbs with rich white soap lather over a clean washbasin. Warm natural lighting, crisp water droplets, authentic Indian skin tone, clinical hygiene, cinematic depth of field, 8k resolution, editorial health education quality. No text, no logos, no distorted hands."
       },
@@ -22096,8 +22096,8 @@
         "badge_gu": "માર્ગદર્શન #૪",
         "title_en": "Avoid 60° Mobile Text-Neck Slouch",
         "title_gu": "મોબાઈલ જોતી વખતે ગરદન વાંકી ન વાળો",
-        "desc_en": "Bending neck forward puts 27 kg of pressure on cervical vertebrae. Hold your smartphone up closer to eye level.",
-        "desc_gu": "મોબાઈલમાં સતત નીચું જોવાથી ડોકના મણકા પર ૨૭ કિલો વજન આવે છે; ફોનને હંમેશા આંખની સામે રાખીને વાપરો.",
+        "desc_en": "Severe forward neck flexion significantly increases mechanical load on cervical vertebrae. Hold devices closer to eye level and change posture frequently.",
+        "desc_gu": "ડોક વધારે પડતી નીચી નમાવવાથી સર્વાઇકલ મણકા પર ભારે દબાણ આવે છે; ફોનને આંખની સામે રાખો અને વચ્ચે-વચ્ચે ગરદન હળવી કરો.",
         "photo": "photos/oct16_spine_card4.png",
         "ai_prompt": "Ultra-photorealistic 4:3 educational photo of an Indian youth holding a smartphone up at eye level with straight upright posture, clean modern aesthetic, 8k."
       }
@@ -22134,10 +22134,10 @@
         "index": 1,
         "badge_en": "Message #1",
         "badge_gu": "માર્ગદર્શન #૧",
-        "title_en": "Wear ISI Full-Face Helmet & Seatbelt",
-        "title_gu": "ISI હેલ્મેટ અને સીટબેલ્ટ હંમેશા પહેરો",
+        "title_en": "Wear ISI-Marked Full-Face Helmet & Seatbelt",
+        "title_gu": "ISI ચિહ્નિત ફુલ-ફેસ હેલ્મેટ અને સીટબેલ્ટ પહેરો",
         "desc_en": "Fasten chin strap on two-wheelers; click three-point seatbelt in cars for front and rear passengers.",
-        "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો.",
+        "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI ચિહ્નિત હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો.",
         "photo": "photos/oct17_do1.png",
         "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of responsible Indian two-wheeler commuter securely fastening an ISI certified full-face safety helmet before riding. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
       },
@@ -22249,7 +22249,7 @@
         "title_en": "Qualified Gynecologist Consultation",
         "title_gu": "ગાયનેકોલોજિસ્ટની યોગ્ય સલાહ",
         "desc_en": "Excess tea, coffee, and sugary Indian sweets trigger severe hot flashes and accelerate bone calcium loss.",
-        "desc_gu": "દિવસમાં ૪-૫ કપ કડક ચા-કૉફી, વધુ પડતી મીઠાઈ અને આખો દિવસ બેસી રહેવાની આદતથી દૂર રહો.",
+        "desc_gu": "વધુ પડતી ચા-કૉફી અને ખાંડવાળી ભારતીય મીઠાઈઓથી તીવ્ર હોટ ફ્લશ થઈ શકે છે અને હાડકાંમાં કેલ્શિયમનું નુકસાન ઝડપથી વધી શકે છે.",
         "photo": "photos/oct18_dont2.png",
         "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of warm and supportive healthcare consultation between an Indian woman and an experienced female gynecologist in a clinic. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
       }
@@ -22462,10 +22462,10 @@
         "index": 3,
         "badge_en": "Message #3",
         "badge_gu": "માર્ગદર્શન #૩",
-        "title_en": "Regular Movement & Postural Balance",
-        "title_gu": "બેઠાડુ જીવન છોડી નિયમિત સક્રિયતા",
-        "desc_en": "Wet floors and loose electrical wires are the #1 cause of catastrophic hip fractures in elders.",
-        "desc_gu": "ફ્લોર ભીનો ન રાખો; અંધારામાં ચાલવું કે ફ્લોર પર વાયરો રાખવાથી વડીલો લપસીને થાપાનું ફ્રેક્ચર ભોગવી શકે છે.",
+        "title_en": "Eliminate Slip, Trip & Fall Hazards at Home",
+        "title_gu": "ઘરમાં લપસી પડવાના અને ઠોકર ખાવાના જોખમો દૂર કરો",
+        "desc_en": "Slippery wet floors and loose cords are a leading avoidable cause of falls and hip fractures in elders.",
+        "desc_gu": "ભીનો ફ્લોર અને છૂટા વાયરો વડીલોમાં થાપાના ફ્રેક્ચરનું એક મુખ્ય ટાળી શકાય તેવું કારણ છે.",
         "photo": "photos/oct20_dont1.png",
         "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of senior Indian citizen performing gentle standing balance exercises under physiotherapist guidance in a bright living room. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
       },
@@ -22474,10 +22474,10 @@
         "index": 4,
         "badge_en": "Message #4",
         "badge_gu": "માર્ગદર્શન #૪",
-        "title_en": "Non-Slip Flooring & Lighting",
-        "title_gu": "લપસણા ફ્લોરિંગ સામે સુરક્ષા",
-        "desc_en": "High sodium and dark aerated sodas deplete bone calcium through urinary leaching, creating porous brittle bones.",
-        "desc_gu": "કાચું મીઠું છાંટવું અને સોડા-કોલ્ડડ્રિંક્સ પીવાથી હાડકાંમાંથી કેલ્શિયમ પેશાબ વાટે ધોવાઈ જાય છે અને હાડકાં પોલાં બને છે.",
+        "title_en": "Limit Excessive Salt Intake & Choose Wholesome Hydration",
+        "title_gu": "વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ",
+        "desc_en": "Excessive dietary salt increases urinary calcium loss. For adults, keep total salt from all foods below 5 g/day (equivalent to less than 2 g/day sodium). Choose water or traditional unsalted buttermilk.",
+        "desc_gu": "વધારે પડતું મીઠું ખાવાથી પેશાબ વાટે કેલ્શિયમ નીકળી જાય છે; પુખ્ત વયના લોકો માટે દિવસભરના બધા ખોરાકમાંથી મળતું કુલ મીઠું ૫ ગ્રામથી ઓછું રાખો (આશરે ૨ ગ્રામથી ઓછું સોડિયમ). પાણી અથવા મીઠું ઉમેર્યા વગરની છાશ પસંદ કરો.",
         "photo": "photos/oct20_dont2.png",
         "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of brightly lit Indian home hallway with safe non-skid floor runners and completely clear walkways for fall prevention. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
       }
@@ -22528,8 +22528,8 @@
         "badge_gu": "માર્ગદર્શન #૨",
         "title_en": "Add Iodized Salt Towards the End of Cooking",
         "title_gu": "રાંધતી વખતે મીઠું છેલ્લે ઉમેરવાની ટેવ પાડો",
-        "desc_en": "Excessive prolonged boiling evaporates volatile iodine. Add salt near the finish to preserve full iodine value.",
-        "desc_gu": "વધારે ઉકાળવાથી આયોડિન ઉડી જાય છે; શાક કે દાળ ઉતારતી વખતે છેલ્લે મીઠું ઉમેરવાથી આયોડિન જળવાઈ રહે છે.",
+        "desc_en": "Prolonged high-heat boiling can degrade and leach fortified iodine compounds. Adding iodized salt towards the end of cooking helps retain full micronutrient value.",
+        "desc_gu": "લાંબા સમય સુધી વધુ ગરમીમાં ઉકાળવાથી આયોડિનનું પ્રમાણ ઘટી શકે છે; રસોઈ પૂરી થવાના સમયે મીઠું ઉમેરવાથી આયોડિનનું મૂલ્ય જળવાય છે.",
         "photo": "photos/oct21_do2.png",
         "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of Indian home cook gently adding a measured pinch of iodized salt towards the end of preparing a fresh vegetable curry. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
       },
@@ -22538,8 +22538,8 @@
         "index": 3,
         "badge_en": "Message #3",
         "badge_gu": "માર્ગદર્શન #૩",
-        "title_en": "Dry & Airtight Salt Storage",
-        "title_gu": "મીઠાને ભેજ અને ગરમીથી બચાવો",
+        "title_en": "Avoid Unbranded Loose Coarse Salt",
+        "title_gu": "ખુલ્લું અને બિન-આયોડાઇઝ્ડ મીઠું વાપરવાનું ટાળો",
         "desc_en": "Unbranded loose coarse salt lacks iodine; iodine deficiency in pregnant mothers leads to child mental retardation.",
         "desc_gu": "ખુલ્લું બિન-આયોડાઇઝ્ડ મીઠું વાપરશો નહીં; આયોડિનની કમીથી બાળકોમાં માનસિક મંદતા અને ગલગંડ (ગોઇટર) થાય છે.",
         "photo": "photos/oct21_dont1.png",
@@ -22550,12 +22550,12 @@
         "index": 4,
         "badge_en": "Message #4",
         "badge_gu": "માર્ગદર્શન #૪",
-        "title_en": "Balanced Micronutrient Diet",
-        "title_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
-        "desc_en": "Direct kitchen stove heat and open damp containers rapidly degrade potassium iodate from salt.",
-        "desc_gu": "મીઠાની બરણીને ક્યારેય ખુલ્લી કે ગેસની જ્વાળાની એકદમ નજીક ન રાખો; ગરમીથી આયોડિન નાશ પામે છે.",
+        "title_en": "Keep Iodized Salt Dry & Covered",
+        "title_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+        "desc_en": "Store iodized salt in a tightly closed container in a cool, dry place away from moisture.",
+        "desc_gu": "આયોડાઇઝ્ડ મીઠું હવાચુસ્ત બરણીમાં, ઠંડી અને સૂકી જગ્યાએ ભેજથી દૂર રાખો.",
         "photo": "photos/oct21_dont2.png",
-        "ai_prompt": "Ultra-photorealistic 4:3 close-up photograph of vibrant array of micronutrient-rich Indian staples including homemade curd, green leafy vegetables, lentils and whole grains. Warm natural lighting, authentic Indian domestic or clinical setting, clean clinical hygiene, cinematic depth of field, 8k resolution, editorial medical magazine quality. No text, no logos, no distorted hands."
+        "ai_prompt": "Ultra-photorealistic 4:3 photograph showing proper iodized-salt storage in an Indian kitchen: a tightly closed ceramic or glass salt container placed on a clean, cool, dry pantry shelf protected from moisture. Authentic Indian home setting, warm natural lighting, 8k editorial quality. No logos or text."
       }
     ],
     "provenance": {

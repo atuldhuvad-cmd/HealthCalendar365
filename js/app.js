@@ -352,13 +352,13 @@ class HealthPosterApp {
         else if (clickY >= 612 && clickY <= 992) clickedIndex = 4;
       }
     } else {
-      // Vertical 1080x1920: Left col [40, 525], Right col [555, 1040], Row 1 [250, 975], Row 2 [1005, 1730]
+      // Vertical 1080x1920: Left col [40, 525], Right col [555, 1040], Row 1 [250, 1036], Row 2 [1062, 1848]
       if (clickX >= 40 && clickX <= 525) {
-        if (clickY >= 250 && clickY <= 975) clickedIndex = 1;
-        else if (clickY >= 1005 && clickY <= 1730) clickedIndex = 3;
+        if (clickY >= 250 && clickY <= 1036) clickedIndex = 1;
+        else if (clickY >= 1062 && clickY <= 1848) clickedIndex = 3;
       } else if (clickX >= 555 && clickX <= 1040) {
-        if (clickY >= 250 && clickY <= 975) clickedIndex = 2;
-        else if (clickY >= 1005 && clickY <= 1730) clickedIndex = 4;
+        if (clickY >= 250 && clickY <= 1036) clickedIndex = 2;
+        else if (clickY >= 1062 && clickY <= 1848) clickedIndex = 4;
       }
     }
 
@@ -612,54 +612,12 @@ class HealthPosterApp {
     }, 'image/png');
   }
 
-  // Share to WhatsApp (Web Share API with image file + bilingual text caption)
+  // Share poster image through the native share sheet
   async shareToWhatsApp() {
     if (!this.currentDay) return;
 
     this.showToast('Preparing WhatsApp Share...', 'info');
     const day = this.currentDay;
-
-    // Build rich bilingual WhatsApp text message
-    let whatsappText = `🌟 *${day.date_en} | ${day.date_gu}*\n`;
-    whatsappText += `🏥 *${day.title_en}*\n`;
-    whatsappText += `✨ *${day.title_gu}*\n\n`;
-    whatsappText += `📌 *${day.theme_en}*\n`;
-    whatsappText += `📌 *${day.theme_gu}*\n\n`;
-
-    const doCards = day.cards.filter(c => c.type === 'do');
-    const dontCards = day.cards.filter(c => c.type === 'dont');
-    const infoCards = day.cards.filter(c => c.type !== 'do' && c.type !== 'dont');
-
-    if (doCards.length > 0) {
-      whatsappText += `✅ *આટલું જરૂર કરો / DO's:*\n`;
-      doCards.forEach((c, idx) => {
-        whatsappText += `${idx + 1}. *${c.title_gu}*: ${c.desc_gu}\n`;
-      });
-      whatsappText += `\n`;
-    }
-
-    if (dontCards.length > 0) {
-      whatsappText += `❌ *આટલું ક્યારેય ન કરો / DON'Ts:*\n`;
-      dontCards.forEach((c, idx) => {
-        whatsappText += `${idx + 1}. *${c.title_gu}*: ${c.desc_gu}\n`;
-      });
-      whatsappText += `\n`;
-    }
-
-    if (infoCards.length > 0) {
-      whatsappText += `💡 *મુખ્ય આરોગ્ય માર્ગદર્શન / Key Health Guidance:*\n`;
-      infoCards.forEach((c, idx) => {
-        whatsappText += `${idx + 1}. *${c.title_gu}*: ${c.desc_gu}\n`;
-      });
-      whatsappText += `\n`;
-    }
-
-    if (this.settings.useDoctorBranding && this.settings.doctorName) {
-      whatsappText += `🩺 *${this.settings.doctorName}* (${this.settings.doctorDegree || ''})\n`;
-      whatsappText += `🏥 ${this.settings.clinicName || ''} • 📞 ${this.settings.contactInfo || ''}\n`;
-    } else {
-      whatsappText += `📢 *જાહેર જનતાના આરોગ્ય હિતમાં પ્રસારિત* | 365 Days Health Awareness\n`;
-    }
 
     // Try Web Share API with File (with mandatory card image failure guard)
     let canvas;
@@ -682,23 +640,19 @@ class HealthPosterApp {
 
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         try {
-          await navigator.share({
-            title: day.title_en,
-            text: whatsappText,
-            files: [file]
-          });
-          this.showToast('Shared successfully!', 'success');
+          await navigator.share({ files: [file] });
+          this.showToast('Poster image shared successfully!', 'success');
           return;
         } catch (err) {
           if (err.name !== 'AbortError') {
-            console.warn('Web Share failed, using direct WhatsApp URL fallback:', err);
+            console.warn('Image share failed; downloading the poster instead:', err);
           } else {
             return;
           }
         }
       }
 
-      // Fallback: Trigger PNG download & open WhatsApp Web/App with text prefilled
+      // Fallback: download the PNG so the user can attach it manually
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
@@ -708,10 +662,7 @@ class HealthPosterApp {
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
 
-      const encodedText = encodeURIComponent(whatsappText);
-      const waUrl = `https://api.whatsapp.com/send?text=${encodedText}`;
-      window.open(waUrl, '_blank');
-      this.showToast('Downloaded poster & opened WhatsApp message!', 'success');
+      this.showToast('Poster downloaded. Attach the image in WhatsApp.', 'success');
     }, 'image/png');
   }
 

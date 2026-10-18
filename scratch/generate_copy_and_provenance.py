@@ -157,9 +157,9 @@ copy_audit = [
         "category": "CLINICAL_DECISION_REQUIRED",
         "current_en": "Non-Slip Flooring & Lighting",
         "current_gu": "લપસણા ફ્લોરિંગ સામે સુરક્ષા",
-        "proposed_en": "Limit Bone-Depleting Excess Salt & Dark Sodas",
-        "proposed_gu": "હાડકાં નબળાં પાડતાં વધુ પડતું મીઠું અને સોડા ટાળો",
-        "rationale": "Title is about flooring/lighting (redundant with Card 1 and Card 3), but description is about excessive dietary sodium and phosphoric dark sodas leaching bone calcium. Staged title reflects bone nutrition instruction.",
+        "proposed_en": "Limit Excessive Salt Intake & Choose Wholesome Hydration",
+        "proposed_gu": "વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ",
+        "rationale": "WHO recommends total salt below 5 g/day (less than 2 g/day sodium) to reduce urinary calcium excretion. Staged copy emphasizes sodium moderation and healthy hydration (water and unsalted buttermilk).",
         "requires_clinician_sign_off": True,
         "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
     },
@@ -179,9 +179,9 @@ copy_audit = [
         "category": "CLINICAL_DECISION_REQUIRED",
         "current_en": "Balanced Micronutrient Diet",
         "current_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
-        "proposed_en": "Protect Salt from Direct Stove Heat & Moisture",
-        "proposed_gu": "મીઠાની બરણી ગેસની જ્વાળા અને ભેજથી દૂર રાખો",
-        "rationale": "Title is generic 'balanced micronutrient diet', but description specifically warns against stove burner heat and open containers degrading volatile potassium iodate. Staged title reflects thermal and humidity preservation of iodine.",
+        "proposed_en": "Keep Iodized Salt Dry & Covered",
+        "proposed_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+        "rationale": "The revised title and description retain only dry, covered, moisture-protected storage guidance.",
         "requires_clinician_sign_off": True,
         "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
     }

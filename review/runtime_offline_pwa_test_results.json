@@ -1,0 +1,309 @@
+{
+  "test_run_at": "2026-10-18T16:34:25.506Z",
+  "overall_status": "ALL_CHECKS_PASSED",
+  "checks": [
+    {
+      "name": "Online Root URL Load",
+      "status": "PASS",
+      "details": "HTTP Status 200"
+    },
+    {
+      "name": "Service Worker Supported",
+      "status": "PASS",
+      "details": "navigator.serviceWorker supported"
+    },
+    {
+      "name": "Service Worker Registration Ready",
+      "status": "PASS",
+      "details": "Active URL: http://127.0.0.1:64938/sw.js, State: activating"
+    },
+    {
+      "name": "Application Cache Present",
+      "status": "PASS",
+      "details": "Cache name: health-poster-v1.5, items: 97"
+    },
+    {
+      "name": "App-Shell Files Cached",
+      "status": "PASS",
+      "details": "Cached asset count: 97 (expected >= 90)"
+    },
+    {
+      "name": "Service Worker Controller Active on Reload",
+      "status": "PASS",
+      "details": "navigator.serviceWorker.controller is active"
+    },
+    {
+      "name": "Online Viewport Overflow [360px]",
+      "status": "PASS",
+      "details": "scrollWidth: 360px vs innerWidth: 360px"
+    },
+    {
+      "name": "Online Viewport Overflow [412px]",
+      "status": "PASS",
+      "details": "scrollWidth: 412px vs innerWidth: 412px"
+    },
+    {
+      "name": "Offline Root Page Loading",
+      "status": "PASS",
+      "details": "Title: \"365-Day Health Poster Studio - India | આરોગ્ય કેલેન્ડર ૩૬૫\", Posters loaded: 368"
+    },
+    {
+      "name": "Offline Viewport Overflow [360px]",
+      "status": "PASS",
+      "details": "scrollWidth: 360px vs innerWidth: 360px"
+    },
+    {
+      "name": "Offline Viewport Overflow [412px]",
+      "status": "PASS",
+      "details": "scrollWidth: 412px vs innerWidth: 412px"
+    },
+    {
+      "name": "Offline Date Navigation",
+      "status": "PASS",
+      "details": "Initial: 10-15 -> Prev: 10-14 -> Next: 10-15-cane"
+    },
+    {
+      "name": "Offline Render [square] [english]",
+      "status": "PASS",
+      "details": "Size: 1080x1080, DataURL: 1848714B, Cached Images: 4, Broken: 0"
+    },
+    {
+      "name": "Offline Render [square] [gujarati]",
+      "status": "PASS",
+      "details": "Size: 1080x1080, DataURL: 1881238B, Cached Images: 4, Broken: 0"
+    },
+    {
+      "name": "Offline Render [square] [bilingual]",
+      "status": "PASS",
+      "details": "Size: 1080x1080, DataURL: 1987030B, Cached Images: 4, Broken: 0"
+    },
+    {
+      "name": "Offline Render [vertical] [english]",
+      "status": "PASS",
+      "details": "Size: 1080x1920, DataURL: 2868098B, Cached Images: 4, Broken: 0"
+    },
+    {
+      "name": "Offline Render [vertical] [gujarati]",
+      "status": "PASS",
+      "details": "Size: 1080x1920, DataURL: 2896534B, Cached Images: 4, Broken: 0"
+    },
+    {
+      "name": "Offline Render [vertical] [bilingual]",
+      "status": "PASS",
+      "details": "Size: 1080x1920, DataURL: 3021766B, Cached Images: 4, Broken: 0"
+    },
+    {
+      "name": "Gujarati Font Cache Check",
+      "status": "PASS",
+      "details": "Noto Sans Gujarati active faces: 6/20, Status: loaded, check('bold 24px'): true"
+    },
+    {
+      "name": "Gujarati Font Metric Distinction",
+      "status": "PASS",
+      "details": "Noto width: 385.4px vs Monospace fallback: 477.7px (Distinct: true)"
+    },
+    {
+      "name": "Cold Offline Launch",
+      "status": "PASS",
+      "details": "Fresh page opened in the same offline browser context after the original page was closed; page-level JavaScript memory was discarded while the origin's service worker and Cache Storage remained available: Title: \"365-Day Health Poster Studio - India | આરોગ્ય કેલેન્ડર ૩૬૫\", Controller: true, Datasets: 368"
+    },
+    {
+      "name": "Network Restored Page Recovery",
+      "status": "PASS",
+      "details": "Page reloaded successfully online: \"365-Day Health Poster Studio - India | આરોગ્ય કેલેન્ડર ૩૬૫\""
+    },
+    {
+      "name": "Updated Service Worker Activated",
+      "status": "PASS",
+      "details": "New Cache health-poster-v1.6 created, activeState: activated"
+    },
+    {
+      "name": "Obsolete Application Caches Evicted",
+      "status": "PASS",
+      "details": "health-poster-v1.0 through v1.5 removed from Cache Storage"
+    },
+    {
+      "name": "Unrelated Caches Preserved",
+      "status": "PASS",
+      "details": "unrelated-third-party-cache-v1 strictly untouched"
+    },
+    {
+      "name": "Post-Update Viewport Overflow [360px]",
+      "status": "PASS",
+      "details": "scrollWidth: 360px vs innerWidth: 360px"
+    },
+    {
+      "name": "Post-Update Viewport Overflow [412px]",
+      "status": "PASS",
+      "details": "scrollWidth: 412px vs innerWidth: 412px"
+    },
+    {
+      "name": "Browser Console Errors",
+      "status": "PASS",
+      "details": "Errors logged: 0"
+    },
+    {
+      "name": "Browser Page Unhandled Exceptions",
+      "status": "PASS",
+      "details": "Unhandled exceptions: 0"
+    }
+  ],
+  "service_worker": {
+    "supported": true,
+    "scope": "http://127.0.0.1:64938/",
+    "activeUrl": "http://127.0.0.1:64938/sw.js",
+    "activeState": "activating",
+    "controllerUrl": null
+  },
+  "caches": {
+    "initial": {
+      "cacheNames": [
+        "health-poster-v1.5"
+      ],
+      "details": {
+        "health-poster-v1.5": {
+          "entryCount": 97,
+          "sampleUrls": [
+            "/",
+            "/index.html",
+            "/manifest.json",
+            "/css/styles.css",
+            "/css/fonts.css",
+            "/js/app.js",
+            "/js/canvas-renderer.js",
+            "/js/db.js",
+            "/js/calendar-data.js",
+            "/data/health_365.json"
+          ]
+        }
+      },
+      "precache_breakdown": {
+        "total_entries": 97,
+        "root_and_application_shell": 5,
+        "javascript": 4,
+        "data": 1,
+        "icons": 2,
+        "fonts": 40,
+        "photos": 45
+      }
+    },
+    "post_update": {
+      "activeUrl": "http://127.0.0.1:64938/sw.js",
+      "activeState": "activated",
+      "controllerUrl": "http://127.0.0.1:64938/sw.js",
+      "cacheKeys": [
+        "unrelated-third-party-cache-v1",
+        "health-poster-v1.6"
+      ]
+    }
+  },
+  "font_verification": {
+    "totalFontFaces": 40,
+    "notoFaceCount": 20,
+    "activeNotoCount": 6,
+    "hasActiveNoto": true,
+    "checkBold24": true,
+    "check16": true,
+    "testString": "આરોગ્ય કેલેન્ડર ૩૬૫ - વિશ્વ હાથ ધોવા દિવસ",
+    "widthNoto": 385.4,
+    "widthMonospace": 477.7,
+    "widthSansSerif": 426.8,
+    "distinctFromMonospace": true
+  },
+  "viewport_measurements": [
+    {
+      "phase": "online",
+      "width": 360,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "phase": "online",
+      "width": 412,
+      "scrollWidth": 412,
+      "pass": true
+    },
+    {
+      "phase": "offline",
+      "width": 360,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "phase": "offline",
+      "width": 412,
+      "scrollWidth": 412,
+      "pass": true
+    },
+    {
+      "phase": "post_update",
+      "width": 360,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "phase": "post_update",
+      "width": 412,
+      "scrollWidth": 412,
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "D:\\HealthCalendar365\\review\\screenshots\\online_360x740.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\online_412x915.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\offline_360x740.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\offline_412x915.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\offline_date_navigation.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\cold_offline_launch.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\network_restored.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\post_update_360x740.png",
+    "D:\\HealthCalendar365\\review\\screenshots\\post_update_412x915.png"
+  ],
+  "browser_diagnostics": {
+    "console_errors": [],
+    "failed_requests": [],
+    "page_errors": []
+  },
+  "deferred_acceptance": [
+    {
+      "item": "Physical Android-device testing",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "Manual PWA installation",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "WhatsApp export, sharing and compression review",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "Human visual inspection",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "User experience and usability testing",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "User acceptance testing",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "Clinical review and sign-off",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "Gujarati-language review and sign-off",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "Accessibility testing with actual users",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    },
+    {
+      "item": "Human approval of images, messages and poster compositions",
+      "status": "DEFERRED_TO_FINAL_ACCEPTANCE"
+    }
+  ]
+}

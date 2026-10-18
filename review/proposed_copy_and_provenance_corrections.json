@@ -130,12 +130,12 @@
       "category": "MEDICAL_CLAIM_REVISION",
       "current_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where 80% of germs hide.",
       "current_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં મોટાભાગના કીટાણુ છુપાયેલા હોય છે.",
-      "proposed_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where pathogens and dirt frequently accumulate.",
-      "proposed_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં ધૂળ અને કીટાણુઓ સૌથી વધુ જમા થાય છે.",
-      "rationale": "CDC Hand Hygiene Guidelines support cleaning under nails and between fingers for at least 20 seconds, but do NOT establish the exact '80%' statistic. Replaces unsupported precise statistic with evidence-backed clinical phrasing.",
+      "proposed_en": "Rub palms, backs of hands, between fingers, fingertips and nails, thumbs, and wrists with soap for at least 20 seconds.",
+      "proposed_gu": "હથેળી, હાથનો પાછળનો ભાગ, આંગળીઓની વચ્ચે, આંગળીના ટેરવા અને નખ, અંગૂઠા તથા કાંડા સાબુથી ઓછામાં ઓછા ૨૦ સેકન્ડ ઘસો.",
+      "rationale": "Dr. Atul requested a clear six-area handwashing sequence including thumbs and wrists. This also removes the unsupported exact '80%' claim.",
       "clinical_evidence_source": "CDC Clean Hands FAQ (https://www.cdc.gov/clean-hands/faq/index.html)",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_PENDING_SCOPED_REAPPROVAL"
     },
     {
       "slot": "10-16-spine_card4_desc",
@@ -147,7 +147,7 @@
       "rationale": "The 27 kg (60 lbs) figure originates from a specific 2014 mathematical finite element model (Hansraj KK, Surg Technol Int), but clinical consensus emphasizes posture variation and movement breaks over a rigid static weight claim.",
       "clinical_evidence_source": "Hansraj KK (2014) Assessment of Stresses in the Cervical Spine Caused by Posture and Position of the Head. Surg Technol Int 25:277-9",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_PENDING_SCOPED_REAPPROVAL"
     },
     {
       "slot": "10-17_card3_title",
@@ -183,7 +183,7 @@
       "rationale": "Resolves conflict between exercise title and domestic hazard description. Moderates '#1 cause' claim to 'a leading avoidable cause'.",
       "clinical_evidence_source": "IOF Fall Prevention Guidelines & WHO Global Report on Falls Prevention in Older Age",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
       "slot": "10-20_card4_title_and_desc",
@@ -195,7 +195,7 @@
       "rationale": "CRITICAL MEDICAL REVISION: IOF explicitly notes there is no firm scientific evidence that fizzy soft drinks directly weaken bones. WHO recommends adults consume less than 2 g/day sodium, equivalent to less than 5 g/day total dietary salt; these are intake recommendations, not a hypercalciuria diagnostic threshold. Staged copy removes unsupported causal claim about dark sodas while promoting evidence-based sodium moderation and healthy hydration.",
       "clinical_evidence_source": "International Osteoporosis Foundation (IOF) Guidance: Protein and Other Nutrients (https://www.osteoporosis.foundation/patients/prevention/protein-other-nutrients)",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
       "slot": "10-21_card2_desc",
@@ -207,7 +207,7 @@
       "rationale": "Potassium iodate (KIO3) is a non-volatile ionic salt (melting point >500C); it does not simply 'evaporate' like elemental iodine. Loss occurs through chemical reduction, thermal degradation, and aqueous leaching. Replaces incorrect volatility claim with accurate food science explanation.",
       "clinical_evidence_source": "WHO / FAO Guidelines on Food Fortification with Micronutrients, Part 3 (https://www.who.int/docs/default-source/micronutrients/gff-part-3-en.pdf)",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
       "slot": "10-21_card3_title",
@@ -219,19 +219,19 @@
       "rationale": "Resolves redundancy with Cards 1 & 4. Description focuses on the severe risk of uniodized loose salt for child neurological development. Safety: Does not imply crystal/rock salt is naturally iodized; does not recommend increasing total salt intake.",
       "clinical_evidence_source": "Universal Salt Iodization (USI) Standards / Iodine Global Network",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
       "slot": "10-21_card4_title",
       "category": "CLINICAL_CONFLICT_RESOLUTION",
       "current_en": "Balanced Micronutrient Diet",
       "current_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
-      "proposed_en": "Protect Salt from Direct Stove Heat & Moisture",
-      "proposed_gu": "મીઠાની બરણી ગેસની જ્વાળા અને ભેજથી દૂર રાખો",
-      "rationale": "Title was generic 'balanced micronutrient diet', while description explicitly warns against stove heat and open damp containers degrading iodate. Aligns title with storage instruction.",
+      "proposed_en": "Keep Iodized Salt Dry & Covered",
+      "proposed_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+      "rationale": "Dr. Atul requested removal of direct-stove-heat and iodine-destruction claims. The revised title and description retain only dry, covered, moisture-protected storage guidance.",
       "clinical_evidence_source": "Food Safety and Standards Authority of India (FSSAI) Salt Storage Guidelines",
       "requires_clinician_sign_off": true,
-      "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+      "staging_status": "APPLIED_PENDING_SCOPED_REAPPROVAL"
     }
   ]
 }

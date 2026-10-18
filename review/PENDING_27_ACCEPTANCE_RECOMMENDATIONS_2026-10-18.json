@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-10-18",
+  "review_type": "TECHNICAL_RECOMMENDATION_ONLY",
+  "authority_boundary": "This audit is not a human approval. Dr. Atul must explicitly accept or require revision for the bound records.",
+  "total": 27,
+  "recommend_accept": 7,
+  "recommend_revision_required": 20,
+  "visual_revision_count": 8,
+  "gujarati_revision_count": 10,
+  "provenance_revision_count": 10,
+  "references": {
+    "white_cane": "https://www.undp.org/bosnia-herzegovina/stories/international-white-cane-day-greater-independence-and-inclusion",
+    "handwashing": "https://globalhandwashing.org/global-handwashing-day/about-ghd/",
+    "spine": "https://www.worldspineday.org/about-wsd/",
+    "food": "https://www.fao.org/world-food-day/en",
+    "trauma": "https://gmusc.com/",
+    "menopause": "https://www.imsociety.org/education/world-menopause-day-2025/",
+    "oral": "https://dghs.mohfw.gov.in/national-oral-health-division.php",
+    "hearing": "https://www.mohfw.gov.in/sites/default/files/8616338852nppcd.pdf",
+    "safe_listening": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening"
+  },
+  "records": [
+    {
+      "slot": "10-15-cane_card1",
+      "observance": "World White Cane Day",
+      "title_en": "Annual Comprehensive Eye Examination",
+      "image_path": "photos/oct15_cane_card1.png",
+      "image_sha256": "a5b72f521f691135d418b257699bb8f30246f378617c5c7d6551837ed364d37c",
+      "spec_hash": "fba0fc5d969054a2ed4cdaf34f597a4446e74f6c8094f62a4ee9d67934cc0be7",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-15-cane_card2",
+      "observance": "World White Cane Day",
+      "title_en": "Respect White Cane & Clear Walkways",
+      "image_path": "photos/oct15_cane_card2.png",
+      "image_sha256": "32e23532a3b62348e358c49d604ace1890b77f1ddc9473a465497cde4c8550ea",
+      "spec_hash": "8ea1cc6d2b4d25b238956565efad8db9e713c1468a16918c6767bb91c324b05a",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-15-cane_card3",
+      "observance": "World White Cane Day",
+      "title_en": "Assist Pedestrians Respectfully",
+      "image_path": "photos/oct15_cane_card3.png",
+      "image_sha256": "01a7210f6dc036536c7129414314dc6be10628305050fa607779b290c0dcdb67",
+      "spec_hash": "0da088dbf19bc99e105e068b767779f5c124d5d895f0b358dd9ec61224a227d6",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-15-cane_card4",
+      "observance": "World White Cane Day",
+      "title_en": "Protect Eyes from Hazards & Never Rub",
+      "image_path": "photos/oct15_cane_card4.png",
+      "image_sha256": "3df7db955bdd613e1a12e7290502d5a710f5a449b2870e34998c9ab48170fe85",
+      "spec_hash": "7b9bba99f0c361c46bb2560b10c5ff0682d2f6243ac8353af64a1428a0554210",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati omits the warning against self-medication with steroid eye drops and substitutes rinsing with clean water."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-15_card1",
+      "observance": "Global Handwashing Day",
+      "title_en": "Use Soap & Clean Water",
+      "image_path": "photos/oct15_card1_soap.png",
+      "image_sha256": "dd72b469eb4893bf3ddd53ad3ed9e5be50c0de4c18abee238b3dd7b51ea6acdc",
+      "spec_hash": "3f89fc69954d911b869b75833d76f4ef0684a293e8ef611237a9e032434cb4ab",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-15_card3",
+      "observance": "Global Handwashing Day",
+      "title_en": "Clean at Key Moments",
+      "image_path": "photos/oct15_card3_keymoments.png",
+      "image_sha256": "64589cd10b6fc2976e582b8d69775a1fbddd362994adb3e520df2f5688747008",
+      "spec_hash": "221ca042e96e2115f7f823f3467d884a8735a231f223a3bf4fae20bb7d9bbed6",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati narrows general caregiving to child care."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-15_card4",
+      "observance": "Global Handwashing Day",
+      "title_en": "Dry Hands Safely",
+      "image_path": "photos/oct15_card4_dry.png",
+      "image_sha256": "7022f91f77eb082d32651bb87a8bb852574074ac11de8a5ba76f70c61b227caa",
+      "spec_hash": "d5d0ebecc74cdea88bf1c38a9b858c66a0a394655b10649fd1ce41bd93983546",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16-spine_card1",
+      "observance": "World Spine Day",
+      "title_en": "Erect Spine & Lumbar Support",
+      "image_path": "photos/oct16_spine_card1.png",
+      "image_sha256": "559d432f0560e2d909607058333d62aa4d4804c78575079aaf7b5885b36cedc6",
+      "spec_hash": "a36fbcc73430f98bb9de9d80ef5ca0ee065cffdd67f4d409fc7a55ef2b6feac4",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16-spine_card2",
+      "observance": "World Spine Day",
+      "title_en": "Take 2-Minute Movement Breaks Hourly",
+      "image_path": "photos/oct16_spine_card2.png",
+      "image_sha256": "c6aa8f73a236e710e25f6e98a424b55620fa86198f9d0cbf6588e35429c165cd",
+      "spec_hash": "24ee704a76b2e9ad230a5e22bce8e93add27fd68e227f817b228aab572b503f4",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati omits the specified 50 steps and does not retain the complete English instruction."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16-spine_card3",
+      "observance": "World Spine Day",
+      "title_en": "Bend Knees When Lifting Heavy Loads",
+      "image_path": "photos/oct16_spine_card3.png",
+      "image_sha256": "ea50c4636d316e85104babf56bfae2b755af1e6f869af13292d6be05e78ceb1f",
+      "spec_hash": "7b403632a8557a57209628f1593f3d58938ae916594f9f800a64b8b42fc8abe1",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_ACCEPT",
+      "findings": [
+        "No material defect found in the reviewed visual, Gujarati semantic equivalence, or stored provenance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16_card1",
+      "observance": "World Food Day",
+      "title_en": "Eat Balanced Desi Thali Daily",
+      "image_path": "photos/oct16_food_card1.png",
+      "image_sha256": "00a097113df4b5e99c0862f714086d1c92b0941203f2285815d0341cad590f2a",
+      "spec_hash": "999b3e6a2cbda32f1f632924f8a704a5eefc9579738e79e4c2debd9bd90bf5aa",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati substitutes curd and millets for paneer, sprouts and whole grains."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16_card2",
+      "observance": "World Food Day",
+      "title_en": "Embrace Traditional Millets (Shree Anna)",
+      "image_path": "photos/oct16_food_card2.png",
+      "image_sha256": "11ce61a3a8f3e6a10c4623876a677e4efadae785d9ecc852a6a3c149a6b15190",
+      "spec_hash": "6b90362d8b9bbdca2b750eed03eef4b6642fd2122f6ce26c883c200d1bc32a5a",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati substitutes digestion/diabetes claims for sustained energy and gut-microbiome health."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16_card3",
+      "observance": "World Food Day",
+      "title_en": "Limit Re-Heated Fried Foods & Colas",
+      "image_path": "photos/oct16_food_card3.png",
+      "image_sha256": "9b46f1d611214aa412afb08444d7f1fe540bd6a227929b19617b657c7331598f",
+      "spec_hash": "5a92a015de796626a264747668b00fcc16a76f42d99b3ffd96ee24d5a007efe3",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati substitutes heart/liver harm for the English trans-fat, ultra-processed-food and high-fructose guidance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-16_card4",
+      "observance": "World Food Day",
+      "title_en": "Safe Food Hygiene & Zero Waste",
+      "image_path": "photos/oct16_food_card4.png",
+      "image_sha256": "444f9b4c3ff71b1e87faec05c896bae88a389b42dec0b4e23fd7fd69454da0b9",
+      "spec_hash": "ffad0211800544026a1a1be904a3705b6f7b435d4e17d8068300ffeb0c404092",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image shows handwashing; bound prompt and card require washing tomatoes and leafy produce."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-17_card2",
+      "observance": "World Trauma Day (Road Safety & Golden Hour)",
+      "title_en": "Call 108 in Golden Hour (First 60 Mins)",
+      "image_path": "photos/oct17_do2.png",
+      "image_sha256": "c4a422ab09bd9ddf6e7ae4767e4cd3a9ae306d803aec1fa126e802ef2f864cd8",
+      "spec_hash": "07818c000d717b6347b36660ab26f6907c9c2bb68d660de8a4d10cc26a98a485",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "October 17 is verified by G-MUSC, but the stored sponsoring-body attribution should identify G-MUSC rather than the current composite attribution."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-17_card3",
+      "observance": "World Trauma Day (Road Safety & Golden Hour)",
+      "title_en": "Controlled Speed & Helmet Discipline",
+      "image_path": "photos/oct17_dont1.png",
+      "image_sha256": "0742fb25893c2381666536ae730a3de37cfad1926e3877423afd5b8143b714a4",
+      "spec_hash": "8859def3df80757e39942c0da47aecea8e98d749019845f2fa351711a0b162f3",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Gujarati substitutes triple riding for stunt riding and drunk driving.",
+        "October 17 is verified by G-MUSC, but the stored sponsoring-body attribution should identify G-MUSC rather than the current composite attribution."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-17_card4",
+      "observance": "World Trauma Day (Road Safety & Golden Hour)",
+      "title_en": "Safe Golden Hour Care",
+      "image_path": "photos/oct17_dont2.png",
+      "image_sha256": "cd71a910693151312292dd233cde7b94396aaa55a41d75f5048f38e9688aa430",
+      "spec_hash": "4b911ca635d08dedb74359f3d58a67fe83b16b1245b35796d853ea72820b480e",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image shows simultaneous CPR and limb bandaging on a mannequin; it does not show gentle airway/recovery positioning and does not communicate the no-neck-jerking/no-water warning.",
+        "October 17 is verified by G-MUSC, but the stored sponsoring-body attribution should identify G-MUSC rather than the current composite attribution."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-18_card1",
+      "observance": "World Menopause Day",
+      "title_en": "Morning Sun (Vit D) & Calcium Diet",
+      "image_path": "photos/oct18_do1.png",
+      "image_sha256": "1ce3a29f477e386f389910b5a70cdabf691cd417589b583f1a60ae7b3f93ce54",
+      "spec_hash": "2fc0835868105b7a3d5603caf3d4703a2e2c84d2697e97c37cec9a1844e5c54b",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image shows a group consultation; bound prompt and card require an Indian woman in morning sunlight with calcium-rich food."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-18_card2",
+      "observance": "World Menopause Day",
+      "title_en": "Daily Brisk Walk & Anulom-Vilom",
+      "image_path": "photos/oct18_do2.png",
+      "image_sha256": "c2dfca0e42af1791b5f37916420abcab511a0e9f2f363e147149a27bf423c2e1",
+      "spec_hash": "ddd97949ec9bb852588c6e31782f3f12be0a7312ef1846241d4e67828b723bb8",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image shows an assisted side stretch; bound prompt requires Anulom-Vilom and the card also calls for brisk walking.",
+        "Gujarati substitutes sleep/mental-peace claims for bone-density and vasomotor-symptom guidance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-18_card3",
+      "observance": "World Menopause Day",
+      "title_en": "Bone Density & Joint Care",
+      "image_path": "photos/oct18_dont1.png",
+      "image_sha256": "82f23dbc819577be6d1c0f5c8e83fd0c2fcc993be661c4d9da03d4c2a0a680f6",
+      "spec_hash": "0214f9d0342bc7cb62283fee9d17201ed61d7cbf011290231f8dd61533b5f8a3",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "PASS",
+        "provenance": "PASS"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image shows exercise, food and a bone graphic; bound prompt requires an Indian doctor explaining a DXA scan to an Indian woman."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19-oral_card1",
+      "observance": "Oral Health & Tobacco-Free Life",
+      "title_en": "Brush Twice Daily with Soft Bristles",
+      "image_path": "photos/oct19_oral_card1.png",
+      "image_sha256": "aca0f7bf971d8857e125e84b478011cf4ea99065855495765ef26de9a88c8821",
+      "spec_hash": "a255f53bb9b7fbaa7e2bb459078f76498e381db1c1c63a48b5cd11568e2b9849",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image is a tooth-and-toothbrush composite; bound prompt requires an Indian woman brushing at a mirror.",
+        "Gujarati omits cleaning the gums.",
+        "MoHFW National Oral Health Programme is verified; no authoritative October 19 observance/date rule was found. Store this as assigned programme guidance, not a dated observance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19-oral_card3",
+      "observance": "Oral Health & Tobacco-Free Life",
+      "title_en": "Zero Gutkha, Mawa, Khaini or Bidi",
+      "image_path": "photos/oct19_oral_card3.png",
+      "image_sha256": "ae1ca03e9912cf3d1940f779f44f839940d50e8acb22c34f209eae8020548af5",
+      "spec_hash": "2a6f40f94738705d2d3fdd85793747abf920e4ea889c18d5969f237a43e2fb69",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "REVISION_REQUIRED",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image centers lungs and a cigarette; bound prompt requires a hand crushing chewing tobacco and the card focuses on oral disease.",
+        "Gujarati omits oral submucous fibrosis and betel quid and changes the scope of the English description.",
+        "MoHFW National Oral Health Programme is verified; no authoritative October 19 observance/date rule was found. Store this as assigned programme guidance, not a dated observance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19-oral_card4",
+      "observance": "Oral Health & Tobacco-Free Life",
+      "title_en": "Annual Dental & Oral Cancer Screening",
+      "image_path": "photos/oct19_oral_card4.png",
+      "image_sha256": "579f7a2a8ebd55508c7fe7d2dd0d24213df5e825f36b6eee465f1c184b03953c",
+      "spec_hash": "a15ec1a8fa31ee72f8023eda135fa3b271170c53b491f69b7b0b4700dabaf51d",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "MoHFW National Oral Health Programme is verified; no authoritative October 19 observance/date rule was found. Store this as assigned programme guidance, not a dated observance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19_card1",
+      "observance": "Ear & Hearing Care",
+      "title_en": "Ears Are Self-Cleaning — Consult ENT",
+      "image_path": "photos/oct19_ear_card1.png",
+      "image_sha256": "ff9f5e3b737f802c7644fe84608d2569cecd69f929605c74b9a44252deac6204",
+      "spec_hash": "6ea99d5a3e9369bf67c50e3c20e2960b63b67bbe2fca4c2a8a6bc2a8c58d87f2",
+      "gate_results": {
+        "visual_accessibility": "REVISION_REQUIRED",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "Image is an ear diagram with a clinician; bound prompt requires an ENT otoscope examination of a patient.",
+        "MoHFW NPPCD is verified; no authoritative October 19 observance/date rule was found. Store this as assigned programme guidance, not a dated observance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19_card2",
+      "observance": "Ear & Hearing Care",
+      "title_en": "Keep Earphone Volume Below 60%",
+      "image_path": "photos/oct19_ear_card2.png",
+      "image_sha256": "8301c7798faf1205321f80909a2409c81936d8a0509e36a1b7ae36e833099a00",
+      "spec_hash": "78c6e6fd34ef2e485899d4485abd266b3dd095e6ea2cd73bcaa4d32e3ce01e1c",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "MoHFW NPPCD and WHO safe-listening guidance are verified; no authoritative October 19 observance/date rule was found."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19_card3",
+      "observance": "Ear & Hearing Care",
+      "title_en": "Never Insert Matchsticks, Pins or Buds",
+      "image_path": "photos/oct19_ear_card3.png",
+      "image_sha256": "2af22f2d73d8c8a349df4314fbe4b09e4bfff50e2741dd294fc8ecf1d9269319",
+      "spec_hash": "d2bd8384df63589a1beebe2e6ac611b5d99013975398a037a0ccd153fab82e3c",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "MoHFW NPPCD is verified; no authoritative October 19 observance/date rule was found. Store this as assigned programme guidance, not a dated observance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    },
+    {
+      "slot": "10-19_card4",
+      "observance": "Ear & Hearing Care",
+      "title_en": "Protect Ears from Loud Firecrackers & Water",
+      "image_path": "photos/oct19_ear_card4.png",
+      "image_sha256": "256e0de8c15426b8b34d39fd532d1883efeb4ece68a336cf9bbbe51818dae077",
+      "spec_hash": "ef9f6850a295cd6bc86a9ee66bd32532946ac54a1b78d0070516d361e89fd645",
+      "gate_results": {
+        "visual_accessibility": "PASS",
+        "gujarati_language": "PASS",
+        "provenance": "REVISION_REQUIRED"
+      },
+      "recommendation": "RECOMMEND_REVISION_REQUIRED",
+      "findings": [
+        "MoHFW NPPCD is verified; no authoritative October 19 observance/date rule was found. Store this as assigned programme guidance, not a dated observance."
+      ],
+      "formal_human_decision": "PENDING_DR_ATUL"
+    }
+  ]
+}

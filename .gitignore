@@ -54,3 +54,9 @@ htmlcov/
 coverage/
 test-results/
 playwright-report/
+
+# Generated PWA preview mirror (rebuild with build_preview_runtime.py)
+build/
+
+# Vendored third-party binaries (download locally, never commit)
+*.exe

@@ -108,10 +108,10 @@ candidates = [
         "slot": "10-20_card3",
         "day_id": "10-20",
         "card_idx": 3,
-        "current_title_en": "Regular Movement & Postural Balance",
-        "current_title_gu": "બેઠાડુ જીવન છોડી નિયમિત સક્રિયતા",
-        "current_desc_en": "Wet floors and loose electrical wires are the #1 cause of catastrophic hip fractures in elders.",
-        "current_desc_gu": "ફ્લોર ભીનો ન રાખો; અંધારામાં ચાલવું કે ફ્લોર પર વાયરો રાખવાથી વડીલો લપસીને થાપાનું ફ્રેક્ચર ભોગવી શકે છે.",
+        "current_title_en": "Eliminate Slip, Trip & Fall Hazards at Home",
+        "current_title_gu": "ઘરમાં લપસી પડવાના અને ઠોકર ખાવાના જોખમો દૂર કરો",
+        "current_desc_en": "Slippery wet floors and loose cords are a leading avoidable cause of falls and hip fractures in elders.",
+        "current_desc_gu": "ભીનો ફ્લોર અને છૂટા વાયરો વડીલોમાં થાપાના ફ્રેક્ચરનું એક મુખ્ય ટાળી શકાય તેવું કારણ છે.",
         "rejected_image": "photos/oct20_dont1.png",
         "rejection_reason": "Visual Concordance & Cultural Authenticity FAIL: Generic slip-and-fall graphic lacking authentic Indian elder domestic setting; clinical title/desc mismatch.",
         "clinical_intent": "Elderly fall hazard mitigation: resolving domestic clutter, wet surfaces, and trip hazards that cause osteoporotic hip fractures.",
@@ -142,17 +142,17 @@ candidates = [
         "slot": "10-20_card4",
         "day_id": "10-20",
         "card_idx": 4,
-        "current_title_en": "Non-Slip Flooring & Lighting",
-        "current_title_gu": "લપસણા ફ્લોરિંગ સામે સુરક્ષા",
-        "current_desc_en": "High sodium and dark aerated sodas deplete bone calcium through urinary leaching, creating porous brittle bones.",
-        "current_desc_gu": "કાચું મીઠું છાંટવું અને સોડા-કોલ્ડડ્રિંક્સ પીવાથી હાડકાંમાંથી કેલ્શિયમ પેશાબ વાટે ધોવાઈ જાય છે અને હાડકાં પોલાં બને છે.",
+        "current_title_en": "Limit Excessive Salt Intake & Choose Wholesome Hydration",
+        "current_title_gu": "વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ",
+        "current_desc_en": "Excessive dietary salt increases urinary calcium loss. For adults, keep total salt from all foods below 5 g/day (equivalent to less than 2 g/day sodium). Choose water or traditional unsalted buttermilk.",
+        "current_desc_gu": "વધારે પડતું મીઠું ખાવાથી પેશાબ વાટે કેલ્શિયમ નીકળી જાય છે; પુખ્ત વયના લોકો માટે દિવસભરના બધા ખોરાકમાંથી મળતું કુલ મીઠું ૫ ગ્રામથી ઓછું રાખો (આશરે ૨ ગ્રામથી ઓછું સોડિયમ). પાણી અથવા મીઠું ઉમેર્યા વગરની છાશ પસંદ કરો.",
         "rejected_image": "photos/oct20_dont2.png",
         "rejection_reason": "Visual Concordance FAIL: Generic salt and soda graphic lacking Indian dietary and bone health context; title/desc mismatch.",
         "clinical_intent": "Dietary calcium conservation: educating that excessive dietary sodium (>5g/day) and phosphoric acid in dark sodas accelerate urinary calcium excretion.",
         "clinical_safety_rules": [
             "Depict avoidance of raw salt sprinkling and dark aerated sodas.",
             "Promote hydration with traditional unsalted chaas (buttermilk) or water.",
-            "Resolve title/desc conflict by staging title to 'Limit Bone-Depleting Excess Salt & Dark Sodas'."
+            "Resolve title/desc conflict by staging title to 'Limit Excessive Salt Intake & Choose Wholesome Hydration'."
         ],
         "required_visual_elements": [
             "Indian dining table setting showing freshly cooked food",
@@ -212,8 +212,8 @@ candidates = [
         "card_idx": 2,
         "current_title_en": "Add Iodized Salt Towards the End of Cooking",
         "current_title_gu": "રાંધતી વખતે મીઠું છેલ્લે ઉમેરવાની ટેવ પાડો",
-        "current_desc_en": "Excessive prolonged boiling evaporates volatile iodine. Add salt near the finish to preserve full iodine value.",
-        "current_desc_gu": "વધારે ઉકાળવાથી આયોડિન ઉડી જાય છે; શાક કે દાળ ઉતારતી વખતે છેલ્લે મીઠું ઉમેરવાથી આયોડિન જળવાઈ રહે છે.",
+        "current_desc_en": "Prolonged high-heat boiling can degrade and leach fortified iodine compounds. Adding iodized salt towards the end of cooking helps retain full micronutrient value.",
+        "current_desc_gu": "લાંબા સમય સુધી વધુ ગરમીમાં ઉકાળવાથી આયોડિનનું પ્રમાણ ઘટી શકે છે; રસોઈ પૂરી થવાના સમયે મીઠું ઉમેરવાથી આયોડિનનું મૂલ્ય જળવાય છે.",
         "rejected_image": "photos/oct21_do2.png",
         "rejection_reason": "Visual Concordance & Cultural Authenticity FAIL: Unrelated salad shield graphic lacking Indian cooking setting and salt addition timing context.",
         "clinical_intent": "Thermostability preservation: potassium iodate in salt is heat-sensitive; adding salt towards the final stage of Indian cooking retains maximal micronutrient potency.",
@@ -244,8 +244,8 @@ candidates = [
         "slot": "10-21_card3",
         "day_id": "10-21",
         "card_idx": 3,
-        "current_title_en": "Dry & Airtight Salt Storage",
-        "current_title_gu": "મીઠાને ભેજ અને ગરમીથી બચાવો",
+        "current_title_en": "Avoid Unbranded Loose Coarse Salt",
+        "current_title_gu": "ખુલ્લું અને બિન-આયોડાઇઝ્ડ મીઠું વાપરવાનું ટાળો",
         "current_desc_en": "Unbranded loose coarse salt lacks iodine; iodine deficiency in pregnant mothers leads to child mental retardation.",
         "current_desc_gu": "ખુલ્લું બિન-આયોડાઇઝ્ડ મીઠું વાપરશો નહીં; આયોડિનની કમીથી બાળકોમાં માનસિક મંદતા અને ગલગંડ (ગોઇટર) થાય છે.",
         "rejected_image": "photos/oct21_dont1.png",
@@ -279,22 +279,21 @@ candidates = [
         "card_idx": 4,
         "current_title_en": "Balanced Micronutrient Diet",
         "current_title_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
-        "current_desc_en": "Direct kitchen stove heat and open damp containers rapidly degrade potassium iodate from salt.",
-        "current_desc_gu": "મીઠાની બરણીને ક્યારેય ખુલ્લી કે ગેસની જ્વાળાની એકદમ નજીક ન રાખો; ગરમીથી આયોડિન નાશ પામે છે.",
+        "current_desc_en": "Store iodized salt in a tightly closed container in a cool, dry place away from moisture.",
+        "current_desc_gu": "આયોડાઇઝ્ડ મીઠું હવાચુસ્ત બરણીમાં, ઠંડી અને સૂકી જગ્યાએ ભેજથી દૂર રાખો.",
         "rejected_image": "photos/oct21_dont2.png",
-        "rejection_reason": "Visual Concordance FAIL: Unrelated food panel lacking iodized salt storage and thermal degradation focus; title/desc conflict.",
-        "clinical_intent": "Environmental protection of iodized salt: preventing chemical loss of potassium iodate due to radiant stove heat and relative humidity.",
+        "rejection_reason": "Visual Concordance FAIL: Unrelated food panel lacking dry, covered iodized-salt storage context.",
+        "clinical_intent": "Keep iodized salt tightly covered and protected from moisture in a cool, dry storage area.",
         "clinical_safety_rules": [
-            "Demonstrate correct storage distance: salt jar kept in a dry pantry cupboard away from stove burners.",
-            "Resolve title/desc conflict by staging title to 'Protect Salt from Direct Stove Heat & Moisture'."
+            "Show iodized salt in a tightly closed container on a clean, cool, dry pantry shelf."
         ],
         "required_visual_elements": [
-            "Indian kitchen pantry cupboard shelf, cool and dry, with a sealed salt jar safely stored",
-            "In background, gas stove is located safely at a distance, emphasizing thermal separation",
+            "Indian kitchen pantry cupboard shelf, cool and dry, with a tightly closed salt jar",
+            "Clear protection from moisture",
             "Clean, organized, authentic Indian kitchen"
         ],
         "prohibited_elements": [
-            "Jar resting right on the hot stove burner or next to boiling steam",
+            "Open or damp salt container",
             "Unrelated western food panels",
             "Brand logos"
         ],
@@ -302,7 +301,7 @@ candidates = [
             "aspect_ratio": "4:3",
             "minimum_dimensions": "720x540",
             "target_filename": "photos/staging/candidate_10_21_card4_v1.png",
-            "prompt": "Ultra-photorealistic 4:3 photograph showing proper salt storage in an Indian kitchen: a neatly sealed ceramic salt container placed inside a cool, dry, well-ventilated wooden pantry cabinet, at a safe distance away from the hot gas cooking range visible in the soft background. Clean, authentic Indian home kitchen, warm natural lighting, clinical educational standard for preserving volatile micronutrients, cinematic depth of field, 8k resolution, editorial quality. No logos, no text."
+            "prompt": "Ultra-photorealistic 4:3 photograph showing proper iodized-salt storage in an Indian kitchen: a tightly closed ceramic or glass salt container placed on a clean, cool, dry pantry shelf protected from moisture. Authentic Indian home setting, warm natural lighting, 8k editorial quality. No logos or text."
         }
     }
 ]

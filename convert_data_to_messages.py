@@ -65,18 +65,18 @@ for day in cal:
                 card["title_gu"] = "તમાકુ, ગુટખા અને માવા મુક્તિ"
         elif day["id"] == "10-20":
             if idx == 3:
-                card["title_en"] = "Regular Movement & Postural Balance"
-                card["title_gu"] = "બેઠાડુ જીવન છોડી નિયમિત સક્રિયતા"
+                card["title_en"] = "Eliminate Slip, Trip & Fall Hazards at Home"
+                card["title_gu"] = "ઘરમાં લપસી પડવાના અને ઠોકર ખાવાના જોખમો દૂર કરો"
             elif idx == 4:
-                card["title_en"] = "Non-Slip Flooring & Lighting"
-                card["title_gu"] = "લપસણા ફ્લોરિંગ સામે સુરક્ષા"
+                card["title_en"] = "Limit Excessive Salt Intake & Choose Wholesome Hydration"
+                card["title_gu"] = "વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ"
         elif day["id"] == "10-21":
             if idx == 3:
-                card["title_en"] = "Dry & Airtight Salt Storage"
-                card["title_gu"] = "મીઠાને ભેજ અને ગરમીથી બચાવો"
+                card["title_en"] = "Avoid Unbranded Loose Coarse Salt"
+                card["title_gu"] = "ખુલ્લું અને બિન-આયોડાઇઝ્ડ મીઠું વાપરવાનું ટાળો"
             elif idx == 4:
-                card["title_en"] = "Balanced Micronutrient Diet"
-                card["title_gu"] = "પૂરતાં પોષક તત્ત્વોવાળો આહાર"
+                card["title_en"] = "Keep Iodized Salt Dry & Covered"
+                card["title_gu"] = "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો"
 
 with open(json_path, "w", encoding="utf-8") as f:
     json.dump(cal, f, ensure_ascii=False, indent=2)

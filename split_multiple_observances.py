@@ -206,8 +206,8 @@ world_spine_day = {
             "badge_gu": "માર્ગદર્શન #૪",
             "title_en": "Avoid 60° Mobile Text-Neck Slouch",
             "title_gu": "મોબાઈલ જોતી વખતે ગરદન વાંકી ન વાળો",
-            "desc_en": "Bending neck forward puts 27 kg of pressure on cervical vertebrae. Hold your smartphone up closer to eye level.",
-            "desc_gu": "મોબાઈલમાં સતત નીચું જોવાથી ડોકના મણકા પર ૨૭ કિલો વજન આવે છે; ફોનને હંમેશા આંખની સામે રાખીને વાપરો.",
+            "desc_en": "Severe forward neck flexion significantly increases mechanical load on cervical vertebrae. Hold devices closer to eye level and change posture frequently.",
+            "desc_gu": "ડોક વધારે પડતી નીચી નમાવવાથી સર્વાઇકલ મણકા પર ભારે દબાણ આવે છે; ફોનને આંખની સામે રાખો અને વચ્ચે-વચ્ચે ગરદન હળવી કરો.",
             "photo": "photos/oct16_spine_card4.png",
             "ai_prompt": "Ultra-photorealistic 4:3 educational photo of an Indian youth holding a smartphone up at eye level with straight upright posture, clean modern aesthetic, 8k."
         }

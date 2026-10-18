@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Atul Scoped Clinical Reapproval Packet | HealthCalendar365</title>
+  <link rel="stylesheet" href="../css/fonts.css">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --accent: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --card-bg: #1e293b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 24px;
+    }
+    .gu {
+      font-family: 'Noto Sans Gujarati', 'Inter', sans-serif;
+    }
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+    header {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border: 1px solid var(--surface-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .badge-hold {
+      background: rgba(245, 158, 11, 0.2);
+      color: #fbbf24;
+      border: 1px solid #f59e0b;
+    }
+    .badge-pass {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      border: 1px solid #10b981;
+    }
+    h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    .subtitle { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 12px; }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--surface-border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .meta-grid strong { color: var(--text); }
+    .notice-box {
+      background: rgba(16, 185, 129, 0.1);
+      border-left: 4px solid var(--accent);
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin-bottom: 28px;
+      font-size: 0.9rem;
+    }
+    .card-block {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: 12px;
+      margin-bottom: 32px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    }
+    .card-block.approved-card {
+      border-left: 4px solid #10b981;
+    }
+    .card-block.replacement-card {
+      border-left: 4px solid #f59e0b;
+      border-right: 2px solid #ef4444;
+    }
+    .card-header {
+      background: rgba(15, 23, 42, 0.7);
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--surface-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .card-title { font-size: 1.15rem; font-weight: 700; color: #fff; }
+    .card-slot-id { font-family: monospace; font-size: 0.85rem; color: var(--primary); }
+    .card-body {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 24px;
+      padding: 24px;
+    }
+    @media (max-width: 800px) {
+      .card-body { grid-template-columns: 1fr; }
+    }
+    .image-preview-col {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .image-preview-box {
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--surface-border);
+      background: #000;
+      position: relative;
+    }
+    .image-preview-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+    .image-meta {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-family: monospace;
+      word-break: break-all;
+      background: rgba(15, 23, 42, 0.6);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--surface-border);
+    }
+    .copy-col {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .reason-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 0.88rem;
+    }
+    .reason-box strong { color: #fbbf24; display: block; margin-bottom: 4px; }
+    .defect-box {
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 0.9rem;
+      color: #fca5a5;
+    }
+    .defect-box strong { color: #ef4444; display: block; margin-bottom: 4px; font-size: 0.95rem; }
+    .bilingual-comparison {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 600px) {
+      .bilingual-comparison { grid-template-columns: 1fr; }
+    }
+    .text-pane {
+      background: #0f172a;
+      border: 1px solid var(--surface-border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .text-pane-header {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .text-pane-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .text-pane-desc {
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+    
+    /* Dedicated Controls Styling */
+    .controls-panel {
+      background: #0b1120;
+      border-top: 1px solid var(--surface-border);
+      padding: 20px 24px;
+    }
+    .controls-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #94a3b8;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .controls-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media (max-width: 700px) {
+      .controls-grid { grid-template-columns: 1fr; }
+    }
+    .control-card {
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid var(--surface-border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .control-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .control-label {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+    .radio-group {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .radio-option {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: default;
+    }
+    .radio-option input[type="radio"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #64748b;
+      border-radius: 50%;
+      outline: none;
+      display: grid;
+      place-content: center;
+      cursor: default;
+    }
+    .radio-option input[type="radio"]:checked {
+      border-color: #38bdf8;
+    }
+    .radio-option input[type="radio"]:checked::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #38bdf8;
+    }
+    .radio-option.selected-approve {
+      color: #34d399;
+    }
+    .radio-option.selected-approve input[type="radio"]:checked {
+      border-color: #10b981;
+    }
+    .radio-option.selected-approve input[type="radio"]:checked::before {
+      background: #10b981;
+    }
+    .radio-option.selected-reject {
+      color: #f87171;
+    }
+    .radio-option.selected-reject input[type="radio"]:checked {
+      border-color: #ef4444;
+    }
+    .radio-option.selected-reject input[type="radio"]:checked::before {
+      background: #ef4444;
+    }
+    .radio-option.unselected {
+      color: #64748b;
+    }
+    
+    .status-badge-inline {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .status-badge-approved {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      border: 1px solid #10b981;
+    }
+    .status-badge-rejected {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+      border: 1px solid #ef4444;
+    }
+
+    .decision-row {
+      background: rgba(15, 23, 42, 0.9);
+      padding: 16px 20px;
+      border-top: 1px solid var(--surface-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .decision-pill-pass {
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 6px;
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      border: 1px solid #10b981;
+    }
+    .decision-pill-warn {
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 6px;
+      background: rgba(245, 158, 11, 0.2);
+      color: #fbbf24;
+      border: 1px solid #f59e0b;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--surface-border);
+      margin-top: 40px;
+    }
+
+    /* Print / PDF Optimization Styles */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #0f172a !important;
+        padding: 0 !important;
+        font-size: 11pt !important;
+      }
+      .container {
+        max-width: 100% !important;
+        margin: 0 !important;
+      }
+      header {
+        background: #f8fafc !important;
+        border: 1px solid #cbd5e1 !important;
+        box-shadow: none !important;
+        padding: 16px !important;
+        margin-bottom: 16px !important;
+      }
+      h1 { color: #0f172a !important; font-size: 16pt !important; }
+      .subtitle { color: #475569 !important; font-size: 10pt !important; }
+      .meta-grid {
+        border-top: 1px solid #cbd5e1 !important;
+        color: #475569 !important;
+      }
+      .meta-grid strong { color: #0f172a !important; }
+      .notice-box {
+        background: #f0fdf4 !important;
+        border-left: 4px solid #16a34a !important;
+        color: #166534 !important;
+      }
+      .card-block {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        background: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+        box-shadow: none !important;
+        margin-bottom: 24px !important;
+      }
+      .card-header {
+        background: #f1f5f9 !important;
+        border-bottom: 1px solid #cbd5e1 !important;
+      }
+      .card-title { color: #0f172a !important; font-size: 12pt !important; }
+      .card-slot-id { color: #0284c7 !important; }
+      .card-body {
+        padding: 16px !important;
+        gap: 16px !important;
+      }
+      .image-preview-box {
+        border: 1px solid #cbd5e1 !important;
+      }
+      .image-meta {
+        background: #f8fafc !important;
+        border: 1px solid #cbd5e1 !important;
+        color: #475569 !important;
+      }
+      .text-pane {
+        background: #f8fafc !important;
+        border: 1px solid #cbd5e1 !important;
+        color: #0f172a !important;
+      }
+      .text-pane-header {
+        color: #0369a1 !important;
+      }
+      .text-pane-title {
+        color: #0f172a !important;
+      }
+      .text-pane-desc {
+        color: #334155 !important;
+      }
+      .reason-box {
+        background: #fffbeb !important;
+        border: 1px solid #fde68a !important;
+        color: #92400e !important;
+      }
+      .reason-box strong { color: #b45309 !important; }
+      .defect-box {
+        background: #fef2f2 !important;
+        border: 1px solid #fecaca !important;
+        color: #991b1b !important;
+      }
+      .defect-box strong { color: #dc2626 !important; }
+      .controls-panel {
+        background: #f8fafc !important;
+        border-top: 1px solid #cbd5e1 !important;
+        padding: 14px 16px !important;
+      }
+      .control-card {
+        background: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+      }
+      .control-label { color: #0f172a !important; }
+      .radio-option input[type="radio"] {
+        border: 2px solid #475569 !important;
+      }
+      .radio-option.selected-approve {
+        color: #166534 !important;
+      }
+      .radio-option.selected-approve input[type="radio"]:checked {
+        border-color: #16a34a !important;
+      }
+      .radio-option.selected-approve input[type="radio"]:checked::before {
+        background: #16a34a !important;
+      }
+      .radio-option.selected-reject {
+        color: #991b1b !important;
+      }
+      .radio-option.selected-reject input[type="radio"]:checked {
+        border-color: #dc2626 !important;
+      }
+      .radio-option.selected-reject input[type="radio"]:checked::before {
+        background: #dc2626 !important;
+      }
+      .decision-row {
+        background: #f1f5f9 !important;
+        border-top: 1px solid #cbd5e1 !important;
+        color: #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge badge-hold">Production Hold Active</span>
+      <span class="badge badge-pass">Clinical Review Complete</span>
+      <h1>Dr. Atul Scoped Clinical Reapproval Packet</h1>
+      <div class="subtitle">HealthCalendar365 — Verification Docket for Four Text-Modified Production Cards</div>
+      <div class="meta-grid">
+        <div><strong>Reviewer:</strong> Dr. Atul, MBBS</div>
+        <div><strong>Role:</strong> Trainer in Health Dept (since 2002)</div>
+        <div><strong>Clinical Copy Decision:</strong> 4 / 4 APPROVED (0 Pending)</div>
+        <div><strong>Visual Assets:</strong> 3 Approved &bull; 1 Pending Replacement</div>
+      </div>
+    </header>
+
+    <div class="notice-box">
+      <strong>Clinical Sign-Off Recorded:</strong> Dr. Atul has approved the clinical copy across all 4 revised cards. Cards 1, 2, and 4 are fully approved. Card 3 (<code>10-17_card1</code>) has clinical copy approved, with its visual image rejected and scheduled for replacement in the candidate generation phase due to the dual steering wheels defect.
+    </div>
+
+    <!-- Cards Section -->
+
+    <div class="card-block approved-card" id="card-10-15_card2">
+      <div class="card-header">
+        <div>
+          <span class="card-slot-id">Card #1 &bull; 10-15_card2</span>
+          <div class="card-title">Global Handwashing Day</div>
+        </div>
+        <div><span class="decision-pill-pass">&check; FULLY APPROVED</span></div>
+      </div>
+      <div class="card-body">
+        <div class="image-preview-col">
+          <div class="image-preview-box">
+            <img src="../photos/oct15_card2_scrub.png" alt="Follow 6 Handwashing Steps">
+          </div>
+          <div class="image-meta">
+            <div><strong>File:</strong> photos/oct15_card2_scrub.png</div>
+            <div><strong>Image SHA:</strong> 3e9ac5263a3d21e7...</div>
+            <div><strong>Spec Hash:</strong> 4f6b8cf63cc3f097...</div>
+          </div>
+        </div>
+
+        <div class="copy-col">
+          <div class="reason-box">
+            <strong>Reason for Scoped Reapproval:</strong>
+            Clinical specification updated at Dr. Atul's request to explicitly name six handwashing areas (palms, backs, web spaces, fingertips/nails, thumbs, and wrists) for at least 20 seconds, and removed the unverified '80% of germs hide' claim.
+          </div>
+
+          <div class="bilingual-comparison">
+            <div class="text-pane">
+              <div class="text-pane-header">
+                <span>English (Active DB)</span>
+                <span>Action #2</span>
+              </div>
+              <div class="text-pane-title">Follow 6 Handwashing Steps</div>
+              <div class="text-pane-desc">Rub palms, backs of hands, between fingers, fingertips and nails, thumbs, and wrists with soap for at least 20 seconds.</div>
+            </div>
+
+            <div class="text-pane gu">
+              <div class="text-pane-header">
+                <span>ગુજરાતી (સક્રિય નકલ)</span>
+                <span>માર્ગદર્શન #૨</span>
+              </div>
+              <div class="text-pane-title">હાથ ધોવાના ૬ પગલાં અનુસરો</div>
+              <div class="text-pane-desc">હથેળી, હાથનો પાછળનો ભાગ, આંગળીઓની વચ્ચે, આંગળીના ટેરવા અને નખ, અંગૂઠા તથા કાંડા સાબુથી ઓછામાં ઓછા ૨૦ સેકન્ડ ઘસો.</div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.85rem; color: #94a3b8; padding-top: 4px;">
+            <strong>Dr. Atul Clinical Note:</strong> Clinical copy detailing 6 handwashing steps (palms, backs, web spaces, fingertips/nails, thumbs, and wrists) and soap lather image approved.
+          </div>
+        </div>
+      </div>
+
+      <!-- Dedicated Scoped Decision Controls -->
+      <div class="controls-panel">
+        <div class="controls-title">Scoped Reviewer Decision Controls &bull; 10-15_card2</div>
+        <div class="controls-grid">
+          
+          <!-- Control 1: Clinical Copy -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">1. Clinical Copy (Bilingual Text)</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="copy_decision_10-15_card2" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="copy_decision_10-15_card2" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Control 2: Visual Image -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">2. Visual Photographic Image</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="image_decision_10-15_card2" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="image_decision_10-15_card2" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="decision-row">
+        <div>
+          <strong>Overall Recorded Disposition:</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8; margin-left: 8px;">
+            CARD PRODUCTION-APPROVED (PENDING HARDWARE GATE)
+          </span>
+        </div>
+        <div>
+          <span class="decision-pill-pass">&check; FULLY APPROVED</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-block approved-card" id="card-10-16-spine_card4">
+      <div class="card-header">
+        <div>
+          <span class="card-slot-id">Card #2 &bull; 10-16-spine_card4</span>
+          <div class="card-title">World Spine Day</div>
+        </div>
+        <div><span class="decision-pill-pass">&check; FULLY APPROVED</span></div>
+      </div>
+      <div class="card-body">
+        <div class="image-preview-col">
+          <div class="image-preview-box">
+            <img src="../photos/oct16_spine_card4.png" alt="Avoid 60° Mobile Text-Neck Slouch">
+          </div>
+          <div class="image-meta">
+            <div><strong>File:</strong> photos/oct16_spine_card4.png</div>
+            <div><strong>Image SHA:</strong> 85fe501dd2645151...</div>
+            <div><strong>Spec Hash:</strong> 5e5dfd6485ce70f7...</div>
+          </div>
+        </div>
+
+        <div class="copy-col">
+          <div class="reason-box">
+            <strong>Reason for Scoped Reapproval:</strong>
+            Removed the unverified popular science claim that forward neck flexion exerts '27 kg' on cervical vertebrae (originating from a 2014 static mathematical model), replacing it with evidence-based biomechanical guidance to hold devices near eye level and change posture frequently.
+          </div>
+
+          <div class="bilingual-comparison">
+            <div class="text-pane">
+              <div class="text-pane-header">
+                <span>English (Active DB)</span>
+                <span>Action #4</span>
+              </div>
+              <div class="text-pane-title">Avoid 60° Mobile Text-Neck Slouch</div>
+              <div class="text-pane-desc">Severe forward neck flexion significantly increases mechanical load on cervical vertebrae. Hold devices closer to eye level and change posture frequently.</div>
+            </div>
+
+            <div class="text-pane gu">
+              <div class="text-pane-header">
+                <span>ગુજરાતી (સક્રિય નકલ)</span>
+                <span>માર્ગદર્શન #૪</span>
+              </div>
+              <div class="text-pane-title">મોબાઈલ જોતી વખતે ગરદન વાંકી ન વાળો</div>
+              <div class="text-pane-desc">ડોક વધારે પડતી નીચી નમાવવાથી સર્વાઇકલ મણકા પર ભારે દબાણ આવે છે; ફોનને આંખની સામે રાખો અને વચ્ચે-વચ્ચે ગરદન હળવી કરો.</div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.85rem; color: #94a3b8; padding-top: 4px;">
+            <strong>Dr. Atul Clinical Note:</strong> Clinical copy for ergonomic mobile posture (holding phone near eye level, frequent posture relaxation) and upright sitting posture image approved.
+          </div>
+        </div>
+      </div>
+
+      <!-- Dedicated Scoped Decision Controls -->
+      <div class="controls-panel">
+        <div class="controls-title">Scoped Reviewer Decision Controls &bull; 10-16-spine_card4</div>
+        <div class="controls-grid">
+          
+          <!-- Control 1: Clinical Copy -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">1. Clinical Copy (Bilingual Text)</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="copy_decision_10-16-spine_card4" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="copy_decision_10-16-spine_card4" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Control 2: Visual Image -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">2. Visual Photographic Image</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="image_decision_10-16-spine_card4" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="image_decision_10-16-spine_card4" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="decision-row">
+        <div>
+          <strong>Overall Recorded Disposition:</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8; margin-left: 8px;">
+            CARD PRODUCTION-APPROVED (PENDING HARDWARE GATE)
+          </span>
+        </div>
+        <div>
+          <span class="decision-pill-pass">&check; FULLY APPROVED</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-block replacement-card" id="card-10-17_card1">
+      <div class="card-header">
+        <div>
+          <span class="card-slot-id">Card #3 &bull; 10-17_card1</span>
+          <div class="card-title">World Trauma Day (Road Safety & Golden Hour)</div>
+        </div>
+        <div><span class="decision-pill-warn">&#9888; COPY APPROVED &bull; IMAGE REPLACEMENT SCHEDULED</span></div>
+      </div>
+      <div class="card-body">
+        <div class="image-preview-col">
+          <div class="image-preview-box">
+            <img src="../photos/oct17_do1.png" alt="Wear ISI-Marked Full-Face Helmet & Seatbelt">
+          </div>
+          <div class="image-meta">
+            <div><strong>File:</strong> photos/oct17_do1.png</div>
+            <div><strong>Image SHA:</strong> 4f155d0239df8c28...</div>
+            <div><strong>Spec Hash:</strong> 122c6a71707940d0...</div>
+          </div>
+        </div>
+
+        <div class="copy-col">
+          <div class="reason-box">
+            <strong>Reason for Scoped Reapproval:</strong>
+            Added explicit 'ISI-marked' Bureau of Indian Standards specification to both English and Gujarati helmet wording at Dr. Atul's request, ensuring non-certified novelty headgear is strictly excluded.
+          </div>
+
+          <div class="defect-box">
+            <strong>&#9888; Dr. Atul Finding & Defect Action:</strong>
+            <em>"Clinical copy with ISI-marked helmet and seatbelt guidance approved. Visual photo rejected due to dual steering wheels AI hallucination; scheduled for controlled replacement candidate generation."</em>
+            <div style="margin-top: 6px; font-size: 0.82rem;">
+              <strong>Classification:</strong> <code>AI_VISUAL_HALLUCINATION_DUAL_STEERING_WHEELS</code> &bull; 
+              <strong>Disposition:</strong> <code>PENDING_REPLACEMENT_CANDIDATE</code>
+            </div>
+          </div>
+
+          <div class="bilingual-comparison">
+            <div class="text-pane">
+              <div class="text-pane-header">
+                <span>English (Active DB)</span>
+                <span>Message #1</span>
+              </div>
+              <div class="text-pane-title">Wear ISI-Marked Full-Face Helmet & Seatbelt</div>
+              <div class="text-pane-desc">Fasten chin strap on two-wheelers; click three-point seatbelt in cars for front and rear passengers.</div>
+            </div>
+
+            <div class="text-pane gu">
+              <div class="text-pane-header">
+                <span>ગુજરાતી (સક્રિય નકલ)</span>
+                <span>માર્ગદર્શન #૧</span>
+              </div>
+              <div class="text-pane-title">ISI ચિહ્નિત ફુલ-ફેસ હેલ્મેટ અને સીટબેલ્ટ પહેરો</div>
+              <div class="text-pane-desc">બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI ચિહ્નિત હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો.</div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.85rem; color: #94a3b8; padding-top: 4px;">
+            <strong>Dr. Atul Clinical Note:</strong> Clinical copy with ISI-marked helmet and seatbelt guidance approved. Visual photo rejected due to dual steering wheels AI hallucination; scheduled for controlled replacement candidate generation.
+          </div>
+        </div>
+      </div>
+
+      <!-- Dedicated Scoped Decision Controls -->
+      <div class="controls-panel">
+        <div class="controls-title">Scoped Reviewer Decision Controls &bull; 10-17_card1</div>
+        <div class="controls-grid">
+          
+          <!-- Control 1: Clinical Copy -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">1. Clinical Copy (Bilingual Text)</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="copy_decision_10-17_card1" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="copy_decision_10-17_card1" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Control 2: Visual Image -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">2. Visual Photographic Image</span>
+              <span class="status-badge-inline status-badge-rejected">&cross; REJECTED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option unselected">
+                <input type="radio" name="image_decision_10-17_card1" value="APPROVE"  disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option selected-reject">
+                <input type="radio" name="image_decision_10-17_card1" value="REJECT" checked disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="decision-row">
+        <div>
+          <strong>Overall Recorded Disposition:</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8; margin-left: 8px;">
+            COPY APPROVED &bull; IMAGE REPLACEMENT QUEUED
+          </span>
+        </div>
+        <div>
+          <span class="decision-pill-warn">&#9888; COPY APPROVED &bull; IMAGE REPLACEMENT SCHEDULED</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-block approved-card" id="card-10-18_card4">
+      <div class="card-header">
+        <div>
+          <span class="card-slot-id">Card #4 &bull; 10-18_card4</span>
+          <div class="card-title">World Menopause Day</div>
+        </div>
+        <div><span class="decision-pill-pass">&check; FULLY APPROVED</span></div>
+      </div>
+      <div class="card-body">
+        <div class="image-preview-col">
+          <div class="image-preview-box">
+            <img src="../photos/oct18_dont2.png" alt="Qualified Gynecologist Consultation">
+          </div>
+          <div class="image-meta">
+            <div><strong>File:</strong> photos/oct18_dont2.png</div>
+            <div><strong>Image SHA:</strong> eae08f7a2d1f1ee4...</div>
+            <div><strong>Spec Hash:</strong> 8872071b598820b7...</div>
+          </div>
+        </div>
+
+        <div class="copy-col">
+          <div class="reason-box">
+            <strong>Reason for Scoped Reapproval:</strong>
+            Corrected Gujarati translation error for 'Excess tea, coffee, and sugary Indian sweets', ensuring accurate rendering of vasomotor hot-flash triggers and bone calcium metabolism warnings.
+          </div>
+
+          <div class="bilingual-comparison">
+            <div class="text-pane">
+              <div class="text-pane-header">
+                <span>English (Active DB)</span>
+                <span>Message #4</span>
+              </div>
+              <div class="text-pane-title">Qualified Gynecologist Consultation</div>
+              <div class="text-pane-desc">Excess tea, coffee, and sugary Indian sweets trigger severe hot flashes and accelerate bone calcium loss.</div>
+            </div>
+
+            <div class="text-pane gu">
+              <div class="text-pane-header">
+                <span>ગુજરાતી (સક્રિય નકલ)</span>
+                <span>માર્ગદર્શન #૪</span>
+              </div>
+              <div class="text-pane-title">ગાયનેકોલોજિસ્ટની યોગ્ય સલાહ</div>
+              <div class="text-pane-desc">વધુ પડતી ચા-કૉફી અને ખાંડવાળી ભારતીય મીઠાઈઓથી તીવ્ર હોટ ફ્લશ થઈ શકે છે અને હાડકાંમાં કેલ્શિયમનું નુકસાન ઝડપથી વધી શકે છે.</div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.85rem; color: #94a3b8; padding-top: 4px;">
+            <strong>Dr. Atul Clinical Note:</strong> Clinical copy advising qualified gynecologist consultation and corrected Gujarati translation regarding moderation of excess tea, coffee, and sweets approved.
+          </div>
+        </div>
+      </div>
+
+      <!-- Dedicated Scoped Decision Controls -->
+      <div class="controls-panel">
+        <div class="controls-title">Scoped Reviewer Decision Controls &bull; 10-18_card4</div>
+        <div class="controls-grid">
+          
+          <!-- Control 1: Clinical Copy -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">1. Clinical Copy (Bilingual Text)</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="copy_decision_10-18_card4" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="copy_decision_10-18_card4" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Control 2: Visual Image -->
+          <div class="control-card">
+            <div class="control-card-header">
+              <span class="control-label">2. Visual Photographic Image</span>
+              <span class="status-badge-inline status-badge-approved">&check; APPROVED</span>
+            </div>
+            <div class="radio-group">
+              <label class="radio-option selected-approve">
+                <input type="radio" name="image_decision_10-18_card4" value="APPROVE" checked disabled>
+                <span>APPROVE</span>
+              </label>
+              <label class="radio-option unselected">
+                <input type="radio" name="image_decision_10-18_card4" value="REJECT"  disabled>
+                <span>REJECT</span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="decision-row">
+        <div>
+          <strong>Overall Recorded Disposition:</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8; margin-left: 8px;">
+            CARD PRODUCTION-APPROVED (PENDING HARDWARE GATE)
+          </span>
+        </div>
+        <div>
+          <span class="decision-pill-pass">&check; FULLY APPROVED</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      HealthCalendar365 Scoped Clinical Acceptance Docket &bull; Production Hold Strictly Active &bull; Zero Deployment Gate Open
+    </footer>
+  </div>
+</body>
+</html>

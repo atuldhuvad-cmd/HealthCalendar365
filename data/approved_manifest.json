@@ -22,22 +22,23 @@
   "3e9ac5263a3d21e7694168ece237b91cb8617297d476068e3af44553c7592eb9": {
     "day_id": "10-15",
     "card_idx": 2,
-    "status": "PENDING_CLINICAL_SIGN_OFF",
-    "spec_hash": "be9f738cf477c859bcefed991ec841306caef3a22638a3634b64c6091afe09d2",
+    "status": "APPROVED",
+    "spec_hash": "4f6b8cf63cc3f097a6e18a9f52974a2bcca2f9a59b79af3b567eaa52b13d7246",
     "reviewer": {
-      "name": "Pending Clinical Reviewer Sign-Off",
-      "role": "Clinical Medical Reviewer (Pending Assignment)",
-      "organization": "Health Calendar 365 Editorial Review"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16T19:31:02-04:00",
     "clinical_review": {
-      "visual_concordance": "PENDING_AUDIT",
-      "cultural_authenticity": "PENDING_AUDIT",
-      "polarity_match": "PENDING_AUDIT",
-      "safety_equipment_check": "PENDING_AUDIT",
-      "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
+      "polarity_match": "PASS",
+      "safety_equipment_check": "N/A",
+      "findings": "Clinical copy detailing 6 handwashing steps (palms, backs, web spaces, fingertips/nails, thumbs, and wrists) and soap lather image approved."
     },
-    "file_reference": "photos/oct15_card2_scrub.png"
+    "file_reference": "photos/oct15_card2_scrub.png",
+    "decision_record": "review/human_decisions/scoped_reapproval_dr_atul_2026-10-16.json"
   },
   "64589cd10b6fc2976e582b8d69775a1fbddd362994adb3e520df2f5688747008": {
     "day_id": "10-15",
@@ -302,42 +303,23 @@
   "85fe501dd2645151923e249de80da365f71c91d4f8428deb891ddf2d29946edb": {
     "day_id": "10-16-spine",
     "card_idx": 4,
-    "status": "PENDING_CLINICAL_SIGN_OFF",
-    "spec_hash": "05f78b505c1c5ca90377f1456818692684b6bfcb3ccb367758c87b8bb0f53109",
+    "status": "APPROVED",
+    "spec_hash": "5e5dfd6485ce70f7f5a21d75648de82d77d03b0b1e620c23f4d87494ca1dba77",
     "reviewer": {
-      "name": "Pending Clinical Reviewer Sign-Off",
-      "role": "Clinical Medical Reviewer (Pending Assignment)",
-      "organization": "Health Calendar 365 Editorial Review"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16T19:31:02-04:00",
     "clinical_review": {
-      "visual_concordance": "PENDING_AUDIT",
-      "cultural_authenticity": "PENDING_AUDIT",
-      "polarity_match": "PENDING_AUDIT",
-      "safety_equipment_check": "PENDING_AUDIT",
-      "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
+      "polarity_match": "PASS",
+      "safety_equipment_check": "N/A",
+      "findings": "Clinical copy for ergonomic mobile posture (holding phone near eye level, frequent posture relaxation) and upright sitting posture image approved."
     },
-    "file_reference": "photos/oct16_spine_card4.png"
-  },
-  "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e": {
-    "day_id": "10-17",
-    "card_idx": 1,
-    "status": "PENDING_CLINICAL_SIGN_OFF",
-    "spec_hash": "5cdd825b1e7da8389c2488748dd92af3be2e2eb0f7c4da7cbda543a0e3ddabf8",
-    "reviewer": {
-      "name": "Pending Clinical Reviewer Sign-Off",
-      "role": "Clinical Medical Reviewer (Pending Assignment)",
-      "organization": "Health Calendar 365 Editorial Review"
-    },
-    "timestamp": "2026-10-15T19:35:00Z",
-    "clinical_review": {
-      "visual_concordance": "PENDING_AUDIT",
-      "cultural_authenticity": "PENDING_AUDIT",
-      "polarity_match": "PENDING_AUDIT",
-      "safety_equipment_check": "PENDING_AUDIT",
-      "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
-    },
-    "file_reference": "photos/oct17_do1.png"
+    "file_reference": "photos/oct16_spine_card4.png",
+    "decision_record": "review/human_decisions/scoped_reapproval_dr_atul_2026-10-16.json"
   },
   "c4a422ab09bd9ddf6e7ae4767e4cd3a9ae306d803aec1fa126e802ef2f864cd8": {
     "day_id": "10-17",
@@ -462,22 +444,23 @@
   "eae08f7a2d1f1ee40965f58cc9d91bd592fa3a0d3dae706137528ea7f7a76c5f": {
     "day_id": "10-18",
     "card_idx": 4,
-    "status": "PENDING_CLINICAL_SIGN_OFF",
-    "spec_hash": "94397f02f4d2635559003534c32c4c86f24e47de18e94e199d6d361d2a5dee7a",
+    "status": "APPROVED",
+    "spec_hash": "8872071b598820b71e714324724ec0c6bba4e30e2dd9073457e1f331581cf42c",
     "reviewer": {
-      "name": "Pending Clinical Reviewer Sign-Off",
-      "role": "Clinical Medical Reviewer (Pending Assignment)",
-      "organization": "Health Calendar 365 Editorial Review"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16T19:31:02-04:00",
     "clinical_review": {
-      "visual_concordance": "PENDING_AUDIT",
-      "cultural_authenticity": "PENDING_AUDIT",
-      "polarity_match": "PENDING_AUDIT",
-      "safety_equipment_check": "PENDING_AUDIT",
-      "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
+      "polarity_match": "PASS",
+      "safety_equipment_check": "N/A",
+      "findings": "Clinical copy advising qualified gynecologist consultation and corrected Gujarati translation regarding moderation of excess tea, coffee, and sweets approved."
     },
-    "file_reference": "photos/oct18_dont2.png"
+    "file_reference": "photos/oct18_dont2.png",
+    "decision_record": "review/human_decisions/scoped_reapproval_dr_atul_2026-10-16.json"
   },
   "ff9f5e3b737f802c7644fe84608d2569cecd69f929605c74b9a44252deac6204": {
     "day_id": "10-19",
@@ -579,26 +562,6 @@
     },
     "file_reference": "photos/oct19_oral_card1.png"
   },
-  "8ee897bfa0ea0e3df016e4f34c1aa2194fd0baa80bed4a0a6b10c36925ba1c4a": {
-    "day_id": "10-19-oral",
-    "card_idx": 2,
-    "status": "REJECTED_MISMATCH",
-    "spec_hash": "a1c1d3903632a731410e781742bfdeba1dd97ad7a7ce57f437479a0b15d10ad4",
-    "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
-    },
-    "timestamp": "2026-10-15T19:35:00Z",
-    "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
-      "polarity_match": "PASS",
-      "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Shows interdental flossing instead of vigorous water mouth rinsing."
-    },
-    "file_reference": "photos/oct19_oral_card2.png"
-  },
   "ae1ca03e9912cf3d1940f779f44f839940d50e8acb22c34f209eae8020548af5": {
     "day_id": "10-19-oral",
     "card_idx": 3,
@@ -639,164 +602,214 @@
     },
     "file_reference": "photos/oct19_oral_card4.png"
   },
-  "0c6537680a7c3fd1956ab389e9fadd26342f570c4af87008399f2723cc6bd119": {
+  "e9c9b5762eff9648ab700190cd92d896c7cdf00b73e6e1b5df8b683af07a93bb": {
+    "day_id": "10-19-oral",
+    "card_idx": 2,
+    "status": "APPROVED",
+    "spec_hash": "a1c1d3903632a731410e781742bfdeba1dd97ad7a7ce57f437479a0b15d10ad4",
+    "reviewer": {
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
+    },
+    "timestamp": "2026-10-16",
+    "clinical_review": {
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
+      "polarity_match": "PASS",
+      "safety_equipment_check": "N/A",
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
+    },
+    "file_reference": "photos/oct19_oral_card2.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
+  },
+  "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8": {
     "day_id": "10-20",
     "card_idx": 1,
-    "status": "REJECTED_MISMATCH",
+    "status": "APPROVED",
     "spec_hash": "b65c586266f47d326e46bd398aecab53e9d861b01c296fffcade1e5ef1948224",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
-      "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Legacy Caucasian/Asian stock senior, missing Indian elder context and bathroom grab bars."
+      "safety_equipment_check": "PASS",
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct20_do1.png"
+    "file_reference": "photos/oct20_do1.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "3076ab20178716f0a52efaa03d6afc653e9bbff7a83ea2a8c1293ec4ace99404": {
+  "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0": {
     "day_id": "10-20",
     "card_idx": 2,
-    "status": "REJECTED_MISMATCH",
+    "status": "APPROVED",
     "spec_hash": "a32d80035850373fbe548c5a622732cfa2a3d20f6e6018dc15f482d0b7cf72e0",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Stock park walk lacking Indian elders and ragi/sesame nutrition context."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct20_do2.png"
+    "file_reference": "photos/oct20_do2.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "3f66e4c98a6aabd35d87c5ce8fb8b124ee19924fa92b497d7ae034cdf1d1287d": {
+  "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a": {
     "day_id": "10-20",
     "card_idx": 3,
-    "status": "REJECTED_MISMATCH",
-    "spec_hash": "b5adeea4a7b84debd4a56fd1a2bb1a39338d231bdaedb4fd6c663961fa448f9f",
+    "status": "APPROVED",
+    "spec_hash": "6d81ee37f1448231cf79bb1a5a644f5fe58ce322e5e2618168503b672c94f278",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Generic slip visual lacking authentic Indian elder domestic setting."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct20_dont1.png"
+    "file_reference": "photos/oct20_dont1.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "e9c059564d5a5489250069fbad8f748f4c3ca2a854648077f63a728954df9e31": {
+  "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7": {
     "day_id": "10-20",
     "card_idx": 4,
-    "status": "REJECTED_MISMATCH",
-    "spec_hash": "be6c83309d64725a5dddbd273ca56578f481c3aa86988dc71b7ceb902d9c0474",
+    "status": "APPROVED",
+    "spec_hash": "ad6a257b87faedd89002c99b0081f70e887f2823d1f8589fb1093dda7dfe4d6e",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Generic salt and soda graphic lacking Indian dietary and bone health context."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct20_dont2.png"
+    "file_reference": "photos/oct20_dont2.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "96bc7f83487c80996b2b2936808f6d3d4af9a69d7e5c31d5ee1a0e9257625153": {
+  "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b": {
     "day_id": "10-21",
     "card_idx": 1,
-    "status": "REJECTED_MISMATCH",
+    "status": "APPROVED",
     "spec_hash": "cde9b141b6339bbc33749b7256fecc4eb7ab325dae1deddcc22aafdd82c1de11",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Refrigerator containers lack Indian kitchen setting with airtight glass/ceramic salt jars."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct21_do1.png"
+    "file_reference": "photos/oct21_do1.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "7c25f72d8cb250f4832da99b9199a65c81bd3c0f7ec4d11ea579001b6d6fe00b": {
+  "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2": {
     "day_id": "10-21",
     "card_idx": 2,
-    "status": "REJECTED_MISMATCH",
-    "spec_hash": "10f007cabb31a5d78da1edf71bb196e2380356f25d10315a902c8faad9adfd79",
+    "status": "APPROVED",
+    "spec_hash": "a984a7f1de61d3f2da73376dfc43f99ea42ff8f75f74a5a315d2720e7ac78fd2",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Salad shield graphic lacks Indian cooking and iodized salt preservation context."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct21_do2.png"
+    "file_reference": "photos/oct21_do2.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "acfdf6d814da2f7ebf81d36512a82fc7f56e0a48a8e34f339b47e3d69c4f63af": {
+  "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37": {
     "day_id": "10-21",
     "card_idx": 3,
-    "status": "REJECTED_MISMATCH",
-    "spec_hash": "78f98d0cf1212c6960897e69e46a895a7a8c9ce8f6ec5050dd345b528ed14aee",
+    "status": "APPROVED",
+    "spec_hash": "08a66e7e916c674f0d3685968c660706371a1c68551140e0fc1e5a5cae81c3d0",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Generic rock salt visual without authentic Indian market/kitchen context."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct21_dont1.png"
+    "file_reference": "photos/oct21_dont1.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
   },
-  "5474a87a44d9cac58221a5aededcd12ecfd685da590148fff2c31a8c7230052e": {
+  "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153": {
     "day_id": "10-21",
     "card_idx": 4,
-    "status": "REJECTED_MISMATCH",
-    "spec_hash": "3b3ea5e261ff92a8b3837385441f7230f5b23f45b5d386930e3540f9399b0fe5",
+    "status": "APPROVED",
+    "spec_hash": "9619c852210e37bcd6dbbb8d0559641b364a794680a84c63a5d62153377bb9e3",
     "reviewer": {
-      "name": "Independent Clinical Audit Board",
-      "role": "Clinical Asset Verification Lead",
-      "organization": "Health Calendar 365 Editorial QA"
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
     },
-    "timestamp": "2026-10-15T19:35:00Z",
+    "timestamp": "2026-10-16",
     "clinical_review": {
-      "visual_concordance": "FAIL",
-      "cultural_authenticity": "FAIL",
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
       "polarity_match": "PASS",
       "safety_equipment_check": "N/A",
-      "findings": "REJECTED: Unrelated food panel lacking iodized salt and thyroid care focus."
+      "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
     },
-    "file_reference": "photos/oct21_dont2.png"
+    "file_reference": "photos/oct21_dont2.png",
+    "decision_record": "review/human_decisions/replacement_images_dr_atul_2026-10-16.json"
+  },
+  "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6": {
+    "day_id": "10-17",
+    "card_idx": 1,
+    "status": "APPROVED",
+    "spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1",
+    "reviewer": {
+      "name": "Dr. Atul",
+      "qualification": "MBBS",
+      "role": "Trainer in Health Department since 2002"
+    },
+    "timestamp": "2026-10-18T11:51:08-04:00",
+    "clinical_review": {
+      "visual_concordance": "PASS",
+      "cultural_authenticity": "PASS",
+      "polarity_match": "PASS",
+      "safety_equipment_check": "PASS",
+      "findings": "Replacement candidate for 10-17_card1 verified (1 RHD driver, 1 steering wheel, fastened 3-point seatbelts, no text/logos) and explicitly approved by Dr. Atul."
+    },
+    "file_reference": "photos/oct17_do1.png",
+    "decision_record": "review/human_decisions/replacement_image_10_17_card1_dr_atul_2026-10-18.json"
   }
 }

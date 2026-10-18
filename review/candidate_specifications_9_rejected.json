@@ -187,19 +187,19 @@
       "card_idx": 4,
       "status": "BLOCKED_PENDING_COPY_APPROVAL",
       "copy_dependency": "REQUIRES_APPROVAL_OF_STAGED_TITLE_10_21_CARD4",
-      "staged_title_en": "Protect Salt from Direct Stove Heat & Moisture",
-      "staged_title_gu": "મીઠાની બરણી ગેસની જ્વાળા અને ભેજથી દૂર રાખો",
-      "rejection_reason": "Visual Concordance FAIL: Unrelated food panel lacking iodized salt storage and thermal degradation focus; title/desc conflict.",
-      "clinical_intent": "Environmental protection: keeping iodized salt container sealed in a dry pantry away from radiant stove heat.",
+      "staged_title_en": "Keep Iodized Salt Dry & Covered",
+      "staged_title_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+      "rejection_reason": "Visual Concordance FAIL: Unrelated food panel lacking dry, covered iodized-salt storage context.",
+      "clinical_intent": "Keep iodized salt tightly covered and protected from moisture in a cool, dry storage area.",
       "clinical_safety_rules": [
-        "Demonstrate correct storage distance: salt jar kept in a dry pantry cupboard away from stove burners.",
+        "Show iodized salt in a tightly closed container on a clean, cool, dry pantry shelf.",
         "Generation blocked until clinician signs off on staged title."
       ],
       "candidate_spec": {
         "aspect_ratio": "4:3",
         "minimum_dimensions": "720x540",
         "target_filename": "photos/staging/candidate_10_21_card4_v1.png",
-        "prompt": "Ultra-photorealistic 4:3 photograph showing proper salt storage in an Indian kitchen: a neatly sealed ceramic salt container placed inside a cool, dry, well-ventilated wooden pantry cabinet, at a safe distance away from the hot gas cooking range visible in the soft background. Clean, authentic Indian home kitchen, warm natural lighting, 8k resolution. No logos, no text."
+        "prompt": "Ultra-photorealistic 4:3 photograph showing proper iodized-salt storage in an Indian kitchen: a tightly closed ceramic or glass salt container placed on a clean, cool, dry pantry shelf protected from moisture. Authentic Indian home setting, warm natural lighting, 8k editorial quality. No logos or text."
       }
     }
   ]

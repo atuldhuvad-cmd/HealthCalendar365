@@ -1204,4 +1204,105 @@ input:checked + .toggle-slider:before {
   box-shadow: 0 0 14px rgba(56, 189, 248, 0.4);
 }
 
+/* -------------------------------------------------------------
+ * 10. RESPONSIVE BREAKPOINTS (MOBILE & TABLET ADAPTATION)
+ * ----------------------------------------------------------- */
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 12px;
+    gap: 10px;
+  }
+  .header-left {
+    justify-content: center;
+    text-align: center;
+  }
+  .header-center {
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+  }
+  .header-right {
+    display: flex;
+    justify-content: center;
+  }
+  .studio-layout {
+    grid-template-columns: 1fr;
+    padding: 12px;
+    gap: 16px;
+  }
+  .preview-column {
+    padding: 12px;
+  }
+  .sidebar-column {
+    max-height: none;
+    padding: 14px;
+  }
+  .export-action-bar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .quick-week-bar {
+    flex-wrap: wrap;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  .quick-week-scroll {
+    order: 3;
+    width: 100%;
+    flex: 1 1 100%;
+  }
+  .date-search-box {
+    flex: 1;
+    min-width: 140px;
+  }
+  .date-select {
+    width: 100%;
+    max-width: none;
+  }
+  .preview-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .toolbar-left {
+    display: flex;
+    gap: 6px;
+  }
+  .toolbar-center {
+    order: 3;
+    width: 100%;
+    text-align: center;
+  }
+  .multi-observance-bar {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .segmented-control {
+    width: 100%;
+  }
+  .seg-btn {
+    padding: 5px 6px;
+    font-size: 0.72rem;
+    gap: 4px;
+  }
+  .seg-badge {
+    display: none;
+  }
+  .btn-tool {
+    padding: 4px 8px;
+    font-size: 0.72rem;
+  }
+  .format-indicator {
+    font-size: 0.72rem;
+    padding: 3px 8px;
+  }
+}
+
 

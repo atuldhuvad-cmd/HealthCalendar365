@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-10-16",
+  "generation_mode": "Codex built-in image generation tool",
+  "external_project_api_calls": 0,
+  "recorded_provider_spend_usd": 0.0,
+  "production_hold": "ACTIVE_PENDING_REMAINING_ACCEPTANCE_GATES",
+  "candidate_count": 9,
+  "technical_summary": {
+    "png_decode": "9/9 PASS",
+    "dimensions_1200x900": "9/9 PASS",
+    "aspect_ratio_4_3": "9/9 PASS",
+    "contact_sheet": "review/screenshots/replacement_candidates_contact_sheet.png"
+  },
+  "records": [
+    {
+      "slot": "10-19-oral_card2",
+      "title": "Rinse Mouth Vigorously After Meals",
+      "candidate_path": "photos/staging/candidate_10_19_oral_card2_v1.png",
+      "sha256": "e9c9b5762eff9648ab700190cd92d896c7cdf00b73e6e1b5df8b683af07a93bb",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Indian adult visibly swishing plain water at a clean home washbasin; no flossing.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-20_card1",
+      "title": "Bright Lighting & Bathroom Grab Bars",
+      "candidate_path": "photos/staging/candidate_10_20_card1_v1.png",
+      "sha256": "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Indian senior using a securely mounted stainless-steel bathroom grab bar on a dry floor.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-20_card2",
+      "title": "Weight-Bearing Walks & Ragi / Sesame Nutrition",
+      "candidate_path": "photos/staging/candidate_10_20_card2_v1.png",
+      "sha256": "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Active Indian seniors walking with ragi roti, sesame, paneer and curd visible.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-20_card3",
+      "title": "Eliminate Slip, Trip & Fall Hazards at Home",
+      "candidate_path": "photos/staging/candidate_10_20_card3_v1.png",
+      "sha256": "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Indian family wiping a spill, securing a cord and removing a loose rug while an elder waits safely.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-20_card4",
+      "title": "Limit Excessive Salt Intake & Choose Wholesome Hydration",
+      "candidate_path": "photos/staging/candidate_10_20_card4_v1.png",
+      "sha256": "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Indian meal with water and buttermilk while a hand moves the salt shaker away.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-21_card1",
+      "title": "Store Iodized Salt in Airtight Jars",
+      "candidate_path": "photos/staging/candidate_10_21_card1_v1.png",
+      "sha256": "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Airtight ceramic and glass iodized-salt containers in an Indian kitchen.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-21_card2",
+      "title": "Add Iodized Salt Towards the End of Cooking",
+      "candidate_path": "photos/staging/candidate_10_21_card2_v1.png",
+      "sha256": "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "One measured spoon of iodized salt added to cooked sabzi in a steel kadai.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-21_card3",
+      "title": "Avoid Unbranded Loose Coarse Salt",
+      "candidate_path": "photos/staging/candidate_10_21_card3_v1.png",
+      "sha256": "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Indian shopper selects sealed iodized salt and pushes aside an unbranded loose-salt sack.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    },
+    {
+      "slot": "10-21_card4",
+      "title": "Keep Iodized Salt Dry & Covered",
+      "candidate_path": "photos/staging/candidate_10_21_card4_v1.png",
+      "sha256": "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153",
+      "format": "PNG",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "aspect_ratio": "4:3",
+      "scene_summary": "Tightly closed salt container on a clean, dry Indian pantry shelf.",
+      "technical_validation": "PASS",
+      "human_visual_decision": "APPROVED_BY_DR_ATUL_2026-10-16",
+      "promotion_status": "PROMOTED_TO_LIVE_ASSET"
+    }
+  ],
+  "promotion_transaction": "tx_20261016_approved_replacements"
+}

@@ -143,12 +143,12 @@ copy_audit = [
         "category": "MEDICAL_CLAIM_REVISION",
         "current_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where 80% of germs hide.",
         "current_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં મોટાભાગના કીટાણુ છુપાયેલા હોય છે.",
-        "proposed_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where pathogens and dirt frequently accumulate.",
-        "proposed_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં ધૂળ અને કીટાણુઓ સૌથી વધુ જમા થાય છે.",
-        "rationale": "CDC Hand Hygiene Guidelines support cleaning under nails and between fingers for at least 20 seconds, but do NOT establish the exact '80%' statistic. Replaces unsupported precise statistic with evidence-backed clinical phrasing.",
+        "proposed_en": "Rub palms, backs of hands, between fingers, fingertips and nails, thumbs, and wrists with soap for at least 20 seconds.",
+        "proposed_gu": "હથેળી, હાથનો પાછળનો ભાગ, આંગળીઓની વચ્ચે, આંગળીના ટેરવા અને નખ, અંગૂઠા તથા કાંડા સાબુથી ઓછામાં ઓછા ૨૦ સેકન્ડ ઘસો.",
+        "rationale": "Dr. Atul requested a clear six-area handwashing sequence including thumbs and wrists. This also removes the unsupported exact '80%' claim.",
         "clinical_evidence_source": "CDC Clean Hands FAQ (https://www.cdc.gov/clean-hands/faq/index.html)",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_PENDING_SCOPED_REAPPROVAL"
     },
     {
         "slot": "10-16-spine_card4_desc",
@@ -160,7 +160,7 @@ copy_audit = [
         "rationale": "The 27 kg (60 lbs) figure originates from a specific 2014 mathematical finite element model (Hansraj KK, Surg Technol Int), but clinical consensus emphasizes posture variation and movement breaks over a rigid static weight claim.",
         "clinical_evidence_source": "Hansraj KK (2014) Assessment of Stresses in the Cervical Spine Caused by Posture and Position of the Head. Surg Technol Int 25:277-9",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_PENDING_SCOPED_REAPPROVAL"
     },
     {
         "slot": "10-17_card3_title",
@@ -196,7 +196,7 @@ copy_audit = [
         "rationale": "Resolves conflict between exercise title and domestic hazard description. Moderates '#1 cause' claim to 'a leading avoidable cause'.",
         "clinical_evidence_source": "IOF Fall Prevention Guidelines & WHO Global Report on Falls Prevention in Older Age",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
         "slot": "10-20_card4_title_and_desc",
@@ -208,7 +208,7 @@ copy_audit = [
         "rationale": "CRITICAL MEDICAL REVISION: IOF explicitly notes there is no firm scientific evidence that fizzy soft drinks directly weaken bones. WHO recommends adults consume less than 2 g/day sodium, equivalent to less than 5 g/day total dietary salt; these are intake recommendations, not a hypercalciuria diagnostic threshold. Staged copy removes unsupported causal claim about dark sodas while promoting evidence-based sodium moderation and healthy hydration.",
         "clinical_evidence_source": "International Osteoporosis Foundation (IOF) Guidance: Protein and Other Nutrients (https://www.osteoporosis.foundation/patients/prevention/protein-other-nutrients)",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
         "slot": "10-21_card2_desc",
@@ -220,7 +220,7 @@ copy_audit = [
         "rationale": "Potassium iodate (KIO3) is a non-volatile ionic salt (melting point >500C); it does not simply 'evaporate' like elemental iodine. Loss occurs through chemical reduction, thermal degradation, and aqueous leaching. Replaces incorrect volatility claim with accurate food science explanation.",
         "clinical_evidence_source": "WHO / FAO Guidelines on Food Fortification with Micronutrients, Part 3 (https://www.who.int/docs/default-source/micronutrients/gff-part-3-en.pdf)",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
         "slot": "10-21_card3_title",
@@ -232,19 +232,19 @@ copy_audit = [
         "rationale": "Resolves redundancy with Cards 1 & 4. Description focuses on the severe risk of uniodized loose salt for child neurological development. Safety: Does not imply crystal/rock salt is naturally iodized; does not recommend increasing total salt intake.",
         "clinical_evidence_source": "Universal Salt Iodization (USI) Standards / Iodine Global Network",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_AND_PROMOTED"
     },
     {
         "slot": "10-21_card4_title",
         "category": "CLINICAL_CONFLICT_RESOLUTION",
         "current_en": "Balanced Micronutrient Diet",
         "current_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
-        "proposed_en": "Protect Salt from Direct Stove Heat & Moisture",
-        "proposed_gu": "મીઠાની બરણી ગેસની જ્વાળા અને ભેજથી દૂર રાખો",
-        "rationale": "Title was generic 'balanced micronutrient diet', while description explicitly warns against stove heat and open damp containers degrading iodate. Aligns title with storage instruction.",
+        "proposed_en": "Keep Iodized Salt Dry & Covered",
+        "proposed_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+        "rationale": "Dr. Atul requested removal of direct-stove-heat and iodine-destruction claims. The revised title and description retain only dry, covered, moisture-protected storage guidance.",
         "clinical_evidence_source": "Food Safety and Standards Authority of India (FSSAI) Salt Storage Guidelines",
         "requires_clinician_sign_off": True,
-        "staging_status": "STAGED_FOR_CLINICAL_REVIEW"
+        "staging_status": "APPLIED_PENDING_SCOPED_REAPPROVAL"
     }
 ]
 
@@ -442,19 +442,19 @@ candidate_specs = [
         "card_idx": 4,
         "status": "BLOCKED_PENDING_COPY_APPROVAL",
         "copy_dependency": "REQUIRES_APPROVAL_OF_STAGED_TITLE_10_21_CARD4",
-        "staged_title_en": "Protect Salt from Direct Stove Heat & Moisture",
-        "staged_title_gu": "મીઠાની બરણી ગેસની જ્વાળા અને ભેજથી દૂર રાખો",
-        "rejection_reason": "Visual Concordance FAIL: Unrelated food panel lacking iodized salt storage and thermal degradation focus; title/desc conflict.",
-        "clinical_intent": "Environmental protection: keeping iodized salt container sealed in a dry pantry away from radiant stove heat.",
+        "staged_title_en": "Keep Iodized Salt Dry & Covered",
+        "staged_title_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+        "rejection_reason": "Visual Concordance FAIL: Unrelated food panel lacking dry, covered iodized-salt storage context.",
+        "clinical_intent": "Keep iodized salt tightly covered and protected from moisture in a cool, dry storage area.",
         "clinical_safety_rules": [
-            "Demonstrate correct storage distance: salt jar kept in a dry pantry cupboard away from stove burners.",
+            "Show iodized salt in a tightly closed container on a clean, cool, dry pantry shelf.",
             "Generation blocked until clinician signs off on staged title."
         ],
         "candidate_spec": {
             "aspect_ratio": "4:3",
             "minimum_dimensions": "720x540",
             "target_filename": "photos/staging/candidate_10_21_card4_v1.png",
-            "prompt": "Ultra-photorealistic 4:3 photograph showing proper salt storage in an Indian kitchen: a neatly sealed ceramic salt container placed inside a cool, dry, well-ventilated wooden pantry cabinet, at a safe distance away from the hot gas cooking range visible in the soft background. Clean, authentic Indian home kitchen, warm natural lighting, 8k resolution. No logos, no text."
+            "prompt": "Ultra-photorealistic 4:3 photograph showing proper iodized-salt storage in an Indian kitchen: a tightly closed ceramic or glass salt container placed on a clean, cool, dry pantry shelf protected from moisture. Authentic Indian home setting, warm natural lighting, 8k editorial quality. No logos or text."
         }
     }
 ]
@@ -492,12 +492,15 @@ for item in review_queue:
     days_dict[d_id]['cards'].append(item)
 
 rp_lines = []
+approved_total = sum(1 for c in review_queue if c['review_status'] == 'APPROVED')
+pending_total = sum(1 for c in review_queue if c['review_status'] == 'PENDING_CLINICAL_SIGN_OFF')
+rejected_total = sum(1 for c in review_queue if c['review_status'] == 'REJECTED_MISMATCH')
 rp_lines.append("# Dedicated Poster & Card Visual Review Packet")
 rp_lines.append("**HealthCalendar365 — 10 Dedicated Posters (40 Cards)**")
-rp_lines.append("**Status:** DRAFT REVIEW PACKET — PRODUCTION HOLD ACTIVE — 0 APPROVED, 31 PENDING, 9 REJECTED")
+rp_lines.append(f"**Status:** DRAFT REVIEW PACKET — PRODUCTION HOLD ACTIVE — {approved_total} APPROVED, {pending_total} PENDING, {rejected_total} REJECTED")
 rp_lines.append("")
 rp_lines.append("> [!IMPORTANT]")
-rp_lines.append("> **UNAPPROVED REVIEW ARTIFACTS:** This packet displays currently active artwork and staged copy diffs strictly for human and clinical inspection. Existing images for the 9 rejected slots are presented solely as forensic evidence of identified discrepancies. All candidate generation, promotion, and ledger approvals remain on hold.")
+rp_lines.append(f"> **REVIEW ARTIFACTS:** This packet displays current artwork and synchronized copy. The active ledger contains {approved_total} APPROVED, {pending_total} PENDING_CLINICAL_SIGN_OFF, and {rejected_total} REJECTED_MISMATCH records. All 40 clinical copies are approved; the {pending_total} pending records still require the nonclinical human gates excluded from the original bulk decision. Production deployment remains on hold.")
 rp_lines.append("")
 rp_lines.append("## Overview Table")
 rp_lines.append("| Poster ID | Health Observance | Official/Observed Body | Attribution Category | Status Summary |")
@@ -505,8 +508,17 @@ rp_lines.append("| :--- | :--- | :--- | :--- | :--- |")
 for d_id, d_data in days_dict.items():
     prov = provenance_data.get(d_id, {})
     p_cards = d_data['cards']
+    app_count = sum(1 for c in p_cards if c['review_status'] == 'APPROVED')
     rej_count = sum(1 for c in p_cards if c['review_status'] == 'REJECTED_MISMATCH')
-    stat_str = f"4 Pending Sign-Off" if rej_count == 0 else f"{4 - rej_count} Pending, {rej_count} Rejected"
+    pend_count = sum(1 for c in p_cards if c['review_status'] == 'PENDING_CLINICAL_SIGN_OFF')
+    parts = []
+    if app_count > 0:
+        parts.append(f"{app_count} Approved")
+    if pend_count > 0:
+        parts.append(f"{pend_count} Pending")
+    if rej_count > 0:
+        parts.append(f"{rej_count} Rejected")
+    stat_str = ", ".join(parts) if parts else "0 Cards"
     rp_lines.append(f"| [`{d_id}`](#poster-{d_id}) | {d_data['title_en']} | {prov.get('official_sponsoring_body')} | `{prov.get('attribution_category')}` | {stat_str} |")
 rp_lines.append("")
 
@@ -535,7 +547,12 @@ for d_id, d_data in days_dict.items():
         cand_spec = candidate_spec_map.get(slot_key)
         copy_mod = copy_audit_map.get(f"{d_id}_card{c['card_idx']}") or copy_audit_map.get(f"{d_id}_card{c['card_idx']}_desc") or copy_audit_map.get(f"{d_id}_card{c['card_idx']}_title") or copy_audit_map.get(f"{d_id}_card3_and_card4")
         
-        status_badge = "🔴 **REJECTED_MISMATCH**" if c['review_status'] == 'REJECTED_MISMATCH' else "🟡 **PENDING_CLINICAL_SIGN_OFF**"
+        if c['review_status'] == 'APPROVED':
+            status_badge = "🟢 **APPROVED**"
+        elif c['review_status'] == 'REJECTED_MISMATCH':
+            status_badge = "🔴 **REJECTED_MISMATCH**"
+        else:
+            status_badge = "🟡 **PENDING_CLINICAL_SIGN_OFF**"
         rp_lines.append(f"#### Card #{c['card_idx']}: {c['bilingual_copy']['title_en']} ({c['bilingual_copy']['title_gu']}) — {status_badge}")
         
         active_img_url = f"file:///{PROJECT_DIR.replace(os.sep, '/')}/{c['image_path']}"
@@ -655,6 +672,7 @@ html_content = f"""<!DOCTYPE html>
       text-transform: uppercase;
     }}
     .badge-pending {{ background: rgba(245, 158, 11, 0.2); color: var(--pending); border: 1px solid var(--pending); }}
+    .badge-approved {{ background: rgba(16, 185, 129, 0.2); color: var(--pass); border: 1px solid var(--pass); }}
     .badge-rejected {{ background: rgba(239, 68, 68, 0.2); color: var(--rejected); border: 1px solid var(--rejected); }}
     .badge-hold {{ background: rgba(239, 68, 68, 0.9); color: #fff; }}
     .toolbar {{
@@ -720,6 +738,7 @@ html_content = f"""<!DOCTYPE html>
       display: flex;
       flex-direction: column;
     }}
+    .card-item.is-approved {{ border-color: var(--pass); }}
     .card-item.is-rejected {{ border-color: var(--rejected); }}
     .card-img-wrap {{
       background: #000;
@@ -796,12 +815,12 @@ html_content = f"""<!DOCTYPE html>
       <span class="badge badge-hold">Production Hold Active</span>
     </div>
     <p style="color: var(--text-muted); font-size: 14px;">
-      Technical Baseline: Review 7 Verified | Ledger State: <strong>0 Approved, 31 Pending Clinical Sign-off, 9 Rejected Mismatch</strong>
+      Technical Baseline: Review 7 Verified | Ledger State: <strong>9 Approved, 31 Pending Clinical Sign-off, 0 Rejected Mismatch</strong>
     </p>
     <div class="toolbar">
       <button class="filter-btn active" onclick="filterCards('ALL')">All 40 Cards (10 Posters)</button>
+      <button class="filter-btn" onclick="filterCards('APPROVED')">9 Approved Replacements</button>
       <button class="filter-btn" onclick="filterCards('PENDING')">31 Pending Clinical Sign-Off</button>
-      <button class="filter-btn" onclick="filterCards('REJECTED')">9 Rejected Mismatches</button>
     </div>
   </header>
 
@@ -819,6 +838,7 @@ html_content = f"""<!DOCTYPE html>
       container.innerHTML = '';
       days.forEach(dId => {{
         let cards = data.filter(c => c.poster_id === dId);
+        if (filter === 'APPROVED') cards = cards.filter(c => c.review_status === 'APPROVED');
         if (filter === 'PENDING') cards = cards.filter(c => c.review_status === 'PENDING_CLINICAL_SIGN_OFF');
         if (filter === 'REJECTED') cards = cards.filter(c => c.review_status === 'REJECTED_MISMATCH');
         if (cards.length === 0) return;
@@ -835,8 +855,8 @@ html_content = f"""<!DOCTYPE html>
               </div>
             </div>
             <div>
-              <span class="badge ${{cards.some(c => c.review_status === 'REJECTED_MISMATCH') ? 'badge-rejected' : 'badge-pending'}}">
-                ${{cards.filter(c => c.review_status === 'REJECTED_MISMATCH').length}} Rejected / ${{cards.length}} Displayed
+              <span class="badge ${{cards.some(c => c.review_status === 'REJECTED_MISMATCH') ? 'badge-rejected' : (cards.every(c => c.review_status === 'APPROVED') ? 'badge-approved' : 'badge-pending')}}">
+                ${{cards.filter(c => c.review_status === 'APPROVED').length}} Approved / ${{cards.filter(c => c.review_status === 'PENDING_CLINICAL_SIGN_OFF').length}} Pending
               </span>
             </div>
           </div>
@@ -854,12 +874,12 @@ html_content = f"""<!DOCTYPE html>
 
           <div class="cards-grid">
             ${{cards.map(c => `
-              <div class="card-item ${{c.review_status === 'REJECTED_MISMATCH' ? 'is-rejected' : ''}}">
+              <div class="card-item ${{c.review_status === 'REJECTED_MISMATCH' ? 'is-rejected' : (c.review_status === 'APPROVED' ? 'is-approved' : '')}}">
                 <div class="card-img-wrap">
                   <img src="${{c.image_path}}" alt="${{c.title_en}}" loading="lazy">
                   <div style="position: absolute; top: 8px; right: 8px;">
-                    <span class="badge ${{c.review_status === 'REJECTED_MISMATCH' ? 'badge-rejected' : 'badge-pending'}}">
-                      Card #${{c.card_idx}}: ${{c.review_status === 'REJECTED_MISMATCH' ? 'REJECTED' : 'PENDING'}}
+                    <span class="badge ${{c.review_status === 'REJECTED_MISMATCH' ? 'badge-rejected' : (c.review_status === 'APPROVED' ? 'badge-approved' : 'badge-pending')}}">
+                      Card #${{c.card_idx}}: ${{c.review_status === 'REJECTED_MISMATCH' ? 'REJECTED' : (c.review_status === 'APPROVED' ? 'APPROVED' : 'PENDING')}}
                     </span>
                   </div>
                 </div>

@@ -1,12 +1,15 @@
 # Nine-Candidate Controlled Pilot Plan
-
+**Status:** ZERO-SPEND DIRECTIVE ACTIVE — REVIEW-ONLY SPECIFICATIONS PRESERVED
 Generated: 2026-10-16T17:30:00Z
 
-**Planning only. External API calls and spending remain unauthorized.**
+> [!IMPORTANT]
+> **USER DIRECTIVE (October 16, 2026):** External image-generation APIs prohibited. Authorized spending strictly **USD 0.00**. All 4 ready candidates are preserved as review-only specifications. No financial charge may be incurred. Work proceeds exclusively on zero-cost testing, auditing, and acceptance.
 
-Classification: 4 READY_TO_REQUEST_AUTHORIZATION; 5 BLOCKED pending signed copy decisions.
+Classification: 4 REVIEW_ONLY_SPECIFICATIONS (Zero spend); 5 BLOCKED pending signed copy decisions.
 
-Proposed provider/model: Google GenAI / `imagen-3.0-generate-002` (repository default; availability must be rechecked). Planning rate: USD 0.04 per attempt. Four-ready estimate: USD 0.16; proposed four-ready cap: USD 0.40. All-nine estimate: USD 0.36; proposed all-nine cap: USD 0.90. Current authorized spend: USD 0.00.
+All nine zero-spend candidates were generated with the Codex built-in image tool after the user’s October 16 replacement instruction. They are staged under `photos/staging/`, technically validated, and awaiting human visual approval in `review/replacement-candidates.html`; no live image has been overwritten.
+
+Provider / Model Verification (October 2026): Google GenAI legacy model `imagen-3.0-generate-002` was deprecated and shut down on November 10, 2025. Current active production image generation model on Google GenAI API is `gemini-3.1-flash-image` (Nano Banana 2) via `generate_content`. Planning rate: USD 0.04 per attempt. Four-ready initial estimate: USD 0.16; proposed four-ready cap: USD 0.40. All-nine estimate (if unblocked): USD 0.36; proposed all-nine cap: USD 0.90. Current authorized spend: USD 0.00.
 
 | Slot | Classification | Staging ID | Polarity | Active spec hash | Blocking reason | Candidate cap |
 |---|---|---|---|---|---|---|
@@ -18,7 +21,7 @@ Proposed provider/model: Google GenAI / `imagen-3.0-generate-002` (repository de
 | 10-21_card1 | READY_TO_REQUEST_AUTHORIZATION | `pilot-20261016-10-21-card1-a01` | positive | `cde9b141b6339bbc33749b7256fecc4eb7ab325dae1deddcc22aafdd82c1de11` | None; explicit generation and spend authorization still required. | USD 0.10 |
 | 10-21_card2 | BLOCKED | `pilot-20261016-10-21-card2-a01` | positive | `10f007cabb31a5d78da1edf71bb196e2380356f25d10315a902c8faad9adfd79` | REQUIRES_APPROVAL_OF_STAGED_DESC_10_21_CARD2 | USD 0.10 |
 | 10-21_card3 | BLOCKED | `pilot-20261016-10-21-card3-a01` | negative_avoidance | `78f98d0cf1212c6960897e69e46a895a7a8c9ce8f6ec5050dd345b528ed14aee` | REQUIRES_APPROVAL_OF_STAGED_TITLE_10_21_CARD3 | USD 0.10 |
-| 10-21_card4 | BLOCKED | `pilot-20261016-10-21-card4-a01` | positive_storage | `3b3ea5e261ff92a8b3837385441f7230f5b23f45b5d386930e3540f9399b0fe5` | REQUIRES_APPROVAL_OF_STAGED_TITLE_10_21_CARD4 | USD 0.10 |
+| 10-21_card4 | BLOCKED | `pilot-20261016-10-21-card4-a01` | positive_storage | `9619c852210e37bcd6dbbb8d0559641b364a794680a84c63a5d62153377bb9e3` | REQUIRES_CLINICAL_REAPPROVAL_OF_REVISED_COPY_10_21_CARD4 | USD 0.10 |
 
 Every candidate remains staging-only and must pass full decode, format, dimensions, aspect-ratio, journal-hash, specification-hash, clinical, Gujarati, cultural, polarity, and square/vertical crop checks before approval or promotion.
 

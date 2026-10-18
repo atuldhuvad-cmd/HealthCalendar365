@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "transition_type": "clinical_decision_scope_transition_after_copy_changes",
+  "original_decision_record": "review/human_decisions/clinical_dr_atul_2026-10-16.json",
+  "original_binding_snapshot": "review/human_decisions/clinical_dr_atul_2026-10-16_card_bindings.json",
+  "original_payload_manifest_sha256": "82b9e91823e983f263945dc7f53fcdc64de66dde84b32ff1b5a9da64770193ce",
+  "current_payload_manifest_sha256": "b134ce09922adebefcdde74cad18bd447e1700030efdcf8f712cbf9962f9b64e",
+  "invalidated_slots": {
+    "10-15_card2": {
+      "reason": "Dr. Atul requested six handwashing areas including thumbs and wrists.",
+      "old_spec_hash": "be9f738cf477c859bcefed991ec841306caef3a22638a3634b64c6091afe09d2",
+      "new_spec_hash": "4f6b8cf63cc3f097a6e18a9f52974a2bcca2f9a59b79af3b567eaa52b13d7246",
+      "clinical_status": "PENDING_SCOPED_REAPPROVAL"
+    },
+    "10-16-spine_card4": {
+      "reason": "Dr. Atul requested removal of the 27 kg claim from the mobile-use message.",
+      "old_spec_hash": "05f78b505c1c5ca90377f1456818692684b6bfcb3ccb367758c87b8bb0f53109",
+      "new_spec_hash": "5e5dfd6485ce70f7f5a21d75648de82d77d03b0b1e620c23f4d87494ca1dba77",
+      "clinical_status": "PENDING_SCOPED_REAPPROVAL"
+    },
+    "10-17_card1": {
+      "reason": "Dr. Atul requested changing “Wear ISI” to “Wear ISI marked”; English and Gujarati helmet wording was revised accordingly.",
+      "old_spec_hash": "5cdd825b1e7da8389c2488748dd92af3be2e2eb0f7c4da7cbda543a0e3ddabf8",
+      "new_spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1",
+      "clinical_status": "PENDING_SCOPED_REAPPROVAL"
+    },
+    "10-18_card4": {
+      "reason": "Dr. Atul identified that the Gujarati phrase was not a proper translation of “Excess tea, coffee”; the Gujarati description was revised for semantic agreement.",
+      "old_spec_hash": "94397f02f4d2635559003534c32c4c86f24e47de18e94e199d6d361d2a5dee7a",
+      "new_spec_hash": "8872071b598820b71e714324724ec0c6bba4e30e2dd9073457e1f331581cf42c",
+      "clinical_status": "PENDING_SCOPED_REAPPROVAL"
+    }
+  },
+  "carried_forward_slots": [
+    "10-15-cane_card1",
+    "10-15-cane_card2",
+    "10-15-cane_card3",
+    "10-15-cane_card4",
+    "10-15_card1",
+    "10-15_card3",
+    "10-15_card4",
+    "10-16-spine_card1",
+    "10-16-spine_card2",
+    "10-16-spine_card3",
+    "10-16_card1",
+    "10-16_card2",
+    "10-16_card3",
+    "10-16_card4",
+    "10-17_card2",
+    "10-17_card3",
+    "10-17_card4",
+    "10-18_card1",
+    "10-18_card2",
+    "10-18_card3",
+    "10-19-oral_card1",
+    "10-19-oral_card3",
+    "10-19-oral_card4",
+    "10-19_card1",
+    "10-19_card2",
+    "10-19_card3",
+    "10-19_card4"
+  ],
+  "carry_forward_rule": "Only cards whose image hash and canonical specification hash remain identical to the immutable decision binding snapshot retain the earlier clinical APPROVE decision.",
+  "nonclinical_decisions_unchanged": "All Gujarati, provenance, visual, spending, promotion, and release decisions remain unresolved.",
+  "carried_forward_count": 27,
+  "invalidated_count": 4
+}

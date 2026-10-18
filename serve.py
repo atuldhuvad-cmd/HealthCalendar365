@@ -8,6 +8,8 @@ Features:
 5. Provides clickable fallback URLs in console.
 """
 
+import argparse
+import functools
 import http.server
 import mimetypes
 import os
@@ -71,17 +73,72 @@ def find_best_port(host="127.0.0.1"):
         s.bind((host, 0))
         return s.getsockname()[1]
 
+def get_lan_ip():
+    """Detect the local machine's primary LAN IPv4 address."""
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("8.8.8.8", 80))
+        return s.getsockname()[0]
+    except Exception:
+        try:
+            return socket.gethostbyname(socket.gethostname())
+        except Exception:
+            return "127.0.0.1"
+    finally:
+        s.close()
+
 def main():
-    host = "127.0.0.1"
-    port = find_best_port(host)
-    url = f"http://{host}:{port}/index.html"
+    parser = argparse.ArgumentParser(
+        description="Robust Local Development Server for 365-Day Health Poster Studio (India)"
+    )
+    parser.add_argument(
+        "--host",
+        default="127.0.0.1",
+        help="Host interface to bind to (default: 127.0.0.1, use 0.0.0.0 for LAN testing)"
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=None,
+        help="Port to listen on (default: auto-detect best available)"
+    )
+    parser.add_argument(
+        "--root",
+        default=PROJECT_DIR,
+        help="Directory to serve (default: project root)"
+    )
+    args = parser.parse_args()
+
+    host = args.host
+    root = os.path.abspath(args.root)
+    if not os.path.isdir(root):
+        print(f"[ERROR] Specified root directory does not exist: {root}")
+        sys.exit(1)
+    os.chdir(root)
+
+    port = args.port if args.port is not None else find_best_port(host)
+    desktop_url = f"http://127.0.0.1:{port}/index.html"
 
     print("=" * 65)
     print("   365-Day Health Poster Studio - India (Doctor's PWA)")
     print("=" * 65)
-    print(f"\n[+] Serving files from: {PROJECT_DIR}")
+    print(f"\n[+] Serving files from: {root}")
     print(f"[+] Bound successfully to: {host}:{port}")
-    print(f"[+] Studio URL: {url}\n")
+
+    if host == "0.0.0.0":
+        lan_ip = get_lan_ip()
+        phone_url = f"http://{lan_ip}:{port}/index.html"
+        insecure_origin = f"http://{lan_ip}:{port}"
+        print(f"[+] Local URL (this PC):   {desktop_url}")
+        print(f"[+] Phone URL (LAN Wi-Fi): {phone_url}\n")
+        print("[!] WARNING: Server is exposed to the local network.")
+        print("[!] For Android Chrome PWA testing, enter this exact origin in")
+        print("    chrome://flags/#unsafely-treat-insecure-origin-as-secure :")
+        print(f"    {insecure_origin}\n")
+    else:
+        url = f"http://{host}:{port}/index.html"
+        print(f"[+] Studio URL: {url}\n")
+
     print("Opening browser automatically...")
     print("Press Ctrl+C in this window at any time to stop the server.")
     print("-" * 65)
@@ -98,17 +155,18 @@ def main():
             if os.path.exists(cpath):
                 try:
                     import subprocess
-                    subprocess.Popen([cpath, url])
+                    subprocess.Popen([cpath, desktop_url])
                     return
                 except Exception:
                     pass
-        webbrowser.open(url)
+        webbrowser.open(desktop_url)
 
     threading.Thread(target=launch_browser, daemon=True).start()
 
     socketserver.TCPServer.allow_reuse_address = True
+    handler_factory = functools.partial(HealthStudioHandler, directory=root)
     try:
-        with socketserver.TCPServer((host, port), HealthStudioHandler) as httpd:
+        with socketserver.TCPServer((host, port), handler_factory) as httpd:
             httpd.serve_forever()
     except KeyboardInterrupt:
         print("\n\n[!] Server stopped by user.")

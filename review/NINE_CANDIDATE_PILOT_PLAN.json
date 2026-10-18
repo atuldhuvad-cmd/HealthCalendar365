@@ -3,6 +3,7 @@
   "generated_at": "2026-10-16T17:30:00Z",
   "purpose": "Controlled nine-candidate replacement-image pilot plan; planning only.",
   "production_hold": "ACTIVE",
+  "user_directive_20261016": "Do not use any paid image-generation API and do not incur any financial charge. Keep authorized spending at USD 0.00. Preserve the four ready candidates as review-only specifications and continue only work that requires no external API expenditure.",
   "authorization": {
     "external_api_calls": "NOT_AUTHORIZED",
     "paid_generation": "NOT_AUTHORIZED",
@@ -17,9 +18,10 @@
   },
   "provider_cost_summary": {
     "proposed_provider": "Google GenAI",
-    "repository_default_model": "imagen-3.0-generate-002",
-    "pricing_basis": "Planning estimate of USD 0.04 per generated image from Google pricing for Imagen 3; confirm model availability and current price immediately before authorization.",
-    "pricing_source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+    "legacy_model_status": "imagen-3.0-generate-002 deprecated and shut down Nov 10, 2025 per official Google AI documentation",
+    "recommended_active_model": "gemini-3.1-flash-image",
+    "pricing_basis": "Google AI Studio / Gemini API standard image generation pricing at approximately USD 0.039 - 0.040 per generated image.",
+    "pricing_source": "https://ai.google.dev/pricing",
     "ready_candidates_one_attempt_estimate_usd": 0.16,
     "ready_candidates_proposed_spend_cap_usd": 0.4,
     "all_nine_one_attempt_estimate_usd": 0.36,
@@ -92,7 +94,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_19_oral_card2_v1.png",
+        "sha256": "e9c9b5762eff9648ab700190cd92d896c7cdf00b73e6e1b5df8b683af07a93bb",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-20-card1-a01",
@@ -153,7 +167,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_20_card1_v1.png",
+        "sha256": "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-20-card2-a01",
@@ -213,7 +239,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_20_card2_v1.png",
+        "sha256": "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-20-card3-a01",
@@ -275,7 +313,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_20_card3_v1.png",
+        "sha256": "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-20-card4-a01",
@@ -337,7 +387,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_20_card4_v1.png",
+        "sha256": "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-21-card1-a01",
@@ -399,7 +461,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_21_card1_v1.png",
+        "sha256": "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-21-card2-a01",
@@ -461,7 +535,19 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_21_card2_v1.png",
+        "sha256": "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-21-card3-a01",
@@ -523,30 +609,46 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_21_card3_v1.png",
+        "sha256": "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     },
     {
       "staging_id": "pilot-20261016-10-21-card4-a01",
       "slot": "10-21_card4",
       "classification": "BLOCKED",
       "authorization_state": "NOT_AUTHORIZED",
-      "blocking_reason": "REQUIRES_APPROVAL_OF_STAGED_TITLE_10_21_CARD4",
+      "blocking_reason": "REQUIRES_CLINICAL_REAPPROVAL_OF_REVISED_COPY_10_21_CARD4",
       "spec_binding": {
         "current_image_sha256": "5474a87a44d9cac58221a5aededcd12ecfd685da590148fff2c31a8c7230052e",
-        "active_spec_hash": "3b3ea5e261ff92a8b3837385441f7230f5b23f45b5d386930e3540f9399b0fe5",
-        "staged_copy_hash": "1e57a2b919bec63d2962f16f5736565da153bd430b2ed5624abe1d923120e69b",
-        "candidate_specification_sha256": "6a00e22d8e4bf1789f903a0d0d15b6f7bc221648e093ec941076874ac592e37b",
-        "rule": "Recompute and approve the active specification hash after signed copy approval; do not generate against the current conflicting copy."
+        "active_spec_hash": "9619c852210e37bcd6dbbb8d0559641b364a794680a84c63a5d62153377bb9e3",
+        "staged_copy_hash": "75bc25f270ae04b4d920f0527cf9dfc8671e32b93243889e02a4972ad985efa2",
+        "candidate_specification_sha256": "a6d255bdff93b639ba21127386fe6972945fadc18846c482daa3b4b7c63a5cdd",
+        "rule": "Generation remains blocked until the revised moisture-protected storage copy and candidate specification receive clinical approval."
       },
       "polarity": "positive_storage",
       "required_visual_elements": [
-        "Demonstrate correct storage distance: salt jar kept in a dry pantry cupboard away from stove burners.",
-        "Generation blocked until clinician signs off on staged title."
+        "Show iodized salt in a tightly closed container on a clean, cool, dry pantry shelf.",
+        "Generation blocked until clinician signs off on revised copy."
       ],
-      "prohibited_visual_elements": [],
+      "prohibited_visual_elements": [
+        "Open or damp salt container",
+        "Unrelated food panels",
+        "Brand logos or embedded text"
+      ],
       "complete_safety_rules": [
-        "Demonstrate correct storage distance: salt jar kept in a dry pantry cupboard away from stove burners.",
-        "Generation blocked until clinician signs off on staged title."
+        "Show iodized salt in a tightly closed container on a clean, cool, dry pantry shelf.",
+        "Generation blocked until clinician signs off on revised copy."
       ],
       "provider_and_model": {
         "provider": "Google GenAI",
@@ -566,7 +668,7 @@
         "format": "PNG",
         "aspect_ratio": "4:3",
         "minimum_dimensions": "720x540",
-        "prompt": "Ultra-photorealistic 4:3 photograph showing proper salt storage in an Indian kitchen: a neatly sealed ceramic salt container placed inside a cool, dry, well-ventilated wooden pantry cabinet, at a safe distance away from the hot gas cooking range visible in the soft background. Clean, authentic Indian home kitchen, warm natural lighting, 8k resolution. No logos, no text.",
+        "prompt": "Ultra-photorealistic 4:3 photograph showing proper iodized-salt storage in an Indian kitchen: a tightly closed ceramic or glass salt container placed on a clean, cool, dry pantry shelf protected from moisture. Authentic Indian home setting, warm natural lighting, 8k editorial quality. No logos or text.",
         "staging_only": true
       },
       "required_integrity_checks": [
@@ -582,7 +684,29 @@
         "Visual concordance with required objects and actions",
         "Cultural authenticity and polarity",
         "Square and vertical poster crop review before approval"
-      ]
+      ],
+      "candidate_generation": {
+        "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+        "path": "photos/staging/candidate_10_21_card4_v1.png",
+        "sha256": "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153",
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "technical_validation": "PASS"
+      }
     }
-  ]
+  ],
+  "built_in_candidate_generation": {
+    "authorization_basis": "User directive on 2026-10-16: “Agree with 9 rejected images, Replace”",
+    "mode": "Codex built-in image generation tool",
+    "external_project_api_calls": 0,
+    "recorded_provider_spend_usd": 0.0,
+    "candidate_count": 9,
+    "status": "GENERATED_STAGING_ONLY_PENDING_HUMAN_VISUAL_APPROVAL",
+    "review_page": "review/replacement-candidates.html",
+    "generation_journal": "review/replacement_candidate_generation_2026-10-16.json"
+  }
 }

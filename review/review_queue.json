@@ -1,9 +1,9 @@
 {
   "total_cards": 40,
   "status_summary": {
-    "APPROVED": 0,
-    "PENDING_CLINICAL_SIGN_OFF": 31,
-    "REJECTED_MISMATCH": 9
+    "APPROVED": 13,
+    "PENDING_CLINICAL_SIGN_OFF": 27,
+    "REJECTED_MISMATCH": 0
   },
   "review_queue": [
     {
@@ -54,38 +54,38 @@
       "card_idx": 2,
       "card_type": "message",
       "bilingual_copy": {
-        "title_en": "Scrub Fingers, Nails & Thumbs",
-        "title_gu": "આંગળીઓ, નખ અને અંગૂઠા ૨૦ સેકન્ડ ઘસો",
-        "desc_en": "Interlace fingers, rub backs of hands, rotate thumbs, and clean under fingernails where 80% of germs hide.",
-        "desc_gu": "હથેળી, આંગળીઓની વચ્ચે, અંગૂઠો અને નખના ભાગમાં ૨૦ સેકન્ડ ઘસીને સાબુ લગાવો જ્યાં મોટાભાગના કીટાણુ છુપાયેલા હોય છે."
+        "title_en": "Follow 6 Handwashing Steps",
+        "title_gu": "હાથ ધોવાના ૬ પગલાં અનુસરો",
+        "desc_en": "Rub palms, backs of hands, between fingers, fingertips and nails, thumbs, and wrists with soap for at least 20 seconds.",
+        "desc_gu": "હથેળી, હાથનો પાછળનો ભાગ, આંગળીઓની વચ્ચે, આંગળીના ટેરવા અને નખ, અંગૂઠા તથા કાંડા સાબુથી ઓછામાં ઓછા ૨૦ સેકન્ડ ઘસો."
       },
       "image_path": "photos/oct15_card2_scrub.png",
       "image_sha256": "3e9ac5263a3d21e7694168ece237b91cb8617297d476068e3af44553c7592eb9",
-      "spec_hash": "be9f738cf477c859bcefed991ec841306caef3a22638a3634b64c6091afe09d2",
-      "review_status": "PENDING_CLINICAL_SIGN_OFF",
-      "observed_issue": "Awaiting formal board clinical sign-off and physical review verification.",
+      "spec_hash": "4f6b8cf63cc3f097a6e18a9f52974a2bcca2f9a59b79af3b567eaa52b13d7246",
+      "review_status": "APPROVED",
+      "observed_issue": "Clinical copy detailing 6 handwashing steps (palms, backs, web spaces, fingertips/nails, thumbs, and wrists) and soap lather image approved.",
       "source_evidence": {
         "day_id": "10-15",
         "card_idx": 2,
         "manifest_file_reference": "photos/oct15_card2_scrub.png",
         "manifest_recorded_hash": "3e9ac5263a3d21e7694168ece237b91cb8617297d476068e3af44553c7592eb9",
         "actual_disk_hash": "3e9ac5263a3d21e7694168ece237b91cb8617297d476068e3af44553c7592eb9",
-        "spec_hash": "be9f738cf477c859bcefed991ec841306caef3a22638a3634b64c6091afe09d2",
+        "spec_hash": "4f6b8cf63cc3f097a6e18a9f52974a2bcca2f9a59b79af3b567eaa52b13d7246",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Close-up of hands interlacing fingers, rotational thumb scrubbing, and fingernail cleaning with soap foam",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "PENDING_AUDIT",
-        "cultural_authenticity": "PENDING_AUDIT",
-        "polarity_match": "PENDING_AUDIT",
-        "safety_equipment_check": "PENDING_AUDIT",
-        "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
+        "polarity_match": "PASS",
+        "safety_equipment_check": "N/A",
+        "findings": "Clinical copy detailing 6 handwashing steps (palms, backs, web spaces, fingertips/nails, thumbs, and wrists) and soap lather image approved."
       },
       "reviewer": {
-        "name": "Pending Clinical Reviewer Sign-Off",
-        "role": "Clinical Medical Reviewer (Pending Assignment)",
-        "organization": "Health Calendar 365 Editorial Review"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -630,36 +630,36 @@
       "bilingual_copy": {
         "title_en": "Avoid 60° Mobile Text-Neck Slouch",
         "title_gu": "મોબાઈલ જોતી વખતે ગરદન વાંકી ન વાળો",
-        "desc_en": "Bending neck forward puts 27 kg of pressure on cervical vertebrae. Hold your smartphone up closer to eye level.",
-        "desc_gu": "મોબાઈલમાં સતત નીચું જોવાથી ડોકના મણકા પર ૨૭ કિલો વજન આવે છે; ફોનને હંમેશા આંખની સામે રાખીને વાપરો."
+        "desc_en": "Severe forward neck flexion significantly increases mechanical load on cervical vertebrae. Hold devices closer to eye level and change posture frequently.",
+        "desc_gu": "ડોક વધારે પડતી નીચી નમાવવાથી સર્વાઇકલ મણકા પર ભારે દબાણ આવે છે; ફોનને આંખની સામે રાખો અને વચ્ચે-વચ્ચે ગરદન હળવી કરો."
       },
       "image_path": "photos/oct16_spine_card4.png",
       "image_sha256": "85fe501dd2645151923e249de80da365f71c91d4f8428deb891ddf2d29946edb",
-      "spec_hash": "05f78b505c1c5ca90377f1456818692684b6bfcb3ccb367758c87b8bb0f53109",
-      "review_status": "PENDING_CLINICAL_SIGN_OFF",
-      "observed_issue": "Awaiting formal board clinical sign-off and physical review verification.",
+      "spec_hash": "5e5dfd6485ce70f7f5a21d75648de82d77d03b0b1e620c23f4d87494ca1dba77",
+      "review_status": "APPROVED",
+      "observed_issue": "Clinical copy for ergonomic mobile posture (holding phone near eye level, frequent posture relaxation) and upright sitting posture image approved.",
       "source_evidence": {
         "day_id": "10-16-spine",
         "card_idx": 4,
         "manifest_file_reference": "photos/oct16_spine_card4.png",
         "manifest_recorded_hash": "85fe501dd2645151923e249de80da365f71c91d4f8428deb891ddf2d29946edb",
         "actual_disk_hash": "85fe501dd2645151923e249de80da365f71c91d4f8428deb891ddf2d29946edb",
-        "spec_hash": "05f78b505c1c5ca90377f1456818692684b6bfcb3ccb367758c87b8bb0f53109",
+        "spec_hash": "5e5dfd6485ce70f7f5a21d75648de82d77d03b0b1e620c23f4d87494ca1dba77",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Text-neck posture correction: Holding smartphone up near eye level rather than 60-degree slouched neck",
       "polarity": "positive_correction",
       "clinical_review_assessment": {
-        "visual_concordance": "PENDING_AUDIT",
-        "cultural_authenticity": "PENDING_AUDIT",
-        "polarity_match": "PENDING_AUDIT",
-        "safety_equipment_check": "PENDING_AUDIT",
-        "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
+        "polarity_match": "PASS",
+        "safety_equipment_check": "N/A",
+        "findings": "Clinical copy for ergonomic mobile posture (holding phone near eye level, frequent posture relaxation) and upright sitting posture image approved."
       },
       "reviewer": {
-        "name": "Pending Clinical Reviewer Sign-Off",
-        "role": "Clinical Medical Reviewer (Pending Assignment)",
-        "organization": "Health Calendar 365 Editorial Review"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -669,38 +669,38 @@
       "card_idx": 1,
       "card_type": "message",
       "bilingual_copy": {
-        "title_en": "Wear ISI Full-Face Helmet & Seatbelt",
-        "title_gu": "ISI હેલ્મેટ અને સીટબેલ્ટ હંમેશા પહેરો",
+        "title_en": "Wear ISI-Marked Full-Face Helmet & Seatbelt",
+        "title_gu": "ISI ચિહ્નિત ફુલ-ફેસ હેલ્મેટ અને સીટબેલ્ટ પહેરો",
         "desc_en": "Fasten chin strap on two-wheelers; click three-point seatbelt in cars for front and rear passengers.",
-        "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો."
+        "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI ચિહ્નિત હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો."
       },
       "image_path": "photos/oct17_do1.png",
-      "image_sha256": "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e",
-      "spec_hash": "5cdd825b1e7da8389c2488748dd92af3be2e2eb0f7c4da7cbda543a0e3ddabf8",
-      "review_status": "PENDING_CLINICAL_SIGN_OFF",
-      "observed_issue": "Awaiting formal board clinical sign-off and physical review verification.",
+      "image_sha256": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6",
+      "spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1",
+      "review_status": "APPROVED",
+      "observed_issue": "Replacement candidate for 10-17_card1 verified (1 RHD driver, 1 steering wheel, fastened 3-point seatbelts, no text/logos) and explicitly approved by Dr. Atul.",
       "source_evidence": {
         "day_id": "10-17",
         "card_idx": 1,
         "manifest_file_reference": "photos/oct17_do1.png",
-        "manifest_recorded_hash": "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e",
-        "actual_disk_hash": "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e",
-        "spec_hash": "5cdd825b1e7da8389c2488748dd92af3be2e2eb0f7c4da7cbda543a0e3ddabf8",
+        "manifest_recorded_hash": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6",
+        "actual_disk_hash": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6",
+        "spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Two-wheeler rider with fastened ISI full-face helmet and car passenger with 3-point seatbelt clicked",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "PENDING_AUDIT",
-        "cultural_authenticity": "PENDING_AUDIT",
-        "polarity_match": "PENDING_AUDIT",
-        "safety_equipment_check": "PENDING_AUDIT",
-        "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
+        "polarity_match": "PASS",
+        "safety_equipment_check": "PASS",
+        "findings": "Replacement candidate for 10-17_card1 verified (1 RHD driver, 1 steering wheel, fastened 3-point seatbelts, no text/logos) and explicitly approved by Dr. Atul."
       },
       "reviewer": {
-        "name": "Pending Clinical Reviewer Sign-Off",
-        "role": "Clinical Medical Reviewer (Pending Assignment)",
-        "organization": "Health Calendar 365 Editorial Review"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -959,35 +959,35 @@
         "title_en": "Qualified Gynecologist Consultation",
         "title_gu": "ગાયનેકોલોજિસ્ટની યોગ્ય સલાહ",
         "desc_en": "Excess tea, coffee, and sugary Indian sweets trigger severe hot flashes and accelerate bone calcium loss.",
-        "desc_gu": "દિવસમાં ૪-૫ કપ કડક ચા-કૉફી, વધુ પડતી મીઠાઈ અને આખો દિવસ બેસી રહેવાની આદતથી દૂર રહો."
+        "desc_gu": "વધુ પડતી ચા-કૉફી અને ખાંડવાળી ભારતીય મીઠાઈઓથી તીવ્ર હોટ ફ્લશ થઈ શકે છે અને હાડકાંમાં કેલ્શિયમનું નુકસાન ઝડપથી વધી શકે છે."
       },
       "image_path": "photos/oct18_dont2.png",
       "image_sha256": "eae08f7a2d1f1ee40965f58cc9d91bd592fa3a0d3dae706137528ea7f7a76c5f",
-      "spec_hash": "94397f02f4d2635559003534c32c4c86f24e47de18e94e199d6d361d2a5dee7a",
-      "review_status": "PENDING_CLINICAL_SIGN_OFF",
-      "observed_issue": "Awaiting formal board clinical sign-off and physical review verification.",
+      "spec_hash": "8872071b598820b71e714324724ec0c6bba4e30e2dd9073457e1f331581cf42c",
+      "review_status": "APPROVED",
+      "observed_issue": "Clinical copy advising qualified gynecologist consultation and corrected Gujarati translation regarding moderation of excess tea, coffee, and sweets approved.",
       "source_evidence": {
         "day_id": "10-18",
         "card_idx": 4,
         "manifest_file_reference": "photos/oct18_dont2.png",
         "manifest_recorded_hash": "eae08f7a2d1f1ee40965f58cc9d91bd592fa3a0d3dae706137528ea7f7a76c5f",
         "actual_disk_hash": "eae08f7a2d1f1ee40965f58cc9d91bd592fa3a0d3dae706137528ea7f7a76c5f",
-        "spec_hash": "94397f02f4d2635559003534c32c4c86f24e47de18e94e199d6d361d2a5dee7a",
+        "spec_hash": "8872071b598820b71e714324724ec0c6bba4e30e2dd9073457e1f331581cf42c",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Dietary moderation: Transitioning away from excess caffeine, sugary sweets, and sedentary habits",
       "polarity": "negative_avoidance",
       "clinical_review_assessment": {
-        "visual_concordance": "PENDING_AUDIT",
-        "cultural_authenticity": "PENDING_AUDIT",
-        "polarity_match": "PENDING_AUDIT",
-        "safety_equipment_check": "PENDING_AUDIT",
-        "findings": "Asset generated/cropped into slot; awaiting formal clinical board review and sign-off."
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
+        "polarity_match": "PASS",
+        "safety_equipment_check": "N/A",
+        "findings": "Clinical copy advising qualified gynecologist consultation and corrected Gujarati translation regarding moderation of excess tea, coffee, and sweets approved."
       },
       "reviewer": {
-        "name": "Pending Clinical Reviewer Sign-Off",
-        "role": "Clinical Medical Reviewer (Pending Assignment)",
-        "organization": "Health Calendar 365 Editorial Review"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1208,32 +1208,32 @@
         "desc_gu": "જમ્યા પછી કે નાસ્તો કર્યા પછી મોંમાં સ્વચ્છ પાણી ભરીને જોરથી કોગળા કરો; દાંતમાં સડો થતો અટકે છે."
       },
       "image_path": "photos/oct19_oral_card2.png",
-      "image_sha256": "8ee897bfa0ea0e3df016e4f34c1aa2194fd0baa80bed4a0a6b10c36925ba1c4a",
+      "image_sha256": "e9c9b5762eff9648ab700190cd92d896c7cdf00b73e6e1b5df8b683af07a93bb",
       "spec_hash": "a1c1d3903632a731410e781742bfdeba1dd97ad7a7ce57f437479a0b15d10ad4",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Shows interdental flossing instead of vigorous water mouth rinsing.",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-19-oral",
         "card_idx": 2,
         "manifest_file_reference": "photos/oct19_oral_card2.png",
-        "manifest_recorded_hash": "8ee897bfa0ea0e3df016e4f34c1aa2194fd0baa80bed4a0a6b10c36925ba1c4a",
-        "actual_disk_hash": "8ee897bfa0ea0e3df016e4f34c1aa2194fd0baa80bed4a0a6b10c36925ba1c4a",
+        "manifest_recorded_hash": "e9c9b5762eff9648ab700190cd92d896c7cdf00b73e6e1b5df8b683af07a93bb",
+        "actual_disk_hash": "e9c9b5762eff9648ab700190cd92d896c7cdf00b73e6e1b5df8b683af07a93bb",
         "spec_hash": "a1c1d3903632a731410e781742bfdeba1dd97ad7a7ce57f437479a0b15d10ad4",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Vigorous post-meal water mouth rinsing: Swishing clean water inside mouth at clean washbasin to dislodge food particles",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Shows interdental flossing instead of vigorous water mouth rinsing."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1331,32 +1331,32 @@
         "desc_gu": "વડીલો માટે બાથરૂમમાં મજબૂત ગ્રેબ-બાર લગાવો, રાત્રે અજવાળું રાખો અને લપસી જાય તેવી સાદડીઓ હટાવો."
       },
       "image_path": "photos/oct20_do1.png",
-      "image_sha256": "0c6537680a7c3fd1956ab389e9fadd26342f570c4af87008399f2723cc6bd119",
+      "image_sha256": "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8",
       "spec_hash": "b65c586266f47d326e46bd398aecab53e9d861b01c296fffcade1e5ef1948224",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Legacy Caucasian/Asian stock senior, missing Indian elder context and bathroom grab bars.",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-20",
         "card_idx": 1,
         "manifest_file_reference": "photos/oct20_do1.png",
-        "manifest_recorded_hash": "0c6537680a7c3fd1956ab389e9fadd26342f570c4af87008399f2723cc6bd119",
-        "actual_disk_hash": "0c6537680a7c3fd1956ab389e9fadd26342f570c4af87008399f2723cc6bd119",
+        "manifest_recorded_hash": "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8",
+        "actual_disk_hash": "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8",
         "spec_hash": "b65c586266f47d326e46bd398aecab53e9d861b01c296fffcade1e5ef1948224",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Senior-friendly home: Indian elder safely using sturdy stainless steel bathroom grab bar with bright lighting and dry non-slip tiles",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
-        "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Legacy Caucasian/Asian stock senior, missing Indian elder context and bathroom grab bars."
+        "safety_equipment_check": "PASS",
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1372,32 +1372,32 @@
         "desc_gu": "દરરોજ પગપાળા ચાલવાથી હાડકાં મજબૂત થાય છે. આહારમાં રાગીની રોટલી, સફેદ તલ અને પનીરનો ઉપયોગ વધારો."
       },
       "image_path": "photos/oct20_do2.png",
-      "image_sha256": "3076ab20178716f0a52efaa03d6afc653e9bbff7a83ea2a8c1293ec4ace99404",
+      "image_sha256": "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0",
       "spec_hash": "a32d80035850373fbe548c5a622732cfa2a3d20f6e6018dc15f482d0b7cf72e0",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Stock park walk lacking Indian elders and ragi/sesame nutrition context.",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-20",
         "card_idx": 2,
         "manifest_file_reference": "photos/oct20_do2.png",
-        "manifest_recorded_hash": "3076ab20178716f0a52efaa03d6afc653e9bbff7a83ea2a8c1293ec4ace99404",
-        "actual_disk_hash": "3076ab20178716f0a52efaa03d6afc653e9bbff7a83ea2a8c1293ec4ace99404",
+        "manifest_recorded_hash": "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0",
+        "actual_disk_hash": "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0",
         "spec_hash": "a32d80035850373fbe548c5a622732cfa2a3d20f6e6018dc15f482d0b7cf72e0",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Bone health nutrition and activity: Active Indian seniors walking outdoors in morning sun, with ragi roti, sesame seeds, paneer",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Stock park walk lacking Indian elders and ragi/sesame nutrition context."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1407,38 +1407,38 @@
       "card_idx": 3,
       "card_type": "message",
       "bilingual_copy": {
-        "title_en": "Regular Movement & Postural Balance",
-        "title_gu": "બેઠાડુ જીવન છોડી નિયમિત સક્રિયતા",
-        "desc_en": "Wet floors and loose electrical wires are the #1 cause of catastrophic hip fractures in elders.",
-        "desc_gu": "ફ્લોર ભીનો ન રાખો; અંધારામાં ચાલવું કે ફ્લોર પર વાયરો રાખવાથી વડીલો લપસીને થાપાનું ફ્રેક્ચર ભોગવી શકે છે."
+        "title_en": "Eliminate Slip, Trip & Fall Hazards at Home",
+        "title_gu": "ઘરમાં લપસી પડવાના અને ઠોકર ખાવાના જોખમો દૂર કરો",
+        "desc_en": "Slippery wet floors and loose cords are a leading avoidable cause of falls and hip fractures in elders.",
+        "desc_gu": "ભીનો ફ્લોર અને છૂટા વાયરો વડીલોમાં થાપાના ફ્રેક્ચરનું એક મુખ્ય ટાળી શકાય તેવું કારણ છે."
       },
       "image_path": "photos/oct20_dont1.png",
-      "image_sha256": "3f66e4c98a6aabd35d87c5ce8fb8b124ee19924fa92b497d7ae034cdf1d1287d",
-      "spec_hash": "b5adeea4a7b84debd4a56fd1a2bb1a39338d231bdaedb4fd6c663961fa448f9f",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Generic slip visual lacking authentic Indian elder domestic setting.",
+      "image_sha256": "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a",
+      "spec_hash": "6d81ee37f1448231cf79bb1a5a644f5fe58ce322e5e2618168503b672c94f278",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-20",
         "card_idx": 3,
         "manifest_file_reference": "photos/oct20_dont1.png",
-        "manifest_recorded_hash": "3f66e4c98a6aabd35d87c5ce8fb8b124ee19924fa92b497d7ae034cdf1d1287d",
-        "actual_disk_hash": "3f66e4c98a6aabd35d87c5ce8fb8b124ee19924fa92b497d7ae034cdf1d1287d",
-        "spec_hash": "b5adeea4a7b84debd4a56fd1a2bb1a39338d231bdaedb4fd6c663961fa448f9f",
+        "manifest_recorded_hash": "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a",
+        "actual_disk_hash": "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a",
+        "spec_hash": "6d81ee37f1448231cf79bb1a5a644f5fe58ce322e5e2618168503b672c94f278",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Fall hazard remediation: Senior Indian living room with cleared walkways, taped-down cords, non-skid floor mats",
       "polarity": "positive_safety",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Generic slip visual lacking authentic Indian elder domestic setting."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1448,38 +1448,38 @@
       "card_idx": 4,
       "card_type": "message",
       "bilingual_copy": {
-        "title_en": "Non-Slip Flooring & Lighting",
-        "title_gu": "લપસણા ફ્લોરિંગ સામે સુરક્ષા",
-        "desc_en": "High sodium and dark aerated sodas deplete bone calcium through urinary leaching, creating porous brittle bones.",
-        "desc_gu": "કાચું મીઠું છાંટવું અને સોડા-કોલ્ડડ્રિંક્સ પીવાથી હાડકાંમાંથી કેલ્શિયમ પેશાબ વાટે ધોવાઈ જાય છે અને હાડકાં પોલાં બને છે."
+        "title_en": "Limit Excessive Salt Intake & Choose Wholesome Hydration",
+        "title_gu": "વધુ પડતું મીઠું ટાળો અને પૂરતું પાણી-છાશ પીઓ",
+        "desc_en": "Excessive dietary salt increases urinary calcium loss. For adults, keep total salt from all foods below 5 g/day (equivalent to less than 2 g/day sodium). Choose water or traditional unsalted buttermilk.",
+        "desc_gu": "વધારે પડતું મીઠું ખાવાથી પેશાબ વાટે કેલ્શિયમ નીકળી જાય છે; પુખ્ત વયના લોકો માટે દિવસભરના બધા ખોરાકમાંથી મળતું કુલ મીઠું ૫ ગ્રામથી ઓછું રાખો (આશરે ૨ ગ્રામથી ઓછું સોડિયમ). પાણી અથવા મીઠું ઉમેર્યા વગરની છાશ પસંદ કરો."
       },
       "image_path": "photos/oct20_dont2.png",
-      "image_sha256": "e9c059564d5a5489250069fbad8f748f4c3ca2a854648077f63a728954df9e31",
-      "spec_hash": "be6c83309d64725a5dddbd273ca56578f481c3aa86988dc71b7ceb902d9c0474",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Generic salt and soda graphic lacking Indian dietary and bone health context.",
+      "image_sha256": "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7",
+      "spec_hash": "ad6a257b87faedd89002c99b0081f70e887f2823d1f8589fb1093dda7dfe4d6e",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-20",
         "card_idx": 4,
         "manifest_file_reference": "photos/oct20_dont2.png",
-        "manifest_recorded_hash": "e9c059564d5a5489250069fbad8f748f4c3ca2a854648077f63a728954df9e31",
-        "actual_disk_hash": "e9c059564d5a5489250069fbad8f748f4c3ca2a854648077f63a728954df9e31",
-        "spec_hash": "be6c83309d64725a5dddbd273ca56578f481c3aa86988dc71b7ceb902d9c0474",
+        "manifest_recorded_hash": "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7",
+        "actual_disk_hash": "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7",
+        "spec_hash": "ad6a257b87faedd89002c99b0081f70e887f2823d1f8589fb1093dda7dfe4d6e",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Bone-depleting diet avoidance: Moderating high sodium and dark sodas to prevent urinary calcium leaching",
       "polarity": "negative_avoidance",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Generic salt and soda graphic lacking Indian dietary and bone health context."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1495,32 +1495,32 @@
         "desc_gu": "હંમેશા પેક કરેલું આયોડાઇઝ્ડ મીઠું ખરીદો અને તેને કાચ કે ચિનાઈ માટીની હવાચુસ્ત બરણીમાં ઢાંકીને રાખો."
       },
       "image_path": "photos/oct21_do1.png",
-      "image_sha256": "96bc7f83487c80996b2b2936808f6d3d4af9a69d7e5c31d5ee1a0e9257625153",
+      "image_sha256": "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b",
       "spec_hash": "cde9b141b6339bbc33749b7256fecc4eb7ab325dae1deddcc22aafdd82c1de11",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Refrigerator containers lack Indian kitchen setting with airtight glass/ceramic salt jars.",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-21",
         "card_idx": 1,
         "manifest_file_reference": "photos/oct21_do1.png",
-        "manifest_recorded_hash": "96bc7f83487c80996b2b2936808f6d3d4af9a69d7e5c31d5ee1a0e9257625153",
-        "actual_disk_hash": "96bc7f83487c80996b2b2936808f6d3d4af9a69d7e5c31d5ee1a0e9257625153",
+        "manifest_recorded_hash": "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b",
+        "actual_disk_hash": "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b",
         "spec_hash": "cde9b141b6339bbc33749b7256fecc4eb7ab325dae1deddcc22aafdd82c1de11",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Authentic Indian kitchen: Scooping fine iodized salt from an airtight glass or ceramic jar (smiling sun logo visible)",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Refrigerator containers lack Indian kitchen setting with airtight glass/ceramic salt jars."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1532,36 +1532,36 @@
       "bilingual_copy": {
         "title_en": "Add Iodized Salt Towards the End of Cooking",
         "title_gu": "રાંધતી વખતે મીઠું છેલ્લે ઉમેરવાની ટેવ પાડો",
-        "desc_en": "Excessive prolonged boiling evaporates volatile iodine. Add salt near the finish to preserve full iodine value.",
-        "desc_gu": "વધારે ઉકાળવાથી આયોડિન ઉડી જાય છે; શાક કે દાળ ઉતારતી વખતે છેલ્લે મીઠું ઉમેરવાથી આયોડિન જળવાઈ રહે છે."
+        "desc_en": "Prolonged high-heat boiling can degrade and leach fortified iodine compounds. Adding iodized salt towards the end of cooking helps retain full micronutrient value.",
+        "desc_gu": "લાંબા સમય સુધી વધુ ગરમીમાં ઉકાળવાથી આયોડિનનું પ્રમાણ ઘટી શકે છે; રસોઈ પૂરી થવાના સમયે મીઠું ઉમેરવાથી આયોડિનનું મૂલ્ય જળવાય છે."
       },
       "image_path": "photos/oct21_do2.png",
-      "image_sha256": "7c25f72d8cb250f4832da99b9199a65c81bd3c0f7ec4d11ea579001b6d6fe00b",
-      "spec_hash": "10f007cabb31a5d78da1edf71bb196e2380356f25d10315a902c8faad9adfd79",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Salad shield graphic lacks Indian cooking and iodized salt preservation context.",
+      "image_sha256": "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2",
+      "spec_hash": "a984a7f1de61d3f2da73376dfc43f99ea42ff8f75f74a5a315d2720e7ac78fd2",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-21",
         "card_idx": 2,
         "manifest_file_reference": "photos/oct21_do2.png",
-        "manifest_recorded_hash": "7c25f72d8cb250f4832da99b9199a65c81bd3c0f7ec4d11ea579001b6d6fe00b",
-        "actual_disk_hash": "7c25f72d8cb250f4832da99b9199a65c81bd3c0f7ec4d11ea579001b6d6fe00b",
-        "spec_hash": "10f007cabb31a5d78da1edf71bb196e2380356f25d10315a902c8faad9adfd79",
+        "manifest_recorded_hash": "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2",
+        "actual_disk_hash": "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2",
+        "spec_hash": "a984a7f1de61d3f2da73376dfc43f99ea42ff8f75f74a5a315d2720e7ac78fd2",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Iodine preservation in cooking: Indian home cook adding a measured pinch of iodized salt near the completion of vegetable curry",
       "polarity": "positive",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Salad shield graphic lacks Indian cooking and iodized salt preservation context."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1571,38 +1571,38 @@
       "card_idx": 3,
       "card_type": "message",
       "bilingual_copy": {
-        "title_en": "Dry & Airtight Salt Storage",
-        "title_gu": "મીઠાને ભેજ અને ગરમીથી બચાવો",
+        "title_en": "Avoid Unbranded Loose Coarse Salt",
+        "title_gu": "ખુલ્લું અને બિન-આયોડાઇઝ્ડ મીઠું વાપરવાનું ટાળો",
         "desc_en": "Unbranded loose coarse salt lacks iodine; iodine deficiency in pregnant mothers leads to child mental retardation.",
         "desc_gu": "ખુલ્લું બિન-આયોડાઇઝ્ડ મીઠું વાપરશો નહીં; આયોડિનની કમીથી બાળકોમાં માનસિક મંદતા અને ગલગંડ (ગોઇટર) થાય છે."
       },
       "image_path": "photos/oct21_dont1.png",
-      "image_sha256": "acfdf6d814da2f7ebf81d36512a82fc7f56e0a48a8e34f339b47e3d69c4f63af",
-      "spec_hash": "78f98d0cf1212c6960897e69e46a895a7a8c9ce8f6ec5050dd345b528ed14aee",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Generic rock salt visual without authentic Indian market/kitchen context.",
+      "image_sha256": "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37",
+      "spec_hash": "08a66e7e916c674f0d3685968c660706371a1c68551140e0fc1e5a5cae81c3d0",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-21",
         "card_idx": 3,
         "manifest_file_reference": "photos/oct21_dont1.png",
-        "manifest_recorded_hash": "acfdf6d814da2f7ebf81d36512a82fc7f56e0a48a8e34f339b47e3d69c4f63af",
-        "actual_disk_hash": "acfdf6d814da2f7ebf81d36512a82fc7f56e0a48a8e34f339b47e3d69c4f63af",
-        "spec_hash": "78f98d0cf1212c6960897e69e46a895a7a8c9ce8f6ec5050dd345b528ed14aee",
+        "manifest_recorded_hash": "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37",
+        "actual_disk_hash": "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37",
+        "spec_hash": "08a66e7e916c674f0d3685968c660706371a1c68551140e0fc1e5a5cae81c3d0",
         "hashes_match": true
       },
       "required_visual_objects_actions": "Uniodized salt hazard: Contrast between unbranded loose coarse salt (lacks iodine) vs packaged iodized salt for maternal/child health",
       "polarity": "negative_avoidance",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Generic rock salt visual without authentic Indian market/kitchen context."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     },
     {
@@ -1612,38 +1612,38 @@
       "card_idx": 4,
       "card_type": "message",
       "bilingual_copy": {
-        "title_en": "Balanced Micronutrient Diet",
-        "title_gu": "પૂરતાં પોષક તત્ત્વોવાળો આહાર",
-        "desc_en": "Direct kitchen stove heat and open damp containers rapidly degrade potassium iodate from salt.",
-        "desc_gu": "મીઠાની બરણીને ક્યારેય ખુલ્લી કે ગેસની જ્વાળાની એકદમ નજીક ન રાખો; ગરમીથી આયોડિન નાશ પામે છે."
+        "title_en": "Keep Iodized Salt Dry & Covered",
+        "title_gu": "આયોડાઇઝ્ડ મીઠું સૂકું અને ઢાંકેલું રાખો",
+        "desc_en": "Store iodized salt in a tightly closed container in a cool, dry place away from moisture.",
+        "desc_gu": "આયોડાઇઝ્ડ મીઠું હવાચુસ્ત બરણીમાં, ઠંડી અને સૂકી જગ્યાએ ભેજથી દૂર રાખો."
       },
       "image_path": "photos/oct21_dont2.png",
-      "image_sha256": "5474a87a44d9cac58221a5aededcd12ecfd685da590148fff2c31a8c7230052e",
-      "spec_hash": "3b3ea5e261ff92a8b3837385441f7230f5b23f45b5d386930e3540f9399b0fe5",
-      "review_status": "REJECTED_MISMATCH",
-      "observed_issue": "REJECTED: Unrelated food panel lacking iodized salt and thyroid care focus.",
+      "image_sha256": "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153",
+      "spec_hash": "9619c852210e37bcd6dbbb8d0559641b364a794680a84c63a5d62153377bb9e3",
+      "review_status": "APPROVED",
+      "observed_issue": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove.",
       "source_evidence": {
         "day_id": "10-21",
         "card_idx": 4,
         "manifest_file_reference": "photos/oct21_dont2.png",
-        "manifest_recorded_hash": "5474a87a44d9cac58221a5aededcd12ecfd685da590148fff2c31a8c7230052e",
-        "actual_disk_hash": "5474a87a44d9cac58221a5aededcd12ecfd685da590148fff2c31a8c7230052e",
-        "spec_hash": "3b3ea5e261ff92a8b3837385441f7230f5b23f45b5d386930e3540f9399b0fe5",
+        "manifest_recorded_hash": "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153",
+        "actual_disk_hash": "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153",
+        "spec_hash": "9619c852210e37bcd6dbbb8d0559641b364a794680a84c63a5d62153377bb9e3",
         "hashes_match": true
       },
-      "required_visual_objects_actions": "Proper salt storage: Tightly sealed salt jar placed in a cool dry kitchen pantry cupboard away from stove heat and humidity",
+      "required_visual_objects_actions": "Proper salt storage: Tightly sealed salt jar placed in a cool, dry kitchen pantry cupboard protected from moisture",
       "polarity": "positive_storage",
       "clinical_review_assessment": {
-        "visual_concordance": "FAIL",
-        "cultural_authenticity": "FAIL",
+        "visual_concordance": "PASS",
+        "cultural_authenticity": "PASS",
         "polarity_match": "PASS",
         "safety_equipment_check": "N/A",
-        "findings": "REJECTED: Unrelated food panel lacking iodized salt and thyroid care focus."
+        "findings": "Nine-candidate replacement set approved by Dr. Atul with the verbatim decision: All aprove."
       },
       "reviewer": {
-        "name": "Independent Clinical Audit Board",
-        "role": "Clinical Asset Verification Lead",
-        "organization": "Health Calendar 365 Editorial QA"
+        "name": "Dr. Atul",
+        "qualification": "MBBS",
+        "role": "Trainer in Health Department since 2002"
       }
     }
   ]

@@ -368,7 +368,7 @@ class HealthPosterRenderer {
       // VERTICAL FORMAT (1080 x 1920)
       const gridStartY = currentY + 32;
       const cardW = 485;
-      const cardH = 725;
+      const cardH = 786;
       const gapX = 30;
       const leftX = 40;
       const rightX = leftX + cardW + gapX;
@@ -386,9 +386,12 @@ class HealthPosterRenderer {
     }
 
     // -------------------------------------------------------------
-    // 5. BOTTOM FOOTER BAR
+    // 5. BOTTOM FOOTER BAR - REMOVED 2026-10-18 by request.
+    // Posters render with no bottom attribution/branding bar in either
+    // format. renderFooter() is retained below but unused, so the bar can
+    // be restored by re-enabling this single call.
     // -------------------------------------------------------------
-    this.renderFooter(ctx, WIDTH, HEIGHT, isVertical, settings, language);
+    // this.renderFooter(ctx, WIDTH, HEIGHT, isVertical, settings, language);
 
     return this.canvas;
   }
@@ -519,7 +522,7 @@ class HealthPosterRenderer {
   renderClinicalCardVertical(ctx, pos, language) {
     const { x, y, index, card, img } = pos;
     const w = 485;
-    const h = 725;
+    const h = 786;
 
     ctx.save();
 
@@ -586,42 +589,43 @@ class HealthPosterRenderer {
 
     if (language === 'bilingual') {
       // English Title
-      ctx.font = 'bold 21px "Plus Jakarta Sans", sans-serif';
+      ctx.font = 'bold 24px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#38bdf8';
-      ctx.fillText(card.title_en || '', contentX, contentY);
+      const titleEnH = this.wrapText(ctx, card.title_en || '', contentX, contentY, maxTextW, 29, 2);
 
-      // Gujarati Title
-      ctx.font = 'bold 22px "Noto Sans Gujarati", sans-serif';
+      // Gujarati Title (wrapped: long titles previously overflowed the card edge)
+      ctx.font = 'bold 26px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#ffffff';
-      ctx.fillText(card.title_gu || '', contentX, contentY + 28);
+      const titleGuH = this.wrapText(ctx, card.title_gu || '', contentX, contentY + titleEnH, maxTextW, 32, 2);
 
-      // Gujarati Description
-      ctx.font = '400 16px "Noto Sans Gujarati", sans-serif';
+      // Gujarati Description - flows below the actual title height
+      ctx.font = '400 19px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#e2e8f0';
-      const guLinesH = this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 62, maxTextW, 23, 3);
+      const descY = contentY + titleEnH + titleGuH + 16;
+      const guLinesH = this.wrapText(ctx, card.desc_gu || '', contentX, descY, maxTextW, 27, 5);
 
       // English Description
-      ctx.font = '400 14px "Plus Jakarta Sans", sans-serif';
+      ctx.font = '400 17px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#94a3b8';
-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 68 + guLinesH, maxTextW, 20, 3);
+      this.wrapText(ctx, card.desc_en || '', contentX, descY + guLinesH + 12, maxTextW, 24, 5);
 
     } else if (language === 'gujarati') {
-      ctx.font = 'bold 24px "Noto Sans Gujarati", sans-serif';
+      ctx.font = 'bold 29px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#ffffff';
-      ctx.fillText(card.title_gu || '', contentX, contentY + 8);
+      const tGuOnlyH = this.wrapText(ctx, card.title_gu || '', contentX, contentY + 10, maxTextW, 36, 2);
 
-      ctx.font = '400 17px "Noto Sans Gujarati", sans-serif';
+      ctx.font = '400 21px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#e2e8f0';
-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 48, maxTextW, 26, 6);
+      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 10 + tGuOnlyH + 18, maxTextW, 31, 8);
 
     } else {
-      ctx.font = 'bold 23px "Plus Jakarta Sans", sans-serif';
+      ctx.font = 'bold 28px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#38bdf8';
-      ctx.fillText(card.title_en || '', contentX, contentY + 8);
+      const tEnOnlyH = this.wrapText(ctx, card.title_en || '', contentX, contentY + 10, maxTextW, 34, 2);
 
-      ctx.font = '400 17px "Plus Jakarta Sans", sans-serif';
+      ctx.font = '400 21px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#e2e8f0';
-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 48, maxTextW, 26, 6);
+      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 10 + tEnOnlyH + 18, maxTextW, 31, 8);
     }
 
     ctx.restore();

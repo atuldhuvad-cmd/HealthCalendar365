@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-10-16T19:35:00-04:00",
+  "updated_at": "2026-10-18T11:51:08-04:00",
+  "queue_title": "Controlled Candidate Generation Queue",
+  "production_hold": "STRICTLY_ACTIVE",
+  "total_items": 1,
+  "queue_disposition_summary": {
+    "PENDING_REPLACEMENT_CANDIDATE": 0,
+    "APPROVED_AND_PROMOTED": 1,
+    "READY_FOR_GENERATION_CALL": 0,
+    "GENERATION_AUTHORIZED": 0
+  },
+  "governance": {
+    "spending_cap_usd": 0.0,
+    "current_authorized_spend_usd": 0.0,
+    "actual_spend_usd": 0.0,
+    "api_calls_permitted": false,
+    "authorization_state": "ALL_CANDIDATES_PROMOTED_SPEND_ZERO"
+  },
+  "items": [
+    {
+      "queue_id": "queue-20261016-10-17-card1-r01",
+      "slot": "10-17_card1",
+      "day_id": "10-17",
+      "card_idx": 1,
+      "card_theme": "World Trauma Day (Road Safety & Golden Hour)",
+      "current_image_path": "photos/oct17_do1.png",
+      "current_image_sha256": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6",
+      "approved_spec_hash": "122c6a71707940d0b503e0d86e9774af8db33dddd619416bb20f4b501a5d42e1",
+      "clinical_copy_status": "APPROVED",
+      "visual_image_status": "APPROVED",
+      "candidate_status": "APPROVED_AND_PROMOTED",
+      "visual_defect": "RESOLVED_BY_REPLACEMENT",
+      "defect_classification": "AI_VISUAL_HALLUCINATION_DUAL_STEERING_WHEELS",
+      "defect_description": "AI-generated dual steering wheels / two people appearing to drive simultaneously in the front vehicle seats (RESOLVED)",
+      "reviewer_finding_verbatim": "Two person driving the car",
+      "disposition": "APPROVED_AND_PROMOTED",
+      "production_approved": true,
+      "promoted_transaction_id": "tx_20261018_approved_replacement_10_17_card1",
+      "promoted_at": "2026-10-18T11:51:08-04:00",
+      "historical_rejected_image_sha256": "4f155d0239df8c2815424dfd17a184b274fd95ddfeee37e8ecee7fe9fe3a849e",
+      "decision_record": "review/human_decisions/replacement_image_10_17_card1_dr_atul_2026-10-18.json",
+      "approved_clinical_copy": {
+        "badge_en": "Message #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Wear ISI-Marked Full-Face Helmet & Seatbelt",
+        "title_gu": "ISI ચિહ્નિત ફુલ-ફેસ હેલ્મેટ અને સીટબેલ્ટ પહેરો",
+        "desc_en": "Fasten chin strap on two-wheelers; click three-point seatbelt in cars for front and rear passengers.",
+        "desc_gu": "બાઇક-સ્કૂટર પર ચિન-સ્ટ્રેપ સાથે ISI ચિહ્નિત હેલ્મેટ પહેરો; કારમાં આગળ-પાછળ બેસનાર દરેક વ્યક્તિ સીટબેલ્ટ અવશ્ય બાંધો."
+      },
+      "candidate_contract": {
+        "format": "PNG",
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "aspect_ratio": "4:3",
+        "target_staging_path": "photos/staging/candidate_10_17_card1_v1.png",
+        "visual_requirements": [
+          "A realistic Indian road-safety scene.",
+          "Exactly one steering wheel and one driver.",
+          "Driver wearing a correctly positioned three-point seatbelt.",
+          "Rear passengers wearing seatbelts where visible.",
+          "Optional two-wheeler safety inset only if visually clear, with an ISI-marked full-face helmet and fastened chin strap.",
+          "No text, logos, watermarks, duplicate controls, malformed anatomy or unsafe behavior.",
+          "1200×900 PNG, 4:3 aspect ratio.",
+          "Strong visual agreement with the approved helmet-and-seatbelt copy."
+        ],
+        "proposed_prompt": "Ultra-photorealistic 4:3 documentary editorial photograph of an authentic Indian road-safety scene. Inside a contemporary Indian passenger vehicle, exactly one Indian driver sits in the right-hand drive seat, holding exactly ONE steering wheel with proper hand positioning, wearing a correctly fastened three-point seatbelt snug across chest and lap. Beside the driver, the front passenger wears a three-point seatbelt; where visible, rear passengers also wear fastened seatbelts. (Optional subtle clear view through the car window showing an Indian two-wheeler rider wearing an ISI-marked full-face helmet with chin strap securely fastened). Authentic Indian street environment, natural morning daylight, dignified natural expressions, 8k resolution. Strictly NO duplicate steering wheels, NO multiple drivers, NO text, NO logos, NO watermarks, NO anatomical anomalies or extra limbs, NO dangerous or unbuckled behavior."
+      },
+      "estimated_provider_cost": {
+        "provider": "ChatGPT built-in image generator",
+        "model": "built-in",
+        "rate_per_image_usd": 0.0,
+        "planned_attempts": 1,
+        "estimated_total_usd": 0.0,
+        "authorized_spend_usd": 0.0,
+        "actual_spend_usd": 0.0
+      }
+    }
+  ]
+}
