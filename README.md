@@ -85,7 +85,7 @@ To eliminate subject mismatches, gender inversions, and cross-topic swaps, every
   - **Oct 19 (Ear & Hearing Care):** Fixed. Replaced tooth image with ENT doctor explaining ear anatomy (`oct19_ear_card1.png`). Replaced smoker lungs with woman inserting cotton bud with red 'X' warning (`oct19_ear_card3.png`).
   - **Oct 19 (Oral Health & Tobacco-Free Life):** Fixed. Replaced ear anatomy with clean tooth model & toothbrush (`oct19_oral_card1.png`). Replaced cotton bud in ear with smoker black lung vs clean lung with broken cigarette (`oct19_oral_card3.png`).
   - **Oct 20 (Osteoporosis) & Oct 21 (Iodine Deficiency):** Flagged for dedicated Indian elder fall prevention and Indian kitchen iodized salt jar generation.
-- **Full Year Scope:** 358 posters (1,432 cards) currently utilize 5 generic category placeholders (`cat_cardio.png`, `cat_infection.png`, `cat_mental.png`, `cat_nutrition.png`, `cat_yoga.png`). Detailed ledger tracked in [`MEMORY.md`](file:///D:/HealthCalendar365/MEMORY.md) and [`CALENDAR_IMAGE_AUDIT.md`](file:///D:/HealthCalendar365/CALENDAR_IMAGE_AUDIT.md).
+- **Full Year Scope:** 358 posters (1,432 cards) currently utilize 5 generic category placeholders (`cat_cardio.png`, `cat_infection.png`, `cat_mental.png`, `cat_nutrition.png`, `cat_yoga.png`). Detailed ledger tracked in [`MEMORY.md`](MEMORY.md) and [`CALENDAR_IMAGE_AUDIT.md`](CALENDAR_IMAGE_AUDIT.md).
 
 ---
 
