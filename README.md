@@ -15,24 +15,17 @@ An offline-first, mobile-responsive **Progressive Web App (PWA)** created specif
 - **Gujarati Only (સરળ ગુજરાતી):** Pure Gujarati vernacular messaging for maximum reach in Gujarat.
 - **English Only:** Clean global public health typography.
 
-### 3. Layout: 4-Card Visual Grid (2×2 Modular Architecture)
-- **Header Section:**
-  - Date Badge (e.g. `15 OCTOBER | ૧૫ ઓક્ટોબર`) with smooth pill border.
-  - Observance Badge: `WHO Global Health Day` or `MoHFW National Health Day` with priority tier glow.
-  - Large bold bilingual title in Plus Jakarta Sans + Noto Sans Gujarati.
-  - Clinical Theme Subtitle Capsule.
-- **Center 4-Card Grid:**
-  - 4 independent high-resolution photographs (source assets are 4:3, 720x540 or 1200x900).
-  - Rendered crop differs by format: Vertical draws 465x350 (4:3); Square draws 465x215 (a wider editorial crop).
-  - Clean rounded containers with subtle clinical border (`#284454`) and soft shadow.
-  - Distinct Action Badges (`માર્ગદર્શન #૧`, `માર્ગદર્શન #૨`, `માર્ગદર્શન #૩`, `માર્ગદર્શન #૪`).
-  - Bilingual Action Header and concise medical captions.
-- **Bottom Area:**
-  - **No footer bar.** The poster ends with the 4-card grid. Earlier builds carried an
-    `Issued in Public Interest for Health Awareness | જાહેર આરોગ્ય હિતમાં` / custom
-    doctor-branding footer; it was removed on 2026-10-18.
-  - The **Doctor Branding** settings panel is still present in the UI and still saves to
-    local storage, but while the footer is absent none of its fields are drawn on the poster.
+### 3. Layout: 4-Card Grid (2×2)
+- **Header:** date badge, observance badge, bilingual title, theme capsule.
+- **Cards:** 4 photographs in rounded containers with action badges and bilingual
+  captions. Source assets are 4:3 (720×540 or 1200×900); the rendered crop differs by
+  format — vertical draws 465×350, square draws 465×215.
+- **No footer bar** (removed 2026-10-18). The **Doctor Branding** panel still saves to
+  local storage, but nothing it holds is drawn on the poster while the footer is absent.
+
+**Artwork status:** the 10 spotlight posters (Oct 15–21) use dedicated photography. The
+remaining 358 posters / 1,432 cards still use 5 generic category placeholders. Ledger in
+[`CALENDAR_IMAGE_AUDIT.md`](CALENDAR_IMAGE_AUDIT.md) and [`MEMORY.md`](MEMORY.md).
 
 ---
 
@@ -61,38 +54,8 @@ python generate_with_gemini.py --force --day 10-15 --model imagen-3.0-generate-0
 ```
 
 ### 3. UI Studio Integration
-- **Click any card on the live canvas or sidebar:**
-  - 📷 **Upload / Swap Photo:** Upload a custom photo from your clinic or phone gallery.
-  - ✨ **Copy Gemini Prompt:** 1-click copies the exact Gemini Imagen 3 prompt to clipboard.
-  - 🔄 **Reset Photo:** Restores the default photo.
-
----
-
-## 🔍 Visual Integrity & Full-Calendar Discrepancy Audit
-
-To eliminate subject mismatches, gender inversions, and cross-topic swaps, every card in the studio is audited against **5 Strict Quality Gates**:
-
-1. **Gender & Physiological Match Gate:** Female-specific observances (Menopause, Maternal Health) must strictly feature female subjects/doctors; never male subjects.
-2. **Direct Subject Correlation Gate:** The visual must directly depict the subject of the card (e.g. Ear Care must show ears/ENT, NOT teeth; Oral Care must show teeth/gums, NOT ear anatomy; Tobacco must show anti-tobacco/lungs, NOT ear buds; Iodine Day must show iodized salt packaging/jars, NOT refrigerators).
-3. **Authentic Indian Context Gate:** All visuals must feature authentic Indian families, Indian domestic kitchens, Indian road settings (certified ISI full-face helmets, fastened 3-point seatbelts), and Indian clinical environments. No Western stock imagery.
-4. **Zero Cross-Card Duplication Gate:** The 4 cards of every poster must feature distinct, unique perspectives without duplicating images.
-5. **Zero Cross-Topic Swap Gate:** Assets must never be cross-contaminated between health days.
-
-### Audit Summary:
-- **Spotlight Week (Oct 15 - Oct 21):**
-  - **Oct 17 (World Trauma Day):** Fixed. Installed authentic Indian couple with prominent 3-point seatbelts (`oct17_do1.png`), certified full-face helmet (`oct17_dont1.png`), emergency 108 phone response (`oct17_do2.png`), and CPR/first-aid dummy care (`oct17_dont2.png`).
-  - **Oct 18 (World Menopause Day):** Fixed. Replaced elderly male on stairs with authentic woman squatting with weights, calcium nutrition & bone model (`oct18_dont1.png`). Replaced exercise photo on Gynecologist Advice card with female gynecologist consulting female patient with anatomical uterus model (`oct18_dont2.png`).
-  - **Oct 19 (Ear & Hearing Care):** Fixed. Replaced tooth image with ENT doctor explaining ear anatomy (`oct19_ear_card1.png`). Replaced smoker lungs with woman inserting cotton bud with red 'X' warning (`oct19_ear_card3.png`).
-  - **Oct 19 (Oral Health & Tobacco-Free Life):** Fixed. Replaced ear anatomy with clean tooth model & toothbrush (`oct19_oral_card1.png`). Replaced cotton bud in ear with smoker black lung vs clean lung with broken cigarette (`oct19_oral_card3.png`).
-  - **Oct 20 (Osteoporosis) & Oct 21 (Iodine Deficiency):** Flagged for dedicated Indian elder fall prevention and Indian kitchen iodized salt jar generation.
-- **Full Year Scope:** 358 posters (1,432 cards) currently utilize 5 generic category placeholders (`cat_cardio.png`, `cat_infection.png`, `cat_mental.png`, `cat_nutrition.png`, `cat_yoga.png`). Detailed ledger tracked in [`MEMORY.md`](MEMORY.md) and [`CALENDAR_IMAGE_AUDIT.md`](CALENDAR_IMAGE_AUDIT.md).
-
----
-
-## 🚫 Deprecated Scripts
-The following old scripts have been retired and deprecated:
-- `generate_realistic_assets.py` (Deprecated: Monolithic PIL canvas shape-drawing is replaced by dynamic HTML5 Canvas).
-- `extract_clean_photos.py` (Deprecated: Monolithic PNG pixel-cropping is replaced by independent 4:3 high-res photos).
+Click any card on the canvas or sidebar to swap in your own photo, copy that card's
+Gemini prompt, or reset it to the default.
 
 ---
 
@@ -124,13 +87,8 @@ The server prints the phone URL and the exact origin string to enter under
 workers require a secure context, and a plain-HTTP LAN origin is not one by default.
 Full procedure: [`review/ANDROID_NO_USB_TEST_INSTRUCTIONS.md`](review/ANDROID_NO_USB_TEST_INSTRUCTIONS.md).
 
-> **Serve `build/preview-runtime`, never the repo root.** The root also contains
-> `review/`, `.git` and transaction data, which would be readable by anything on the same
-> network. `start_studio.bat` serves the root and is safe only because it stays on loopback.
-
-> **Keep the origin stable.** A PWA's service worker, Cache Storage and IndexedDB are bound
-> to `(scheme, host, port)`. Changing the IP or the port makes Android treat it as a
-> different site and discards the installed app's cached state.
+> Serve `build/preview-runtime`, never the repo root, and keep the port fixed — both
+> reasons are explained in the linked procedure.
 
 ### Maintenance commands
 
