@@ -3,9 +3,10 @@
  * Complete offline caching for all assets, fonts, JSON, and photo graphics.
  */
 
-const CACHE_NAME = 'health-poster-v1.16-review';
+const CACHE_NAME = 'health-poster-v1.17-review';
 
 const PRECACHE_ASSETS = [
+  "./js/review-actions.js",
   "./css/review.css",
   "./js/review.js",
   "./js/review-data.js",

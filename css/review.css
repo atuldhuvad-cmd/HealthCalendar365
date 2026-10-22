@@ -1066,3 +1066,15 @@
 
 body.calendar-review-mode .app-header { display: none !important; }
 body.calendar-review-mode { padding-top: 0 !important; }
+
+/* Card copy decisions */
+.review-decision-toolbar,.review-copy-actions { padding:14px; margin:12px 0; border:1px solid #346079; border-radius:10px; background:#10283b; overflow-wrap:anywhere; }
+.review-decision-toolbar button,.review-copy-actions button,.review-copy-dialog button { padding:10px 14px; margin:4px; border:1px solid #539aab; border-radius:7px; background:#123b4a; color:#fff; cursor:pointer; font:inherit; white-space:normal; }
+.review-copy-actions button:disabled { background:#126248; opacity:1; cursor:default; }
+.review-copy-actions small { display:block; margin-top:8px; color:#c4d5dd; }
+.review-copy-state { color:#a7f3d0; font-weight:600; }
+.review-copy-dialog { width:min(740px,90vw); max-height:88vh; overflow:auto; border:1px solid #62a5b5; border-radius:12px; background:#0c2035; color:#fff; padding:20px; box-sizing:border-box; }
+.review-copy-dialog::backdrop { background:rgba(0,0,0,.8); }
+.review-copy-dialog label { display:block; margin:12px 0; }
+.review-copy-dialog textarea { display:block; width:100%; box-sizing:border-box; padding:10px; margin-top:5px; background:#061624; color:#fff; border:1px solid #62a5b5; border-radius:6px; font:inherit; resize:vertical; }
+.review-copy-actions button:focus-visible,.review-decision-toolbar button:focus-visible { outline:3px solid #ffd45c; outline-offset:3px; }

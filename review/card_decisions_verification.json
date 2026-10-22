@@ -1,0 +1,66 @@
+{
+  "url": "http://127.0.0.1:51638/",
+  "checks": [
+    {
+      "name": "four per-card action groups",
+      "pass": true
+    },
+    {
+      "name": "approval displayed",
+      "pass": true
+    },
+    {
+      "name": "approval survives reload",
+      "pass": true
+    },
+    {
+      "name": "identical set shares approval",
+      "pass": true
+    },
+    {
+      "name": "cancel preserves approval and text",
+      "pass": true
+    },
+    {
+      "name": "edit clears prior approval",
+      "pass": true
+    },
+    {
+      "name": "edited English and Gujarati visible",
+      "pass": true
+    },
+    {
+      "name": "export includes approved edited version",
+      "pass": true
+    },
+    {
+      "name": "export import roundtrip",
+      "pass": true
+    },
+    {
+      "name": "stale import rejected without loss",
+      "pass": true
+    },
+    {
+      "name": "can return to pending",
+      "pass": true
+    },
+    {
+      "name": "mobile editor within viewport",
+      "pass": true
+    },
+    {
+      "name": "Escape closes editor",
+      "pass": true
+    },
+    {
+      "name": "offline approval works",
+      "pass": true
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
