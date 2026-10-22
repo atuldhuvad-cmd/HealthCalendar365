@@ -17,6 +17,7 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/review.css">
 </head>
 <body>
 
@@ -73,6 +74,28 @@
       </button>
     </div>
   </header>
+
+  <!-- Application View Mode Switcher -->
+  <nav class="app-mode-bar" aria-label="Application View Mode">
+    <div class="mode-bar-inner">
+      <div class="mode-switch-group">
+        <button id="viewStudioBtn" class="mode-tab-btn active" type="button" title="Open Poster Studio">
+          <span class="mode-icon">🎨</span>
+          <span class="mode-label">Poster Studio</span>
+          <span class="mode-tag">Active 365</span>
+        </button>
+        <button id="viewReviewBtn" class="mode-tab-btn" type="button" title="Open Annual 2026 Calendar Review Console">
+          <span class="mode-icon">📋</span>
+          <span class="mode-label">Calendar Review</span>
+          <span class="mode-tag review-tag">2026 Proposals</span>
+        </button>
+      </div>
+      <div class="mode-status-indicator" id="modeStatusIndicator">
+        <span class="pulse-dot"></span>
+        <span class="indicator-text">Active Studio Mode</span>
+      </div>
+    </div>
+  </nav>
 
   <!-- Quick-Week Jumper (Oct 15 - Oct 21 Spotlight Week) -->
   <section class="quick-week-bar">
@@ -170,6 +193,143 @@
     </aside>
 
   </main>
+
+  <!-- Annual Calendar 2026 Review Console (Review-Only Payload) -->
+  <main id="calendarReviewView" class="review-layout">
+    <!-- Review Notice & Disclaimer Banner -->
+    <div class="review-banner">
+      <div class="review-banner-text">
+        <h2>Annual Health Calendar 2026 — Master Review Console</h2>
+        <p>વાર્ષિક આરોગ્ય કેલેન્ડર ૨૦૨૬ • Bilingual Clinical & Placement Review • Dr. Atul Dhuvad</p><p>Comparison uses the frozen working-copy snapshot; Poster Studio retains the previously published calendar.</p>
+      </div>
+      <div class="review-banner-badges">
+        <span class="banner-badge badge-amber">🔒 REVIEW-ONLY PAYLOAD</span>
+        <span class="banner-badge badge-emerald">STUDIO CALENDAR UNCHANGED</span>
+        <span class="banner-badge badge-amber">PENDING CLINICAL SIGN-OFF</span>
+        <span class="banner-badge badge-blue">OFFLINE BUNDLED</span>
+      </div>
+    </div>
+
+    <!-- Controls & Filter Toolbar -->
+    <div class="review-controls-bar">
+      <div class="controls-row-top">
+        <div class="review-search-box">
+          <input type="text" id="reviewSearchInput" placeholder="Search 365 dates (e.g. '10-15', 'October', 'Anemia', 'હાઈપરટેન્શન', 'DEC-14')..." />
+          <button id="reviewClearSearchBtn" class="search-clear-btn" style="display:none;" title="Clear Search">&times;</button>
+        </div>
+        <select id="reviewMonthSelect" class="review-month-select" title="Filter by Month">
+          <option value="all">All Months (365 Days)</option>
+          <option value="1">January (31)</option>
+          <option value="2">February (28)</option>
+          <option value="3">March (31)</option>
+          <option value="4">April (30)</option>
+          <option value="5">May (31)</option>
+          <option value="6">June (30)</option>
+          <option value="7">July (31)</option>
+          <option value="8">August (31)</option>
+          <option value="9">September (30)</option>
+          <option value="10">October (31)</option>
+          <option value="11">November (30)</option>
+          <option value="12">December (31)</option>
+        </select>
+        <div class="controls-row-actions">
+          <button id="openDecisionsModalBtn" class="btn-review-action btn-accent" title="Open Master Pending Decisions Register">
+            <span>📑</span>
+            <span>Decisions Register (DEC-01..19)</span>
+          </button>
+          <button id="openLegendModalBtn" class="btn-review-action" title="View Review Legend & Guidelines">
+            <span>ℹ️</span>
+            <span>Review Legend</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Filter Chips -->
+      <div class="filter-chips-scroll" id="reviewFilterChips">
+        <button class="filter-chip active" data-filter="all">
+          <span>All 365 Dates</span>
+          <span class="chip-count">365</span>
+        </button>
+        <button class="filter-chip" data-filter="pending_clinical">
+          <span>⏳ Pending Clinical Review</span>
+          <span class="chip-count">117</span>
+        </button>
+        <button class="filter-chip" data-filter="placement_conflict">
+          <span>⚠️ Placement Conflicts & Multi-Track</span>
+          <span class="chip-count">10</span>
+        </button>
+        <button class="filter-chip" data-filter="evidence_concern">
+          <span>🔬 Evidence Concerns</span>
+          <span class="chip-count">48</span>
+        </button>
+        <button class="filter-chip" data-filter="missing_image">
+          <span>🖼️ Missing / Unreviewed Images</span>
+          <span class="chip-count">141</span>
+        </button>
+        <button class="filter-chip" data-filter="retained_correction">
+          <span>🔧 Retained-Content Corrections</span>
+          <span class="chip-count">45</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Master-Detail Review Workspace Grid -->
+    <div class="review-workspace-grid">
+      <!-- Left: Date Navigation List -->
+      <section class="review-list-column">
+        <div class="list-column-header">
+          <h3>2026 Calendar Dates</h3>
+          <span id="reviewListCount" class="list-matching-count">365 / 365</span>
+        </div>
+        <div class="review-date-scroll" id="reviewDateList">
+          <!-- Populated dynamically by review.js -->
+        </div>
+      </section>
+
+      <!-- Right: Date Detail & Side-by-Side Comparison -->
+      <section class="review-detail-column" id="reviewDetailContent">
+        <!-- Populated dynamically by review.js -->
+      </section>
+    </div>
+  </main>
+
+  <!-- Decisions Register Modal -->
+  <div class="review-modal-backdrop" id="decisionsModal">
+    <div class="review-modal-content">
+      <div class="review-modal-header">
+        <h3>📑 Master Pending Decisions Register (DEC-01 through DEC-19)</h3>
+        <button id="closeDecisionsModalBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="review-modal-body" id="decisionsModalBody">
+        <!-- Populated dynamically by review.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Review Legend & Guidelines Modal -->
+  <div class="review-modal-backdrop" id="legendModal">
+    <div class="review-modal-content">
+      <div class="review-modal-header">
+        <h3>ℹ️ Review Console Legend & Governance Guidelines</h3>
+        <button id="closeLegendModalBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="review-modal-body" style="line-height:1.5;font-size:0.9rem;color:#cbd5e1;">
+        <h4 style="color:#ffffff;margin-top:0;">Governance Boundaries</h4>
+        <ul>
+          <li><strong>Active Calendar Immutability:</strong> The active poster studio files (<code style="color:#00d2b4;">health_365.json</code>, approved observances, and overrides) remain 100% frozen. The review view consumes a separate review payload.</li>
+          <li><strong>Visual Status Separation:</strong> Existing photos are labeled <span class="badge-emerald" style="padding:2px 6px;border-radius:4px;">CURRENT_ACTIVE_ASSET</span>. Proposed visual briefs are labeled <span class="badge-amber" style="padding:2px 6px;border-radius:4px;">PROPOSED_BRIEF_AWAITING_GENERATION</span> and must never be considered approved matches for revised copy.</li>
+          <li><strong>Offline Access:</strong> All 365 dates and review dossiers are bundled locally into the PWA service worker precache. External guideline links require internet.</li>
+        </ul>
+        <h4 style="color:#ffffff;">Clinical Status Badges</h4>
+        <ul>
+          <li><strong style="color:#10b981;">CLINICAL COPY APPROVED:</strong> Previously signed-off campaigns (Items 1–24 and Item 38).</li>
+          <li><strong style="color:#f59e0b;">PENDING CLINICAL SIGN-OFF:</strong> Draft observance campaigns (Batches 3, 4, 5), routine replacement sets (Sets 1–16), and climate-health additions.</li>
+          <li><strong style="color:#f97316;">PROPOSED WORDING CORRECTION:</strong> Retained baseline topics with identified clinical, numerical, device-specificity, or absolute-claim errors (DEC-14 to DEC-19).</li>
+          <li><strong style="color:#06b6d4;">RETAINED SOUND BASELINE:</strong> Baseline topics audited against NHM/CPHC standards and confirmed clinically sound.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <!-- Doctor Branding Settings Modal -->
   <div class="modal-backdrop" id="settingsModal">
@@ -296,6 +456,8 @@
   <script src="./js/db.js"></script>
   <script src="./js/canvas-renderer.js"></script>
   <script src="./js/app.js"></script>
+  <script src="./js/review-data.js"></script>
+  <script src="./js/review.js"></script>
 
 </body>
 </html>

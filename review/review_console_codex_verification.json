@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "name": "365 dates visible",
+      "pass": true
+    },
+    {
+      "name": "365 dates, 19 decisions, four cards",
+      "pass": true,
+      "detail": {
+        "dates": 365,
+        "decisions": 19,
+        "bad": []
+      }
+    },
+    {
+      "name": "all 74 observance campaigns available",
+      "pass": true,
+      "detail": 74
+    },
+    {
+      "name": "same-date campaign selector",
+      "pass": true
+    },
+    {
+      "name": "second campaign renders",
+      "pass": true
+    },
+    {
+      "name": "all detail renders run",
+      "pass": true,
+      "detail": {
+        "renders": 365,
+        "errors": []
+      }
+    },
+    {
+      "name": "Item 38 clinical approval retained",
+      "pass": true
+    },
+    {
+      "name": "decision modal visible",
+      "pass": true
+    },
+    {
+      "name": "Escape closes modal",
+      "pass": true
+    },
+    {
+      "name": "correction filter works",
+      "pass": true
+    },
+    {
+      "name": "search works",
+      "pass": true
+    },
+    {
+      "name": "copy prompt works",
+      "pass": true
+    },
+    {
+      "name": "mobile width 320",
+      "pass": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "mobile width 375",
+      "pass": true,
+      "detail": {
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "name": "mobile width 412",
+      "pass": true,
+      "detail": {
+        "scroll": 412,
+        "width": 412
+      }
+    },
+    {
+      "name": "offline reload and review",
+      "pass": true
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "url": "http://127.0.0.1:55145/",
+  "production_calendar_unchanged": true
+}
