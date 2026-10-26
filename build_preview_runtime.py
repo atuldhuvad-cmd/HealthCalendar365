@@ -7,7 +7,7 @@ serves into a clean target directory (default: build/preview-runtime).
 
 Enforces:
 1. Precache integrity: fails loudly and exits nonzero if any precache asset is missing.
-2. Complete isolation: never copies .git, review/, scratch/, data/transactions/, etc.
+2. Complete isolation: never copies .git, review/, scratch/, etc.
 3. Cryptographic parity: verifies every copied destination file is byte-identical (SHA-256).
 4. Idempotency: safe to re-run at any time.
 -----------------------------------------------------------------------------

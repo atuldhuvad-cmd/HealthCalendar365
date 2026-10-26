@@ -1,5 +1,5 @@
 {
-  "notice": "PRODUCTION HOLD ACTIVE: Copy revisions are staged for clinical/language review. Production database health_365.json remains 100% UNCHANGED.",
+  "notice": "Historical proposed copy revisions and observance source citations, kept for provenance only. The active dataset is data/health_365.json; this file is not an approval or release gate.",
   "health_observance_provenance": {
     "10-15": {
       "observance_name_en": "Global Handwashing Day",

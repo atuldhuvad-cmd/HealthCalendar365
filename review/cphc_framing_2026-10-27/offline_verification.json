@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-26T18:40:10.085Z",
+  "release": "v1.27",
+  "url": "http://127.0.0.1:60724/index.html",
+  "checks": [
+    {
+      "name": "page loads",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "365 calendar dates",
+      "pass": true,
+      "detail": 365
+    },
+    {
+      "name": "mobile layout fits",
+      "pass": true,
+      "detail": "390x844"
+    },
+    {
+      "name": "search works",
+      "pass": true
+    },
+    {
+      "name": "complete v1.27 offline cache",
+      "pass": true,
+      "detail": 264
+    },
+    {
+      "name": "cached files match prepared release",
+      "pass": true,
+      "detail": {
+        "files": 263,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "offline launch preserves settings",
+      "pass": true
+    },
+    {
+      "name": "offline calendar and vertical language renders",
+      "pass": true,
+      "detail": 2190
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

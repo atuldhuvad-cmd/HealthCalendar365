@@ -3,8 +3,6 @@
 **Date:** October 16, 2026  
 **Document ID:** `EVAL-HOSTING-20261016`  
 **Status:** PROPOSED & EVALUATED — ZERO EXTERNAL CHANGES EXECUTED  
-**Governing Standard:** [`review/RELEASE_GOVERNANCE.md`](file:///d:/HealthCalendar365/review/RELEASE_GOVERNANCE.md)  
-**Production Hold:** STRICTLY ACTIVE
 
 ---
 
@@ -89,5 +87,4 @@ To prepare for future deployment without mutating existing code, the recommended
 
 In accordance with Step 8 acceptance criteria:
 - **DNS / Hosting Status:** Zero DNS records created; zero external hosting services configured.
-- **Production Hold:** Strictly ACTIVE.
 - **Deployment Requirement:** Production deployment requires explicit human authorization naming the exact reviewed commit SHA and target host.

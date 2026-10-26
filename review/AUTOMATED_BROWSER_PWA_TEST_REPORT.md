@@ -1,5 +1,7 @@
 # HealthCalendar365 — Automated Browser & PWA Lifecycle Test Report
 
+> **Note (2026-10-27):** the approval/governance/acceptance files cited in this historical record were removed from the project and survive only in the offline recovery archive. The record itself is unchanged.
+
 **Date:** October 16, 2026  
 **Document ID:** `REPORT-BROWSER-PWA-20261016-R2`  
 **Execution Environment:** Headless Chromium (Playwright / Node.js) on Local HTTP Server  

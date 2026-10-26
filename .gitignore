@@ -60,3 +60,8 @@ build/
 
 # Vendored third-party binaries (download locally, never commit)
 *.exe
+
+# Local tool state and scratch output
+.wrangler/
+tmp/
+scratch/*.exe

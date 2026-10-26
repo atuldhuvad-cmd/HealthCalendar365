@@ -1,0 +1,1253 @@
+{
+  "count": 140,
+  "records": [
+    {
+      "image": "photos/cphc_anc_care_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_anc_care_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_anc_care_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_anc_care_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_anemia_mukt_bharat_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_anemia_mukt_bharat_card2.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_anemia_mukt_bharat_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_anemia_mukt_bharat_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_antibiotic_stewardship_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_antibiotic_stewardship_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_antibiotic_stewardship_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_antibiotic_stewardship_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_breast_cervical_cancer_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_breast_cervical_cancer_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_breast_cervical_cancer_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_breast_cervical_cancer_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_cardio_stroke_fast_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_cardio_stroke_fast_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_cardio_stroke_fast_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_cardio_stroke_fast_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_childhood_idcf_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_childhood_idcf_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_childhood_idcf_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_childhood_idcf_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_copd_asthma_card1.png",
+      "profile": {
+        "y": 0,
+        "badge": "bl",
+        "verticalBadge": "bl"
+      },
+      "reason": "Close view: keep the face and demonstrated hand action in the upper crop; move the square badge away from the head."
+    },
+    {
+      "image": "photos/cphc_copd_asthma_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_copd_asthma_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_copd_asthma_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_delivery_dakshata_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_delivery_dakshata_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_delivery_dakshata_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_delivery_dakshata_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_dementia_falls_epmns_card1.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tr"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_dementia_falls_epmns_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_dementia_falls_epmns_card3.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_dementia_falls_epmns_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_diabetes_care_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_diabetes_care_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_diabetes_care_card3.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tr"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_diabetes_care_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_elderly_cga_epmns_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_elderly_cga_epmns_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_elderly_cga_epmns_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_elderly_cga_epmns_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_snakebite_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_snakebite_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_snakebite_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_snakebite_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_trauma_108_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_trauma_108_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_trauma_108_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_emergency_trauma_108_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_ent_care_oeee_card1.png",
+      "profile": {
+        "y": 0,
+        "badge": "bl",
+        "verticalBadge": "tr"
+      },
+      "reason": "Close view: keep the face and demonstrated hand action in the upper crop; move the square badge away from the head."
+    },
+    {
+      "image": "photos/cphc_ent_care_oeee_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_ent_care_oeee_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_ent_care_oeee_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_ert_balanced_thali_millets_card1.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tr"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_ert_balanced_thali_millets_card2.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_ert_balanced_thali_millets_card3.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_ert_balanced_thali_millets_card4.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tr"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_ert_less_salt_sugar_oil_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_ert_less_salt_sugar_oil_card2.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_ert_less_salt_sugar_oil_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_ert_less_salt_sugar_oil_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_eye_care_oeee_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_eye_care_oeee_card2.png",
+      "profile": {
+        "y": 0,
+        "badge": "bl",
+        "verticalBadge": "bl"
+      },
+      "reason": "Close view: keep the face and demonstrated hand action in the upper crop; move the square badge away from the head."
+    },
+    {
+      "image": "photos/cphc_eye_care_oeee_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_eye_care_oeee_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_family_planning_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_family_planning_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_family_planning_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_family_planning_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hbyc_childcare_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hbyc_childcare_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hbyc_childcare_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hbyc_childcare_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hepatitis_waterborne_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hepatitis_waterborne_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hepatitis_waterborne_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hepatitis_waterborne_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hypertension_ncd_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hypertension_ncd_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hypertension_ncd_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_hypertension_ncd_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_iycf_nutrition_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_iycf_nutrition_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_iycf_nutrition_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_iycf_nutrition_card4.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tr"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_leprosy_nlep_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_leprosy_nlep_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_leprosy_nlep_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_leprosy_nlep_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_mental_telemanas_epmns_card1.png",
+      "profile": {
+        "y": 0,
+        "badge": "bl",
+        "verticalBadge": "bl"
+      },
+      "reason": "Close view: keep the face and demonstrated hand action in the upper crop; move the square badge away from the head."
+    },
+    {
+      "image": "photos/cphc_mental_telemanas_epmns_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_mental_telemanas_epmns_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_mental_telemanas_epmns_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_newborn_nssk_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_newborn_nssk_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_newborn_nssk_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_newborn_nssk_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_oral_cancer_ntcp_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_oral_cancer_ntcp_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_oral_cancer_ntcp_card3.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_oral_cancer_ntcp_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_oral_dental_oeee_card1.png",
+      "profile": {
+        "y": 0,
+        "badge": "bl",
+        "verticalBadge": "bl"
+      },
+      "reason": "Close view: keep the face and demonstrated hand action in the upper crop; move the square badge away from the head."
+    },
+    {
+      "image": "photos/cphc_oral_dental_oeee_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_oral_dental_oeee_card3.png",
+      "profile": {
+        "y": 0.5,
+        "verticalBadge": "tl"
+      },
+      "reason": "Detail view: preserve centered equipment, food, hands, or environment; no face requires a top crop."
+    },
+    {
+      "image": "photos/cphc_oral_dental_oeee_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_palliative_epmns_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_palliative_epmns_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_palliative_epmns_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_palliative_epmns_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rbsk_screening_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rbsk_screening_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rbsk_screening_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rbsk_screening_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rksk_adolescent_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rksk_adolescent_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rksk_adolescent_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_rksk_adolescent_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_substance_audit_epmns_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_substance_audit_epmns_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_substance_audit_epmns_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_substance_audit_epmns_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_tb_elimination_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_tb_elimination_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_tb_elimination_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_tb_elimination_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_uip_vaccination_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_uip_vaccination_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_uip_vaccination_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_uip_vaccination_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_vector_malaria_dengue_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_vector_malaria_dengue_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_vector_malaria_dengue_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "br"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_vector_malaria_dengue_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "bl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_wash_infection_control_card1.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_wash_infection_control_card2.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tr"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_wash_infection_control_card3.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    },
+    {
+      "image": "photos/cphc_wash_infection_control_card4.png",
+      "profile": {
+        "fit": "contain",
+        "align": "right",
+        "verticalBadge": "tl"
+      },
+      "reason": "Full scene: faces and lower hands, equipment, or activity span more than the wide square crop can retain."
+    }
+  ]
+}

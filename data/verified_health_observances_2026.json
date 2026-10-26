@@ -1,0 +1,3001 @@
+{
+  "schema_version": 1,
+  "calendar_year": 2026,
+  "verified_on": "2026-10-22",
+  "policy": "Preserve confirmed, provisional, conflicting, and unresolved date evidence. Poster availability is a personal-use workflow state and does not alter observance certainty.",
+  "summary": {
+    "campaigns": 93,
+    "poster_placements": 94,
+    "dates_with_observances": 85,
+    "PENDING_BILINGUAL_CONTENT_AND_IMAGES": 74,
+    "ACTIVE_REVIEWED_POSTER": 20,
+    "active_personal_use_posters": 94,
+    "pending_bilingual_content_and_images": 0
+  },
+  "campaigns": [
+    {
+      "campaign_id": "national-youth-day",
+      "title_en": "National Youth Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Youth Affairs & Sports / GOI",
+      "key_focus": "Youth health, physical fitness, and mental wellness",
+      "dates_2026": [
+        [
+          1,
+          12
+        ]
+      ],
+      "date_rule": "Annual fixed date: January 12",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 2
+    },
+    {
+      "campaign_id": "national-girl-child-day",
+      "title_en": "National Girl Child Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Women & Child Development (MWCD) / GOI",
+      "key_focus": "Child health, adolescent girl nutrition, and fighting gender bias",
+      "dates_2026": [
+        [
+          1,
+          24
+        ]
+      ],
+      "date_rule": "Annual fixed date: January 24",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2217624&lang=1&reg=6",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 3
+    },
+    {
+      "campaign_id": "world-leprosy-day",
+      "title_en": "World Leprosy Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "WHO & International Federation of Anti-Leprosy Associations (ILEP)",
+      "key_focus": "Global awareness and zero-leprosy targets",
+      "dates_2026": [
+        [
+          1,
+          25
+        ]
+      ],
+      "date_rule": "Last Sunday of January; 2026 occurrence: January 25",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 6
+    },
+    {
+      "campaign_id": "national-anti-leprosy-day",
+      "title_en": "National Anti-Leprosy Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Health & Family Welfare (MoHFW) / GOI",
+      "key_focus": "Leprosy case detection, multi-drug therapy (MDT), and removing stigma (Gandhi death anniversary)",
+      "dates_2026": [
+        [
+          1,
+          30
+        ]
+      ],
+      "date_rule": "Annual fixed date: January 30",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 4
+    },
+    {
+      "campaign_id": "world-neglected-tropical-diseases-ntd-day",
+      "title_en": "World Neglected Tropical Diseases (NTD) Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "World Health Organization (WHO)",
+      "key_focus": "Tackling preventable tropical infections like filariasis, visceral leishmaniasis, and dengue",
+      "dates_2026": [
+        [
+          1,
+          30
+        ]
+      ],
+      "date_rule": "Annual fixed date: January 30",
+      "source_url": "https://www.who.int/campaigns/world-ntd-day",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 5
+    },
+    {
+      "campaign_id": "world-cancer-day",
+      "title_en": "World Cancer Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "Union for International Cancer Control (UICC) & WHO",
+      "key_focus": "Cancer prevention, early detection screening, and closing the care gap",
+      "dates_2026": [
+        [
+          2,
+          4
+        ]
+      ],
+      "date_rule": "Annual fixed date: February 4",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 7
+    },
+    {
+      "campaign_id": "national-deworming-day-ndd",
+      "title_en": "National Deworming Day (NDD)",
+      "scope": "India",
+      "authority_claim_from_csv": "MoHFW & MWCD (GOI)",
+      "key_focus": "Biannual mass administration of albendazole to treat intestinal worms in children aged 1-19",
+      "dates_2026": [
+        [
+          2,
+          10
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "date_rule": "Two annual occurrences: February 10 & August 10",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 8
+    },
+    {
+      "campaign_id": "national-unani-day",
+      "title_en": "National Unani Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of AYUSH (GOI)",
+      "key_focus": "Commemorates Hakim Ajmal Khan; highlights research and wellness in Unani medicine",
+      "dates_2026": [
+        [
+          2,
+          11
+        ]
+      ],
+      "date_rule": "Annual fixed date: February 11",
+      "source_url": "https://ayush.gov.in/resources/pdf/annualReport/Annual-Report24-25_English.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 9
+    },
+    {
+      "campaign_id": "sexual-and-reproductive-health-awareness-day",
+      "title_en": "Sexual and Reproductive Health Awareness Day",
+      "scope": "Global / Regional",
+      "authority_claim_from_csv": "Federation of Obstetric and Gynaecological Societies of India (FOGSI) & WHO",
+      "key_focus": "Safe sex practices, contraceptive choices, and STI prevention",
+      "dates_2026": [
+        [
+          2,
+          12
+        ]
+      ],
+      "date_rule": "Annual fixed date in the Government of India health-days table: February 12",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/2024-09/national-health-profile-india-2021.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_WITH_CORRECTION",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 10
+    },
+    {
+      "campaign_id": "rare-disease-day",
+      "title_en": "Rare Disease Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "EURORDIS & Organization for Rare Diseases India (ORDI)",
+      "key_focus": "Improving access to diagnosis, treatment, and orphan drugs for rare conditions",
+      "dates_2026": [
+        [
+          2,
+          28
+        ]
+      ],
+      "date_rule": "Last day of February; 2026 occurrence: February 28",
+      "source_url": "https://www.rarediseaseday.org/what-is-rare-disease-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 11
+    },
+    {
+      "campaign_id": "world-hearing-day",
+      "title_en": "World Hearing Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "World Health Organization (WHO)",
+      "key_focus": "Ear and hearing care, screening, and loud noise protection",
+      "dates_2026": [
+        [
+          3,
+          3
+        ]
+      ],
+      "date_rule": "Annual fixed date: March 3",
+      "source_url": "https://www.who.int/campaigns/world-hearing-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 12
+    },
+    {
+      "campaign_id": "international-women-s-day",
+      "title_en": "International Women’s Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "UN / UNICEF / MoHFW",
+      "key_focus": "Maternal health, reproductive rights, and women's health equity",
+      "dates_2026": [
+        [
+          3,
+          8
+        ]
+      ],
+      "date_rule": "Annual fixed date: March 8",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 14
+    },
+    {
+      "campaign_id": "national-gestational-diabetes-mellitus-gdm-day",
+      "title_en": "National Gestational Diabetes Mellitus (GDM) Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Diabetes in Pregnancy Study Group India (DIPSI) & FOGSI",
+      "key_focus": "Mandatory blood sugar testing in pregnant women to avoid fetal complications",
+      "dates_2026": [
+        [
+          3,
+          10
+        ]
+      ],
+      "date_rule": "Annual fixed date: March 10",
+      "source_url": "https://mohfw.gov.in/sites/default/files/Annual%20Report%202020-21%20English.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 15
+    },
+    {
+      "campaign_id": "world-kidney-day",
+      "title_en": "World Kidney Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "International Society of Nephrology (ISN) & Indian Society of Nephrology (ISN-India)",
+      "key_focus": "Screening for chronic kidney disease, hypertension, and diabetes management",
+      "dates_2026": [
+        [
+          3,
+          12
+        ]
+      ],
+      "date_rule": "Second Thursday of March; 2026 occurrence: March 12",
+      "source_url": "https://www.worldkidneyday.org/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 16
+    },
+    {
+      "campaign_id": "national-vaccination-day",
+      "title_en": "National Vaccination Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Health & Family Welfare (MoHFW) / GOI",
+      "key_focus": "Commemorates India's first Pulse Polio dose in 1995; promotes childhood routine immunization",
+      "dates_2026": [
+        [
+          3,
+          16
+        ]
+      ],
+      "date_rule": "Annual fixed date in India: March 16",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241066&lang=2&reg=3",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "03-16"
+      ],
+      "csv_line": 17
+    },
+    {
+      "campaign_id": "world-oral-health-day",
+      "title_en": "World Oral Health Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "FDI World Dental Federation & IDA",
+      "key_focus": "Good oral habits, cavity prevention, and brushing techniques",
+      "dates_2026": [
+        [
+          3,
+          20
+        ]
+      ],
+      "date_rule": "Annual fixed date: March 20",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 18
+    },
+    {
+      "campaign_id": "world-down-syndrome-day",
+      "title_en": "World Down Syndrome Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "UN & Down Syndrome Federation of India (DSFI)",
+      "key_focus": "Inclusion, therapy, healthcare access, and rights of individuals with Down syndrome",
+      "dates_2026": [
+        [
+          3,
+          21
+        ]
+      ],
+      "date_rule": "Annual fixed date: March 21",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 19
+    },
+    {
+      "campaign_id": "world-tuberculosis-tb-day",
+      "title_en": "World Tuberculosis (TB) Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO & Central TB Division (MoHFW - Ni-kshay initiative)",
+      "key_focus": "TB eradication, early sputum testing, and ending TB stigma",
+      "dates_2026": [
+        [
+          3,
+          24
+        ]
+      ],
+      "date_rule": "Annual fixed date: March 24",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 20
+    },
+    {
+      "campaign_id": "world-autism-awareness-day",
+      "title_en": "World Autism Awareness Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "United Nations (UN) & Autism Society of West Bengal / Action for Autism",
+      "key_focus": "Acceptance, neurodiversity support, and developmental care",
+      "dates_2026": [
+        [
+          4,
+          2
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 2",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 21
+    },
+    {
+      "campaign_id": "world-health-day",
+      "title_en": "World Health Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "World Health Organization (WHO)",
+      "key_focus": "Anniversary of WHO; addresses high-priority public health topics worldwide",
+      "dates_2026": [
+        [
+          4,
+          7
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 7",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 22
+    },
+    {
+      "campaign_id": "world-homeopathy-day",
+      "title_en": "World Homeopathy Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "Ministry of AYUSH (GOI) & Central Council for Research in Homoeopathy (CCRH)",
+      "key_focus": "Birth anniversary of Dr. Samuel Hahnemann; promotes homeopathic medicine",
+      "dates_2026": [
+        [
+          4,
+          10
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 10",
+      "source_url": "https://ccrhindia.ayush.gov.in/sites/default/files/2023-05/Activities_andAchievements_CCRH.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 23
+    },
+    {
+      "campaign_id": "national-safe-motherhood-day",
+      "title_en": "National Safe Motherhood Day",
+      "scope": "India",
+      "authority_claim_from_csv": "White Ribbon Alliance India (WRAI) & MoHFW",
+      "key_focus": "Marks Kasturba Gandhi's birth anniversary; quality antenatal care and safe deliveries",
+      "dates_2026": [
+        [
+          4,
+          11
+        ]
+      ],
+      "date_rule": "Annual fixed date in India: April 11",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023411179501.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "04-11"
+      ],
+      "csv_line": 24
+    },
+    {
+      "campaign_id": "ayushman-bharat-diwas",
+      "title_en": "Ayushman Bharat Diwas",
+      "scope": "India",
+      "authority_claim_from_csv": "National Health Authority (NHA) & MoHFW / GOI",
+      "key_focus": "Universal healthcare coverage, Ayushman Arogya Mandirs, and cashless treatment",
+      "dates_2026": [
+        [
+          4,
+          14
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 14",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 25
+    },
+    {
+      "campaign_id": "world-haemophilia-day",
+      "title_en": "World Haemophilia Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "World Federation of Hemophilia (WFH) & Hemophilia Federation (India)",
+      "key_focus": "Diagnosis, access to clotting factor concentrates, and genetic screening",
+      "dates_2026": [
+        [
+          4,
+          17
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 17",
+      "source_url": "https://depwd.gov.in/en/awareness-programmes-on-bleeding-disorders-organized-across-the-country-on-world-haemophilia-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "04-17"
+      ],
+      "csv_line": 26
+    },
+    {
+      "campaign_id": "world-liver-day",
+      "title_en": "World Liver Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO & Indian National Association for Study of the Liver (INASL)",
+      "key_focus": "Prevention of fatty liver disease, viral hepatitis, and cirrhosis",
+      "dates_2026": [
+        [
+          4,
+          19
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 19",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1712646&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 27
+    },
+    {
+      "campaign_id": "world-immunization-week",
+      "title_en": "World Immunization Week",
+      "scope": "Global",
+      "authority_claim_from_csv": "WHO & UNICEF",
+      "key_focus": "Expanding vaccine reach to protect all age groups against preventable infections",
+      "dates_2026": [
+        [
+          4,
+          24
+        ]
+      ],
+      "date_rule": "Campaign period: April 24–30; poster placed on first day",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 28
+    },
+    {
+      "campaign_id": "world-malaria-day",
+      "title_en": "World Malaria Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO & National Center for Vector Borne Diseases Control (NCVBDC)",
+      "key_focus": "Malaria control, insecticide-treated bed nets, and eradication goals",
+      "dates_2026": [
+        [
+          4,
+          25
+        ]
+      ],
+      "date_rule": "Annual fixed date: April 25",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 29
+    },
+    {
+      "campaign_id": "world-asthma-day",
+      "title_en": "World Asthma Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "Global Initiative for Asthma (GINA) & Indian Chest Society (ICS)",
+      "key_focus": "Inhaler education, asthma trigger management, and clean air access",
+      "dates_2026": [
+        [
+          5,
+          5
+        ]
+      ],
+      "date_rule": "First Tuesday of May; 2026 occurrence: May 5",
+      "source_url": "https://ginasthma.org/world-asthma-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 30
+    },
+    {
+      "campaign_id": "world-hand-hygiene-day",
+      "title_en": "World Hand Hygiene Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "World Health Organization (WHO)",
+      "key_focus": "Hand hygiene compliance in hospitals and communities to curb infections",
+      "dates_2026": [
+        [
+          5,
+          5
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 5",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 31
+    },
+    {
+      "campaign_id": "world-thalassemia-day",
+      "title_en": "World Thalassemia Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "Thalassaemia International Federation (TIF) & Thalassemia India",
+      "key_focus": "Prenatal screening, safe blood transfusions, and iron chelation therapy",
+      "dates_2026": [
+        [
+          5,
+          8
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 8",
+      "source_url": "https://thalassaemia.org.cy/what-we-do/international-thalassaemia-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 32
+    },
+    {
+      "campaign_id": "international-nurses-day",
+      "title_en": "International Nurses Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "International Council of Nurses (ICN) & Indian Nursing Council (INC)",
+      "key_focus": "Honors nurses' central contribution to primary and tertiary health systems",
+      "dates_2026": [
+        [
+          5,
+          12
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 12",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 33
+    },
+    {
+      "campaign_id": "national-dengue-day",
+      "title_en": "National Dengue Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Health & Family Welfare (MoHFW - NCVBDC)",
+      "key_focus": "Community mosquito breeding elimination ahead of the monsoon season",
+      "dates_2026": [
+        [
+          5,
+          16
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 16",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=240596",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 34
+    },
+    {
+      "campaign_id": "world-hypertension-day",
+      "title_en": "World Hypertension Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "World Hypertension League (WHL) & Cardiological Society of India (CSI)",
+      "key_focus": "Regular blood pressure measurement, salt reduction, and lifestyle moderation",
+      "dates_2026": [
+        [
+          5,
+          17
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 17",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 35
+    },
+    {
+      "campaign_id": "world-thyroid-day",
+      "title_en": "World Thyroid Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "European / American Thyroid Associations & Endocrine Society of India (ESI)",
+      "key_focus": "Hypothyroidism and hyperthyroidism awareness and proper iodine nutrition",
+      "dates_2026": [
+        [
+          5,
+          25
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 25",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/NHP/NHP-2023-Last-Final.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "05-25"
+      ],
+      "csv_line": 36
+    },
+    {
+      "campaign_id": "menstrual-hygiene-day",
+      "title_en": "Menstrual Hygiene Day",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Safe Period Care | Dignity, Comfort and Confidence",
+      "dates_2026": [
+        [
+          5,
+          28
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 28",
+      "source_url": "https://upnrhm.gov.in/StaffNurseTraining/National%20Quality%20Assurance%20Standards%20for%20Ayushman%20Bharat_a%20Compendium_HWC.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "05-28"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "world-no-tobacco-day",
+      "title_en": "World No Tobacco Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO & MoHFW (National Tobacco Control Programme)",
+      "key_focus": "Dangers of smoking and smokeless tobacco (gutkha, khaini); cessation support",
+      "dates_2026": [
+        [
+          5,
+          31
+        ]
+      ],
+      "date_rule": "Annual fixed date: May 31",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 37
+    },
+    {
+      "campaign_id": "world-food-safety-day",
+      "title_en": "World Food Safety Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "WHO & Food and Agriculture Organization (FAO) / FSSAI (India)",
+      "key_focus": "Preventing, detecting, and managing foodborne risks",
+      "dates_2026": [
+        [
+          6,
+          7
+        ]
+      ],
+      "date_rule": "Annual fixed date: June 7",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 38
+    },
+    {
+      "campaign_id": "world-blood-donor-day",
+      "title_en": "World Blood Donor Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO, International Federation of Red Cross (IFRC), & NACO",
+      "key_focus": "Thanking voluntary blood donors and ensuring safe blood supplies",
+      "dates_2026": [
+        [
+          6,
+          14
+        ]
+      ],
+      "date_rule": "Annual fixed date: June 14",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 39
+    },
+    {
+      "campaign_id": "world-sickle-cell-awareness-day",
+      "title_en": "World Sickle Cell Awareness Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "UN, WHO, & National Sickle Cell Anaemia Elimination Mission (GOI)",
+      "key_focus": "Screening tribal and at-risk populations and providing genetic counseling",
+      "dates_2026": [
+        [
+          6,
+          19
+        ]
+      ],
+      "date_rule": "Annual fixed date: June 19",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 40
+    },
+    {
+      "campaign_id": "international-day-of-yoga",
+      "title_en": "International Day of Yoga",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "United Nations (UN) & Ministry of AYUSH (GOI)",
+      "key_focus": "Promoting holistic health, stress relief, and physical fitness through yoga",
+      "dates_2026": [
+        [
+          6,
+          21
+        ]
+      ],
+      "date_rule": "Annual fixed date: June 21",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 41
+    },
+    {
+      "campaign_id": "international-day-against-drug-abuse-and-illicit-trafficking",
+      "title_en": "International Day Against Drug Abuse and Illicit Trafficking",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "UNODC & Ministry of Social Justice & Empowerment (GOI)",
+      "key_focus": "Substance abuse treatment, rehabilitation, and preventive counseling",
+      "dates_2026": [
+        [
+          6,
+          26
+        ]
+      ],
+      "date_rule": "Annual fixed date: June 26",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 42
+    },
+    {
+      "campaign_id": "national-doctors-day",
+      "title_en": "National Doctors’ Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Medical Association (IMA) & National Medical Commission (NMC)",
+      "key_focus": "Commemorates Dr. B.C. Roy; honors medical professionals and ethical care",
+      "dates_2026": [
+        [
+          7,
+          1
+        ]
+      ],
+      "date_rule": "Annual fixed date: July 1",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 43
+    },
+    {
+      "campaign_id": "world-population-day",
+      "title_en": "World Population Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "United Nations Population Fund (UNFPA) & WHO",
+      "key_focus": "Family planning, maternal health, and reproductive freedom",
+      "dates_2026": [
+        [
+          7,
+          11
+        ]
+      ],
+      "date_rule": "Annual fixed date: July 11",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 44
+    },
+    {
+      "campaign_id": "national-cpr-day",
+      "title_en": "National CPR Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Resuscitation Council Federation (IRCF) & Indian Society of Anaesthesiologists (ISA)",
+      "key_focus": "Hands-only compression life support (COLS) training for the general public",
+      "dates_2026": [
+        [
+          7,
+          21
+        ]
+      ],
+      "date_rule": "Annual professional observance: July 21",
+      "source_url": "https://www.iapindia.org/weeks-and-days-celebration/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 45
+    },
+    {
+      "campaign_id": "iap-ors-and-rehydration-week",
+      "title_en": "IAP ORS & Rehydration Week",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Academy of Pediatrics (IAP)",
+      "key_focus": "Treatment of childhood diarrhea with zinc and Oral Rehydration Salts",
+      "dates_2026": [
+        [
+          7,
+          25
+        ]
+      ],
+      "date_rule": "Annual campaign: July 25-31; poster placed on first day",
+      "source_url": "https://www.iapindia.org/weeks-and-days-celebration/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 46
+    },
+    {
+      "campaign_id": "world-hepatitis-day",
+      "title_en": "World Hepatitis Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "World Health Organization (WHO) & World Hepatitis Alliance",
+      "key_focus": "Viral hepatitis B and C testing, birth-dose vaccination, and antiviral care",
+      "dates_2026": [
+        [
+          7,
+          28
+        ]
+      ],
+      "date_rule": "Annual fixed date: July 28",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 47
+    },
+    {
+      "campaign_id": "world-breastfeeding-week",
+      "title_en": "World Breastfeeding Week",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO, UNICEF, WABA, & Breastfeeding Promotion Network of India (BPNI)",
+      "key_focus": "Promotes exclusive breastfeeding for the first 6 months of life",
+      "dates_2026": [
+        [
+          8,
+          1
+        ]
+      ],
+      "date_rule": "Campaign period: August 1–7; poster placed on first day",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 49
+    },
+    {
+      "campaign_id": "world-lung-cancer-day",
+      "title_en": "World Lung Cancer Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "International Association for the Study of Lung Cancer (IASLC)",
+      "key_focus": "Early screening, smoking prevention, and advanced oncology care",
+      "dates_2026": [
+        [
+          8,
+          1
+        ]
+      ],
+      "date_rule": "Annual fixed date: August 1",
+      "source_url": "https://www.iaslc.org/iaslc-news/press-release/bright-future-lung-cancer-care",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 50
+    },
+    {
+      "campaign_id": "indian-organ-donation-day",
+      "title_en": "Indian Organ Donation Day",
+      "scope": "India",
+      "authority_claim_from_csv": "National Organ and Tissue Transplant Organisation (NOTTO) / MoHFW",
+      "key_focus": "Encouraging citizens to pledge deceased organ and tissue donations",
+      "dates_2026": [
+        [
+          8,
+          3
+        ]
+      ],
+      "date_rule": "Government of India observance; 2026 event date: August 3",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2293718&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 51
+    },
+    {
+      "campaign_id": "national-bone-and-joint-day",
+      "title_en": "National Bone and Joint Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Orthopaedic Association (IOA)",
+      "key_focus": "Road safety awareness, trauma care, and bone density preservation",
+      "dates_2026": [
+        [
+          8,
+          4
+        ]
+      ],
+      "date_rule": "Annual professional observance: August 4",
+      "source_url": "https://ioaindia.org/uploads/download/BluebookofIOA2019.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 52
+    },
+    {
+      "campaign_id": "world-organ-donation-day",
+      "title_en": "World Organ Donation Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "Global Transplant Associations & WHO",
+      "key_focus": "Worldwide awareness to bridge the gap between organ need and availability",
+      "dates_2026": [
+        [
+          8,
+          13
+        ]
+      ],
+      "date_rule": "Annual August 13 observance recognized by the UAE Ministry of Health and NGO campaigns; distinct from India's NOTTO observance and not attributed to WHO",
+      "source_url": "https://mohap.gov.ae/en/w/world-organ-donation-day",
+      "supporting_source_urls": [
+        "https://indiarenalfoundation.org/world-organ-donation-day/"
+      ],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 53
+    },
+    {
+      "campaign_id": "world-mosquito-day",
+      "title_en": "World Mosquito Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "London School of Hygiene & Tropical Medicine / WHO",
+      "key_focus": "Marks Sir Ronald Ross's discovery connecting mosquitoes to malaria transmission",
+      "dates_2026": [
+        [
+          8,
+          20
+        ]
+      ],
+      "date_rule": "Annual fixed date: August 20",
+      "source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/state17.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "08-20"
+      ],
+      "csv_line": 54
+    },
+    {
+      "campaign_id": "national-eye-donation-fortnight",
+      "title_en": "National Eye Donation Fortnight",
+      "scope": "India",
+      "authority_claim_from_csv": "National Programme for Control of Blindness and Visual Impairment (NPCBVI) / MoHFW",
+      "key_focus": "Corneal donation pledges to reverse treatable corneal blindness",
+      "dates_2026": [
+        [
+          8,
+          25
+        ]
+      ],
+      "date_rule": "Annual campaign: August 25-September 8; poster placed on first day",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303326&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 55
+    },
+    {
+      "campaign_id": "national-nutrition-week",
+      "title_en": "National Nutrition Week",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Women & Child Development (MWCD) / GOI",
+      "key_focus": "Educating families on balanced, affordable nutrition to eradicate stunting",
+      "dates_2026": [
+        [
+          9,
+          1
+        ]
+      ],
+      "date_rule": "Campaign period: September 1–7; poster placed on first day",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 56
+    },
+    {
+      "campaign_id": "rashtriya-poshan-maah-national-nutrition-month",
+      "title_en": "Rashtriya Poshan Maah (National Nutrition Month)",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Women and Child Development (MWCD) / GOI",
+      "key_focus": "Community drives on infant feeding, maternal anemia, and nutritious local foods",
+      "dates_2026": [
+        [
+          9,
+          9
+        ]
+      ],
+      "date_rule": "2026 campaign: September 9-October 8; poster placed on first day. Launch dates vary by year.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2307291&lang=1&reg=3",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_WITH_CORRECTION",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 57
+    },
+    {
+      "campaign_id": "world-suicide-prevention-day",
+      "title_en": "World Suicide Prevention Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "International Association for Suicide Prevention (IASP) & WHO",
+      "key_focus": "Mental health helplines, tele-MANAS integration, and crisis intervention",
+      "dates_2026": [
+        [
+          9,
+          10
+        ]
+      ],
+      "date_rule": "Annual fixed date: September 10",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 58
+    },
+    {
+      "campaign_id": "world-patient-safety-day",
+      "title_en": "World Patient Safety Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "World Health Organization (WHO)",
+      "key_focus": "Preventing medication errors, diagnostic mistakes, and hospital-acquired infections",
+      "dates_2026": [
+        [
+          9,
+          17
+        ]
+      ],
+      "date_rule": "Annual fixed date: September 17",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 59
+    },
+    {
+      "campaign_id": "world-alzheimer-s-day",
+      "title_en": "World Alzheimer’s Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "Alzheimer's Disease International (ADI) & ARDSI (India)",
+      "key_focus": "Dementia awareness, family caregiver support, and memory screenings",
+      "dates_2026": [
+        [
+          9,
+          21
+        ]
+      ],
+      "date_rule": "Annual fixed date: September 21",
+      "source_url": "https://divyangjan.depwd.gov.in/upload/s3wassupload/NIEPID_Secunderabad_Annual_Report_2023-24.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "09-21"
+      ],
+      "csv_line": 60
+    },
+    {
+      "campaign_id": "national-ayurveda-day",
+      "title_en": "National Ayurveda Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of AYUSH / GOI",
+      "key_focus": "Celebrated on Dhanvantari Jayanti / Dhanteras; highlights evidence-based Ayurveda",
+      "dates_2026": [
+        [
+          9,
+          23
+        ]
+      ],
+      "date_rule": "Annual fixed date from 2025 onward: September 23",
+      "source_url": "https://ayush.gov.in/resources/pdf/PressRelease/Ayurveda_Day_to_Be_Celebrated_on_23rd_September_Every_Year.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 61
+    },
+    {
+      "campaign_id": "world-pharmacists-day",
+      "title_en": "World Pharmacists Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "International Pharmaceutical Federation (FIP) & Pharmacy Council of India (PCI)",
+      "key_focus": "Role of pharmacists in medicine safety and responsible dispensing",
+      "dates_2026": [
+        [
+          9,
+          25
+        ]
+      ],
+      "date_rule": "Annual fixed date: September 25",
+      "source_url": "https://www.fip.org/world-pharmacists-day",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 62
+    },
+    {
+      "campaign_id": "world-rabies-day",
+      "title_en": "World Rabies Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "Global Alliance for Rabies Control (GARC), WHO, & NCDC (India)",
+      "key_focus": "Pet vaccination and timely post-exposure prophylaxis (PEP) for dog bites",
+      "dates_2026": [
+        [
+          9,
+          28
+        ]
+      ],
+      "date_rule": "Annual fixed date: September 28",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 63
+    },
+    {
+      "campaign_id": "world-heart-day",
+      "title_en": "World Heart Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "World Heart Federation (WHF) & Cardiological Society of India (CSI)",
+      "key_focus": "Preventing heart attacks, managing cholesterol, and promoting regular exercise",
+      "dates_2026": [
+        [
+          9,
+          29
+        ]
+      ],
+      "date_rule": "Annual fixed date: September 29",
+      "source_url": "https://world-heart-federation.org/world-heart-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 64
+    },
+    {
+      "campaign_id": "national-voluntary-blood-donation-day",
+      "title_en": "National Voluntary Blood Donation Day",
+      "scope": "India",
+      "authority_claim_from_csv": "National AIDS Control Organisation (NACO) & Indian Red Cross Society",
+      "key_focus": "Encouraging repeat voluntary, unpaid blood donations across India",
+      "dates_2026": [
+        [
+          10,
+          1
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 1",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2317557&lang=1&reg=3",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 65
+    },
+    {
+      "campaign_id": "world-sight-day",
+      "title_en": "World Sight Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "International Agency for the Prevention of Blindness (IAPB) & WHO",
+      "key_focus": "Cataract care, refractive errors in schoolchildren, and eye examinations",
+      "dates_2026": [
+        [
+          10,
+          8
+        ]
+      ],
+      "date_rule": "Second Thursday of October; 2026 occurrence: October 8",
+      "source_url": "https://www.iapb.org/world-sight-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 67
+    },
+    {
+      "campaign_id": "world-mental-health-day",
+      "title_en": "World Mental Health Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "World Federation for Mental Health (WFMH) & WHO",
+      "key_focus": "Destigmatizing psychiatric treatment and ensuring psychological support",
+      "dates_2026": [
+        [
+          10,
+          10
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 10",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 66
+    },
+    {
+      "campaign_id": "world-arthritis-day",
+      "title_en": "World Arthritis Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "EULAR & Indian Rheumatology Association (IRA)",
+      "key_focus": "Early diagnosis of rheumatoid arthritis, osteoarthritis, and joint protection",
+      "dates_2026": [
+        [
+          10,
+          12
+        ]
+      ],
+      "date_rule": "Annual professional observance: October 12",
+      "source_url": "https://www.eular.org/world-arthritis-day",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 68
+    },
+    {
+      "campaign_id": "global-handwashing-day",
+      "title_en": "Global Handwashing Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "Global Handwashing Partnership, UNICEF, & WHO",
+      "key_focus": "Handwashing with soap as an inexpensive way to stop diarrhea and pneumonia",
+      "dates_2026": [
+        [
+          10,
+          15
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 15",
+      "source_url": "https://globalhandwashing.org/global-handwashing-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-15"
+      ],
+      "csv_line": 69
+    },
+    {
+      "campaign_id": "world-white-cane-safety-day",
+      "title_en": "World White Cane Safety Day",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Dignity, Accessible Pathways & Blindness Prevention",
+      "dates_2026": [
+        [
+          10,
+          15
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 15",
+      "source_url": "https://worldblindunion.org/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-15-cane"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "world-food-day",
+      "title_en": "World Food Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "Food and Agriculture Organization (FAO), WHO, & UNICEF",
+      "key_focus": "Zero hunger, food security, and balanced nutrient access",
+      "dates_2026": [
+        [
+          10,
+          16
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 16",
+      "source_url": "https://www.fao.org/world-food-day/en",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-16"
+      ],
+      "csv_line": 70
+    },
+    {
+      "campaign_id": "world-spine-day",
+      "title_en": "World Spine Day",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Straight Spine, Core Strength & Active Movement",
+      "dates_2026": [
+        [
+          10,
+          16
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 16",
+      "source_url": "https://www.worldspineday.org/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-16-spine"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "world-trauma-day",
+      "title_en": "World Trauma Day",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Certified Helmets, Seatbelts & Rapid 108 Emergency Action",
+      "dates_2026": [
+        [
+          10,
+          17
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 17",
+      "source_url": "https://www.traumaindia.org/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-17"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "world-menopause-day",
+      "title_en": "World Menopause Day",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Women's Bone Health, Sunlight, Calcium & Mindful Pranayama",
+      "dates_2026": [
+        [
+          10,
+          18
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 18",
+      "source_url": "https://www.imsociety.org/education/world-menopause-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-18"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "oral-hygiene-and-anti-tobacco-health",
+      "title_en": "Oral Hygiene & Anti-Tobacco Health",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Brush Twice Daily, Gargle & Zero Gutkha / Mawa",
+      "dates_2026": [
+        [
+          10,
+          19
+        ]
+      ],
+      "date_rule": "National Health Programme Guidance: October 19",
+      "source_url": "https://main.mohfw.gov.in/major-programmes/other-national-health-programmes/national-oral-health-programme-nohp",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-19-oral"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "preventive-ear-and-hearing-health",
+      "title_en": "Preventive Ear & Hearing Health",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Safe Sound Levels, Dry Ears & Professional ENT Care",
+      "dates_2026": [
+        [
+          10,
+          19
+        ]
+      ],
+      "date_rule": "National Health Programme Guidance: October 19",
+      "source_url": "https://main.mohfw.gov.in/major-programmes/other-national-health-programmes/national-programme-prevention-and-control-deafness-nppcd",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-19"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "world-osteoporosis-day",
+      "title_en": "World Osteoporosis Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "International Osteoporosis Foundation (IOF) & Indian Society for Bone and Mineral Research (ISBMR)",
+      "key_focus": "Bone density scans (DEXA), vitamin D and calcium sufficiency, and fall prevention",
+      "dates_2026": [
+        [
+          10,
+          20
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 20",
+      "source_url": "https://www.worldosteoporosisday.org/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-20"
+      ],
+      "csv_line": 71
+    },
+    {
+      "campaign_id": "national-iodine-deficiency-disorders-prevention-day",
+      "title_en": "National Iodine Deficiency Disorders Prevention Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO, UNICEF, & MoHFW",
+      "key_focus": "Universal consumption of iodized salt to prevent goiter and mental development delays",
+      "dates_2026": [
+        [
+          10,
+          21
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 21",
+      "source_url": "https://main.mohfw.gov.in/major-programmes/other-national-health-programmes/national-iodine-deficiency-disorders-control-programme-niddcp",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-21"
+      ],
+      "csv_line": 72
+    },
+    {
+      "campaign_id": "international-stuttering-awareness-day",
+      "title_en": "International Stuttering Awareness Day",
+      "scope": "Existing verified calendar observance",
+      "authority_claim_from_csv": null,
+      "key_focus": "Listen Patiently | Support Confident Communication",
+      "dates_2026": [
+        [
+          10,
+          22
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 22",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3ee8fe9093fbbb687bef15a38facc44d2/uploads/2026/05/20260504983612225.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "ACTIVE_EXISTING_OUTSIDE_SUPPLIED_CSV",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-22"
+      ],
+      "csv_line": null
+    },
+    {
+      "campaign_id": "world-polio-day",
+      "title_en": "World Polio Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "Rotary International, WHO, & UNICEF",
+      "key_focus": "Keeping India and the world polio-free through high vaccination surveillance",
+      "dates_2026": [
+        [
+          10,
+          24
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 24",
+      "source_url": "https://newsonair.gov.in/health-minister-jp-nadda-highlights-indias-polio-eradication-success-on-world-polio-day/",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-24"
+      ],
+      "csv_line": 73
+    },
+    {
+      "campaign_id": "world-stroke-day",
+      "title_en": "World Stroke Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "World Stroke Organization (WSO) & Indian Stroke Association (ISA)",
+      "key_focus": "Recognizing stroke symptoms using F.A.S.T. and reaching emergency care in time",
+      "dates_2026": [
+        [
+          10,
+          29
+        ]
+      ],
+      "date_rule": "Annual fixed date: October 29",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2183892&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "verification_verdict": "ALREADY_PRESENT",
+      "poster_status": "ACTIVE_REVIEWED_POSTER",
+      "active_poster_ids": [
+        "10-29"
+      ],
+      "csv_line": 74
+    },
+    {
+      "campaign_id": "national-cancer-awareness-day",
+      "title_en": "National Cancer Awareness Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of Health & Family Welfare (MoHFW) & Indian Cancer Society",
+      "key_focus": "Early screening for oral, cervical, and breast cancer; affordable therapy",
+      "dates_2026": [
+        [
+          11,
+          7
+        ]
+      ],
+      "date_rule": "Annual fixed date: November 7",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 75
+    },
+    {
+      "campaign_id": "world-pneumonia-day",
+      "title_en": "World Pneumonia Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "Stop Pneumonia Coalition, WHO, & UNICEF",
+      "key_focus": "Protecting young children and seniors via pneumococcal vaccines and clean air",
+      "dates_2026": [
+        [
+          11,
+          12
+        ]
+      ],
+      "date_rule": "Annual fixed date: November 12",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 76
+    },
+    {
+      "campaign_id": "world-diabetes-day",
+      "title_en": "World Diabetes Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "International Diabetes Federation (IDF) & WHO",
+      "key_focus": "HbA1c testing, insulin access, and preventing diabetes complications",
+      "dates_2026": [
+        [
+          11,
+          14
+        ]
+      ],
+      "date_rule": "Annual fixed date: November 14",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 77
+    },
+    {
+      "campaign_id": "national-newborn-care-week",
+      "title_en": "National Newborn Care Week",
+      "scope": "India",
+      "authority_claim_from_csv": "MoHFW & National Neonatology Forum (NNF)",
+      "key_focus": "Kangaroo mother care, sterile cord care, and reducing infant mortality",
+      "dates_2026": [
+        [
+          11,
+          15
+        ]
+      ],
+      "date_rule": "Campaign period: November 15–21; poster placed on first day",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 78
+    },
+    {
+      "campaign_id": "world-prematurity-day",
+      "title_en": "World Prematurity Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "WHO & UNICEF",
+      "key_focus": "Care and specialized intensive support for preterm babies",
+      "dates_2026": [
+        [
+          11,
+          15
+        ]
+      ],
+      "date_rule": "Annual fixed date from 2025 onward: November 15",
+      "source_url": "https://www.who.int/campaigns/world-prematurity-day",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_WITH_CORRECTION",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 80
+    },
+    {
+      "campaign_id": "national-epilepsy-day",
+      "title_en": "National Epilepsy Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Epilepsy Association (IEA) & Indian Epilepsy Society (IES)",
+      "key_focus": "Dispelling seizure myths and ensuring uninterrupted access to antiepileptic medicines",
+      "dates_2026": [
+        [
+          11,
+          17
+        ]
+      ],
+      "date_rule": "Annual Indian professional observance: November 17",
+      "source_url": "https://epilepsyindia.org/wp-content/uploads/2021/08/asagaofindianepilepsyassociation.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 79
+    },
+    {
+      "campaign_id": "national-naturopathy-day",
+      "title_en": "National Naturopathy Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Ministry of AYUSH / GOI",
+      "key_focus": "Drugless healing, diet regulation, and non-invasive natural lifestyle health",
+      "dates_2026": [
+        [
+          11,
+          18
+        ]
+      ],
+      "date_rule": "Annual Government of India observance: November 18",
+      "source_url": "https://ninpune.ayush.gov.in/resources/img/NVArchive/nv-2023-11%281699437679%29.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 81
+    },
+    {
+      "campaign_id": "world-antimicrobial-resistance-amr-awareness-week",
+      "title_en": "World Antimicrobial Resistance (AMR) Awareness Week",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "WHO, FAO, WOAH, & MoHFW",
+      "key_focus": "Preventing antibiotic overuse to stop drug-resistant superbugs",
+      "dates_2026": [
+        [
+          11,
+          18
+        ]
+      ],
+      "date_rule": "Annual campaign: November 18-24; poster placed on first day",
+      "source_url": "https://www.who.int/india/news-room/events/detail/2024/11/18/default-calendar/world-amr-awareness-week-2024",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 82
+    },
+    {
+      "campaign_id": "world-copd-day",
+      "title_en": "World COPD Day",
+      "scope": "Global",
+      "authority_claim_from_csv": "Global Initiative for Chronic Obstructive Lung Disease (GOLD) & ICS",
+      "key_focus": "Managing chronic bronchitis and emphysema; smoking and air pollution hazards",
+      "dates_2026": [
+        [
+          11,
+          18
+        ]
+      ],
+      "date_rule": "Third Wednesday of November; 2026 occurrence: November 18",
+      "source_url": "https://goldcopd.org/world-copd-day-2026/",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 83
+    },
+    {
+      "campaign_id": "world-aids-day",
+      "title_en": "World AIDS Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "UNAIDS, WHO, & National AIDS Control Organisation (NACO)",
+      "key_focus": "Universal access to antiretroviral therapy (ART) and destigmatizing HIV",
+      "dates_2026": [
+        [
+          12,
+          1
+        ]
+      ],
+      "date_rule": "Annual fixed date: December 1",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 84
+    },
+    {
+      "campaign_id": "international-day-of-persons-with-disabilities",
+      "title_en": "International Day of Persons with Disabilities",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "United Nations (UN) & Department of Empowerment of Persons with Disabilities (DEPwD)",
+      "key_focus": "Inclusive healthcare, rehabilitation, and accessibility for disabled persons",
+      "dates_2026": [
+        [
+          12,
+          3
+        ]
+      ],
+      "date_rule": "Annual fixed date: December 3",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 85
+    },
+    {
+      "campaign_id": "national-oral-cancer-day",
+      "title_en": "National Oral Cancer Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Dental Association (IDA)",
+      "key_focus": "Warning against areca nut and gutkha consumption; early oral screening",
+      "dates_2026": [
+        [
+          12,
+          6
+        ]
+      ],
+      "date_rule": "Annual fixed professional observance: December 6",
+      "source_url": "https://www.ida.org.in/Home",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_WITH_CORRECTION",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 86
+    },
+    {
+      "campaign_id": "international-universal-health-coverage-uhc-day",
+      "title_en": "International Universal Health Coverage (UHC) Day",
+      "scope": "Global / India",
+      "authority_claim_from_csv": "UN, WHO, & MoHFW",
+      "key_focus": "Ensuring quality healthcare services without financial hardship",
+      "dates_2026": [
+        [
+          12,
+          12
+        ]
+      ],
+      "date_rule": "Annual fixed date: December 12",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_PRIMARY",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 87
+    },
+    {
+      "campaign_id": "national-dentist-day",
+      "title_en": "National Dentist Day",
+      "scope": "India",
+      "authority_claim_from_csv": "Indian Dental Association (IDA)",
+      "key_focus": "Oral hygiene, dental checkups, and recognizing dental professionals",
+      "dates_2026": [
+        [
+          12,
+          24
+        ]
+      ],
+      "date_rule": "Annual fixed date: December 24",
+      "source_url": "https://www.ida.org.in/Public/Details/Mouth",
+      "supporting_source_urls": [],
+      "verification_verdict": "VERIFIED_WITH_CORRECTION",
+      "poster_status": "PENDING_BILINGUAL_CONTENT_AND_IMAGES",
+      "active_poster_ids": [],
+      "csv_line": 13
+    }
+  ],
+  "placements": [
+    {
+      "date_id": "01-12",
+      "campaign_id": "national-youth-day",
+      "title_en": "National Youth Day",
+      "date_rule": "Annual fixed date: January 12",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "01-24",
+      "campaign_id": "national-girl-child-day",
+      "title_en": "National Girl Child Day",
+      "date_rule": "Annual fixed date: January 24",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2217624&lang=1&reg=6",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "01-25",
+      "campaign_id": "world-leprosy-day",
+      "title_en": "World Leprosy Day",
+      "date_rule": "Last Sunday of January; 2026 occurrence: January 25",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "01-30",
+      "campaign_id": "national-anti-leprosy-day",
+      "title_en": "National Anti-Leprosy Day",
+      "date_rule": "Annual fixed date: January 30",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "01-30",
+      "campaign_id": "world-neglected-tropical-diseases-ntd-day",
+      "title_en": "World Neglected Tropical Diseases (NTD) Day",
+      "date_rule": "Annual fixed date: January 30",
+      "source_url": "https://www.who.int/campaigns/world-ntd-day",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "02-04",
+      "campaign_id": "world-cancer-day",
+      "title_en": "World Cancer Day",
+      "date_rule": "Annual fixed date: February 4",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "02-10",
+      "campaign_id": "national-deworming-day-ndd",
+      "title_en": "National Deworming Day (NDD)",
+      "date_rule": "Two annual occurrences: February 10 & August 10",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "02-11",
+      "campaign_id": "national-unani-day",
+      "title_en": "National Unani Day",
+      "date_rule": "Annual fixed date: February 11",
+      "source_url": "https://ayush.gov.in/resources/pdf/annualReport/Annual-Report24-25_English.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "02-12",
+      "campaign_id": "sexual-and-reproductive-health-awareness-day",
+      "title_en": "Sexual and Reproductive Health Awareness Day",
+      "date_rule": "Annual fixed date in the Government of India health-days table: February 12",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/2024-09/national-health-profile-india-2021.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "02-28",
+      "campaign_id": "rare-disease-day",
+      "title_en": "Rare Disease Day",
+      "date_rule": "Last day of February; 2026 occurrence: February 28",
+      "source_url": "https://www.rarediseaseday.org/what-is-rare-disease-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-03",
+      "campaign_id": "world-hearing-day",
+      "title_en": "World Hearing Day",
+      "date_rule": "Annual fixed date: March 3",
+      "source_url": "https://www.who.int/campaigns/world-hearing-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-08",
+      "campaign_id": "international-women-s-day",
+      "title_en": "International Women’s Day",
+      "date_rule": "Annual fixed date: March 8",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-10",
+      "campaign_id": "national-gestational-diabetes-mellitus-gdm-day",
+      "title_en": "National Gestational Diabetes Mellitus (GDM) Day",
+      "date_rule": "Annual fixed date: March 10",
+      "source_url": "https://mohfw.gov.in/sites/default/files/Annual%20Report%202020-21%20English.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-12",
+      "campaign_id": "world-kidney-day",
+      "title_en": "World Kidney Day",
+      "date_rule": "Second Thursday of March; 2026 occurrence: March 12",
+      "source_url": "https://www.worldkidneyday.org/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-16",
+      "campaign_id": "national-vaccination-day",
+      "title_en": "National Vaccination Day",
+      "date_rule": "Annual fixed date in India: March 16",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241066&lang=2&reg=3",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "03-16"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-20",
+      "campaign_id": "world-oral-health-day",
+      "title_en": "World Oral Health Day",
+      "date_rule": "Annual fixed date: March 20",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-21",
+      "campaign_id": "world-down-syndrome-day",
+      "title_en": "World Down Syndrome Day",
+      "date_rule": "Annual fixed date: March 21",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "03-24",
+      "campaign_id": "world-tuberculosis-tb-day",
+      "title_en": "World Tuberculosis (TB) Day",
+      "date_rule": "Annual fixed date: March 24",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-02",
+      "campaign_id": "world-autism-awareness-day",
+      "title_en": "World Autism Awareness Day",
+      "date_rule": "Annual fixed date: April 2",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-07",
+      "campaign_id": "world-health-day",
+      "title_en": "World Health Day",
+      "date_rule": "Annual fixed date: April 7",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-10",
+      "campaign_id": "world-homeopathy-day",
+      "title_en": "World Homeopathy Day",
+      "date_rule": "Annual fixed date: April 10",
+      "source_url": "https://ccrhindia.ayush.gov.in/sites/default/files/2023-05/Activities_andAchievements_CCRH.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-11",
+      "campaign_id": "national-safe-motherhood-day",
+      "title_en": "National Safe Motherhood Day",
+      "date_rule": "Annual fixed date in India: April 11",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023411179501.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "04-11"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-14",
+      "campaign_id": "ayushman-bharat-diwas",
+      "title_en": "Ayushman Bharat Diwas",
+      "date_rule": "Annual fixed date: April 14",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-17",
+      "campaign_id": "world-haemophilia-day",
+      "title_en": "World Haemophilia Day",
+      "date_rule": "Annual fixed date: April 17",
+      "source_url": "https://depwd.gov.in/en/awareness-programmes-on-bleeding-disorders-organized-across-the-country-on-world-haemophilia-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "04-17"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-19",
+      "campaign_id": "world-liver-day",
+      "title_en": "World Liver Day",
+      "date_rule": "Annual fixed date: April 19",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1712646&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-24",
+      "campaign_id": "world-immunization-week",
+      "title_en": "World Immunization Week",
+      "date_rule": "Campaign period: April 24–30; poster placed on first day",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "04-25",
+      "campaign_id": "world-malaria-day",
+      "title_en": "World Malaria Day",
+      "date_rule": "Annual fixed date: April 25",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-05",
+      "campaign_id": "world-asthma-day",
+      "title_en": "World Asthma Day",
+      "date_rule": "First Tuesday of May; 2026 occurrence: May 5",
+      "source_url": "https://ginasthma.org/world-asthma-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-05",
+      "campaign_id": "world-hand-hygiene-day",
+      "title_en": "World Hand Hygiene Day",
+      "date_rule": "Annual fixed date: May 5",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-08",
+      "campaign_id": "world-thalassemia-day",
+      "title_en": "World Thalassemia Day",
+      "date_rule": "Annual fixed date: May 8",
+      "source_url": "https://thalassaemia.org.cy/what-we-do/international-thalassaemia-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-12",
+      "campaign_id": "international-nurses-day",
+      "title_en": "International Nurses Day",
+      "date_rule": "Annual fixed date: May 12",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-16",
+      "campaign_id": "national-dengue-day",
+      "title_en": "National Dengue Day",
+      "date_rule": "Annual fixed date: May 16",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=240596",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-17",
+      "campaign_id": "world-hypertension-day",
+      "title_en": "World Hypertension Day",
+      "date_rule": "Annual fixed date: May 17",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-25",
+      "campaign_id": "world-thyroid-day",
+      "title_en": "World Thyroid Day",
+      "date_rule": "Annual fixed date: May 25",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/NHP/NHP-2023-Last-Final.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "05-25"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-28",
+      "campaign_id": "menstrual-hygiene-day",
+      "title_en": "Menstrual Hygiene Day",
+      "date_rule": "Annual fixed date: May 28",
+      "source_url": "https://upnrhm.gov.in/StaffNurseTraining/National%20Quality%20Assurance%20Standards%20for%20Ayushman%20Bharat_a%20Compendium_HWC.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "05-28"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "05-31",
+      "campaign_id": "world-no-tobacco-day",
+      "title_en": "World No Tobacco Day",
+      "date_rule": "Annual fixed date: May 31",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "06-07",
+      "campaign_id": "world-food-safety-day",
+      "title_en": "World Food Safety Day",
+      "date_rule": "Annual fixed date: June 7",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "06-14",
+      "campaign_id": "world-blood-donor-day",
+      "title_en": "World Blood Donor Day",
+      "date_rule": "Annual fixed date: June 14",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "06-19",
+      "campaign_id": "world-sickle-cell-awareness-day",
+      "title_en": "World Sickle Cell Awareness Day",
+      "date_rule": "Annual fixed date: June 19",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "06-21",
+      "campaign_id": "international-day-of-yoga",
+      "title_en": "International Day of Yoga",
+      "date_rule": "Annual fixed date: June 21",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "06-26",
+      "campaign_id": "international-day-against-drug-abuse-and-illicit-trafficking",
+      "title_en": "International Day Against Drug Abuse and Illicit Trafficking",
+      "date_rule": "Annual fixed date: June 26",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "07-01",
+      "campaign_id": "national-doctors-day",
+      "title_en": "National Doctors’ Day",
+      "date_rule": "Annual fixed date: July 1",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "07-11",
+      "campaign_id": "world-population-day",
+      "title_en": "World Population Day",
+      "date_rule": "Annual fixed date: July 11",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "07-21",
+      "campaign_id": "national-cpr-day",
+      "title_en": "National CPR Day",
+      "date_rule": "Annual professional observance: July 21",
+      "source_url": "https://www.iapindia.org/weeks-and-days-celebration/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "07-25",
+      "campaign_id": "iap-ors-and-rehydration-week",
+      "title_en": "IAP ORS & Rehydration Week",
+      "date_rule": "Annual campaign: July 25-31; poster placed on first day",
+      "source_url": "https://www.iapindia.org/weeks-and-days-celebration/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "07-28",
+      "campaign_id": "world-hepatitis-day",
+      "title_en": "World Hepatitis Day",
+      "date_rule": "Annual fixed date: July 28",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-01",
+      "campaign_id": "world-breastfeeding-week",
+      "title_en": "World Breastfeeding Week",
+      "date_rule": "Campaign period: August 1–7; poster placed on first day",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-01",
+      "campaign_id": "world-lung-cancer-day",
+      "title_en": "World Lung Cancer Day",
+      "date_rule": "Annual fixed date: August 1",
+      "source_url": "https://www.iaslc.org/iaslc-news/press-release/bright-future-lung-cancer-care",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-03",
+      "campaign_id": "indian-organ-donation-day",
+      "title_en": "Indian Organ Donation Day",
+      "date_rule": "Government of India observance; 2026 event date: August 3",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2293718&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-04",
+      "campaign_id": "national-bone-and-joint-day",
+      "title_en": "National Bone and Joint Day",
+      "date_rule": "Annual professional observance: August 4",
+      "source_url": "https://ioaindia.org/uploads/download/BluebookofIOA2019.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-10",
+      "campaign_id": "national-deworming-day-ndd",
+      "title_en": "National Deworming Day (NDD)",
+      "date_rule": "Two annual occurrences: February 10 & August 10",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-13",
+      "campaign_id": "world-organ-donation-day",
+      "title_en": "World Organ Donation Day",
+      "date_rule": "Annual August 13 observance recognized by the UAE Ministry of Health and NGO campaigns; distinct from India's NOTTO observance and not attributed to WHO",
+      "source_url": "https://mohap.gov.ae/en/w/world-organ-donation-day",
+      "supporting_source_urls": [
+        "https://indiarenalfoundation.org/world-organ-donation-day/"
+      ],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-20",
+      "campaign_id": "world-mosquito-day",
+      "title_en": "World Mosquito Day",
+      "date_rule": "Annual fixed date: August 20",
+      "source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/state17.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "08-20"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "08-25",
+      "campaign_id": "national-eye-donation-fortnight",
+      "title_en": "National Eye Donation Fortnight",
+      "date_rule": "Annual campaign: August 25-September 8; poster placed on first day",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303326&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-01",
+      "campaign_id": "national-nutrition-week",
+      "title_en": "National Nutrition Week",
+      "date_rule": "Campaign period: September 1–7; poster placed on first day",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-09",
+      "campaign_id": "rashtriya-poshan-maah-national-nutrition-month",
+      "title_en": "Rashtriya Poshan Maah (National Nutrition Month)",
+      "date_rule": "2026 campaign: September 9-October 8; poster placed on first day. Launch dates vary by year.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2307291&lang=1&reg=3",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-10",
+      "campaign_id": "world-suicide-prevention-day",
+      "title_en": "World Suicide Prevention Day",
+      "date_rule": "Annual fixed date: September 10",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-17",
+      "campaign_id": "world-patient-safety-day",
+      "title_en": "World Patient Safety Day",
+      "date_rule": "Annual fixed date: September 17",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-21",
+      "campaign_id": "world-alzheimer-s-day",
+      "title_en": "World Alzheimer’s Day",
+      "date_rule": "Annual fixed date: September 21",
+      "source_url": "https://divyangjan.depwd.gov.in/upload/s3wassupload/NIEPID_Secunderabad_Annual_Report_2023-24.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "09-21"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-23",
+      "campaign_id": "national-ayurveda-day",
+      "title_en": "National Ayurveda Day",
+      "date_rule": "Annual fixed date from 2025 onward: September 23",
+      "source_url": "https://ayush.gov.in/resources/pdf/PressRelease/Ayurveda_Day_to_Be_Celebrated_on_23rd_September_Every_Year.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-25",
+      "campaign_id": "world-pharmacists-day",
+      "title_en": "World Pharmacists Day",
+      "date_rule": "Annual fixed date: September 25",
+      "source_url": "https://www.fip.org/world-pharmacists-day",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-28",
+      "campaign_id": "world-rabies-day",
+      "title_en": "World Rabies Day",
+      "date_rule": "Annual fixed date: September 28",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "09-29",
+      "campaign_id": "world-heart-day",
+      "title_en": "World Heart Day",
+      "date_rule": "Annual fixed date: September 29",
+      "source_url": "https://world-heart-federation.org/world-heart-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-01",
+      "campaign_id": "national-voluntary-blood-donation-day",
+      "title_en": "National Voluntary Blood Donation Day",
+      "date_rule": "Annual fixed date: October 1",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2317557&lang=1&reg=3",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-08",
+      "campaign_id": "world-sight-day",
+      "title_en": "World Sight Day",
+      "date_rule": "Second Thursday of October; 2026 occurrence: October 8",
+      "source_url": "https://www.iapb.org/world-sight-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-10",
+      "campaign_id": "world-mental-health-day",
+      "title_en": "World Mental Health Day",
+      "date_rule": "Annual fixed date: October 10",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-12",
+      "campaign_id": "world-arthritis-day",
+      "title_en": "World Arthritis Day",
+      "date_rule": "Annual professional observance: October 12",
+      "source_url": "https://www.eular.org/world-arthritis-day",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-15",
+      "campaign_id": "global-handwashing-day",
+      "title_en": "Global Handwashing Day",
+      "date_rule": "Annual fixed date: October 15",
+      "source_url": "https://globalhandwashing.org/global-handwashing-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-15"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-15",
+      "campaign_id": "world-white-cane-safety-day",
+      "title_en": "World White Cane Safety Day",
+      "date_rule": "Annual fixed date: October 15",
+      "source_url": "https://worldblindunion.org/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-15-cane"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-16",
+      "campaign_id": "world-food-day",
+      "title_en": "World Food Day",
+      "date_rule": "Annual fixed date: October 16",
+      "source_url": "https://www.fao.org/world-food-day/en",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-16"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-16",
+      "campaign_id": "world-spine-day",
+      "title_en": "World Spine Day",
+      "date_rule": "Annual fixed date: October 16",
+      "source_url": "https://www.worldspineday.org/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-16-spine"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-17",
+      "campaign_id": "world-trauma-day",
+      "title_en": "World Trauma Day",
+      "date_rule": "Annual fixed date: October 17",
+      "source_url": "https://www.traumaindia.org/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-17"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-18",
+      "campaign_id": "world-menopause-day",
+      "title_en": "World Menopause Day",
+      "date_rule": "Annual fixed date: October 18",
+      "source_url": "https://www.imsociety.org/education/world-menopause-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-18"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-19",
+      "campaign_id": "oral-hygiene-and-anti-tobacco-health",
+      "title_en": "Oral Hygiene & Anti-Tobacco Health",
+      "date_rule": "National Health Programme Guidance: October 19",
+      "source_url": "https://main.mohfw.gov.in/major-programmes/other-national-health-programmes/national-oral-health-programme-nohp",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-19-oral"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-19",
+      "campaign_id": "preventive-ear-and-hearing-health",
+      "title_en": "Preventive Ear & Hearing Health",
+      "date_rule": "National Health Programme Guidance: October 19",
+      "source_url": "https://main.mohfw.gov.in/major-programmes/other-national-health-programmes/national-programme-prevention-and-control-deafness-nppcd",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-19"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-20",
+      "campaign_id": "world-osteoporosis-day",
+      "title_en": "World Osteoporosis Day",
+      "date_rule": "Annual fixed date: October 20",
+      "source_url": "https://www.worldosteoporosisday.org/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-20"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-21",
+      "campaign_id": "national-iodine-deficiency-disorders-prevention-day",
+      "title_en": "National Iodine Deficiency Disorders Prevention Day",
+      "date_rule": "Annual fixed date: October 21",
+      "source_url": "https://main.mohfw.gov.in/major-programmes/other-national-health-programmes/national-iodine-deficiency-disorders-control-programme-niddcp",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-21"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-22",
+      "campaign_id": "international-stuttering-awareness-day",
+      "title_en": "International Stuttering Awareness Day",
+      "date_rule": "Annual fixed date: October 22",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3ee8fe9093fbbb687bef15a38facc44d2/uploads/2026/05/20260504983612225.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-22"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-24",
+      "campaign_id": "world-polio-day",
+      "title_en": "World Polio Day",
+      "date_rule": "Annual fixed date: October 24",
+      "source_url": "https://newsonair.gov.in/health-minister-jp-nadda-highlights-indias-polio-eradication-success-on-world-polio-day/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-24"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "10-29",
+      "campaign_id": "world-stroke-day",
+      "title_en": "World Stroke Day",
+      "date_rule": "Annual fixed date: October 29",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2183892&lang=2&reg=48",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [
+        "10-29"
+      ],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-07",
+      "campaign_id": "national-cancer-awareness-day",
+      "title_en": "National Cancer Awareness Day",
+      "date_rule": "Annual fixed date: November 7",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-12",
+      "campaign_id": "world-pneumonia-day",
+      "title_en": "World Pneumonia Day",
+      "date_rule": "Annual fixed date: November 12",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-14",
+      "campaign_id": "world-diabetes-day",
+      "title_en": "World Diabetes Day",
+      "date_rule": "Annual fixed date: November 14",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-15",
+      "campaign_id": "national-newborn-care-week",
+      "title_en": "National Newborn Care Week",
+      "date_rule": "Campaign period: November 15–21; poster placed on first day",
+      "source_url": "https://aam.mohfw.gov.in/download/document/e7ab4f530a1456960d5e1828f1119122.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-15",
+      "campaign_id": "world-prematurity-day",
+      "title_en": "World Prematurity Day",
+      "date_rule": "Annual fixed date from 2025 onward: November 15",
+      "source_url": "https://www.who.int/campaigns/world-prematurity-day",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-17",
+      "campaign_id": "national-epilepsy-day",
+      "title_en": "National Epilepsy Day",
+      "date_rule": "Annual Indian professional observance: November 17",
+      "source_url": "https://epilepsyindia.org/wp-content/uploads/2021/08/asagaofindianepilepsyassociation.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-18",
+      "campaign_id": "national-naturopathy-day",
+      "title_en": "National Naturopathy Day",
+      "date_rule": "Annual Government of India observance: November 18",
+      "source_url": "https://ninpune.ayush.gov.in/resources/img/NVArchive/nv-2023-11%281699437679%29.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-18",
+      "campaign_id": "world-antimicrobial-resistance-amr-awareness-week",
+      "title_en": "World Antimicrobial Resistance (AMR) Awareness Week",
+      "date_rule": "Annual campaign: November 18-24; poster placed on first day",
+      "source_url": "https://www.who.int/india/news-room/events/detail/2024/11/18/default-calendar/world-amr-awareness-week-2024",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "11-18",
+      "campaign_id": "world-copd-day",
+      "title_en": "World COPD Day",
+      "date_rule": "Third Wednesday of November; 2026 occurrence: November 18",
+      "source_url": "https://goldcopd.org/world-copd-day-2026/",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "12-01",
+      "campaign_id": "world-aids-day",
+      "title_en": "World AIDS Day",
+      "date_rule": "Annual fixed date: December 1",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA73/A73_19-en.pdf",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "12-03",
+      "campaign_id": "international-day-of-persons-with-disabilities",
+      "title_en": "International Day of Persons with Disabilities",
+      "date_rule": "Annual fixed date: December 3",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "12-06",
+      "campaign_id": "national-oral-cancer-day",
+      "title_en": "National Oral Cancer Day",
+      "date_rule": "Annual fixed professional observance: December 6",
+      "source_url": "https://www.ida.org.in/Home",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "12-12",
+      "campaign_id": "international-universal-health-coverage-uhc-day",
+      "title_en": "International Universal Health Coverage (UHC) Day",
+      "date_rule": "Annual fixed date: December 12",
+      "source_url": "https://www.un.org/en/observances/list-days-weeks",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    },
+    {
+      "date_id": "12-24",
+      "campaign_id": "national-dentist-day",
+      "title_en": "National Dentist Day",
+      "date_rule": "Annual fixed date: December 24",
+      "source_url": "https://www.ida.org.in/Public/Details/Mouth",
+      "supporting_source_urls": [],
+      "poster_status": "ACTIVE_PERSONAL_USE",
+      "active_poster_ids": [],
+      "prior_poster_status": "ACTIVE_PERSONAL_USE"
+    }
+  ]
+}

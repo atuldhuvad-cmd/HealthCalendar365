@@ -11,6 +11,196 @@
  * - Bottom Footer Bar: Dynamic Public Interest notice or Custom Doctor Branding box
  */
 
+// Per-image framing for the wide square photo boxes. y: vertical focus of the cover crop (0 = top, 0.5 = centre, 1 = bottom).
+// fit:'contain' shows the whole image (aspect kept); align:'right' keeps the left dark bar wide enough to hold the ACTION badge.
+// badge: corner for the ACTION badge ('tl' default, 'tr', 'bl', 'br') to keep it off faces and key objects.
+// Only the images listed here change; every other photo keeps the centred crop. Source images are never modified,
+// and user-swapped photos are never affected. Aspect ratio is always preserved.
+const PHOTO_FOCUS = {
+  'cphc_anc_care_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_anc_care_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_anc_care_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_anc_care_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_anemia_mukt_bharat_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_anemia_mukt_bharat_card2.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_anemia_mukt_bharat_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_anemia_mukt_bharat_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_antibiotic_stewardship_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_antibiotic_stewardship_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_antibiotic_stewardship_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_antibiotic_stewardship_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_breast_cervical_cancer_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_breast_cervical_cancer_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_breast_cervical_cancer_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_breast_cervical_cancer_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_cardio_stroke_fast_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_cardio_stroke_fast_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_cardio_stroke_fast_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_cardio_stroke_fast_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_childhood_idcf_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_childhood_idcf_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_childhood_idcf_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_childhood_idcf_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_copd_asthma_card1.png': {'y': 0, 'badge': 'bl', 'verticalBadge': 'bl'},
+  'cphc_copd_asthma_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_copd_asthma_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_copd_asthma_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_delivery_dakshata_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_delivery_dakshata_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_delivery_dakshata_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_delivery_dakshata_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_dementia_falls_epmns_card1.png': {'y': 0.5, 'verticalBadge': 'tr'},
+  'cphc_dementia_falls_epmns_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_dementia_falls_epmns_card3.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_dementia_falls_epmns_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_diabetes_care_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_diabetes_care_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_diabetes_care_card3.png': {'y': 0.5, 'verticalBadge': 'tr'},
+  'cphc_diabetes_care_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_elderly_cga_epmns_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_elderly_cga_epmns_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_elderly_cga_epmns_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_elderly_cga_epmns_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_emergency_snakebite_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_emergency_snakebite_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_emergency_snakebite_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_emergency_snakebite_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_emergency_trauma_108_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_emergency_trauma_108_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_emergency_trauma_108_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_emergency_trauma_108_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_ent_care_oeee_card1.png': {'y': 0, 'badge': 'bl', 'verticalBadge': 'tr'},
+  'cphc_ent_care_oeee_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_ent_care_oeee_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_ent_care_oeee_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_ert_balanced_thali_millets_card1.png': {'y': 0.5, 'verticalBadge': 'tr'},
+  'cphc_ert_balanced_thali_millets_card2.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_ert_balanced_thali_millets_card3.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_ert_balanced_thali_millets_card4.png': {'y': 0.5, 'verticalBadge': 'tr'},
+  'cphc_ert_less_salt_sugar_oil_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_ert_less_salt_sugar_oil_card2.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_ert_less_salt_sugar_oil_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_ert_less_salt_sugar_oil_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_eye_care_oeee_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_eye_care_oeee_card2.png': {'y': 0, 'badge': 'bl', 'verticalBadge': 'bl'},
+  'cphc_eye_care_oeee_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_eye_care_oeee_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_family_planning_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_family_planning_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_family_planning_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_family_planning_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hbyc_childcare_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hbyc_childcare_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_hbyc_childcare_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hbyc_childcare_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hepatitis_waterborne_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hepatitis_waterborne_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_hepatitis_waterborne_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_hepatitis_waterborne_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hypertension_ncd_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hypertension_ncd_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_hypertension_ncd_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_hypertension_ncd_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_iycf_nutrition_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_iycf_nutrition_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_iycf_nutrition_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_iycf_nutrition_card4.png': {'y': 0.5, 'verticalBadge': 'tr'},
+  'cphc_leprosy_nlep_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_leprosy_nlep_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_leprosy_nlep_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_leprosy_nlep_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_mental_telemanas_epmns_card1.png': {'y': 0, 'badge': 'bl', 'verticalBadge': 'bl'},
+  'cphc_mental_telemanas_epmns_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_mental_telemanas_epmns_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_mental_telemanas_epmns_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_newborn_nssk_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_newborn_nssk_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_newborn_nssk_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_newborn_nssk_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_oral_cancer_ntcp_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_oral_cancer_ntcp_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_oral_cancer_ntcp_card3.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_oral_cancer_ntcp_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_oral_dental_oeee_card1.png': {'y': 0, 'badge': 'bl', 'verticalBadge': 'bl'},
+  'cphc_oral_dental_oeee_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_oral_dental_oeee_card3.png': {'y': 0.5, 'verticalBadge': 'tl'},
+  'cphc_oral_dental_oeee_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_palliative_epmns_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_palliative_epmns_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_palliative_epmns_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_palliative_epmns_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_rbsk_screening_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_rbsk_screening_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_rbsk_screening_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_rbsk_screening_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_rksk_adolescent_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_rksk_adolescent_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_rksk_adolescent_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_rksk_adolescent_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_substance_audit_epmns_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_substance_audit_epmns_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_substance_audit_epmns_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_substance_audit_epmns_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_tb_elimination_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_tb_elimination_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_tb_elimination_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_tb_elimination_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_uip_vaccination_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_uip_vaccination_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_uip_vaccination_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_uip_vaccination_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_vector_malaria_dengue_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_vector_malaria_dengue_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_vector_malaria_dengue_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'br'},
+  'cphc_vector_malaria_dengue_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'bl'},
+  'cphc_wash_infection_control_card1.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_wash_infection_control_card2.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tr'},
+  'cphc_wash_infection_control_card3.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'cphc_wash_infection_control_card4.png': {'fit': 'contain', 'align': 'right', 'verticalBadge': 'tl'},
+  'apr11_motherhood_card1_anc.jpg': { y: 0.11 },
+  'apr11_motherhood_card2_danger.jpg': { y: 0.22, badge: 'bl' },
+  'apr11_motherhood_card3_plan.jpg': { y: 0.16 },
+  'apr11_motherhood_card4_medicines.jpg': { y: 0.0 },
+  'apr17_haemophilia_card1_centre.jpg': { y: 0.0 },
+  'apr17_haemophilia_card3_medicine.jpg': { y: 0.09, badge: 'bl' },
+  'apr17_haemophilia_card4_activity.jpg': { y: 0.0 },
+  'aug20_mosquito_card1_dryday.jpg': { fit: 'contain', align: 'right' },
+  'aug20_mosquito_card4_fever.jpg': { y: 0.06 },
+  'mar16_vaccination_card1_schedule.jpg': { y: 0.11 },
+  'mar16_vaccination_card2_card.jpg': { y: 0.19, badge: 'bl' },
+  'mar16_vaccination_card3_followup.jpg': { y: 0.0 },
+  'mar16_vaccination_card4_observation.jpg': { y: 0.11, badge: 'bl' },
+  'may25_thyroid_card1_symptoms.jpg': { y: 0.11, badge: 'bl' },
+  'may25_thyroid_card2_test.jpg': { y: 0.11 },
+  'may25_thyroid_card3_medicine.jpg': { y: 0.07 },
+  'may28_menstrual_card1_change.jpg': { y: 0.15 },
+  'may28_menstrual_card2_hygiene.jpg': { y: 0.22, badge: 'bl' },
+  'oct15_do2.png': { y: 0.28 },
+  'oct17_dont2.png': { y: 0.2, badge: 'bl' },
+  'oct18_do2.png': { y: 0.1 },
+  'oct20_do1.png': { y: 0.0, badge: 'tr' },
+  'oct21_do2.png': { y: 0.0 },
+  'oct21_dont1.png': { y: 0.11, badge: 'bl' },
+  'oct22_stuttering_card1_listen.jpg': { y: 0.15 },
+  'oct22_stuttering_card2_respect.jpg': { y: 0.18 },
+  'oct22_stuttering_card3_slp.jpg': { y: 0.15 },
+  'oct24_polio_card1_drops.jpg': { y: 0.12 },
+  'oct24_polio_card2_routine.jpg': { y: 0.24, badge: 'bl' },
+  'oct29_stroke_card1_fast.jpg': { y: 0.1 },
+  'oct29_stroke_card2_ambulance.jpg': { y: 0.18 },
+  'oct29_stroke_card3_nofood.jpg': { y: 0.17 },
+  'oct29_stroke_card4_prevention.jpg': { y: 0.12 },
+  'sep21_alzheimer_card2_communication.jpg': { y: 0.22 },
+  'apr17_haemophilia_card2_joint.jpg': { fit: 'contain', align: 'right' },
+  'may25_thyroid_card4_iodine.jpg': { fit: 'contain', align: 'right' },
+  'oct16_dont2.png': { fit: 'contain', align: 'right' },
+  'oct18_dont1.png': { fit: 'contain', align: 'right' },
+  'oct18_dont2.png': { fit: 'contain', align: 'right' },
+  'oct20_do2.png': { fit: 'contain', align: 'right' },
+  'oct24_polio_card4_weakness.jpg': { fit: 'contain', align: 'right' },
+  'oct20_dont1.png': { fit: 'contain', align: 'right' }
+};
+
 class HealthPosterRenderer {
   constructor() {
     this.canvas = document.createElement('canvas');
@@ -88,7 +278,20 @@ class HealthPosterRenderer {
     }
     const imgRatio = img.width / img.height;
     const boxRatio = w / h;
+    const focus = img.photoFocus || null;
     let sWidth, sHeight, sx, sy;
+
+    if (focus && focus.fit === 'contain' && boxRatio > 1.6) {
+      // whole image, aspect preserved, centred on the card background (no stretch, no crop)
+      const k = Math.min(w / img.width, h / img.height);
+      const dw = img.width * k, dh = img.height * k;
+      ctx.fillStyle = '#0B1726';
+      ctx.fillRect(x, y, w, h);
+      const dx = focus.align === 'right' ? x + (w - dw) : x + (w - dw) / 2;
+      ctx.drawImage(img, dx, y + (h - dh) / 2, dw, dh);
+      ctx.restore();
+      return;
+    }
 
     if (imgRatio > boxRatio) {
       sHeight = img.height;
@@ -99,7 +302,7 @@ class HealthPosterRenderer {
       sWidth = img.width;
       sHeight = img.width / boxRatio;
       sx = 0;
-      sy = (img.height - sHeight) / 2;
+      sy = (img.height - sHeight) * (focus && typeof focus.y === 'number' ? focus.y : 0.5);
     }
 
     ctx.drawImage(img, sx, sy, sWidth, sHeight, x, y, w, h);
@@ -134,10 +337,72 @@ class HealthPosterRenderer {
     return lines.length * lineHeight;
   }
 
+  // Lines wrapText would produce for `text` at the current font (same breaking rule, no cap)
+  countLines(ctx, text, maxWidth) {
+    if (!text) return 0;
+    const words = text.split(' ');
+    let line = '';
+    let count = 0;
+    for (let n = 0; n < words.length; n++) {
+      const testLine = line + words[n] + ' ';
+      if (ctx.measureText(testLine).width > maxWidth && n > 0) {
+        count++;
+        line = words[n] + ' ';
+      } else {
+        line = testLine;
+      }
+    }
+    return line.trim().length > 0 ? count + 1 : count;
+  }
+
+  // Single-line title; if it is wider than the box it wraps to a second line (never clipped).
+  // Returns the height used (lineHeight for one line, 2x for two).
+  drawTitleFitted(ctx, text, x, y, maxWidth, lineHeight) {
+    // 8px of slack: titles may sit in the card's 14px side padding, but must stay clear of its edge
+    if (ctx.measureText(text).width <= maxWidth + 8) {
+      ctx.fillText(text, x, y);
+      return lineHeight;
+    }
+    return this.wrapText(ctx, text, x, y, maxWidth, lineHeight, 2);
+  }
+
+  // Shrink the current font only as far as needed for `text` to fit maxWidth (no-op when it already fits)
+  fitFont(ctx, text, maxWidth, minPx) {
+    if (!text) return;
+    const size = /(\d+(?:\.\d+)?)px/.exec(ctx.font);
+    const width = ctx.measureText(text).width;
+    if (!size || width <= maxWidth) return;
+    const px = Math.max(minPx, Math.floor(parseFloat(size[1]) * maxWidth / width * 10) / 10);
+    ctx.font = ctx.font.replace(size[0], `${px}px`);
+  }
+
   // Gujarati Numerals Helper
   toGuNum(num) {
     const guMap = { '0': '૦', '1': '૧', '2': '૨', '3': '૩', '4': '૪', '5': '૫', '6': '૬', '7': '૭', '8': '૮', '9': '૯' };
     return String(num).split('').map(c => guMap[c] || c).join('');
+  }
+
+  // Draw a platform-independent calendar icon with the selected poster's day.
+  // Unicode calendar emoji are avoided because most platforms hardcode "17".
+  drawCalendarDateIcon(ctx, x, y, dayNumber, useGujaratiNumerals = false) {
+    const width = 24;
+    const height = 24;
+    const dayText = useGujaratiNumerals ? this.toGuNum(dayNumber) : String(dayNumber);
+
+    ctx.save();
+    ctx.fillStyle = '#f8fafc';
+    ctx.strokeStyle = '#38bdf8';
+    ctx.lineWidth = 1.2;
+    this.drawRoundRect(ctx, x, y, width, height, 4, true, true);
+
+    ctx.fillStyle = '#0ea5e9';
+    ctx.fillRect(x + 1, y + 1, width - 2, 6);
+    ctx.fillStyle = '#0B1726';
+    ctx.font = `800 ${dayText.length > 1 ? 10 : 11}px "Plus Jakarta Sans", "Noto Sans Gujarati", sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(dayText, x + (width / 2), y + 16);
+    ctx.restore();
   }
 
   /**
@@ -201,6 +466,7 @@ class HealthPosterRenderer {
         const customSrc = customPhotos[card.index];
         const src = customSrc || card.photo;
         const img = await this.loadImage(src);
+        if (img) img.photoFocus = customSrc ? null : (PHOTO_FOCUS[(card.photo || '').split('/').pop()] || null);
         if (!img) {
           failedCards.push({
             index: card.index,
@@ -219,28 +485,29 @@ class HealthPosterRenderer {
     const headerY = isVertical ? 44 : 34;
 
     // A. Date Badge (Left Pill)
-    // Format: e.g. "15 OCTOBER | ૧૫ ઓક્ટોબર"
+    // Format: dynamic calendar icon + e.g. "15 OCTOBER | ૧૫ ઓક્ટોબર"
     let datePillText = '';
     const upperDateEn = (dayData.date_en || '').toUpperCase();
     if (language === 'gujarati') {
-      datePillText = `📅 ${dayData.date_gu}`;
+      datePillText = dayData.date_gu;
     } else if (language === 'english') {
-      datePillText = `📅 ${upperDateEn}`;
+      datePillText = upperDateEn;
     } else {
-      datePillText = `📅 ${upperDateEn} | ${dayData.date_gu}`;
+      datePillText = `${upperDateEn} | ${dayData.date_gu}`;
     }
 
     ctx.save();
     ctx.font = 'bold 18px "Plus Jakarta Sans", "Noto Sans Gujarati", sans-serif';
-    const dateWidth = ctx.measureText(datePillText).width + 36;
+    const dateWidth = ctx.measureText(datePillText).width + 62;
     
     // Smooth pill border with subtle cyan fill
     ctx.fillStyle = 'rgba(11, 30, 48, 0.85)';
     ctx.strokeStyle = '#38bdf8';
     ctx.lineWidth = 1.5;
     this.drawRoundRect(ctx, 40, headerY, dateWidth, 38, 19, true, true);
+    this.drawCalendarDateIcon(ctx, 53, headerY + 7, dayData.day, language === 'gujarati');
     ctx.fillStyle = '#ffffff';
-    ctx.fillText(datePillText, 58, headerY + 25);
+    ctx.fillText(datePillText, 88, headerY + 25);
     ctx.restore();
 
     // B. Observance Badge (Right Pill) with Sourced Provenance Verification
@@ -298,6 +565,7 @@ class HealthPosterRenderer {
       // English Title
       ctx.font = 'bold 28px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#38bdf8';
+      this.fitFont(ctx, dayData.title_en.toUpperCase(), WIDTH - 80, 20);
       ctx.fillText(dayData.title_en.toUpperCase(), WIDTH / 2, currentY);
 
       // Gujarati Title (Hero Font)
@@ -306,6 +574,7 @@ class HealthPosterRenderer {
       ctx.fillStyle = '#ffffff';
       ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
       ctx.shadowBlur = 8;
+      this.fitFont(ctx, dayData.title_gu, WIDTH - 80, 24);
       ctx.fillText(dayData.title_gu, WIDTH / 2, currentY);
       ctx.shadowBlur = 0;
     } else if (language === 'gujarati') {
@@ -313,6 +582,7 @@ class HealthPosterRenderer {
       ctx.fillStyle = '#ffffff';
       ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
       ctx.shadowBlur = 8;
+      this.fitFont(ctx, dayData.title_gu, WIDTH - 80, 26);
       ctx.fillText(dayData.title_gu, WIDTH / 2, currentY + 12);
       ctx.shadowBlur = 0;
       currentY += 24;
@@ -321,6 +591,7 @@ class HealthPosterRenderer {
       ctx.fillStyle = '#ffffff';
       ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
       ctx.shadowBlur = 8;
+      this.fitFont(ctx, dayData.title_en.toUpperCase(), WIDTH - 80, 24);
       ctx.fillText(dayData.title_en.toUpperCase(), WIDTH / 2, currentY + 12);
       ctx.shadowBlur = 0;
       currentY += 24;
@@ -330,6 +601,7 @@ class HealthPosterRenderer {
     currentY += 28;
     const themeText = language === 'gujarati' ? dayData.theme_gu : (language === 'english' ? dayData.theme_en : `${dayData.theme_en} • ${dayData.theme_gu}`);
     ctx.font = '500 17px "Plus Jakarta Sans", "Noto Sans Gujarati", sans-serif';
+    this.fitFont(ctx, themeText, WIDTH - 124, 12);
     const themeMetrics = ctx.measureText(themeText);
     const themeBoxW = Math.min(WIDTH - 80, themeMetrics.width + 44);
     const themeBoxX = (WIDTH - themeBoxW) / 2;
@@ -418,6 +690,9 @@ class HealthPosterRenderer {
     ctx.lineWidth = 1.5;
     this.drawRoundRect(ctx, x, y, w, h, 18, true, true);
     ctx.shadowBlur = 0;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 0;
+    ctx.shadowColor = 'transparent';
 
     // 2. High-res Photo Box
     const photoMargin = 8;
@@ -440,8 +715,8 @@ class HealthPosterRenderer {
     }
 
     // 3. Distinct Action Badge (e.g. "માર્ગદર્શન #૧" or "ACTION #1 • માર્ગદર્શન #૧")
-    const badgeY = photoY + 10;
-    const badgeX = photoX + 10;
+    let badgeY = photoY + 10;
+    let badgeX = photoX + 10;
     const guNum = this.toGuNum(index);
     let badgeText = '';
     if (language === 'gujarati') {
@@ -455,6 +730,9 @@ class HealthPosterRenderer {
     ctx.font = 'bold 13px "Plus Jakarta Sans", "Noto Sans Gujarati", sans-serif';
     const badgeW = ctx.measureText(badgeText).width + 24;
     const badgeH = 26;
+    const corner = (img && img.photoFocus && img.photoFocus.badge) || 'tl';
+    if (corner === 'tr' || corner === 'br') badgeX = photoX + photoW - 10 - badgeW;
+    if (corner === 'bl' || corner === 'br') badgeY = photoY + photoH - 10 - badgeH;
 
     // Smooth pill overlay with dark glass background & cyan accent
     ctx.fillStyle = 'rgba(7, 19, 32, 0.90)';
@@ -476,40 +754,47 @@ class HealthPosterRenderer {
       ctx.font = 'bold 16px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#38bdf8';
       const enTitle = card.title_en || '';
+      this.fitFont(ctx, enTitle, maxTextW + 8, 13);
       ctx.fillText(enTitle, contentX, contentY);
 
       // Gujarati Title
       ctx.font = 'bold 18px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#ffffff';
       const guTitle = card.title_gu || '';
+      this.fitFont(ctx, guTitle, maxTextW + 8, 15);
       ctx.fillText(guTitle, contentX, contentY + 22);
 
-      // Medical Caption (Concise)
+      // Medical Caption (Concise): 2 lines each; a 3rd line is added only where the text would
+      // otherwise be cut off, and the English caption then sits 12px lower to stay inside the card.
       ctx.font = '400 13.5px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#cbd5e1';
-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 44, maxTextW, 18, 2);
+      const guCapLines = Math.min(3, Math.max(2, this.countLines(ctx, card.desc_gu || '', maxTextW)));
+      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 44, maxTextW, 18, guCapLines);
 
       ctx.font = '400 12.5px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#94a3b8';
-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 84, maxTextW, 16, 2);
+      const enCapLines = Math.min(3, Math.max(2, this.countLines(ctx, card.desc_en || '', maxTextW)));
+      this.wrapText(ctx, card.desc_en || '', contentX, contentY + (guCapLines > 2 ? 96 : 84), maxTextW, 16, enCapLines);
 
     } else if (language === 'gujarati') {
       ctx.font = 'bold 20px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#ffffff';
-      ctx.fillText(card.title_gu || '', contentX, contentY + 4);
+      const tGuH = this.drawTitleFitted(ctx, card.title_gu || '', contentX, contentY + 4, maxTextW, 22);
 
       ctx.font = '400 14px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#cbd5e1';
-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 34, maxTextW, 20, 3);
+      const guY = contentY + 34 + (tGuH - 22);
+      this.wrapText(ctx, card.desc_gu || '', contentX, guY, maxTextW, 20, Math.max(3, Math.floor((y + h - 10 - guY) / 20) + 1));
 
     } else {
       ctx.font = 'bold 19px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#38bdf8';
-      ctx.fillText(card.title_en || '', contentX, contentY + 4);
+      const tEnH = this.drawTitleFitted(ctx, card.title_en || '', contentX, contentY + 4, maxTextW, 22);
 
       ctx.font = '400 14px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#cbd5e1';
-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 34, maxTextW, 20, 3);
+      const enY = contentY + 34 + (tEnH - 22);
+      this.wrapText(ctx, card.desc_en || '', contentX, enY, maxTextW, 20, Math.max(3, Math.floor((y + h - 10 - enY) / 20) + 1));
     }
 
     ctx.restore();
@@ -537,6 +822,9 @@ class HealthPosterRenderer {
     ctx.lineWidth = 1.8;
     this.drawRoundRect(ctx, x, y, w, h, 22, true, true);
     ctx.shadowBlur = 0;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 0;
+    ctx.shadowColor = 'transparent';
 
     // 2. High-res Photo Box (4:3 aspect ratio: 465w x 348h)
     const photoMargin = 10;
@@ -558,8 +846,8 @@ class HealthPosterRenderer {
     }
 
     // 3. Distinct Action Badge
-    const badgeY = photoY + 12;
-    const badgeX = photoX + 12;
+    let badgeY = photoY + 12;
+    let badgeX = photoX + 12;
     const guNum = this.toGuNum(index);
     let badgeText = '';
     if (language === 'gujarati') {
@@ -573,6 +861,9 @@ class HealthPosterRenderer {
     ctx.font = 'bold 15px "Plus Jakarta Sans", "Noto Sans Gujarati", sans-serif';
     const badgeW = ctx.measureText(badgeText).width + 28;
     const badgeH = 32;
+    const verticalCorner = (img && img.photoFocus && img.photoFocus.verticalBadge) || 'tl';
+    if (verticalCorner === 'tr' || verticalCorner === 'br') badgeX = photoX + photoW - 12 - badgeW;
+    if (verticalCorner === 'bl' || verticalCorner === 'br') badgeY = photoY + photoH - 12 - badgeH;
 
     ctx.fillStyle = 'rgba(7, 19, 32, 0.92)';
     ctx.strokeStyle = '#0ea5e9';
@@ -612,20 +903,22 @@ class HealthPosterRenderer {
     } else if (language === 'gujarati') {
       ctx.font = 'bold 29px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#ffffff';
-      const tGuOnlyH = this.wrapText(ctx, card.title_gu || '', contentX, contentY + 10, maxTextW, 36, 2);
+      const tGuOnlyH = this.wrapText(ctx, card.title_gu || '', contentX, contentY + 10, maxTextW, 36, Math.min(3, Math.max(2, this.countLines(ctx, card.title_gu || '', maxTextW))));
 
       ctx.font = '400 21px "Noto Sans Gujarati", sans-serif';
       ctx.fillStyle = '#e2e8f0';
-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 10 + tGuOnlyH + 18, maxTextW, 31, 8);
+      const guOnlyY = contentY + 10 + tGuOnlyH + 18;
+      this.wrapText(ctx, card.desc_gu || '', contentX, guOnlyY, maxTextW, 31, Math.max(8, Math.floor((y + h - 16 - guOnlyY) / 31) + 1));
 
     } else {
       ctx.font = 'bold 28px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#38bdf8';
-      const tEnOnlyH = this.wrapText(ctx, card.title_en || '', contentX, contentY + 10, maxTextW, 34, 2);
+      const tEnOnlyH = this.wrapText(ctx, card.title_en || '', contentX, contentY + 10, maxTextW, 34, Math.min(3, Math.max(2, this.countLines(ctx, card.title_en || '', maxTextW))));
 
       ctx.font = '400 21px "Plus Jakarta Sans", sans-serif';
       ctx.fillStyle = '#e2e8f0';
-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 10 + tEnOnlyH + 18, maxTextW, 31, 8);
+      const enOnlyY = contentY + 10 + tEnOnlyH + 18;
+      this.wrapText(ctx, card.desc_en || '', contentX, enOnlyY, maxTextW, 31, Math.max(8, Math.floor((y + h - 16 - enOnlyY) / 31) + 1));
     }
 
     ctx.restore();

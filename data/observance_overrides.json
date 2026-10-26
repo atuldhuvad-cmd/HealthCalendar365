@@ -1,0 +1,722 @@
+[
+  {
+    "id": "03-16",
+    "tier": 2,
+    "tier_en": "India National Health Observance",
+    "tier_gu": "ભારતનો રાષ્ટ્રીય આરોગ્ય દિવસ",
+    "title_en": "National Vaccination Day",
+    "title_gu": "રાષ્ટ્રીય રસીકરણ દિવસ",
+    "theme_en": "Vaccinate on Schedule | Keep Every Dose Recorded",
+    "theme_gu": "સમયસર રસી અપાવો | દરેક ડોઝની નોંધ સાચવો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Follow the National Immunization Schedule",
+        "title_gu": "રાષ્ટ્રીય રસીકરણ સમયપત્રક અનુસરો",
+        "desc_en": "Give every vaccine at the recommended age through an authorized health facility.",
+        "desc_gu": "દરેક રસી યોગ્ય ઉંમરે અધિકૃત આરોગ્ય કેન્દ્રમાં અપાવો.",
+        "photo": "photos/mar16_vaccination_card1_schedule.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian mother holding her infant while a female nurse administers a scheduled vaccine in a bright government immunization clinic. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Carry the Immunization Card",
+        "title_gu": "રસીકરણ કાર્ડ સાથે રાખો",
+        "desc_en": "Bring the card to every visit and confirm the next due date before leaving.",
+        "desc_gu": "દરેક મુલાકાતે રસીકરણ કાર્ડ લાવો અને જતા પહેલાં આગામી ડોઝની તારીખ જાણી લો.",
+        "photo": "photos/mar16_vaccination_card2_card.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian father and female health worker reviewing a child immunization card together at a clinic desk, the card visible but entirely blank and unreadable. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Complete Missed Doses Promptly",
+        "title_gu": "છૂટી ગયેલો ડોઝ વહેલી તકે અપાવો",
+        "desc_en": "If a dose is delayed, contact an ANM or health facility; do not restart the entire series yourself.",
+        "desc_gu": "ડોઝ મોડો થયો હોય તો ANM અથવા આરોગ્ય કેન્દ્રનો સંપર્ક કરો; પોતાની રીતે આખી શ્રેણી ફરી શરૂ ન કરો.",
+        "photo": "photos/mar16_vaccination_card3_followup.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian community health worker speaking reassuringly with parents at their doorway while pointing to a simple blank appointment card. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Report Serious Reactions Immediately",
+        "title_gu": "ગંભીર પ્રતિક્રિયા થાય તો તરત જાણ કરો",
+        "desc_en": "Mild pain or fever can occur; breathing difficulty, collapse, seizures or very high fever need urgent medical care.",
+        "desc_gu": "હળવો દુખાવો કે તાવ થઈ શકે; શ્વાસમાં તકલીફ, બેભાન થવું, આંચકી કે ખૂબ ઊંચો તાવ થાય તો તાત્કાલિક સારવાર લો.",
+        "photo": "photos/mar16_vaccination_card4_observation.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian parent calmly observing a recently vaccinated child in a clinic observation area while a nurse checks the child attentively. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "National Vaccination Day",
+      "date_rule": "Annual fixed date in India: March 16",
+      "sponsoring_body": "Ministry of Health and Family Welfare, Government of India",
+      "observance_source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241066&lang=2&reg=3",
+      "clinical_source_url": "https://www.mohfw.gov.in/sites/default/files/Routine%20Immunization%20Manual%20For%20Health%20Workers.pdf",
+      "authority_tier": "GOVERNMENT_OF_INDIA",
+      "badge_en": "🇮🇳 National Vaccination Day",
+      "badge_gu": "🇮🇳 રાષ્ટ્રીય રસીકરણ દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "04-11",
+    "tier": 2,
+    "tier_en": "India National Health Observance",
+    "tier_gu": "ભારતનો રાષ્ટ્રીય આરોગ્ય દિવસ",
+    "title_en": "National Safe Motherhood Day",
+    "title_gu": "રાષ્ટ્રીય સુરક્ષિત માતૃત્વ દિવસ",
+    "theme_en": "Quality Antenatal Care | Safe Institutional Delivery",
+    "theme_gu": "ગુણવત્તાસભર ગર્ભ તપાસ | સુરક્ષિત સંસ્થાકીય પ્રસૂતિ",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Register Early for Antenatal Care",
+        "title_gu": "ગર્ભાવસ્થાની વહેલી નોંધણી કરાવો",
+        "desc_en": "Attend scheduled check-ups for blood pressure, anaemia, urine tests and fetal growth.",
+        "desc_gu": "બ્લડપ્રેશર, લોહીની કમી, પેશાબની તપાસ અને બાળકના વિકાસ માટે નિયમિત તપાસ કરાવો.",
+        "photo": "photos/apr11_motherhood_card1_anc.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a pregnant Indian woman receiving a respectful antenatal blood pressure check from a female doctor in a clean public health clinic. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Recognize Pregnancy Danger Signs",
+        "title_gu": "ગર્ભાવસ્થાના જોખમી લક્ષણો ઓળખો",
+        "desc_en": "Bleeding, severe headache, blurred vision, fits, fever, swelling or reduced fetal movement need urgent hospital care.",
+        "desc_gu": "રક્તસ્રાવ, ભારે માથાનો દુખાવો, ઝાંખું દેખાવું, આંચકી, તાવ, સોજો કે બાળકની હલચલ ઘટે તો તાત્કાલિક હોસ્પિટલ જાઓ.",
+        "photo": "photos/apr11_motherhood_card2_danger.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a concerned pregnant Indian woman speaking with a female doctor in an emergency assessment room, compassionate urgent care without distress or graphic content. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Plan an Institutional Delivery",
+        "title_gu": "સંસ્થાકીય પ્રસૂતિની આગોતરી યોજના બનાવો",
+        "desc_en": "Choose the facility, transport and birth companion in advance with help from your ASHA or ANM.",
+        "desc_gu": "ASHA અથવા ANMની મદદથી હોસ્પિટલ, વાહન અને સાથ આપનાર વ્યક્તિની આગોતરી વ્યવસ્થા કરો.",
+        "photo": "photos/apr11_motherhood_card3_plan.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a pregnant Indian couple planning delivery transport with an ASHA worker at home, a packed maternity bag nearby. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Use Medicines Only as Prescribed",
+        "title_gu": "દવા માત્ર સલાહ મુજબ લો",
+        "desc_en": "Take iron, folic acid, calcium and other medicines exactly as advised; avoid unprescribed remedies.",
+        "desc_gu": "આયર્ન, ફોલિક એસિડ, કેલ્શિયમ અને અન્ય દવાઓ સલાહ મુજબ લો; જાતે દવા કે ઘરગથ્થુ ઉપચાર ન કરો.",
+        "photo": "photos/apr11_motherhood_card4_medicines.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a pregnant Indian woman receiving clearly separated unbranded supplement tablets from a female clinician during counselling. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "National Safe Motherhood Day",
+      "date_rule": "Annual fixed date in India: April 11",
+      "sponsoring_body": "Ministry of Health and Family Welfare / National Health Mission",
+      "observance_source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023411179501.pdf",
+      "clinical_source_url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/Immunization/Guildelines_for_immunization/MCP_Guide_Book.pdf",
+      "authority_tier": "GOVERNMENT_OF_INDIA",
+      "badge_en": "🇮🇳 Safe Motherhood Day",
+      "badge_gu": "🇮🇳 સુરક્ષિત માતૃત્વ દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "04-17",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "World Haemophilia Day",
+    "title_gu": "વિશ્વ હીમોફિલિયા દિવસ",
+    "theme_en": "Recognize Bleeding Early | Protect Joints and Lives",
+    "theme_gu": "રક્તસ્રાવ વહેલો ઓળખો | સાંધા અને જીવનનું રક્ષણ કરો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Stay Connected to a Treatment Centre",
+        "title_gu": "હીમોફિલિયા સારવાર કેન્દ્ર સાથે જોડાયેલા રહો",
+        "desc_en": "Follow the prescribed factor-treatment plan and carry medical identification for emergencies.",
+        "desc_gu": "ડોક્ટરે આપેલી ફેક્ટર સારવાર યોજના અનુસરો અને ઇમરજન્સી માટે તબીબી ઓળખ સાથે રાખો.",
+        "photo": "photos/apr17_haemophilia_card1_centre.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian teenage boy with his parent consulting a hematologist at a haemophilia treatment centre, supportive and calm. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Treat Joint or Muscle Bleeding Early",
+        "title_gu": "સાંધા કે સ્નાયુના રક્તસ્રાવની વહેલી સારવાર લો",
+        "desc_en": "New pain, warmth, swelling or reduced movement needs prompt advice from the haemophilia team.",
+        "desc_gu": "નવો દુખાવો, ગરમાવો, સોજો કે હલનચલનમાં ઘટાડો થાય તો હીમોફિલિયા ટીમની તરત સલાહ લો.",
+        "photo": "photos/apr17_haemophilia_card2_joint.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian young adult with subtle swollen knee being gently examined by a physiotherapist in a clinic, no injury or blood visible. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Avoid Aspirin and Unplanned Injections",
+        "title_gu": "એસ્પિરિન અને આયોજન વગરના ઇન્જેક્શન ટાળો",
+        "desc_en": "Do not take aspirin or ibuprofen, or receive an intramuscular injection, unless the haemophilia clinician approves it.",
+        "desc_gu": "હીમોફિલિયા ડોક્ટરની મંજૂરી વગર એસ્પિરિન, આઇબુપ્રોફેન કે સ્નાયુમાં ઇન્જેક્શન ન લો.",
+        "photo": "photos/apr17_haemophilia_card3_medicine.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian pharmacist and patient pausing before an unbranded pain medicine and injection, with the pharmacist directing the patient to consult their doctor. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Exercise Safely and Protect Oral Health",
+        "title_gu": "સુરક્ષિત કસરત કરો અને મોઢાની સંભાળ રાખો",
+        "desc_en": "Choose low-impact exercise and regular dental care with advice from your haemophilia team.",
+        "desc_gu": "હીમોફિલિયા ટીમની સલાહથી ઓછી ઇજાવાળી કસરત કરો અને દાંતની નિયમિત સંભાળ રાખો.",
+        "photo": "photos/apr17_haemophilia_card4_activity.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian young man with haemophilia doing supervised low-impact resistance exercise with a physiotherapist, safe controlled movement. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "World Haemophilia Day",
+      "date_rule": "Annual fixed date: April 17",
+      "sponsoring_body": "World Federation of Hemophilia; observed by Government of India institutions",
+      "observance_source_url": "https://depwd.gov.in/en/awareness-programmes-on-bleeding-disorders-organized-across-the-country-on-world-haemophilia-day/",
+      "clinical_source_url": "https://elearning.wfh.org/elearning-centres/hemophilia/",
+      "authority_tier": "PROFESSIONAL_FEDERATION_GOVERNMENT_RECOGNIZED",
+      "badge_en": "🩸 World Haemophilia Day",
+      "badge_gu": "🩸 વિશ્વ હીમોફિલિયા દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "05-25",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "World Thyroid Day",
+    "title_gu": "વિશ્વ થાઇરોઇડ દિવસ",
+    "theme_en": "Recognize Symptoms | Test and Treat Correctly",
+    "theme_gu": "લક્ષણો ઓળખો | યોગ્ય તપાસ અને સારવાર લો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Get Persistent Symptoms Assessed",
+        "title_gu": "લાંબા સમયના લક્ષણોની તપાસ કરાવો",
+        "desc_en": "Unexplained fatigue, weight change, neck swelling, palpitations or heat/cold intolerance need medical assessment.",
+        "desc_gu": "અકારણ થાક, વજનમાં ફેરફાર, ગળામાં સોજો, ધબકારા કે ગરમી-ઠંડી ન સહેવાય તો તબીબી તપાસ કરાવો.",
+        "photo": "photos/may25_thyroid_card1_symptoms.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian woman discussing persistent fatigue and a subtle neck concern with an endocrinologist in a consultation room. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Use Thyroid Tests Clinically",
+        "title_gu": "થાઇરોઇડ તપાસ ડોક્ટરની સલાહથી કરાવો",
+        "desc_en": "TSH and related tests should be interpreted with symptoms, medicines, pregnancy and medical history.",
+        "desc_gu": "TSH અને સંબંધિત તપાસનું અર્થઘટન લક્ષણો, દવાઓ, ગર્ભાવસ્થા અને તબીબી ઇતિહાસ સાથે કરાવો.",
+        "photo": "photos/may25_thyroid_card2_test.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian laboratory professional preparing a thyroid blood sample while a clinician reviews a blank chart nearby, no readable text. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Take Thyroid Medicine Consistently",
+        "title_gu": "થાઇરોઇડની દવા નિયમિત લો",
+        "desc_en": "Take prescribed thyroid medicine as directed; do not change the dose or stop it after one normal report.",
+        "desc_gu": "થાઇરોઇડની દવા સૂચના મુજબ લો; એક રિપોર્ટ સામાન્ય આવે એટલે ડોઝ બદલશો કે દવા બંધ કરશો નહીં.",
+        "photo": "photos/may25_thyroid_card3_medicine.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian adult taking one prescribed unbranded thyroid tablet with water at a consistent morning routine, medicine bottle without labels. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Avoid Unprescribed Iodine Supplements",
+        "title_gu": "સલાહ વગર આયોડિન પૂરક ન લો",
+        "desc_en": "Use adequately iodized household salt in normal amounts; avoid iodine or herbal supplements without medical advice.",
+        "desc_gu": "ઘરમાં યોગ્ય આયોડાઇઝ્ડ મીઠું સામાન્ય માત્રામાં વાપરો; સલાહ વગર આયોડિન કે હર્બલ પૂરક ન લો.",
+        "photo": "photos/may25_thyroid_card4_iodine.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian kitchen scene with an airtight salt container and a clinician counselling against assorted unlabelled supplement bottles. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "World Thyroid Day",
+      "date_rule": "Annual fixed date: May 25",
+      "sponsoring_body": "Thyroid Federation International and international thyroid associations",
+      "observance_source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/NHP/NHP-2023-Last-Final.pdf",
+      "clinical_source_url": "https://www.thyroid.org/thyroid-information/",
+      "authority_tier": "PROFESSIONAL_ASSOCIATION_GOVERNMENT_RECOGNIZED",
+      "badge_en": "🦋 World Thyroid Day",
+      "badge_gu": "🦋 વિશ્વ થાઇરોઇડ દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "05-28",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "Menstrual Hygiene Day",
+    "title_gu": "માસિક સ્વચ્છતા દિવસ",
+    "theme_en": "Safe Period Care | Dignity, Comfort and Confidence",
+    "theme_gu": "સુરક્ષિત માસિક સંભાળ | ગૌરવ, આરામ અને આત્મવિશ્વાસ",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Change Absorbent Material Regularly",
+        "title_gu": "પેડ કે કપડું નિયમિત બદલો",
+        "desc_en": "Change a pad or clean absorbent cloth every 4–6 hours, or sooner when wet or soaked.",
+        "desc_gu": "પેડ અથવા સ્વચ્છ શોષક કપડું દર ૪–૬ કલાકે, અથવા ભીનું થાય ત્યારે વહેલું બદલો.",
+        "photo": "photos/may28_menstrual_card1_change.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a confident Indian adolescent girl discreetly taking a wrapped sanitary pad from a clean school washroom cabinet. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Wash Hands and External Genitals",
+        "title_gu": "હાથ અને બહારનો અંગ સ્વચ્છ રાખો",
+        "desc_en": "Wash hands before and after changing; clean the external genital area with clean water and dry gently.",
+        "desc_gu": "બદલતાં પહેલાં અને પછી હાથ ધોવો; બહારનો અંગ સ્વચ્છ પાણીથી ધોઈ હળવેથી સૂકવો.",
+        "photo": "photos/may28_menstrual_card2_hygiene.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian young woman washing her hands with soap beside a clean private washroom sink, sanitary supplies stored neatly nearby. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Dry Reusable Cloth in Sunlight",
+        "title_gu": "ફરી વાપરવાનું કપડું તડકામાં સંપૂર્ણ સૂકવો",
+        "desc_en": "Wash reusable cotton cloth with soap and water, dry it completely in sunlight and store it dry.",
+        "desc_gu": "ફરી વાપરવાનું સુતરાઉ કપડું સાબુ-પાણીથી ધોઈ તડકામાં સંપૂર્ણ સૂકવો અને સૂકી જગ્યાએ રાખો.",
+        "photo": "photos/may28_menstrual_card3_reusable.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of clean reusable cotton menstrual cloth pads drying fully on a private sunny Indian terrace clothesline, hygienic and discreet. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Seek Care for Abnormal Bleeding or Pain",
+        "title_gu": "અસામાન્ય રક્તસ્રાવ કે દુખાવામાં સારવાર લો",
+        "desc_en": "Consult a clinician for very heavy bleeding, faintness, severe pain, fever, foul-smelling discharge or major cycle changes.",
+        "desc_gu": "ખૂબ વધારે રક્તસ્રાવ, ચક્કર, ભારે દુખાવો, તાવ, દુર્ગંધવાળો સ્રાવ કે ચક્રમાં મોટો ફેરફાર થાય તો ડોક્ટરની સલાહ લો.",
+        "photo": "photos/may28_menstrual_card4_consult.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian adolescent girl and her mother having a respectful private consultation with a female doctor, reassuring atmosphere. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "Menstrual Hygiene Day",
+      "date_rule": "Annual fixed date: May 28",
+      "sponsoring_body": "Global Menstrual Hygiene Day campaign; recognized in Indian public health guidance",
+      "observance_source_url": "https://upnrhm.gov.in/StaffNurseTraining/National%20Quality%20Assurance%20Standards%20for%20Ayushman%20Bharat_a%20Compendium_HWC.pdf",
+      "clinical_source_url": "https://nhm.gov.in/New-Update-2025-26/Adolescent-Health/Menstrual-Hygiene-Policy/Menstrual-Hygiene-Policy-for-School-Going-Girls.pdf",
+      "authority_tier": "PUBLIC_HEALTH_CAMPAIGN_GOVERNMENT_RECOGNIZED",
+      "badge_en": "🌸 Menstrual Hygiene Day",
+      "badge_gu": "🌸 માસિક સ્વચ્છતા દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "08-20",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "World Mosquito Day",
+    "title_gu": "વિશ્વ મચ્છર દિવસ",
+    "theme_en": "Stop Mosquito Breeding | Prevent Dengue and Malaria",
+    "theme_gu": "મચ્છરની ઉત્પત્તિ રોકો | ડેન્ગ્યુ અને મેલેરિયાથી બચો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Observe a Weekly Dry Day",
+        "title_gu": "અઠવાડિયે એક ડ્રાય ડે રાખો",
+        "desc_en": "Empty, scrub and dry coolers, pots, trays and water containers every week.",
+        "desc_gu": "દર અઠવાડિયે કૂલર, કૂંડાં, ટ્રે અને પાણીનાં વાસણ ખાલી કરી ઘસીને સૂકવો.",
+        "photo": "photos/aug20_mosquito_card1_dryday.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian family emptying and scrubbing a desert cooler and flowerpot trays during a weekly home dry day. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Cover Stored Water Tightly",
+        "title_gu": "સંગ્રહિત પાણી ઢાંકીને રાખો",
+        "desc_en": "Keep tanks, drums and buckets tightly covered and remove discarded tyres or containers that collect rainwater.",
+        "desc_gu": "ટાંકી, ડ્રમ અને ડોલ ચુસ્ત ઢાંકો; વરસાદી પાણી ભરાય તેવા જૂના ટાયર અને વાસણ દૂર કરો.",
+        "photo": "photos/aug20_mosquito_card2_cover.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian household member securing tight lids on water storage drums while removing an old tyre from a courtyard. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Prevent Daytime Mosquito Bites",
+        "title_gu": "દિવસ દરમિયાન મચ્છરના કરડવાથી બચો",
+        "desc_en": "Wear full sleeves and use approved repellents, window screens or nets, especially for infants and daytime sleepers.",
+        "desc_gu": "આખી બાંયનાં કપડાં પહેરો અને માન્ય રિપેલન્ટ, જાળી કે મચ્છરદાની વાપરો, ખાસ કરીને શિશુ અને દિવસમાં સૂતા લોકો માટે.",
+        "photo": "photos/aug20_mosquito_card3_protection.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian mother applying child-safe mosquito repellent to her own forearm while an infant rests protected under a clean net nearby. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Get Fever Assessed—Do Not Self-Medicate",
+        "title_gu": "તાવમાં તપાસ કરાવો—જાતે દવા ન લો",
+        "desc_en": "High fever with severe headache, eye pain, rash, body ache or weakness needs prompt medical assessment.",
+        "desc_gu": "ઊંચા તાવ સાથે ભારે માથાનો દુખાવો, આંખ પાછળ દુખાવો, ચકામા, શરીર દુખવું કે નબળાઈ હોય તો તરત તપાસ કરાવો.",
+        "photo": "photos/aug20_mosquito_card4_fever.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an ill Indian adult with fever being examined promptly by a clinician in a primary health centre, no medicine self-treatment. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "World Mosquito Day",
+      "date_rule": "Annual fixed date: August 20",
+      "sponsoring_body": "Public-health observance recognized by NCDC/NCVBDC, Government of India",
+      "observance_source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/state17.pdf",
+      "clinical_source_url": "https://ncvbdc.mohfw.gov.in/index4.php?lang=1&level=0&lid=3724&linkid=442",
+      "authority_tier": "GOVERNMENT_RECOGNIZED_PUBLIC_HEALTH_OBSERVANCE",
+      "badge_en": "🦟 World Mosquito Day",
+      "badge_gu": "🦟 વિશ્વ મચ્છર દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "09-21",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "World Alzheimer’s Day",
+    "title_gu": "વિશ્વ અલ્ઝાઇમર દિવસ",
+    "theme_en": "Notice Changes Early | Support with Respect",
+    "theme_gu": "ફેરફારો વહેલા ઓળખો | સન્માનથી સહાય કરો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Seek Assessment for Persistent Changes",
+        "title_gu": "સતત ફેરફારો માટે તપાસ કરાવો",
+        "desc_en": "Repeated memory loss, getting lost, confusion or difficulty with familiar tasks needs clinical assessment.",
+        "desc_gu": "વારંવાર ભૂલી જવું, રસ્તો ભૂલવો, ગૂંચવણ કે ઓળખીતું કામ કરવામાં તકલીફ થાય તો તબીબી તપાસ કરાવો.",
+        "photo": "photos/sep21_alzheimer_card1_assessment.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an older Indian woman and adult daughter discussing memory concerns with a geriatric clinician in a calm consultation. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Communicate Calmly and Simply",
+        "title_gu": "શાંતિથી અને સરળ રીતે વાત કરો",
+        "desc_en": "Speak face-to-face, use short sentences, ask one thing at a time and allow time to answer.",
+        "desc_gu": "સામે જોઈને ધીમે બોલો, ટૂંકાં વાક્યો વાપરો, એક સમયે એક વાત પૂછો અને જવાબ માટે સમય આપો.",
+        "photo": "photos/sep21_alzheimer_card2_communication.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an adult Indian son speaking gently face-to-face at eye level with his elderly father in a quiet home. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Make the Home Safer",
+        "title_gu": "ઘરને વધુ સુરક્ષિત બનાવો",
+        "desc_en": "Maintain familiar routines and secure medicines, chemicals, sharp objects and fall hazards.",
+        "desc_gu": "ઓળખીતો દૈનિક ક્રમ જાળવો અને દવા, રસાયણ, ધારદાર વસ્તુ તથા પડી જવાના જોખમ સુરક્ષિત કરો.",
+        "photo": "photos/sep21_alzheimer_card3_safety.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian caregiver making an elder-friendly home safer by locking medicines and clearing a walkway, elderly family member nearby. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Care for the Caregiver Too",
+        "title_gu": "સંભાળનારની પણ કાળજી લો",
+        "desc_en": "Share caregiving, ask family or community support, rest regularly and seek help when overwhelmed.",
+        "desc_gu": "સંભાળની જવાબદારી વહેંચો, પરિવાર કે સમાજની મદદ લો, આરામ કરો અને ભાર વધારે લાગે તો સહાય મેળવો.",
+        "photo": "photos/sep21_alzheimer_card4_caregiver.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a small Indian family sharing caregiving tasks around an elderly woman while one caregiver takes a restorative break. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "World Alzheimer’s Day",
+      "date_rule": "Annual fixed date: September 21",
+      "sponsoring_body": "Alzheimer’s Disease International; observed by Government of India institutions",
+      "observance_source_url": "https://divyangjan.depwd.gov.in/upload/s3wassupload/NIEPID_Secunderabad_Annual_Report_2023-24.pdf",
+      "clinical_source_url": "https://www.who.int/news-room/questions-and-answers/item/dementia-information-for-caregivers",
+      "authority_tier": "GLOBAL_NGO_GOVERNMENT_RECOGNIZED",
+      "badge_en": "🧠 World Alzheimer’s Day",
+      "badge_gu": "🧠 વિશ્વ અલ્ઝાઇમર દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "10-22",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "International Stuttering Awareness Day",
+    "title_gu": "આંતરરાષ્ટ્રીય હકલાવાની જાગૃતિ દિવસ",
+    "theme_en": "Listen Patiently | Support Confident Communication",
+    "theme_gu": "ધીરજથી સાંભળો | આત્મવિશ્વાસપૂર્વક વાતચીતને ટેકો આપો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Give the Speaker Time",
+        "title_gu": "બોલનારને પૂરતો સમય આપો",
+        "desc_en": "Maintain natural eye contact and listen to the message without rushing the person.",
+        "desc_gu": "સ્વાભાવિક નજર સંપર્ક રાખો અને વ્યક્તિને ઉતાવળ કરાવ્યા વગર તેની વાત સાંભળો.",
+        "photo": "photos/oct22_stuttering_card1_listen.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of two Indian college students having a patient respectful conversation, one listening attentively while the other speaks. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Do Not Finish Words or Sentences",
+        "title_gu": "શબ્દો કે વાક્યો પૂરા ન કરી આપો",
+        "desc_en": "Do not interrupt, imitate, tease or repeatedly tell the person to slow down or relax.",
+        "desc_gu": "વચ્ચે અટકાવશો નહીં, નકલ કે મજાક ન કરો અને વારંવાર ધીમે બોલવા કે શાંત થવા ન કહો.",
+        "photo": "photos/oct22_stuttering_card2_respect.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian teacher listening respectfully to a school student speaking in class while classmates remain supportive and attentive. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Consult a Qualified Speech-Language Pathologist",
+        "title_gu": "લાયક સ્પીચ-લેંગ્વેજ પેથોલોજિસ્ટની સલાહ લો",
+        "desc_en": "Seek assessment when stuttering persists, causes distress or limits school, work or social participation.",
+        "desc_gu": "હકલાવું ચાલુ રહે, તણાવ આપે અથવા અભ્યાસ, કામ કે સામાજિક જીવનમાં અડચણ કરે તો નિષ્ણાતની તપાસ કરાવો.",
+        "photo": "photos/oct22_stuttering_card3_slp.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian speech-language pathologist conducting a friendly one-to-one speech assessment with a young adult in a therapy room. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Create a Supportive School and Workplace",
+        "title_gu": "શાળા અને કાર્યસ્થળ સહાયક બનાવો",
+        "desc_en": "Use turn-taking, allow extra speaking time and stop teasing or discrimination.",
+        "desc_gu": "વારો આપી વાત કરાવો, વધારાનો સમય આપો અને મજાક કે ભેદભાવ તરત રોકો.",
+        "photo": "photos/oct22_stuttering_card4_inclusion.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of a supportive Indian workplace meeting where a colleague is given uninterrupted speaking time and the team listens warmly. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "International Stuttering Awareness Day",
+      "date_rule": "Annual fixed date: October 22",
+      "sponsoring_body": "International Stuttering Association; observed by Government of India rehabilitation institutes",
+      "observance_source_url": "https://cdnbbsr.s3waas.gov.in/s3ee8fe9093fbbb687bef15a38facc44d2/uploads/2026/05/20260504983612225.pdf",
+      "clinical_source_url": "https://aiipmr.gov.in/Pages/Speech_Therapy",
+      "authority_tier": "DISABILITY_AWARENESS_GOVERNMENT_RECOGNIZED",
+      "badge_en": "🗣️ Stuttering Awareness Day",
+      "badge_gu": "🗣️ હકલાવાની જાગૃતિ દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "10-24",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "World Polio Day",
+    "title_gu": "વિશ્વ પોલિયો દિવસ",
+    "theme_en": "Every Child, Every Dose | Keep India Polio-Free",
+    "theme_gu": "દરેક બાળક, દરેક ડોઝ | ભારતને પોલિયો મુક્ત રાખો",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Give Polio Drops in Every Campaign",
+        "title_gu": "દરેક અભિયાનમાં પોલિયોના ટીપાં અપાવો",
+        "desc_en": "Every child under five should receive campaign polio drops even after previous doses.",
+        "desc_gu": "પાંચ વર્ષથી નાનાં દરેક બાળકને અગાઉ ડોઝ મળ્યો હોય તોય દરેક અભિયાનમાં પોલિયોના ટીપાં અપાવો.",
+        "photo": "photos/oct24_polio_card1_drops.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian health worker safely giving oral polio drops to a toddler seated on a parent lap at a vaccination booth. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Complete Routine OPV and IPV Doses",
+        "title_gu": "નિયમિત OPV અને IPV ડોઝ પૂર્ણ કરો",
+        "desc_en": "Campaign drops supplement routine immunization; complete all OPV and IPV doses on the child’s schedule.",
+        "desc_gu": "અભિયાનના ટીપાં નિયમિત રસીકરણના વધારાના છે; બાળકના સમયપત્રક મુજબ બધા OPV અને IPV ડોઝ પૂર્ણ કરો.",
+        "photo": "photos/oct24_polio_card2_routine.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian nurse reviewing a blank child immunization card with a parent beside oral drops and an unbranded vaccine tray. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Take the Card to Any Vaccination Site",
+        "title_gu": "રસીકરણ કાર્ડ સાથે કેન્દ્ર પર જાઓ",
+        "desc_en": "Carry the immunization card and use the nearest authorized booth or health facility when a dose is due.",
+        "desc_gu": "રસીકરણ કાર્ડ સાથે રાખો અને ડોઝ બાકી હોય ત્યારે નજીકના અધિકૃત બૂથ કે આરોગ્ય કેન્દ્ર પર જાઓ.",
+        "photo": "photos/oct24_polio_card3_booth.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian family arriving at a clearly organized community vaccination booth, health workers welcoming them, no readable signs. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Report Sudden Limb Weakness Urgently",
+        "title_gu": "અચાનક હાથ-પગ નબળા પડે તો તરત જાણ કરો",
+        "desc_en": "Sudden weakness or paralysis in a child needs immediate assessment at a health facility.",
+        "desc_gu": "બાળકના હાથ કે પગમાં અચાનક નબળાઈ અથવા લકવો જણાય તો તરત આરોગ્ય કેન્દ્રમાં તપાસ કરાવો.",
+        "photo": "photos/oct24_polio_card4_weakness.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian parent promptly bringing a child with sudden leg weakness to a clinician, non-graphic careful examination. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "World Polio Day",
+      "date_rule": "Annual fixed date: October 24",
+      "sponsoring_body": "Rotary International; recognized by WHO and Government of India",
+      "observance_source_url": "https://newsonair.gov.in/health-minister-jp-nadda-highlights-indias-polio-eradication-success-on-world-polio-day/",
+      "clinical_source_url": "https://www.who.int/india/news-room/feature-stories/detail/a-push-to-vaccinate-every-child-everywhere-ended-polio-in-india",
+      "authority_tier": "GLOBAL_CAMPAIGN_GOVERNMENT_RECOGNIZED",
+      "badge_en": "💧 World Polio Day",
+      "badge_gu": "💧 વિશ્વ પોલિયો દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  },
+  {
+    "id": "10-29",
+    "tier": 2,
+    "tier_en": "Recognized Global Health Observance",
+    "tier_gu": "માન્ય વૈશ્વિક આરોગ્ય જાગૃતિ દિવસ",
+    "title_en": "World Stroke Day",
+    "title_gu": "વિશ્વ સ્ટ્રોક દિવસ",
+    "theme_en": "Recognize FAST | Every Minute Counts",
+    "theme_gu": "FAST લક્ષણો ઓળખો | દરેક મિનિટ કિંમતી છે",
+    "cards": [
+      {
+        "type": "message",
+        "index": 1,
+        "badge_en": "Action #1",
+        "badge_gu": "માર્ગદર્શન #૧",
+        "title_en": "Recognize FAST Stroke Signs",
+        "title_gu": "FAST મુજબ સ્ટ્રોકના લક્ષણો ઓળખો",
+        "desc_en": "Face drooping, one-sided arm weakness or new speech difficulty means stroke may be occurring.",
+        "desc_gu": "ચહેરો વાંકો થવો, એક હાથ નબળો પડવો કે અચાનક બોલવામાં તકલીફ થવી સ્ટ્રોકના સંકેત હોઈ શકે.",
+        "photo": "photos/oct29_stroke_card1_fast.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian woman noticing facial droop and one weak arm while a family member recognizes an emergency, realistic and non-graphic. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 2,
+        "badge_en": "Action #2",
+        "badge_gu": "માર્ગદર્શન #૨",
+        "title_en": "Call Emergency Help Immediately",
+        "title_gu": "તાત્કાલિક ઇમરજન્સી સહાય બોલાવો",
+        "desc_en": "Call 112 or the locally available ambulance service, note symptom-onset time and go to a stroke-ready hospital.",
+        "desc_gu": "૧૧૨ અથવા ઉપલબ્ધ સ્થાનિક એમ્બ્યુલન્સ સેવા બોલાવો, લક્ષણ શરૂ થયાનો સમય નોંધો અને સ્ટ્રોક સારવારવાળી હોસ્પિટલ જાઓ.",
+        "photo": "photos/oct29_stroke_card2_ambulance.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian family member calling emergency services as paramedics arrive with a stretcher for a suspected stroke patient, calm urgent response. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 3,
+        "badge_en": "Action #3",
+        "badge_gu": "માર્ગદર્શન #૩",
+        "title_en": "Do Not Wait or Give Food and Drink",
+        "title_gu": "રાહ ન જુઓ અને ખાવા-પીવા ન આપો",
+        "desc_en": "Do not wait for symptoms to improve or give food, drink or unprescribed medicine; swallowing may be unsafe.",
+        "desc_gu": "લક્ષણો સુધરે તેની રાહ ન જુઓ અને ખોરાક, પાણી કે સલાહ વગર દવા ન આપો; ગળવામાં તકલીફ હોઈ શકે.",
+        "photo": "photos/oct29_stroke_card3_nofood.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian caregiver keeping food and water aside while positioning a suspected stroke patient safely and waiting for paramedics. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      },
+      {
+        "type": "message",
+        "index": 4,
+        "badge_en": "Action #4",
+        "badge_gu": "માર્ગદર્શન #૪",
+        "title_en": "Control Major Stroke Risks",
+        "title_gu": "સ્ટ્રોકના મુખ્ય જોખમ નિયંત્રિત કરો",
+        "desc_en": "Check blood pressure, control diabetes, avoid tobacco, stay active and take prescribed medicines consistently.",
+        "desc_gu": "બ્લડપ્રેશર તપાસો, ડાયાબિટીસ નિયંત્રિત રાખો, તમાકુ ટાળો, સક્રિય રહો અને લખેલી દવા નિયમિત લો.",
+        "photo": "photos/oct29_stroke_card4_prevention.jpg",
+        "ai_prompt": "Ultra-photorealistic 4:3 editorial health photograph of an Indian middle-aged adult checking blood pressure with a clinician beside walking shoes and healthy food, prevention-focused clinical scene. Authentic Indian people and setting, natural skin texture, clean realistic environment, balanced warm daylight, clear single health action, crop-safe subject placement for square and vertical poster cards, high detail. No text, no letters, no numbers, no logos, no watermark, no split screen, no collage, no graphic anatomy overlay, no distorted hands."
+      }
+    ],
+    "provenance": {
+      "observance_name": "World Stroke Day",
+      "date_rule": "Annual fixed date: October 29",
+      "sponsoring_body": "World Stroke Organization; observed by JIPMER and Indian public-health institutions",
+      "observance_source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2183892&lang=2&reg=48",
+      "clinical_source_url": "https://www.mohfw.gov.in/sites/default/files/Fin%20-%20Stroke%20guidelines_0.pdf",
+      "authority_tier": "PROFESSIONAL_ORGANIZATION_GOVERNMENT_RECOGNIZED",
+      "badge_en": "🧠 World Stroke Day",
+      "badge_gu": "🧠 વિશ્વ સ્ટ્રોક દિવસ",
+      "status": "SOURCE_VERIFIED_PENDING_HUMAN_REVIEW"
+    },
+    "is_observance": true
+  }
+]

@@ -6,6 +6,9 @@ and 3-tier hierarchy for all other days.
 
 import json
 import os
+from cphc_curriculum_data import CPHC_THEMES
+
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 MONTH_NAMES_EN = [
@@ -237,7 +240,7 @@ KNOWN_OBSERVANCES = {
                 "title_gu": "દિવસમાં બે વાર બ્રશ કરો અને જમીને કોગળા કરો",
                 "desc_en": "Use soft bristles with fluoridated paste morning and night. Rinse mouth vigorously after every meal.",
                 "desc_gu": "સવારે અને રાત્રે સૂતા પહેલાં સોફ્ટ બ્રશથી દાંત સાફ કરો. કંઈપણ ખાધા પછી મોંમાં સ્વચ્છ પાણીના કોગળા કરો.",
-                "photo": "photos/oct19_do1.png",
+                "photo": "photos/oct19_oral_card1.png",
                 "ai_prompt": "Clean professional macro photograph of a healthy sparkling white tooth model and soft toothbrush with pea-sized blue fluoride paste, water splashes, clinical hygiene, 8k."
             },
             {
@@ -247,7 +250,7 @@ KNOWN_OBSERVANCES = {
                 "title_gu": "કાન માટે ENT ડોક્ટરની સલાહ લો અને કાન સૂકા રાખો",
                 "desc_en": "Ears are self-cleaning organs. Consult an ENT specialist for stubborn wax, pain, or muffled hearing.",
                 "desc_gu": "કાનમાં આપમેળે મેલ બહાર નીકળે છે; કાનમાં દુખાવો કે બહેરાશ જણાય તો માત્ર કાનના ડોક્ટર (ENT) પાસે તપાસ કરાવો.",
-                "photo": "photos/oct19_do2.png",
+                "photo": "photos/oct19_ear_card1.png",
                 "ai_prompt": "Medical clinic photograph of ENT specialist doctor examining ear using Welch-Allyn illuminated otoscope, caring atmosphere, sharp focus, 8k."
             },
             {
@@ -257,7 +260,7 @@ KNOWN_OBSERVANCES = {
                 "title_gu": "ગુટખા, માવો, બીડી કે તમાકુનું સેવન ક્યારેય ન કરો",
                 "desc_en": "Betel quid, gutkha, and tobacco are #1 causes of mouth cancer (oral submucous fibrosis) and tooth loss in India.",
                 "desc_gu": "ગુટખા, માવો, બીડી કે ખૈનીથી મોઢાનું કેન્સર થાય છે અને જડબું જકડાઈ જાય છે; આ વ્યસનથી સદંતર દૂર રહો.",
-                "photo": "photos/oct19_dont1.png",
+                "photo": "photos/oct19_oral_card3.png",
                 "ai_prompt": "Realistic photo of gutkha pouch, tobacco flakes and betel nut with dramatic red warning spit splatter, prohibition symbol, powerful anti-tobacco visual."
             },
             {
@@ -267,7 +270,7 @@ KNOWN_OBSERVANCES = {
                 "title_gu": "કાનમાં દિવાસળી, પીન કે રૂ વાળી સળી નાખવી નહીં",
                 "desc_en": "Never insert buds, keys or matchsticks; they push wax deeper and can permanently puncture the eardrum.",
                 "desc_gu": "કાનમાં ક્યારેય દિવાસળી, હેરપિન કે બડ્સ ન નાખો; પડદામાં કાણું પડી શકે છે અને કાયમી બહેરાશ આવી શકે છે.",
-                "photo": "photos/oct19_dont2.png",
+                "photo": "photos/oct19_ear_card3.png",
                 "ai_prompt": "Close-up medical caution shot of a wooden matchstick touching human ear canal with eardrum damage illustration, red danger cross, hyper-realistic."
             }
         ]
@@ -372,64 +375,10 @@ KNOWN_OBSERVANCES = {
     }
 }
 
-# General 365-day health calendar builder
-CALENDAR_THEMES = [
-    {
-        "tier": 1, "cat": "cardio",
-        "title_en": "Cardiovascular Health & BP Control",
-        "title_gu": "હૃદય સ્વાસ્થ્ય અને બ્લડપ્રેશર નિયંત્રણ",
-        "theme_en": "Keep Blood Pressure < 120/80 mmHg | Healthy Heart Habits",
-        "theme_gu": "બીપી ૧૨૦/૮૦ સામાન્ય રાખો | તંદુરસ્ત હૃદયની આદતો",
-        "do1": ("Check BP Regularly", "દર મહિને બીપી મપાવો", "Check blood pressure once a month; keep systolic under 120.", "મહિને એક વાર બીપી ચેક કરાવો અને નોંધ રાખો.", "photos/cat_cardio.png"),
-        "do2": ("45-Min Daily Aerobic Exercise", "દરરોજ ૪૫ મિનિટ કસરત", "Brisk walking, cycling or swimming strengthens the myocardium.", "રોજ ઝડપી ચાલવું કે સાયકલ ચલાવવાથી હૃદય સશક્ત બને છે.", "photos/cat_cardio.png"),
-        "dont1": ("Smoking & Excessive Salt", "ધૂમ્રપાન અને વધુ પડતું મીઠું", "Tobacco narrows coronary arteries and high sodium elevates BP.", "તમાકુ અને વધારાનું મીઠું હૃદયની નળીઓ બ્લોક કરે છે.", "photos/cat_cardio.png"),
-        "dont2": ("Ignoring Chest Heaviness", "છાતીમાં દબાણ અવગણવું નહીં", "Never dismiss unexplained chest tightness, jaw pain or sweating.", "છાતીમાં ભાર કે પરસેવો થાય તો તરત ECG કરાવો.", "photos/cat_cardio.png")
-    },
-    {
-        "tier": 1, "cat": "nutrition",
-        "title_en": "Diabetes Care & Blood Sugar Balance",
-        "title_gu": "ડાયાબિટીસ સંભાળ અને બ્લડ શુગર નિયંત્રણ",
-        "theme_en": "Maintain HbA1c < 6.5% | Smart Low-Glycemic Indian Diet",
-        "theme_gu": "HbA1c ૬.૫% થી ઓછો રાખો | પૌષ્ટિક દેશી ખોરાક",
-        "do1": ("High Fiber & Methi Seeds", "મેથી અને ફાઇબરયુક્ત ખોરાક", "Soak methi seeds overnight; eat sprouts and greens before meals.", "સવારે પલાળેલી મેથી લો અને જમતા પહેલાં સલાડ-કઠોળ ખાઓ.", "photos/cat_nutrition.png"),
-        "do2": ("Daily Foot Inspection", "રોજ પગના તળિયા તપાસો", "Inspect feet daily for cuts, dry cracks or fungal infection.", "ડાયાબિટીસમાં પગના તળિયા રોજ તપાસો અને મોજાં પહેરો.", "photos/cat_nutrition.png"),
-        "dont1": ("Refined Sugar & Fruit Juices", "ખાંડ, ગોળ અને પેક્ડ જ્યુસ", "Liquid sugars cause sudden glucose spikes; eat whole fruits instead.", "ગોળ, ખાંડ અને જ્યુસ ન લો; આખો ફળ ચાવીને ખાઓ.", "photos/cat_nutrition.png"),
-        "dont2": ("Skipping Prescribed Medication", "દવાઓ જાતે બંધ ન કરવી", "Never skip insulin or metformin without consulting your physician.", "સુગર નોર્મલ દેખાય તો પણ ડોક્ટર વગર દવા બંધ ન કરો.", "photos/cat_nutrition.png")
-    },
-    {
-        "tier": 2, "cat": "infection",
-        "title_en": "Vector-Borne Disease Prevention (Dengue & Malaria)",
-        "title_gu": "મચ્છરજન્ય રોગો (ડેન્ગ્યુ અને મેલેરિયા) નિયંત્રણ",
-        "theme_en": "Zero Water Stagnation | Dry Day Once a Week",
-        "theme_gu": "ક્યાંય પાણી ભરાવા ન દો | અઠવાડિયે એક દિવસ ડ્રાય-ડે",
-        "do1": ("Empty Coolers & Flower Pots", "કૂલર અને કૂંડાં સાફ કરી સૂકવો", "Scrub and dry all indoor water containers every Sunday.", "દર રવિવારે કૂલર, ટાંકી અને કૂંડાં સૂકવીને સાફ કરો.", "photos/cat_infection.png"),
-        "do2": ("Mosquito Nets & Repellents", "મચ્છરદાનીનો ઉપયોગ કરો", "Sleep under bed nets and wear full-sleeve clothes at dusk/dawn.", "રાત્રે મચ્છરદાની વાપરો અને આખી બાંયના કપડાં પહેરો.", "photos/cat_infection.png"),
-        "dont1": ("Stagnant Water on Terraces", "ધાબા પર ભરાયેલું પાણી", "Discard old tyres, broken pots and coconut shells outdoors.", "ધાબા પર ભંગાર, જૂના ટાયર કે નાળિયેરના કોચલા ન રાખો.", "photos/cat_infection.png"),
-        "dont2": ("Self-Medicating with Aspirin", "ડેન્ગ્યુમાં જાતે દવા ન લેવી", "Never take Brufen or Aspirin during viral fevers; consult doctor.", "તાવમાં ડોક્ટરની સલાહ વગર પેઈનકિલર ન લેવી.", "photos/cat_infection.png")
-    },
-    {
-        "tier": 3, "cat": "yoga",
-        "title_en": "Daily Yoga, Pranayama & Stress Relief",
-        "title_gu": "દૈનિક યોગ, પ્રાણાયામ અને માનસિક શાંતિ",
-        "theme_en": "Mind-Body Harmony | 20 Mins Surya Namaskar & Dhyana",
-        "theme_gu": "તન અને મનની સુખાકારી | ૨૦ મિનિટ સૂર્યનમસ્કાર અને ધ્યાન",
-        "do1": ("Surya Namaskar at Sunrise", "સૂર્યોદય સમયે સૂર્યનમસ્કાર", "12 rounds of Surya Namaskar improve flexibility and circulation.", "સવારે ૧૨ સૂર્યનમસ્કાર કરવાથી શરીર સ્ફૂર્તિલું રહે છે.", "photos/cat_yoga.png"),
-        "do2": ("Deep Diaphragmatic Breathing", "ઊંડા શ્વાસ અને ભ્રામરી", "Practice 10 mins of Bhramari pranayama before sleeping.", "રાત્રે સૂતા પહેલાં ૧૦ મિનિટ ભ્રામરી પ્રાણાયામ કરો.", "photos/cat_yoga.png"),
-        "dont1": ("Jerking Body During Asanas", "ઝટકા સાથે આસનો ન કરવા", "Never force spinal twists or overstretch stiff hamstrings.", "શરીરને ઝટકો આપી આસન ન કરો; ધીમે ધીમે ક્ષમતા વધારો.", "photos/cat_yoga.png"),
-        "dont2": ("Eating Heavy Meals Before Yoga", "ભરેલા પેટે યોગાસન ન કરો", "Maintain at least 3-4 hours gap between food and yogic practice.", "જમ્યા પછી તરત યોગાસન ન કરો; ૩-૪ કલાકનું અંતર રાખો.", "photos/cat_yoga.png")
-    },
-    {
-        "tier": 3, "cat": "mental",
-        "title_en": "Mental Health & Sleep Hygiene",
-        "title_gu": "માનસિક સ્વાસ્થ્ય અને ગાઢ ઊંઘની આદતો",
-        "theme_en": "Prioritize 7-8 Hours Restorative Sleep | Open Conversation",
-        "theme_gu": "૭ થી ૮ કલાકની શાંત ઊંઘ | મનની વાત નિખાલસપણે રજૂ કરો",
-        "do1": ("Consistent Sleep Schedule", "નિયમિત સૂવાનો અને જાગવાનો સમય", "Go to bed and wake up at the exact same hour every day.", "રોજ રાત્રે એક જ સમયે સૂવાની અને સવારે ઊઠવાની ટેવ પાડો.", "photos/cat_mental.png"),
-        "do2": ("Talk to Loved Ones / Counselor", "સ્નેહીજનો સાથે મનની વાત કરો", "Share feelings openly; seek professional counseling for anxiety.", "ચિંતા કે ઉદાસી જણાય તો કાઉન્સેલર કે પરિવારજન સાથે વાત કરો.", "photos/cat_mental.png"),
-        "dont1": ("Screen Time in Bed", "પથારીમાં સ્માર્ટફોન વાપરવો નહીં", "Blue screen light suppresses melatonin; put phones away 1 hr before sleep.", "સૂતા પહેલાં ૧ કલાક મોબાઈલ સ્ક્રીનથી દૂર રહો.", "photos/cat_mental.png"),
-        "dont2": ("Alcohol / Sleeping Pills Dependency", "દારૂ કે ઊંઘની ગોળીઓની લત", "Never self-medicate with sedatives or alcohol to induce sleep.", "ઊંઘ માટે ક્યારેય જાતે ઊંઘની ગોળીઓ કે નશો ન કરવો.", "photos/cat_mental.png")
-    }
-]
+# Comprehensive Primary Health Care (CPHC) 35-Module Curriculum
+# Replacing 5 generic themes with Dr. Atul Dhuvad's official district training curriculum
+CALENDAR_THEMES = CPHC_THEMES
+
 
 def generate_365_days():
     full_calendar = []
@@ -497,7 +446,7 @@ def generate_365_days():
                             "title_en": d1[0], "title_gu": d1[1],
                             "desc_en": d1[2], "desc_gu": d1[3],
                             "photo": d1[4],
-                            "ai_prompt": f"Realistic photographic Indian health awareness visual of {d1[0]}, warm clinical lighting, clean aesthetic, 8k quality."
+                            "ai_prompt": d1[5] if len(d1) > 5 else f"Realistic photographic Indian health awareness visual of {d1[0]}, warm clinical lighting, clean aesthetic, 8k quality."
                         },
                         {
                             "type": "do", "index": 2,
@@ -505,7 +454,7 @@ def generate_365_days():
                             "title_en": d2[0], "title_gu": d2[1],
                             "desc_en": d2[2], "desc_gu": d2[3],
                             "photo": d2[4],
-                            "ai_prompt": f"Photorealistic Indian context photo representing {d2[0]}, golden sunlight, healthy lifestyle, 8k resolution."
+                            "ai_prompt": d2[5] if len(d2) > 5 else f"Photorealistic Indian context photo representing {d2[0]}, golden sunlight, healthy lifestyle, 8k resolution."
                         },
                         {
                             "type": "dont", "index": 3,
@@ -513,7 +462,7 @@ def generate_365_days():
                             "title_en": dn1[0], "title_gu": dn1[1],
                             "desc_en": dn1[2], "desc_gu": dn1[3],
                             "photo": dn1[4],
-                            "ai_prompt": f"High realism medical warning photography depicting {dn1[0]}, dramatic red warning lighting, educational caution."
+                            "ai_prompt": dn1[5] if len(dn1) > 5 else f"High realism medical warning photography depicting {dn1[0]}, dramatic red warning lighting, educational caution."
                         },
                         {
                             "type": "dont", "index": 4,
@@ -521,12 +470,66 @@ def generate_365_days():
                             "title_en": dn2[0], "title_gu": dn2[1],
                             "desc_en": dn2[2], "desc_gu": dn2[3],
                             "photo": dn2[4],
-                            "ai_prompt": f"Clinical warning photo showing danger of {dn2[0]}, crimson prohibition overlay, hyper-detailed."
+                            "ai_prompt": dn2[5] if len(dn2) > 5 else f"Clinical warning photo showing danger of {dn2[0]}, crimson prohibition overlay, hyper-detailed."
                         }
                     ]
                 }
             full_calendar.append(entry)
             
+    # Apply maintainable, source-verified overrides without disturbing the
+    # general 365-day fallback rotation. This file is also consumed by the
+    # targeted replacement workflow, so future full rebuilds retain them.
+    overrides_path = os.path.join(ROOT_DIR, "data", "observance_overrides.json")
+    if os.path.exists(overrides_path):
+        with open(overrides_path, "r", encoding="utf-8") as f:
+            overrides = {item["id"]: item for item in json.load(f)}
+        for index, entry in enumerate(full_calendar):
+            override = overrides.get(entry["id"])
+            if override:
+                full_calendar[index] = {
+                    "id": entry["id"],
+                    "month": entry["month"],
+                    "day": entry["day"],
+                    "date_en": entry["date_en"],
+                    "date_gu": entry["date_gu"],
+                    **override,
+                }
+
+    # Apply doctor-owned personal-use copy corrections after the full-day
+    # observance overrides so rebuilds preserve the final corrected wording
+    # without changing dates, photos, themes, or observance certainty.
+    personal_overrides_path = os.path.join(ROOT_DIR, "data", "personal_use_content_overrides.json")
+    if os.path.exists(personal_overrides_path):
+        with open(personal_overrides_path, "r", encoding="utf-8") as f:
+            personal_overrides = {item["id"]: item for item in json.load(f)}
+        for entry in full_calendar:
+            override = personal_overrides.get(entry["id"])
+            if not override:
+                continue
+            cards_by_index = {card["index"]: card for card in entry["cards"]}
+            for card_patch in override.get("cards", []):
+                card = cards_by_index.get(card_patch["index"])
+                if card:
+                    card.update({key: value for key, value in card_patch.items() if key != "index"})
+
+    # Keep the independently verified 2026 observance schedule attached to the
+    # canonical date record. Poster content remains separate until its four
+    # bilingual cards and images have passed review.
+    registry_path = os.path.join(ROOT_DIR, "data", "verified_health_observances_2026.json")
+    if os.path.exists(registry_path):
+        with open(registry_path, "r", encoding="utf-8") as f:
+            registry = json.load(f)
+        placements_by_date = {}
+        for placement in registry.get("placements", []):
+            date_id = placement["date_id"]
+            placements_by_date.setdefault(date_id, []).append({
+                key: value for key, value in placement.items() if key != "date_id"
+            })
+        for entry in full_calendar:
+            schedule = placements_by_date.get(entry["id"])
+            if schedule:
+                entry["observance_schedule_2026"] = schedule
+
     return full_calendar
 
 def main():
@@ -535,13 +538,13 @@ def main():
     print(f"Total days generated: {len(calendar)}")
     
     # Save as JSON
-    json_path = os.path.join("data", "health_365.json")
+    json_path = os.path.join(ROOT_DIR, "data", "health_365.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(calendar, f, ensure_ascii=False, indent=2)
     print(f"Saved {json_path}")
     
     # Also save as JS global variable for instant zero-CORS / offline local file inclusion
-    js_path = os.path.join("js", "calendar-data.js")
+    js_path = os.path.join(ROOT_DIR, "js", "calendar-data.js")
     with open(js_path, "w", encoding="utf-8") as f:
         f.write("// 365-Day Indian Health Calendar Data (Preloaded)\n")
         f.write("window.HEALTH_CALENDAR_DATA = ")

@@ -1,0 +1,1329 @@
+{
+  "version": "v1.27",
+  "production_url": "https://healthcalendar365.pages.dev/index.html",
+  "deployment_id": "bed00e7d-84d4-4c8c-a7ea-37bdec876854",
+  "files": 264,
+  "bytes": 123625912.0,
+  "assets": [
+    {
+      "path": "index.html",
+      "bytes": 19523,
+      "sha256": "0863cf19e139f6bc630a757d1d2cb116a59d3b92b13e19ad9fd4cf23f8948a29"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 707,
+      "sha256": "d0456a9cf3e15e0f33ccb3fbb7f933d13d1744cc590cec33d4732acc8fda9e21"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 14184,
+      "sha256": "a3302736fda57c2b3a18b051209d9eb5ef74fe1b4598820c2beb9fcb8513893b"
+    },
+    {
+      "path": "css/fonts.css",
+      "bytes": 24416,
+      "sha256": "a64529734b6595179c0efc65a6f57ca913b95fce8867f2a0118aa6683c6119f9"
+    },
+    {
+      "path": "css/review.css",
+      "bytes": 19484,
+      "sha256": "31fa226a3fba918837088835783b187bc84988a132bd1c1c2fbb917707c809dd"
+    },
+    {
+      "path": "css/styles.css",
+      "bytes": 25913,
+      "sha256": "c21299dc713604a169fca338e5bb3a315948cb9b365de6a5331bc41bd4b60c5b"
+    },
+    {
+      "path": "data/annual_review_2026.json",
+      "bytes": 2767866,
+      "sha256": "ad6b80049c14da0cff3c305eaf52ef83a4279ee9edd4c78c5b987906a20f7cea"
+    },
+    {
+      "path": "data/health_365.json",
+      "bytes": 1962933,
+      "sha256": "bc04927dda9c1540468ff80fa53c0b576ef05e372d6b9a10eaf9030a90958690"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_400_gujarati_12e87d67.woff2",
+      "bytes": 31348,
+      "sha256": "98e22cc8b76c8264b285a4008e87e7cfbfad2a733776a4256f4650de149597c6"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_400_latin_824de553.woff2",
+      "bytes": 17104,
+      "sha256": "ba0fd62eafd7704da75bac4116f068d042ab5019e6ec0020744a7d6e350a5249"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_400_latinext_ba716cb8.woff2",
+      "bytes": 14500,
+      "sha256": "88cf0795246e86c7f11c9d31bf2adedc26f4c8f89bb54e918256d77f59ea90bf"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_400_math_147dbab2.woff2",
+      "bytes": 112268,
+      "sha256": "ea048a83d79022c67f1e0da348c881b68a35f86411ab9e2e5a7c7a06ceb87e2a"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_400_symbols_bcb77dc5.woff2",
+      "bytes": 22384,
+      "sha256": "8bad53613e2574dc2e24021140fa0646745729d01b42ddf37e4fc16b7700e6a8"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_600_gujarati_12e87d67.woff2",
+      "bytes": 31348,
+      "sha256": "98e22cc8b76c8264b285a4008e87e7cfbfad2a733776a4256f4650de149597c6"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_600_latin_824de553.woff2",
+      "bytes": 17104,
+      "sha256": "ba0fd62eafd7704da75bac4116f068d042ab5019e6ec0020744a7d6e350a5249"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_600_latinext_ba716cb8.woff2",
+      "bytes": 14500,
+      "sha256": "88cf0795246e86c7f11c9d31bf2adedc26f4c8f89bb54e918256d77f59ea90bf"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_600_math_147dbab2.woff2",
+      "bytes": 112268,
+      "sha256": "ea048a83d79022c67f1e0da348c881b68a35f86411ab9e2e5a7c7a06ceb87e2a"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_600_symbols_bcb77dc5.woff2",
+      "bytes": 22384,
+      "sha256": "8bad53613e2574dc2e24021140fa0646745729d01b42ddf37e4fc16b7700e6a8"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_700_gujarati_12e87d67.woff2",
+      "bytes": 31348,
+      "sha256": "98e22cc8b76c8264b285a4008e87e7cfbfad2a733776a4256f4650de149597c6"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_700_latin_824de553.woff2",
+      "bytes": 17104,
+      "sha256": "ba0fd62eafd7704da75bac4116f068d042ab5019e6ec0020744a7d6e350a5249"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_700_latinext_ba716cb8.woff2",
+      "bytes": 14500,
+      "sha256": "88cf0795246e86c7f11c9d31bf2adedc26f4c8f89bb54e918256d77f59ea90bf"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_700_math_147dbab2.woff2",
+      "bytes": 112268,
+      "sha256": "ea048a83d79022c67f1e0da348c881b68a35f86411ab9e2e5a7c7a06ceb87e2a"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_700_symbols_bcb77dc5.woff2",
+      "bytes": 22384,
+      "sha256": "8bad53613e2574dc2e24021140fa0646745729d01b42ddf37e4fc16b7700e6a8"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_800_cyrillicext_12e87d67.woff2",
+      "bytes": 31348,
+      "sha256": "98e22cc8b76c8264b285a4008e87e7cfbfad2a733776a4256f4650de149597c6"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_800_latin_824de553.woff2",
+      "bytes": 17104,
+      "sha256": "ba0fd62eafd7704da75bac4116f068d042ab5019e6ec0020744a7d6e350a5249"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_800_latinext_ba716cb8.woff2",
+      "bytes": 14500,
+      "sha256": "88cf0795246e86c7f11c9d31bf2adedc26f4c8f89bb54e918256d77f59ea90bf"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_800_math_147dbab2.woff2",
+      "bytes": 112268,
+      "sha256": "ea048a83d79022c67f1e0da348c881b68a35f86411ab9e2e5a7c7a06ceb87e2a"
+    },
+    {
+      "path": "fonts/noto_sans_gujarati_800_symbols_bcb77dc5.woff2",
+      "bytes": 22384,
+      "sha256": "8bad53613e2574dc2e24021140fa0646745729d01b42ddf37e4fc16b7700e6a8"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_400_cyrillicext_fdb05bf0.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_400_latin_9f6257e3.woff2",
+      "bytes": 21728,
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_400_latinext_fdf1d5c3.woff2",
+      "bytes": 8352,
+      "sha256": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_400_vietnamese_fccbe4fa.woff2",
+      "bytes": 1716,
+      "sha256": "c46a510ab43925a55ecfe6c2d5fad0ce1902cd48ab276621d41f7afa42e4daee"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_500_cyrillicext_fdb05bf0.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_500_latin_9f6257e3.woff2",
+      "bytes": 21728,
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_500_latinext_fdf1d5c3.woff2",
+      "bytes": 8352,
+      "sha256": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_500_vietnamese_fccbe4fa.woff2",
+      "bytes": 1716,
+      "sha256": "c46a510ab43925a55ecfe6c2d5fad0ce1902cd48ab276621d41f7afa42e4daee"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_600_cyrillicext_fdb05bf0.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_600_latin_9f6257e3.woff2",
+      "bytes": 21728,
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_600_latinext_fdf1d5c3.woff2",
+      "bytes": 8352,
+      "sha256": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_600_vietnamese_fccbe4fa.woff2",
+      "bytes": 1716,
+      "sha256": "c46a510ab43925a55ecfe6c2d5fad0ce1902cd48ab276621d41f7afa42e4daee"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_700_cyrillicext_fdb05bf0.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_700_latin_9f6257e3.woff2",
+      "bytes": 21728,
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_700_latinext_fdf1d5c3.woff2",
+      "bytes": 8352,
+      "sha256": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_700_vietnamese_fccbe4fa.woff2",
+      "bytes": 1716,
+      "sha256": "c46a510ab43925a55ecfe6c2d5fad0ce1902cd48ab276621d41f7afa42e4daee"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_800_all_fdb05bf0.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_800_latin_9f6257e3.woff2",
+      "bytes": 21728,
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_800_latinext_fdf1d5c3.woff2",
+      "bytes": 8352,
+      "sha256": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40"
+    },
+    {
+      "path": "fonts/plus_jakarta_sans_800_vietnamese_fccbe4fa.woff2",
+      "bytes": 1716,
+      "sha256": "c46a510ab43925a55ecfe6c2d5fad0ce1902cd48ab276621d41f7afa42e4daee"
+    },
+    {
+      "path": "icons/icon-192.png",
+      "bytes": 2663,
+      "sha256": "7fd5657927007310c9e3d3c71a8e89e4b95352aa2db2e23a3a3b3aa260440ea7"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "bytes": 5717,
+      "sha256": "09e88741e48137f16b22edd9f04b85c3f97ed2c1f0b8b0451c5f9c05dcc4d262"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 31568,
+      "sha256": "cd04bd8a6e4fe156b0fe9a568850bb05aecd4a4474560dfcf6b2295d2bfba332"
+    },
+    {
+      "path": "js/calendar-data.js",
+      "bytes": 1963018,
+      "sha256": "e0f081563010492384d11950c85038b8151f4dec2f9a637707b7fa690e47fdf1"
+    },
+    {
+      "path": "js/canvas-renderer.js",
+      "bytes": 48478,
+      "sha256": "5a0da9ed501c84cb8ec09b934f3b07ec534babc9d9e5c1aeb6b31990449c40bf"
+    },
+    {
+      "path": "js/db.js",
+      "bytes": 4061,
+      "sha256": "7b0bd3b46362b4921495415c5e4b5a606e19c33666e4f2723a00805eca077664"
+    },
+    {
+      "path": "js/review-data.js",
+      "bytes": 2318517,
+      "sha256": "b3c6d2bc4420abc3b75432fb63a9e4e54fcb5407d8e0634acedb6d1a083701f3"
+    },
+    {
+      "path": "js/review.js",
+      "bytes": 28117,
+      "sha256": "a8f6a07485d965e8ef1dd9c80711a2ee38a4514c9402d1148c3e01c44df6b65a"
+    },
+    {
+      "path": "photos/apr11_motherhood_card1_anc.jpg",
+      "bytes": 129691,
+      "sha256": "95eeca13c3a59b42b53fb562bffc03bd101ed8f592804ff004d1a5b3a96927ca"
+    },
+    {
+      "path": "photos/apr11_motherhood_card2_danger.jpg",
+      "bytes": 133303,
+      "sha256": "1289505e2bd7c8af7596e40df598af5cbbd649c7d06a09e71602123daa8a9332"
+    },
+    {
+      "path": "photos/apr11_motherhood_card3_plan.jpg",
+      "bytes": 143219,
+      "sha256": "282a2f2fe6ecb6f306dfb44451928342cd6fda3ed04d8b0ed893b3a361c5615b"
+    },
+    {
+      "path": "photos/apr11_motherhood_card4_medicines.jpg",
+      "bytes": 116841,
+      "sha256": "e8c2c46798662eb9c45c4eef458bac42c7a111517cc6146cbfa28d0d8e2a3782"
+    },
+    {
+      "path": "photos/apr17_haemophilia_card1_centre.jpg",
+      "bytes": 111186,
+      "sha256": "e88e612329a921f07bc765e0fe332ab06bb399b11a9b127d4a436ccb157c3f75"
+    },
+    {
+      "path": "photos/apr17_haemophilia_card2_joint.jpg",
+      "bytes": 107665,
+      "sha256": "8c07acf543c3a0d5273f1fd89f6c868940cb4b8f9994ae923d88c5748ed34037"
+    },
+    {
+      "path": "photos/apr17_haemophilia_card3_medicine.jpg",
+      "bytes": 95388,
+      "sha256": "393dd0918d59551f3fe0fafce267cd995dda4d660924669cfd5f48b4518a7d50"
+    },
+    {
+      "path": "photos/apr17_haemophilia_card4_activity.jpg",
+      "bytes": 114479,
+      "sha256": "56aba96b88b8a1bb83d56b1037df10a14a1b908128f176d2c8a90da231a5f7eb"
+    },
+    {
+      "path": "photos/aug20_mosquito_card1_dryday.jpg",
+      "bytes": 169774,
+      "sha256": "bf3af646a7b68516014a59026f7617eab7e77a47e084f50b303adb56b00b3b6b"
+    },
+    {
+      "path": "photos/aug20_mosquito_card2_cover.jpg",
+      "bytes": 164225,
+      "sha256": "bffcf9c4e9f3268003d2951e51f451672ae0238f0b5e510d6167eb269fb57cad"
+    },
+    {
+      "path": "photos/aug20_mosquito_card3_protection.jpg",
+      "bytes": 134522,
+      "sha256": "f5058636e057c9294fdf23fd4586e97e8e3117e46a5d65ab0e52d0ccdb78da62"
+    },
+    {
+      "path": "photos/aug20_mosquito_card4_fever.jpg",
+      "bytes": 86419,
+      "sha256": "587b436889cfba66e8517fabacf954a588e31c12c15fd22ee110be2a94a77a3a"
+    },
+    {
+      "path": "photos/cphc_anc_care_card1.png",
+      "bytes": 642489,
+      "sha256": "12e094108c7fa1f3cd3adf141a1883e30d3b4ee6b44f4e66167a89db01a4aa2f"
+    },
+    {
+      "path": "photos/cphc_anc_care_card2.png",
+      "bytes": 643727,
+      "sha256": "4a9589f10dc17e34b977346176c96fb2370d4a318f42760009f534682ae3d8f2"
+    },
+    {
+      "path": "photos/cphc_anc_care_card3.png",
+      "bytes": 584792,
+      "sha256": "bbc154e180446c2a7a6f43ce69bb72108097f1ec910ec585e48274a03c8e3c70"
+    },
+    {
+      "path": "photos/cphc_anc_care_card4.png",
+      "bytes": 611612,
+      "sha256": "15360e4e7611bfffde378355996fb28d41d12faef7a1464af94bbdb88403bf32"
+    },
+    {
+      "path": "photos/cphc_anemia_mukt_bharat_card1.png",
+      "bytes": 604371,
+      "sha256": "24bd56a5207077e609c2bb9987d87aed57071b987935ae85391a5237eaefa678"
+    },
+    {
+      "path": "photos/cphc_anemia_mukt_bharat_card2.png",
+      "bytes": 599455,
+      "sha256": "9e2709115010e0370befdc94f14fb6a60607e50f26a48ba9181c8177dfaa03f6"
+    },
+    {
+      "path": "photos/cphc_anemia_mukt_bharat_card3.png",
+      "bytes": 489068,
+      "sha256": "64f9394a2a535a2414b99da5398aeaf9ecbdab70f0419628b789ab9d8d0e7362"
+    },
+    {
+      "path": "photos/cphc_anemia_mukt_bharat_card4.png",
+      "bytes": 612888,
+      "sha256": "6e5de0d41216ecdba4857cc3d1511d88bba7e6be07062a6c1492720f4635c4f1"
+    },
+    {
+      "path": "photos/cphc_antibiotic_stewardship_card1.png",
+      "bytes": 431645,
+      "sha256": "e0cbbd3c5258978f5daea10e06dbc6d9cd4d3ef25db2d62075e84ebbdca7a82c"
+    },
+    {
+      "path": "photos/cphc_antibiotic_stewardship_card2.png",
+      "bytes": 491549,
+      "sha256": "18ace9d3b0794ea8c1c14726d092bf864764d2c72e1efe9981215104cee017f8"
+    },
+    {
+      "path": "photos/cphc_antibiotic_stewardship_card3.png",
+      "bytes": 454342,
+      "sha256": "69c209497221961dd4f5dfb3d7d8e0857f4730d39cf9c43c33246eb266da3f15"
+    },
+    {
+      "path": "photos/cphc_antibiotic_stewardship_card4.png",
+      "bytes": 485410,
+      "sha256": "89753131c79b141f33277ceda8a8c5b05e2113898049a6d6881ed0f54682ae7b"
+    },
+    {
+      "path": "photos/cphc_breast_cervical_cancer_card1.png",
+      "bytes": 457620,
+      "sha256": "fa11a3c8e1a1d65fcacb0cf9e1f2d8667c045044804a168a8b1fb9dafd3cc4b8"
+    },
+    {
+      "path": "photos/cphc_breast_cervical_cancer_card2.png",
+      "bytes": 402033,
+      "sha256": "611baa2c3d3169903d09f976ceedf87cf0e96c086854fb76c41636ddaac3ed49"
+    },
+    {
+      "path": "photos/cphc_breast_cervical_cancer_card3.png",
+      "bytes": 456366,
+      "sha256": "b1f74cf89da56937e9f7126ca3c828158cb5987662104a312bbc072f4186854f"
+    },
+    {
+      "path": "photos/cphc_breast_cervical_cancer_card4.png",
+      "bytes": 497449,
+      "sha256": "0059c30690b1556447e8efa8e4b19be6c8b099d53de383f9b84303c65f821808"
+    },
+    {
+      "path": "photos/cphc_cardio_stroke_fast_card1.png",
+      "bytes": 570952,
+      "sha256": "a104ddb8e527926a81b3016a28d71a1e25ff6de57c02bb6af04f0a5496a8507f"
+    },
+    {
+      "path": "photos/cphc_cardio_stroke_fast_card2.png",
+      "bytes": 567532,
+      "sha256": "32da33a3bd683ab49462666873840d8e348ebdd511165668ef3c9672cf36a32d"
+    },
+    {
+      "path": "photos/cphc_cardio_stroke_fast_card3.png",
+      "bytes": 605006,
+      "sha256": "1b7aa805de27ac848c5dccfcf3e76de8faacfb45ba11aec75656282046c44e84"
+    },
+    {
+      "path": "photos/cphc_cardio_stroke_fast_card4.png",
+      "bytes": 595461,
+      "sha256": "5bac35d67976b61aaf8662e03c25d7674247aeec0f334550b4ec79a0955f8ddf"
+    },
+    {
+      "path": "photos/cphc_childhood_idcf_card1.png",
+      "bytes": 538158,
+      "sha256": "bef2609da9f5691216025177c1d4b0dd4f1788a783e91c33cefe4e124951e6d6"
+    },
+    {
+      "path": "photos/cphc_childhood_idcf_card2.png",
+      "bytes": 533959,
+      "sha256": "78078210711ffbecb2a1f78ebb7a850d3add295d7e214efd08fdf21d8c89c197"
+    },
+    {
+      "path": "photos/cphc_childhood_idcf_card3.png",
+      "bytes": 575877,
+      "sha256": "975ba0fcabff3ce5708e15de53786040d2b0e6bf0fd6b417c3becd9d1892c688"
+    },
+    {
+      "path": "photos/cphc_childhood_idcf_card4.png",
+      "bytes": 475485,
+      "sha256": "b7386b4e9dd87b9cdab5546d98a4d6fc26b5a627957719cf6f4523797c5dbb44"
+    },
+    {
+      "path": "photos/cphc_copd_asthma_card1.png",
+      "bytes": 508110,
+      "sha256": "43bce1c0a07bf1c628e3af8b7e93334bba8c3b628ab96e2f730f90fd0764102e"
+    },
+    {
+      "path": "photos/cphc_copd_asthma_card2.png",
+      "bytes": 599104,
+      "sha256": "717ee2959e3a880bef468a7162e927023d0c5a3eabf29405988c880796487998"
+    },
+    {
+      "path": "photos/cphc_copd_asthma_card3.png",
+      "bytes": 501902,
+      "sha256": "bb864a6c74c2f7895d8b3b161c1c6229137360517cb890ab2e9f79813daefb07"
+    },
+    {
+      "path": "photos/cphc_copd_asthma_card4.png",
+      "bytes": 401054,
+      "sha256": "a92dbd45d072d454dde2efd33ce8053341cffc066470617cc66af45c48af01e7"
+    },
+    {
+      "path": "photos/cphc_delivery_dakshata_card1.png",
+      "bytes": 583807,
+      "sha256": "5bb140d2f276e97802cff9e5704228a760575fbdf2b79d42046168cc0359292d"
+    },
+    {
+      "path": "photos/cphc_delivery_dakshata_card2.png",
+      "bytes": 517200,
+      "sha256": "1bed6913e52a7262b8ffcaacafc2fe17048f28cee4c204ae42a5fbf6a09bbf25"
+    },
+    {
+      "path": "photos/cphc_delivery_dakshata_card3.png",
+      "bytes": 534262,
+      "sha256": "3382bdf0b5323b213063d0d2d0785a5ee0cb6d7cd9fbb1248ca61fc7f2895e2f"
+    },
+    {
+      "path": "photos/cphc_delivery_dakshata_card4.png",
+      "bytes": 576938,
+      "sha256": "289cce7754e54ac95ccf65f552632659825133004fa946162809b8276650a648"
+    },
+    {
+      "path": "photos/cphc_dementia_falls_epmns_card1.png",
+      "bytes": 558201,
+      "sha256": "fbba823c5581d22293b7c2355fc099bf3e8bd47164c1b829096ed1845fcc6569"
+    },
+    {
+      "path": "photos/cphc_dementia_falls_epmns_card2.png",
+      "bytes": 615218,
+      "sha256": "8bd3474be3c7dddcd1da81698657f50f399fc1259ee908983d181f96d4e5c84d"
+    },
+    {
+      "path": "photos/cphc_dementia_falls_epmns_card3.png",
+      "bytes": 585415,
+      "sha256": "b1217688fe845e346a7b787e7131070e528e70c3ae0e2752956221cf22f758ea"
+    },
+    {
+      "path": "photos/cphc_dementia_falls_epmns_card4.png",
+      "bytes": 847062,
+      "sha256": "325860a26d22e1da532eec1cd057ce7db41fc88d32d0365d8b305acf7d90216d"
+    },
+    {
+      "path": "photos/cphc_diabetes_care_card1.png",
+      "bytes": 613884,
+      "sha256": "58da8536bd7a92c6fe7a088924ee14d0ed1a6ee96d524c861f21c1679b23def0"
+    },
+    {
+      "path": "photos/cphc_diabetes_care_card2.png",
+      "bytes": 560670,
+      "sha256": "267b52fe629dca36f70ca01d29948875f668e16c2a8c9fcadf29392ad8368d31"
+    },
+    {
+      "path": "photos/cphc_diabetes_care_card3.png",
+      "bytes": 682508,
+      "sha256": "75971b8f7b605b2923aebf1a259ac287d55b8cdc157f4c03000bfe9f22c4739f"
+    },
+    {
+      "path": "photos/cphc_diabetes_care_card4.png",
+      "bytes": 573008,
+      "sha256": "7808af97ed105c6fe210935b40d40f8c57650821f0db4206b925092391d7a098"
+    },
+    {
+      "path": "photos/cphc_elderly_cga_epmns_card1.png",
+      "bytes": 587175,
+      "sha256": "503ef238bd3d0ae5ef2b59776b703aaf909ef023b24cb79ca4fc1435fe57a0ac"
+    },
+    {
+      "path": "photos/cphc_elderly_cga_epmns_card2.png",
+      "bytes": 541370,
+      "sha256": "35a16aa5b453d004693fcf861e709137e7b01d479db1bb7814b71bb559eb7aa8"
+    },
+    {
+      "path": "photos/cphc_elderly_cga_epmns_card3.png",
+      "bytes": 657177,
+      "sha256": "1f57ce8fe8b04c876b6969190ddc6eb144ba534fc268fc639bd804cc44308a49"
+    },
+    {
+      "path": "photos/cphc_elderly_cga_epmns_card4.png",
+      "bytes": 544268,
+      "sha256": "d26784ab5e059a7f2ccbd39937a6c03d40af383b1c11fc6566c50119f8e559e3"
+    },
+    {
+      "path": "photos/cphc_emergency_snakebite_card1.png",
+      "bytes": 674812,
+      "sha256": "93be8b5f8070afae9b4e133489a9696200af4a69cbaed2a6063fad6b1a069a23"
+    },
+    {
+      "path": "photos/cphc_emergency_snakebite_card2.png",
+      "bytes": 618504,
+      "sha256": "82ae04d9474d9798847d8bc00e154496ff2a956f6f82033fb95032e44b6c6578"
+    },
+    {
+      "path": "photos/cphc_emergency_snakebite_card3.png",
+      "bytes": 668316,
+      "sha256": "cb61d94e5e6f8f37b26f36ffc20da33242be833544cd197bb3320698d8cd22e1"
+    },
+    {
+      "path": "photos/cphc_emergency_snakebite_card4.png",
+      "bytes": 568423,
+      "sha256": "a58dba1260cc8e7ac1d50d4bcb58f12baf767edccd866db8773642334686af09"
+    },
+    {
+      "path": "photos/cphc_emergency_trauma_108_card1.png",
+      "bytes": 614501,
+      "sha256": "603cb4b6c9df1e77dccd94bc8122b62994650dda687e49cd09d979da4f25f0c7"
+    },
+    {
+      "path": "photos/cphc_emergency_trauma_108_card2.png",
+      "bytes": 630501,
+      "sha256": "da757997c260247b6ee89c9c7a3e726b54a0edb0fd0e27e56364fb8ad69bf874"
+    },
+    {
+      "path": "photos/cphc_emergency_trauma_108_card3.png",
+      "bytes": 642814,
+      "sha256": "c224f11fb4608c71f6efdf32bbe6171a57caf337eb96f56201755e6bc6461eee"
+    },
+    {
+      "path": "photos/cphc_emergency_trauma_108_card4.png",
+      "bytes": 633364,
+      "sha256": "afe04ea429eabf1b6b7edef3fd3e8a27ef8c5619b5130ff48255f1ef7ff48d1b"
+    },
+    {
+      "path": "photos/cphc_ent_care_oeee_card1.png",
+      "bytes": 562663,
+      "sha256": "d048204f75ced160bd164f325ab333e87b31ca20928ec156fd9e4e59fef06e62"
+    },
+    {
+      "path": "photos/cphc_ent_care_oeee_card2.png",
+      "bytes": 569881,
+      "sha256": "a2f04c653b1a5ae4e2d4a4ffd5cf94f9f7c8d0ca4cf1ad1830cb7f68e87ce409"
+    },
+    {
+      "path": "photos/cphc_ent_care_oeee_card3.png",
+      "bytes": 624511,
+      "sha256": "bce4362eef9cfa1c60681f7b1e8ba374dfc3bad8f4e17c3a75e81bfea9644118"
+    },
+    {
+      "path": "photos/cphc_ent_care_oeee_card4.png",
+      "bytes": 554609,
+      "sha256": "791d950da35044904965cb9b0224746de0600ea969807dac35c151dbf86f47df"
+    },
+    {
+      "path": "photos/cphc_ert_balanced_thali_millets_card1.png",
+      "bytes": 697791,
+      "sha256": "5b7563a5209368832b04983766bad7afee80ab23e1e76c3ed530a6c78f389d12"
+    },
+    {
+      "path": "photos/cphc_ert_balanced_thali_millets_card2.png",
+      "bytes": 741829,
+      "sha256": "aa60809773fbdd2ff613b935f4f26f65eba200b728e079a354c6814851cdc4cf"
+    },
+    {
+      "path": "photos/cphc_ert_balanced_thali_millets_card3.png",
+      "bytes": 708295,
+      "sha256": "13e1f7014c86bc8d6affc5277d626e46e99cc7cc068b7e6f7ca4bedb2f1377eb"
+    },
+    {
+      "path": "photos/cphc_ert_balanced_thali_millets_card4.png",
+      "bytes": 733266,
+      "sha256": "8e248250277a81b463a70ca0e89dba58bf1d8d5b61cef22c22eb13df050ca69b"
+    },
+    {
+      "path": "photos/cphc_ert_less_salt_sugar_oil_card1.png",
+      "bytes": 602168,
+      "sha256": "7600c61410a8757a2579300c533222b2c2899361516ee462a51a5a9f94851e0a"
+    },
+    {
+      "path": "photos/cphc_ert_less_salt_sugar_oil_card2.png",
+      "bytes": 689711,
+      "sha256": "087913d27ae37c950bd39072665cfd49a521cfc272ecf50d9f4cffd56ae5bcef"
+    },
+    {
+      "path": "photos/cphc_ert_less_salt_sugar_oil_card3.png",
+      "bytes": 632102,
+      "sha256": "cc1d0bce39e49e3aeba212547f59c7118e2ef2c7ff3b539f20e539bcb452555f"
+    },
+    {
+      "path": "photos/cphc_ert_less_salt_sugar_oil_card4.png",
+      "bytes": 675941,
+      "sha256": "f6be071fe8915bef133f528d4360071dc4a660a68f19dc6d7749bd0d8985da11"
+    },
+    {
+      "path": "photos/cphc_eye_care_oeee_card1.png",
+      "bytes": 502260,
+      "sha256": "4567577ffa8f46018d96bc10acbf4de9806a79abf75489b9ad8d60e3780b3149"
+    },
+    {
+      "path": "photos/cphc_eye_care_oeee_card2.png",
+      "bytes": 534289,
+      "sha256": "c7a09de1604251412ff3a9a08ae09a645af3dbf78e22d6939b34def451cfd3b3"
+    },
+    {
+      "path": "photos/cphc_eye_care_oeee_card3.png",
+      "bytes": 539370,
+      "sha256": "75354f7d0236e00e0a1138afedaf82ab461e8434db4a8446bcea0ecdbbf844e3"
+    },
+    {
+      "path": "photos/cphc_eye_care_oeee_card4.png",
+      "bytes": 582766,
+      "sha256": "49dc18acb1103c4f32888b7654660e307eb9cc5dcd76611981a35ccc4951fdd5"
+    },
+    {
+      "path": "photos/cphc_family_planning_card1.png",
+      "bytes": 750769,
+      "sha256": "3c7d0fd9c108d2cb9a5961fbbf8cc0489dc3b11b70507a922bd41120bb0ec913"
+    },
+    {
+      "path": "photos/cphc_family_planning_card2.png",
+      "bytes": 514114,
+      "sha256": "01659929d6cbce08c5856d94030a1fafae511f45225d33e12e06dde61c5acf3a"
+    },
+    {
+      "path": "photos/cphc_family_planning_card3.png",
+      "bytes": 629428,
+      "sha256": "87f01b4a1fa7b713ce6bb8cf64ff62fa08373c29d8989087cc37e61e60557c98"
+    },
+    {
+      "path": "photos/cphc_family_planning_card4.png",
+      "bytes": 730319,
+      "sha256": "a2b3c405bf72ba9e9a8a89c93c16c11d156414554fa60bd7ca5c43073a9ea172"
+    },
+    {
+      "path": "photos/cphc_hbyc_childcare_card1.png",
+      "bytes": 612857,
+      "sha256": "9fd5295e157e2f036bdf44ef53a2c1d9586912b0255734372f7f29a31c98a8c1"
+    },
+    {
+      "path": "photos/cphc_hbyc_childcare_card2.png",
+      "bytes": 633479,
+      "sha256": "a4794cd4fda6417e4787b8d4dca01c8ab35419ef2174a3eb74916b41c5540030"
+    },
+    {
+      "path": "photos/cphc_hbyc_childcare_card3.png",
+      "bytes": 607467,
+      "sha256": "aaf27075f439002eadbb2cfbe7a6fbb00193bceca55aca473bd7db4f692ed761"
+    },
+    {
+      "path": "photos/cphc_hbyc_childcare_card4.png",
+      "bytes": 657223,
+      "sha256": "91e8d16a54ac6f47f600835c2d037f2c4e6e9e731f3978b5bec1b2a3511894cb"
+    },
+    {
+      "path": "photos/cphc_hepatitis_waterborne_card1.png",
+      "bytes": 624722,
+      "sha256": "5271664f74e17bd316c1256ee3067e6cccf1d0bff1795ba499ec6155722a5910"
+    },
+    {
+      "path": "photos/cphc_hepatitis_waterborne_card2.png",
+      "bytes": 497604,
+      "sha256": "d3b7dd91439028bad96c24d6fd9d9578b0a8fe142387cd9331f2dc13b03b0786"
+    },
+    {
+      "path": "photos/cphc_hepatitis_waterborne_card3.png",
+      "bytes": 658842,
+      "sha256": "ddd18ee17c948cbf4f42b5e67a1063e051ed820e631dabfe14c2b79f732be0f5"
+    },
+    {
+      "path": "photos/cphc_hepatitis_waterborne_card4.png",
+      "bytes": 584848,
+      "sha256": "177b1986b147b85421a3f6bcd5eb0bf51eadb1caa15f47ad44caf09da54c920b"
+    },
+    {
+      "path": "photos/cphc_hypertension_ncd_card1.png",
+      "bytes": 562525,
+      "sha256": "988bba8bc350c7190390fcff065806609b970671a06cf9ccb05b99907277cbd6"
+    },
+    {
+      "path": "photos/cphc_hypertension_ncd_card2.png",
+      "bytes": 708548,
+      "sha256": "dc72638984372619bfc487f30870245974bd7bb7c3dfd5859473a23b1c299b4f"
+    },
+    {
+      "path": "photos/cphc_hypertension_ncd_card3.png",
+      "bytes": 635321,
+      "sha256": "746541b4305c1416f8ed7f6dca5571aa0d52745172d00f7a757cfff93854a379"
+    },
+    {
+      "path": "photos/cphc_hypertension_ncd_card4.png",
+      "bytes": 601524,
+      "sha256": "0f37c90ad279491568e768cb2a737640ae735a4114d12df0cc630468113fead3"
+    },
+    {
+      "path": "photos/cphc_iycf_nutrition_card1.png",
+      "bytes": 640938,
+      "sha256": "eb6e80b9a2511b87a11d10d12eac91034b4bb4dc50e5aebd390882bd77b567c0"
+    },
+    {
+      "path": "photos/cphc_iycf_nutrition_card2.png",
+      "bytes": 605322,
+      "sha256": "ad4f9bd541c7d04f7d62a9444199abb5f89b74c8f8fc5e291c9beb85393cae18"
+    },
+    {
+      "path": "photos/cphc_iycf_nutrition_card3.png",
+      "bytes": 557113,
+      "sha256": "72556a0c6d27f5f64225c128f7bf6e5153f9b8a68977cdcca5e7662821b75614"
+    },
+    {
+      "path": "photos/cphc_iycf_nutrition_card4.png",
+      "bytes": 561951,
+      "sha256": "8104fdd5409177cca45a8742f515e1c6dacab4d9c36f106e67bc426da5da244b"
+    },
+    {
+      "path": "photos/cphc_leprosy_nlep_card1.png",
+      "bytes": 566065,
+      "sha256": "6e88c1631ef6c8d4889c2bc06b48470e3cbc2f7db3e052c5d69b0c098dc4caba"
+    },
+    {
+      "path": "photos/cphc_leprosy_nlep_card2.png",
+      "bytes": 556157,
+      "sha256": "6ac479645c422da50e2b2bb89f5736bd2c944e2766a99c891563c50de4d2e86c"
+    },
+    {
+      "path": "photos/cphc_leprosy_nlep_card3.png",
+      "bytes": 677862,
+      "sha256": "3ee98d1f671b18f59ea747d91772b4e065199b1d53acaf13198e3f71cd426176"
+    },
+    {
+      "path": "photos/cphc_leprosy_nlep_card4.png",
+      "bytes": 581710,
+      "sha256": "263613decb09742c67a03787107ab2ad793797374c3b290c2625d765d5f8bf87"
+    },
+    {
+      "path": "photos/cphc_mental_telemanas_epmns_card1.png",
+      "bytes": 578248,
+      "sha256": "42ed93419980624b16904b51115f668488ffc3582f26a81472460f0b0f5843ee"
+    },
+    {
+      "path": "photos/cphc_mental_telemanas_epmns_card2.png",
+      "bytes": 577157,
+      "sha256": "72caad16ef75a250a48d401e2383241cccf6ed04a0ec30530e8194c63649f686"
+    },
+    {
+      "path": "photos/cphc_mental_telemanas_epmns_card3.png",
+      "bytes": 655021,
+      "sha256": "8240b195350ead281970197db1aa4e1b4b6681c7314a710c6bc48b8254365b9b"
+    },
+    {
+      "path": "photos/cphc_mental_telemanas_epmns_card4.png",
+      "bytes": 653681,
+      "sha256": "1ef1bea49974885acbe43078e9500a6a3ab9508708ad0b6673ac1eb7c36422a3"
+    },
+    {
+      "path": "photos/cphc_newborn_nssk_card1.png",
+      "bytes": 544384,
+      "sha256": "9c969fcfb9a2c3020bc46253e0bfb6934bcb4e303c58ea7f3806c9627e6efe76"
+    },
+    {
+      "path": "photos/cphc_newborn_nssk_card2.png",
+      "bytes": 547706,
+      "sha256": "26869c01e2cfd683d4c5c681198b1e37b6208008484b451e1288d6ae4782fc5e"
+    },
+    {
+      "path": "photos/cphc_newborn_nssk_card3.png",
+      "bytes": 532152,
+      "sha256": "6fb4735c7d048bfce75bdcecaa7cce0024e389bda95fd81742a53c84892f1459"
+    },
+    {
+      "path": "photos/cphc_newborn_nssk_card4.png",
+      "bytes": 633890,
+      "sha256": "1929ef60a7378fd9d377f99bb016de667faa25c8b4113601df0f9ebc01804a1e"
+    },
+    {
+      "path": "photos/cphc_oral_cancer_ntcp_card1.png",
+      "bytes": 555093,
+      "sha256": "15daf9b68fccdcf8c82c51916271dcfbbb68052e465dfc4a9f38fb2bdfca650c"
+    },
+    {
+      "path": "photos/cphc_oral_cancer_ntcp_card2.png",
+      "bytes": 583154,
+      "sha256": "3e395340566c09a5d70001cdfcaee3418564dd4900f0fecdfb75bbdc4a5a74e6"
+    },
+    {
+      "path": "photos/cphc_oral_cancer_ntcp_card3.png",
+      "bytes": 593347,
+      "sha256": "f4c0612fa598ea0a1e2624bbb2a6424fbe37dcff79d0b929d3f95027aa466ac9"
+    },
+    {
+      "path": "photos/cphc_oral_cancer_ntcp_card4.png",
+      "bytes": 580156,
+      "sha256": "85e84e0ab356bf9205a273853b663d714a5cad76698769e5b48cc67cf65f2fea"
+    },
+    {
+      "path": "photos/cphc_oral_dental_oeee_card1.png",
+      "bytes": 558039,
+      "sha256": "52ed76da4ca1ca38c9a3e0aba7163809ad6e5f92f45880e35a273ab65e954680"
+    },
+    {
+      "path": "photos/cphc_oral_dental_oeee_card2.png",
+      "bytes": 580941,
+      "sha256": "e0e528210186afc98b881b5b222891fdb2685a15769b8b36c7e67d61a0a238f4"
+    },
+    {
+      "path": "photos/cphc_oral_dental_oeee_card3.png",
+      "bytes": 561096,
+      "sha256": "8e8fe35ae4e1b32c3583fd9164b616ab941e07b512ad2a57cd89ba1e665208ca"
+    },
+    {
+      "path": "photos/cphc_oral_dental_oeee_card4.png",
+      "bytes": 606723,
+      "sha256": "f024b80136b1835fe3c44940f3f56172262af8edddd1026056354335bb487287"
+    },
+    {
+      "path": "photos/cphc_palliative_epmns_card1.png",
+      "bytes": 579820,
+      "sha256": "d40cbbaf570467c2413821b3aa00a6d90c3c374731a815e3c1be6c26ad1b786f"
+    },
+    {
+      "path": "photos/cphc_palliative_epmns_card2.png",
+      "bytes": 571155,
+      "sha256": "d273bd948fefea621a2b64f799718f3401a69265d946c6ac8b850ae86acdb537"
+    },
+    {
+      "path": "photos/cphc_palliative_epmns_card3.png",
+      "bytes": 580618,
+      "sha256": "fe96536d7785e043cd40dd417c04c8b5622e93c294171cab38ceda806507ef1c"
+    },
+    {
+      "path": "photos/cphc_palliative_epmns_card4.png",
+      "bytes": 618071,
+      "sha256": "6ffaa4bdf604d363614da60484a79d35a2dba5f9c73d5e74409b9818c1167a71"
+    },
+    {
+      "path": "photos/cphc_rbsk_screening_card1.png",
+      "bytes": 591203,
+      "sha256": "4dcd75bd53638ad3ba88f815c28081b7d8e360d2f19889a80f0244f7a8dabbb0"
+    },
+    {
+      "path": "photos/cphc_rbsk_screening_card2.png",
+      "bytes": 569962,
+      "sha256": "7db232e4c4a907f805fa8f9cab0028157008ccf09fd399ecc43b610a8fd23aea"
+    },
+    {
+      "path": "photos/cphc_rbsk_screening_card3.png",
+      "bytes": 629184,
+      "sha256": "d982a5d02f5f44bafa05f5f9af37718a8859b733a208527af347036139a46126"
+    },
+    {
+      "path": "photos/cphc_rbsk_screening_card4.png",
+      "bytes": 604347,
+      "sha256": "ebdd5cc014bc758f3ccef29ab135e357d9ac9d62e275295d1b9dbc4c67cb3951"
+    },
+    {
+      "path": "photos/cphc_rksk_adolescent_card1.png",
+      "bytes": 555475,
+      "sha256": "78f698cd21d5c41bdaf18675f74b7e134d386d5d975cb1951e28e2ad618a97d1"
+    },
+    {
+      "path": "photos/cphc_rksk_adolescent_card2.png",
+      "bytes": 637200,
+      "sha256": "cf8a2fec6ce1498874c3d530d8cc135723c0e5ccc8175bd8791c8dea41b17119"
+    },
+    {
+      "path": "photos/cphc_rksk_adolescent_card3.png",
+      "bytes": 663294,
+      "sha256": "e9af7eab1ef26f96700c6818b671c37c2151a49cbd8bbefc24505968f7aa25fe"
+    },
+    {
+      "path": "photos/cphc_rksk_adolescent_card4.png",
+      "bytes": 561727,
+      "sha256": "2de39aa0cd23baa7f46cadbc090fc771c1e2ec1d297518878471c8a3ffec04e1"
+    },
+    {
+      "path": "photos/cphc_substance_audit_epmns_card1.png",
+      "bytes": 536882,
+      "sha256": "2179f26e3746a933d3f50f40a4032daf16f24e15747d412cb9b99e217d4f1bfe"
+    },
+    {
+      "path": "photos/cphc_substance_audit_epmns_card2.png",
+      "bytes": 564329,
+      "sha256": "dd4294e09a58074e7c8facc1e5bb6bf4d972c22abe1fd4bce1bf10879e5450e9"
+    },
+    {
+      "path": "photos/cphc_substance_audit_epmns_card3.png",
+      "bytes": 525557,
+      "sha256": "7880717af7015f4a495fa1567b809fd85d3a5a4929bca792e755b4e28f5d0e3d"
+    },
+    {
+      "path": "photos/cphc_substance_audit_epmns_card4.png",
+      "bytes": 581908,
+      "sha256": "38ac8cfc2e28dea79b5341599778284b04e50a8822be6ad94116edae0320b0f1"
+    },
+    {
+      "path": "photos/cphc_tb_elimination_card1.png",
+      "bytes": 548538,
+      "sha256": "f0009cd9a12d3e902cb350e8ca5e23b08d88e3f0bcdb18aba5d7f7a5a01791aa"
+    },
+    {
+      "path": "photos/cphc_tb_elimination_card2.png",
+      "bytes": 636684,
+      "sha256": "f7eacf1a57b03a8b76dbb3c20f5cd66533d504ba1cea20f18198f43f734e5040"
+    },
+    {
+      "path": "photos/cphc_tb_elimination_card3.png",
+      "bytes": 580690,
+      "sha256": "2a6872290a73087ae18e49ba58fa16a0ff333f48ce24e064aef37d395901dd58"
+    },
+    {
+      "path": "photos/cphc_tb_elimination_card4.png",
+      "bytes": 624198,
+      "sha256": "4fe6490832e7eb48c806c51b7d2291139d7d5cdab73ff3731daeddf1f5d6e1d2"
+    },
+    {
+      "path": "photos/cphc_uip_vaccination_card1.png",
+      "bytes": 566727,
+      "sha256": "0528464a4f0fa5c6365b33e5711ec14d9453fde0a9af23bb7b5f4f6547c856ef"
+    },
+    {
+      "path": "photos/cphc_uip_vaccination_card2.png",
+      "bytes": 572499,
+      "sha256": "6d74303d3096336ea5c7de3e4ba7510bd9a34604391eab2f27ebcb3ba52809c5"
+    },
+    {
+      "path": "photos/cphc_uip_vaccination_card3.png",
+      "bytes": 594229,
+      "sha256": "1a451f066c543be0db65e5b5dca284036dfb7b0f952d2dc0c974d685547ecea4"
+    },
+    {
+      "path": "photos/cphc_uip_vaccination_card4.png",
+      "bytes": 631062,
+      "sha256": "a09ba32d7a277ee1a0720b373f29c9246f77dd4ea48b48dcab6cd5de0e96dea0"
+    },
+    {
+      "path": "photos/cphc_vector_malaria_dengue_card1.png",
+      "bytes": 759215,
+      "sha256": "c40d2242f62156f0c6c2164462bee18364dc30833ae488016d1ec2e51d1a66ac"
+    },
+    {
+      "path": "photos/cphc_vector_malaria_dengue_card2.png",
+      "bytes": 571877,
+      "sha256": "8f363aa4e545a9708a0aeb3bbce3fcce67b62b1e050f898fb6f6a07e69381722"
+    },
+    {
+      "path": "photos/cphc_vector_malaria_dengue_card3.png",
+      "bytes": 714382,
+      "sha256": "cd906afde6efedb0e240dc15028272d50407e287f432aa2ad55673d6ae249874"
+    },
+    {
+      "path": "photos/cphc_vector_malaria_dengue_card4.png",
+      "bytes": 574956,
+      "sha256": "572008c20d39d107a5affed5a8e84db2e34420af889f6b849aa1d8cd1c2e37d1"
+    },
+    {
+      "path": "photos/cphc_wash_infection_control_card1.png",
+      "bytes": 650516,
+      "sha256": "8a90fe3b76afacc0508d90c003cb17d23b430c4567317ac97614018708811bc5"
+    },
+    {
+      "path": "photos/cphc_wash_infection_control_card2.png",
+      "bytes": 572831,
+      "sha256": "26067d3e94fc7e7dd054c1f7be6fd2740e9a27f31b8421375729bc3da3923cc3"
+    },
+    {
+      "path": "photos/cphc_wash_infection_control_card3.png",
+      "bytes": 530978,
+      "sha256": "2707585b34ecd9d76f42a989c5e1cd67f6227c9ef03906dbe032ab143931f0ce"
+    },
+    {
+      "path": "photos/cphc_wash_infection_control_card4.png",
+      "bytes": 687244,
+      "sha256": "f587d2bf9dd9a02a0f53710a7d50ec9fe6317ea2c5365309349c5f11db5e4bea"
+    },
+    {
+      "path": "photos/mar16_vaccination_card1_schedule.jpg",
+      "bytes": 126377,
+      "sha256": "3300f98dbddd4dee8230ddfb1544d2bff3c1cbd2831da5a66cde0228924225a4"
+    },
+    {
+      "path": "photos/mar16_vaccination_card2_card.jpg",
+      "bytes": 115232,
+      "sha256": "31dfb27327a5de8dfde28b486c8442a4996e71d507dbb5f24934a870b34f8544"
+    },
+    {
+      "path": "photos/mar16_vaccination_card3_followup.jpg",
+      "bytes": 128748,
+      "sha256": "c18a984756255098667b3013e54f7cab1f9d2ca3a149b7effced20a6acf5344f"
+    },
+    {
+      "path": "photos/mar16_vaccination_card4_observation.jpg",
+      "bytes": 124368,
+      "sha256": "6a41a1310ff0de780fa90d9692f9a544c4a12ab0968e2159a85635ff0c89f60d"
+    },
+    {
+      "path": "photos/may25_thyroid_card1_symptoms.jpg",
+      "bytes": 113891,
+      "sha256": "4b7a88697685c30014698d259bddc57c5c62e3982114c665dd600b7c46156254"
+    },
+    {
+      "path": "photos/may25_thyroid_card2_test.jpg",
+      "bytes": 112529,
+      "sha256": "4dbe4e7fff5cbfc3b0c12bcab2ef6cf3b361b89b89cef00a39cf2ad29c3f0bcc"
+    },
+    {
+      "path": "photos/may25_thyroid_card3_medicine.jpg",
+      "bytes": 107051,
+      "sha256": "81decf5f5aa79b70284cb4950ecae69ba8433e1dd8ed19720c389f2e54b90cb3"
+    },
+    {
+      "path": "photos/may25_thyroid_card4_iodine.jpg",
+      "bytes": 137477,
+      "sha256": "9c8b096c3ee6fb35bdcc3d33324148a48147f55cb5feed033f9df88373a81681"
+    },
+    {
+      "path": "photos/may28_menstrual_card1_change.jpg",
+      "bytes": 81884,
+      "sha256": "b4605116bb7d5c3af32e25f4cdb44e8ab065b7782fdc3f3233467adfa0c2b03d"
+    },
+    {
+      "path": "photos/may28_menstrual_card2_hygiene.jpg",
+      "bytes": 100647,
+      "sha256": "33b425f4093543708fe1e4f5d2320c950dfd7f776f66a4717dff4935c1e7ab37"
+    },
+    {
+      "path": "photos/may28_menstrual_card3_reusable.jpg",
+      "bytes": 119905,
+      "sha256": "5f93a3fe132eb297bd697cc969d6c796319ad19031ec822645945e2452f4342e"
+    },
+    {
+      "path": "photos/may28_menstrual_card4_consult.jpg",
+      "bytes": 104862,
+      "sha256": "3e163e089e1f5a11e70f9b86a18f3c3e7dd3951c91726a36f147535be6d0cabc"
+    },
+    {
+      "path": "photos/oct15_do1.png",
+      "bytes": 562567,
+      "sha256": "dd72b469eb4893bf3ddd53ad3ed9e5be50c0de4c18abee238b3dd7b51ea6acdc"
+    },
+    {
+      "path": "photos/oct15_do2.png",
+      "bytes": 659924,
+      "sha256": "64589cd10b6fc2976e582b8d69775a1fbddd362994adb3e520df2f5688747008"
+    },
+    {
+      "path": "photos/oct15_dont1.png",
+      "bytes": 526823,
+      "sha256": "7022f91f77eb082d32651bb87a8bb852574074ac11de8a5ba76f70c61b227caa"
+    },
+    {
+      "path": "photos/oct15_dont2.png",
+      "bytes": 514788,
+      "sha256": "3e9ac5263a3d21e7694168ece237b91cb8617297d476068e3af44553c7592eb9"
+    },
+    {
+      "path": "photos/oct16_do1.png",
+      "bytes": 775971,
+      "sha256": "00a097113df4b5e99c0862f714086d1c92b0941203f2285815d0341cad590f2a"
+    },
+    {
+      "path": "photos/oct16_do2.png",
+      "bytes": 609711,
+      "sha256": "559d432f0560e2d909607058333d62aa4d4804c78575079aaf7b5885b36cedc6"
+    },
+    {
+      "path": "photos/oct16_dont1.png",
+      "bytes": 705125,
+      "sha256": "9b46f1d611214aa412afb08444d7f1fe540bd6a227929b19617b657c7331598f"
+    },
+    {
+      "path": "photos/oct16_dont2.png",
+      "bytes": 535318,
+      "sha256": "ea50c4636d316e85104babf56bfae2b755af1e6f869af13292d6be05e78ceb1f"
+    },
+    {
+      "path": "photos/oct17_do1.png",
+      "bytes": 2412732,
+      "sha256": "247e56b88b76fc31e0ac6ac68bdbdcc9a84f695973ac8b04ceb5e28be0caedf6"
+    },
+    {
+      "path": "photos/oct17_do2.png",
+      "bytes": 429649,
+      "sha256": "c4a422ab09bd9ddf6e7ae4767e4cd3a9ae306d803aec1fa126e802ef2f864cd8"
+    },
+    {
+      "path": "photos/oct17_dont1.png",
+      "bytes": 508899,
+      "sha256": "0742fb25893c2381666536ae730a3de37cfad1926e3877423afd5b8143b714a4"
+    },
+    {
+      "path": "photos/oct17_dont2.png",
+      "bytes": 490723,
+      "sha256": "cd71a910693151312292dd233cde7b94396aaa55a41d75f5048f38e9688aa430"
+    },
+    {
+      "path": "photos/oct18_do1.png",
+      "bytes": 689822,
+      "sha256": "1ce3a29f477e386f389910b5a70cdabf691cd417589b583f1a60ae7b3f93ce54"
+    },
+    {
+      "path": "photos/oct18_do2.png",
+      "bytes": 575449,
+      "sha256": "c2dfca0e42af1791b5f37916420abcab511a0e9f2f363e147149a27bf423c2e1"
+    },
+    {
+      "path": "photos/oct18_dont1.png",
+      "bytes": 513122,
+      "sha256": "82f23dbc819577be6d1c0f5c8e83fd0c2fcc993be661c4d9da03d4c2a0a680f6"
+    },
+    {
+      "path": "photos/oct18_dont2.png",
+      "bytes": 485807,
+      "sha256": "eae08f7a2d1f1ee40965f58cc9d91bd592fa3a0d3dae706137528ea7f7a76c5f"
+    },
+    {
+      "path": "photos/oct19_ear_card1.png",
+      "bytes": 581373,
+      "sha256": "ff9f5e3b737f802c7644fe84608d2569cecd69f929605c74b9a44252deac6204"
+    },
+    {
+      "path": "photos/oct19_ear_card3.png",
+      "bytes": 496458,
+      "sha256": "2af22f2d73d8c8a349df4314fbe4b09e4bfff50e2741dd294fc8ecf1d9269319"
+    },
+    {
+      "path": "photos/oct19_oral_card1.png",
+      "bytes": 502163,
+      "sha256": "aca0f7bf971d8857e125e84b478011cf4ea99065855495765ef26de9a88c8821"
+    },
+    {
+      "path": "photos/oct19_oral_card3.png",
+      "bytes": 516914,
+      "sha256": "885cd3d2a499102ae36694f387ccbaecf213a841f73d5f79e7aa98f44c3be62f"
+    },
+    {
+      "path": "photos/oct20_do1.png",
+      "bytes": 1340060,
+      "sha256": "26dbb852beccf2358c471fe69bcffb5c6562bbc514ece89eb365908b6b64f1c8"
+    },
+    {
+      "path": "photos/oct20_do2.png",
+      "bytes": 1862388,
+      "sha256": "347402abd8e1ceb3aa90fcff170ebda99a2198975344260bf809f858d13afed0"
+    },
+    {
+      "path": "photos/oct20_dont1.png",
+      "bytes": 1569315,
+      "sha256": "28a0205f55286945f252a5ec448c1f22464bd18e3d12a39f63c9fbb312e32f4a"
+    },
+    {
+      "path": "photos/oct20_dont2.png",
+      "bytes": 1630421,
+      "sha256": "5de63340092a8d6a0f29116ea330690e00199dc7d396dc3082199d020a7edfe7"
+    },
+    {
+      "path": "photos/oct21_do1.png",
+      "bytes": 1524188,
+      "sha256": "762e775811b51e4659137729049cd527bbe877332d3cba87d086e8637b95972b"
+    },
+    {
+      "path": "photos/oct21_do2.png",
+      "bytes": 1501885,
+      "sha256": "fca3971d212004b4cccbb4f4b5efd4b2fe39906f54a5b8f893ff4eeef5ac04f2"
+    },
+    {
+      "path": "photos/oct21_dont1.png",
+      "bytes": 1628756,
+      "sha256": "d4ec74ea78c05daeb54fa16aa83e2f705545f03428bd1c59d1b49fd8b523ca37"
+    },
+    {
+      "path": "photos/oct21_dont2.png",
+      "bytes": 1428141,
+      "sha256": "f5481ee5ce7ea4f6cb985997fd7ab6685f584be8f2cbcd8c5165b1905c716153"
+    },
+    {
+      "path": "photos/oct22_stuttering_card1_listen.jpg",
+      "bytes": 149309,
+      "sha256": "bfae2c4f4555977bc00b444c757ea14369d9eefee2d7113419c2d5a3a7d8453c"
+    },
+    {
+      "path": "photos/oct22_stuttering_card2_respect.jpg",
+      "bytes": 143422,
+      "sha256": "21af44c23972fcc116fb0183ac7cdebeecec0a29a267075b19f7790326000493"
+    },
+    {
+      "path": "photos/oct22_stuttering_card3_slp.jpg",
+      "bytes": 122527,
+      "sha256": "bd38c24bfd3b0bb8aaed44285bff91525d366341a61bebe430ef7db581a002bc"
+    },
+    {
+      "path": "photos/oct22_stuttering_card4_inclusion.jpg",
+      "bytes": 129479,
+      "sha256": "55d6bbbd5716dccbac72e505ea6efca9d05b245f69f4cce349bb2124604fe232"
+    },
+    {
+      "path": "photos/oct24_polio_card1_drops.jpg",
+      "bytes": 136495,
+      "sha256": "9bf1d06ab4359fb2dbcee14ad15badd9ca1886f1b1d3b087f5d7ee72c12c4033"
+    },
+    {
+      "path": "photos/oct24_polio_card2_routine.jpg",
+      "bytes": 101329,
+      "sha256": "d5b0834f485f7889a1e166003c29f47c920f289a205e1b2b193b3ab109ddd9d5"
+    },
+    {
+      "path": "photos/oct24_polio_card3_booth.jpg",
+      "bytes": 139151,
+      "sha256": "0691079afe1ee4bb00fcee88eb1d4b22249842d4d4a023b2fcc31c8541e94bcd"
+    },
+    {
+      "path": "photos/oct24_polio_card4_weakness.jpg",
+      "bytes": 94607,
+      "sha256": "6ed69b9df34fb9aa718c32b3355605fe1d13188f334381940808ad4574f4e8fc"
+    },
+    {
+      "path": "photos/oct29_stroke_card1_fast.jpg",
+      "bytes": 126302,
+      "sha256": "cc9f4412b0fbb5cceb19952e3491b8898fe87ea323bd1bdb389460a65d6eba35"
+    },
+    {
+      "path": "photos/oct29_stroke_card2_ambulance.jpg",
+      "bytes": 133076,
+      "sha256": "2b23e0597ab8eef053c4964bcb38ca49b267fb4fa5091e13aee1536e0ee46302"
+    },
+    {
+      "path": "photos/oct29_stroke_card3_nofood.jpg",
+      "bytes": 146190,
+      "sha256": "cffad3f8a00a5c1857fc273a9f7f641efad1720f991af0f1fb0f8160dc199b15"
+    },
+    {
+      "path": "photos/oct29_stroke_card4_prevention.jpg",
+      "bytes": 97809,
+      "sha256": "4a0b57802b5c4791445391147b1d94022e52df1f5395aceba68ad5865298d234"
+    },
+    {
+      "path": "photos/sep21_alzheimer_card1_assessment.jpg",
+      "bytes": 123350,
+      "sha256": "3689c7f27083967177d49ee1edc90a92855b56830554601e10f3590658a61335"
+    },
+    {
+      "path": "photos/sep21_alzheimer_card2_communication.jpg",
+      "bytes": 137890,
+      "sha256": "68e086ca9e945abe060e3a1d227f147c6f8601accd92ee31aa74c924fd824586"
+    },
+    {
+      "path": "photos/sep21_alzheimer_card3_safety.jpg",
+      "bytes": 100247,
+      "sha256": "1f4e5bf39c55575102258483a228bf8edc0fdb765e019cfe532f1eb0c5fc5fe2"
+    },
+    {
+      "path": "photos/sep21_alzheimer_card4_caregiver.jpg",
+      "bytes": 160133,
+      "sha256": "04d596e391b90fb40d90eb3e3f8d91510afb2c9a111b7d07b1557f959a257f3f"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Isolated browser upgrade using complete preserved v1.26 and published v1.27 bundles on one local origin; physical mobile upgrade not tested",
+  "checks": [
+    {
+      "name": "preserved v1.26 installs completely",
+      "pass": true
+    },
+    {
+      "name": "v1.27 installs and removes v1.26 cache",
+      "pass": true
+    },
+    {
+      "name": "updated renderer and photograph have release hashes",
+      "pass": true
+    },
+    {
+      "name": "offline restart preserves existing settings",
+      "pass": true
+    },
+    {
+      "name": "corrected posters render offline after upgrade",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

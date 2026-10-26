@@ -3,7 +3,7 @@ build_precache_manifest.py
 -----------------------------------------------------------------------------
 Derives PRECACHE_ASSETS in sw.js strictly from active, validated references in
 data/health_365.json, offline fonts, and core application files.
-Supports PNG, WebP, and WOFF2 formats.
+Supports PNG, JPEG, WebP, and WOFF2 formats.
 Raises ManifestBuildError on failure so callers can handle rollback cleanly.
 -----------------------------------------------------------------------------
 """
@@ -23,12 +23,16 @@ CORE_ASSETS = [
     "./index.html",
     "./manifest.json",
     "./css/styles.css",
+    "./css/review.css",
     "./css/fonts.css",
     "./js/app.js",
     "./js/canvas-renderer.js",
     "./js/db.js",
     "./js/calendar-data.js",
+    "./js/review-data.js",
+    "./js/review.js",
     "./data/health_365.json",
+    "./data/annual_review_2026.json",
     "./icons/icon-192.png",
     "./icons/icon-512.png"
 ]
@@ -97,7 +101,7 @@ def build_manifest(project_dir=None, raise_on_error=True):
                     clean_photo = "./" + clean_photo.lstrip("/")
                 referenced_photos.add(clean_photo)
 
-    # 4. Verify all active image references exist on disk and support png/webp
+    # 4. Verify all active image references exist on disk (png, jpeg, webp)
     missing = []
     valid_photos = []
     for p in sorted(referenced_photos):

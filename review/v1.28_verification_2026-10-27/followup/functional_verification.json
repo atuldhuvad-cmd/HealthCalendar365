@@ -1,0 +1,95 @@
+{
+ "data": {
+  "days": 365,
+  "cards": 1460,
+  "badIds": [],
+  "mismatch": [],
+  "optionCount": 365,
+  "ids": 365,
+  "missingCalendarDays": []
+ },
+ "images": {
+  "refs": 208,
+  "bad": [],
+  "sizes": {
+   "720x540": 199,
+   "1200x900": 9
+  }
+ },
+ "search": {
+  "results": 11,
+  "status": "11 results. Use arrow keys and Enter to open one."
+ },
+ "searchGu": 10,
+ "searchDate": 1,
+ "searchNone": 1,
+ "wrapNext": "01-01",
+ "wrapPrev": "12-31",
+ "toggles": {
+  "vertical": [
+   1080,
+   1920
+  ],
+  "square": [
+   1080,
+   1080
+  ],
+  "gujarati": "gujarati",
+  "english": "english",
+  "bilingual": "bilingual"
+ },
+ "downloads": {
+  "square": {
+   "name": "HealthPoster_12-31_Cardiovascular_Emergency___FAS_square_bilingual.png",
+   "bytes": 1184402,
+   "png": true,
+   "w": 1080,
+   "h": 1080
+  },
+  "vertical": {
+   "name": "HealthPoster_12-31_Cardiovascular_Emergency___FAS_vertical_bilingual.png",
+   "bytes": 2239697,
+   "png": true,
+   "w": 1080,
+   "h": 1920
+  }
+ },
+ "ref": {
+  "items": 365,
+  "selected": "03-08",
+  "count": "365 / 365",
+  "approvalUi": [],
+  "decisionEls": 0,
+  "chips": [
+   "All 365 Dates 365",
+   "⚠️ Placement Conflicts & Multi-Track 10",
+   "🔬 Evidence Concerns 48",
+   "🔧 Retained-Content Corrections 45"
+  ]
+ },
+ "refChips": {
+  "placement_conflict": "10 / 365",
+  "evidence_concern": "48 / 365",
+  "retained_correction": "45 / 365",
+  "all": "365 / 365"
+ },
+ "refSearch": "32 / 365",
+ "refSel": "10-15",
+ "refDetail": {
+  "n": 365,
+  "bad": []
+ },
+ "refToStudio": {
+  "picked": "01-20",
+  "studio": "01-20"
+ },
+ "mobile": {
+  "scrollW": 390,
+  "clientW": 390
+ },
+ "mobileRef": {
+  "scrollW": 390,
+  "clientW": 390
+ },
+ "errors": []
+}

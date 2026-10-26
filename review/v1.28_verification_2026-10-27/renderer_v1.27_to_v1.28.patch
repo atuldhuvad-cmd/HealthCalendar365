@@ -1,0 +1,172 @@
+diff --git a/a/js/canvas-renderer.js b/b/js/canvas-renderer.js
+index 017e1f9..76a3a51 100644
+--- a/a/js/canvas-renderer.js
++++ b/b/js/canvas-renderer.js
+@@ -337,6 +337,45 @@ class HealthPosterRenderer {
+     return lines.length * lineHeight;
+   }
+ 
++  // Lines wrapText would produce for `text` at the current font (same breaking rule, no cap)
++  countLines(ctx, text, maxWidth) {
++    if (!text) return 0;
++    const words = text.split(' ');
++    let line = '';
++    let count = 0;
++    for (let n = 0; n < words.length; n++) {
++      const testLine = line + words[n] + ' ';
++      if (ctx.measureText(testLine).width > maxWidth && n > 0) {
++        count++;
++        line = words[n] + ' ';
++      } else {
++        line = testLine;
++      }
++    }
++    return line.trim().length > 0 ? count + 1 : count;
++  }
++
++  // Single-line title; if it is wider than the box it wraps to a second line (never clipped).
++  // Returns the height used (lineHeight for one line, 2x for two).
++  drawTitleFitted(ctx, text, x, y, maxWidth, lineHeight) {
++    // 8px of slack: titles may sit in the card's 14px side padding, but must stay clear of its edge
++    if (ctx.measureText(text).width <= maxWidth + 8) {
++      ctx.fillText(text, x, y);
++      return lineHeight;
++    }
++    return this.wrapText(ctx, text, x, y, maxWidth, lineHeight, 2);
++  }
++
++  // Shrink the current font only as far as needed for `text` to fit maxWidth (no-op when it already fits)
++  fitFont(ctx, text, maxWidth, minPx) {
++    if (!text) return;
++    const size = /(\d+(?:\.\d+)?)px/.exec(ctx.font);
++    const width = ctx.measureText(text).width;
++    if (!size || width <= maxWidth) return;
++    const px = Math.max(minPx, Math.floor(parseFloat(size[1]) * maxWidth / width * 10) / 10);
++    ctx.font = ctx.font.replace(size[0], `${px}px`);
++  }
++
+   // Gujarati Numerals Helper
+   toGuNum(num) {
+     const guMap = { '0': '૦', '1': '૧', '2': '૨', '3': '૩', '4': '૪', '5': '૫', '6': '૬', '7': '૭', '8': '૮', '9': '૯' };
+@@ -526,6 +565,7 @@ class HealthPosterRenderer {
+       // English Title
+       ctx.font = 'bold 28px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#38bdf8';
++      this.fitFont(ctx, dayData.title_en.toUpperCase(), WIDTH - 80, 20);
+       ctx.fillText(dayData.title_en.toUpperCase(), WIDTH / 2, currentY);
+ 
+       // Gujarati Title (Hero Font)
+@@ -534,6 +574,7 @@ class HealthPosterRenderer {
+       ctx.fillStyle = '#ffffff';
+       ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
+       ctx.shadowBlur = 8;
++      this.fitFont(ctx, dayData.title_gu, WIDTH - 80, 24);
+       ctx.fillText(dayData.title_gu, WIDTH / 2, currentY);
+       ctx.shadowBlur = 0;
+     } else if (language === 'gujarati') {
+@@ -541,6 +582,7 @@ class HealthPosterRenderer {
+       ctx.fillStyle = '#ffffff';
+       ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
+       ctx.shadowBlur = 8;
++      this.fitFont(ctx, dayData.title_gu, WIDTH - 80, 26);
+       ctx.fillText(dayData.title_gu, WIDTH / 2, currentY + 12);
+       ctx.shadowBlur = 0;
+       currentY += 24;
+@@ -549,6 +591,7 @@ class HealthPosterRenderer {
+       ctx.fillStyle = '#ffffff';
+       ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
+       ctx.shadowBlur = 8;
++      this.fitFont(ctx, dayData.title_en.toUpperCase(), WIDTH - 80, 24);
+       ctx.fillText(dayData.title_en.toUpperCase(), WIDTH / 2, currentY + 12);
+       ctx.shadowBlur = 0;
+       currentY += 24;
+@@ -558,6 +601,7 @@ class HealthPosterRenderer {
+     currentY += 28;
+     const themeText = language === 'gujarati' ? dayData.theme_gu : (language === 'english' ? dayData.theme_en : `${dayData.theme_en} • ${dayData.theme_gu}`);
+     ctx.font = '500 17px "Plus Jakarta Sans", "Noto Sans Gujarati", sans-serif';
++    this.fitFont(ctx, themeText, WIDTH - 124, 12);
+     const themeMetrics = ctx.measureText(themeText);
+     const themeBoxW = Math.min(WIDTH - 80, themeMetrics.width + 44);
+     const themeBoxX = (WIDTH - themeBoxW) / 2;
+@@ -710,40 +754,47 @@ class HealthPosterRenderer {
+       ctx.font = 'bold 16px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#38bdf8';
+       const enTitle = card.title_en || '';
++      this.fitFont(ctx, enTitle, maxTextW + 8, 13);
+       ctx.fillText(enTitle, contentX, contentY);
+ 
+       // Gujarati Title
+       ctx.font = 'bold 18px "Noto Sans Gujarati", sans-serif';
+       ctx.fillStyle = '#ffffff';
+       const guTitle = card.title_gu || '';
++      this.fitFont(ctx, guTitle, maxTextW + 8, 15);
+       ctx.fillText(guTitle, contentX, contentY + 22);
+ 
+-      // Medical Caption (Concise)
++      // Medical Caption (Concise): 2 lines each; a 3rd line is added only where the text would
++      // otherwise be cut off, and the English caption then sits 12px lower to stay inside the card.
+       ctx.font = '400 13.5px "Noto Sans Gujarati", sans-serif';
+       ctx.fillStyle = '#cbd5e1';
+-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 44, maxTextW, 18, 2);
++      const guCapLines = Math.min(3, Math.max(2, this.countLines(ctx, card.desc_gu || '', maxTextW)));
++      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 44, maxTextW, 18, guCapLines);
+ 
+       ctx.font = '400 12.5px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#94a3b8';
+-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 84, maxTextW, 16, 2);
++      const enCapLines = Math.min(3, Math.max(2, this.countLines(ctx, card.desc_en || '', maxTextW)));
++      this.wrapText(ctx, card.desc_en || '', contentX, contentY + (guCapLines > 2 ? 96 : 84), maxTextW, 16, enCapLines);
+ 
+     } else if (language === 'gujarati') {
+       ctx.font = 'bold 20px "Noto Sans Gujarati", sans-serif';
+       ctx.fillStyle = '#ffffff';
+-      ctx.fillText(card.title_gu || '', contentX, contentY + 4);
++      const tGuH = this.drawTitleFitted(ctx, card.title_gu || '', contentX, contentY + 4, maxTextW, 22);
+ 
+       ctx.font = '400 14px "Noto Sans Gujarati", sans-serif';
+       ctx.fillStyle = '#cbd5e1';
+-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 34, maxTextW, 20, 3);
++      const guY = contentY + 34 + (tGuH - 22);
++      this.wrapText(ctx, card.desc_gu || '', contentX, guY, maxTextW, 20, Math.max(3, Math.floor((y + h - 10 - guY) / 20) + 1));
+ 
+     } else {
+       ctx.font = 'bold 19px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#38bdf8';
+-      ctx.fillText(card.title_en || '', contentX, contentY + 4);
++      const tEnH = this.drawTitleFitted(ctx, card.title_en || '', contentX, contentY + 4, maxTextW, 22);
+ 
+       ctx.font = '400 14px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#cbd5e1';
+-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 34, maxTextW, 20, 3);
++      const enY = contentY + 34 + (tEnH - 22);
++      this.wrapText(ctx, card.desc_en || '', contentX, enY, maxTextW, 20, Math.max(3, Math.floor((y + h - 10 - enY) / 20) + 1));
+     }
+ 
+     ctx.restore();
+@@ -852,20 +903,22 @@ class HealthPosterRenderer {
+     } else if (language === 'gujarati') {
+       ctx.font = 'bold 29px "Noto Sans Gujarati", sans-serif';
+       ctx.fillStyle = '#ffffff';
+-      const tGuOnlyH = this.wrapText(ctx, card.title_gu || '', contentX, contentY + 10, maxTextW, 36, 2);
++      const tGuOnlyH = this.wrapText(ctx, card.title_gu || '', contentX, contentY + 10, maxTextW, 36, Math.min(3, Math.max(2, this.countLines(ctx, card.title_gu || '', maxTextW))));
+ 
+       ctx.font = '400 21px "Noto Sans Gujarati", sans-serif';
+       ctx.fillStyle = '#e2e8f0';
+-      this.wrapText(ctx, card.desc_gu || '', contentX, contentY + 10 + tGuOnlyH + 18, maxTextW, 31, 8);
++      const guOnlyY = contentY + 10 + tGuOnlyH + 18;
++      this.wrapText(ctx, card.desc_gu || '', contentX, guOnlyY, maxTextW, 31, Math.max(8, Math.floor((y + h - 16 - guOnlyY) / 31) + 1));
+ 
+     } else {
+       ctx.font = 'bold 28px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#38bdf8';
+-      const tEnOnlyH = this.wrapText(ctx, card.title_en || '', contentX, contentY + 10, maxTextW, 34, 2);
++      const tEnOnlyH = this.wrapText(ctx, card.title_en || '', contentX, contentY + 10, maxTextW, 34, Math.min(3, Math.max(2, this.countLines(ctx, card.title_en || '', maxTextW))));
+ 
+       ctx.font = '400 21px "Plus Jakarta Sans", sans-serif';
+       ctx.fillStyle = '#e2e8f0';
+-      this.wrapText(ctx, card.desc_en || '', contentX, contentY + 10 + tEnOnlyH + 18, maxTextW, 31, 8);
++      const enOnlyY = contentY + 10 + tEnOnlyH + 18;
++      this.wrapText(ctx, card.desc_en || '', contentX, enOnlyY, maxTextW, 31, Math.max(8, Math.floor((y + h - 16 - enOnlyY) / 31) + 1));
+     }
+ 
+     ctx.restore();

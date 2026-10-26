@@ -1,0 +1,24 @@
+{
+  "archive_records": 478,
+  "archive_missing": [],
+  "archive_hash_mismatches": [],
+  "deletion_manifest_items": 183,
+  "deleted_tracked_files": 191,
+  "deleted_tracked_not_in_archive": [],
+  "manifest_paths_still_present": [],
+  "runtime_files": 264,
+  "precache_entries": 264,
+  "runtime_hash_mismatches": [],
+  "bundle_extra_files": [],
+  "rebuild_matches": {
+    "data/health_365.json": true,
+    "js/calendar-data.js": true
+  },
+  "staged_additions_missing_on_disk": [
+    "review/HISTORICAL_RELEASE_GOVERNANCE_2026-10-16.md"
+  ],
+  "retained_approval_related_field_counts": {
+    "governing_decision_id": 131,
+    "workflow_label": 131
+  }
+}

@@ -1,5 +1,7 @@
 # HealthCalendar365 — Full-Calendar Content & Structure Audit Report
 
+> **Note (2026-10-27):** the approval/governance/acceptance files cited in this historical record were removed from the project and survive only in the offline recovery archive. The record itself is unchanged.
+
 
 > **CURRENT-STATE NOTICE (2026-10-18):** This document contains historical checkpoint counts. The authoritative current state is `13 APPROVED / 27 PENDING / 0 REJECTED`; all 40 clinical copies are approved, while 27 records retain other human gates. See `review/approval_ledger_reconciliation_2026-10-18.json`.
 **Date:** October 16, 2026  

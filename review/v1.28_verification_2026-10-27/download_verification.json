@@ -1,0 +1,34 @@
+[
+  {
+    "mode": "unmodified",
+    "format": "square",
+    "failure": null,
+    "bytes": 1446483,
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "mode": "unmodified",
+    "format": "vertical",
+    "failure": null,
+    "bytes": 2122589,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "mode": "delayed-revoke-test-only",
+    "format": "square",
+    "failure": null,
+    "bytes": 1446483,
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "mode": "delayed-revoke-test-only",
+    "format": "vertical",
+    "failure": null,
+    "bytes": 2122589,
+    "width": 1080,
+    "height": 1920
+  }
+]

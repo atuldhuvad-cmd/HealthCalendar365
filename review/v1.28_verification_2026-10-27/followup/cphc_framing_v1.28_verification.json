@@ -1,0 +1,8 @@
+{
+  "renders": 840,
+  "sourcePhotos": 140,
+  "failures": [],
+  "errors": [],
+  "rendererScopeCheck": "PASS: published v1.27 differs from deployed v1.26 only by CPHC photo profiles and optional CPHC vertical badge corners; working-tree renderer equals published v1.27 plus renderer_v1.27_to_v1.28.patch",
+  "visualReview": "PENDING"
+}

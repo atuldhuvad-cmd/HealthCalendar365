@@ -1,7 +1,7 @@
 /**
  * Main Application Logic for 365-Day Health Poster Studio (India)
  * Handles state, day selection, format & language toggling, photo upload/swap,
- * AI prompt copying, WhatsApp sharing, single download, and batch Oct 15-21 downloads.
+ * AI prompt copying, WhatsApp sharing, and single-poster downloads.
  */
 
 class HealthPosterApp {
@@ -48,8 +48,7 @@ class HealthPosterApp {
     // 3. Setup Event Listeners
     this.setupEventListeners();
 
-    // 4. Populate Month/Day selector and Quick Week Bar
-    this.setupQuickWeekBar();
+    // 4. Populate Month/Day selector
     this.populateDateSelect();
 
     // 5. Load and Display Default Day (October 15)
@@ -57,30 +56,6 @@ class HealthPosterApp {
 
     // Register Service Worker for Offline PWA
     this.registerServiceWorker();
-  }
-
-  // Quick Week Bar (Oct 15 - Oct 21 Observance Posters)
-  setupQuickWeekBar() {
-    const weekContainer = document.getElementById('quickWeekPills');
-    if (!weekContainer) return;
-
-    // Grab all posters for Oct 15-21
-    const octPosters = this.calendarData.filter(d => d.month === 10 && d.day >= 15 && d.day <= 21);
-
-    weekContainer.innerHTML = '';
-    octPosters.forEach((d) => {
-      const btn = document.createElement('button');
-      btn.className = `week-pill-btn ${d.id === this.currentDayId ? 'active' : ''}`;
-      btn.setAttribute('data-day-id', d.id);
-      btn.innerHTML = `
-        <span class="pill-date">${d.date_en}</span>
-        <span class="pill-topic">${d.title_en}</span>
-      `;
-      btn.addEventListener('click', () => {
-        this.selectDay(d.id);
-      });
-      weekContainer.appendChild(btn);
-    });
   }
 
   // Populate Month & Day Selectors and Search
@@ -92,7 +67,13 @@ class HealthPosterApp {
     this.calendarData.forEach((day) => {
       const opt = document.createElement('option');
       opt.value = day.id;
-      opt.textContent = `${day.date_en} (${day.date_gu}) - ${day.title_en}`;
+      const pending = (day.observance_schedule_2026 || [])
+        .filter((item) => item.poster_status === 'PENDING_BILINGUAL_CONTENT_AND_IMAGES')
+        .map((item) => item.title_en);
+      const pendingSuffix = pending.length
+        ? ` | Verified schedule: ${pending.join('; ')} [posters pending]`
+        : '';
+      opt.textContent = `${day.date_en} (${day.date_gu}) - ${day.title_en}${pendingSuffix}`;
       datePicker.appendChild(opt);
     });
     datePicker.value = this.currentDayId;
@@ -127,7 +108,6 @@ class HealthPosterApp {
     // Export Buttons
     document.getElementById('downloadPosterBtn')?.addEventListener('click', () => this.downloadSinglePoster());
     document.getElementById('shareWhatsappBtn')?.addEventListener('click', () => this.shareToWhatsApp());
-    document.getElementById('batchDownloadBtn')?.addEventListener('click', () => this.batchDownloadOctWeek());
 
     // Settings Modal
     document.getElementById('openSettingsBtn')?.addEventListener('click', () => this.openSettingsModal());
@@ -146,6 +126,11 @@ class HealthPosterApp {
     // Search Input
     const searchInput = document.getElementById('searchDayInput');
     searchInput?.addEventListener('input', (e) => this.handleSearch(e.target.value));
+    searchInput?.addEventListener('keydown', (e) => this.handleSearchKeydown(e));
+    document.getElementById('searchResultsList')?.addEventListener('click', (e) => {
+      const opt = e.target.closest('[data-day-id]');
+      if (opt) this.pickSearchResult(opt.getAttribute('data-day-id'));
+    });
 
     // Interactive Canvas Card Click
     this.previewCanvas?.addEventListener('click', (e) => this.handleCanvasClick(e));
@@ -177,11 +162,6 @@ class HealthPosterApp {
 
     this.currentDayId = dayId;
     this.currentDay = day;
-
-    // Update Quick Week Pills active state
-    document.querySelectorAll('.week-pill-btn').forEach((btn) => {
-      btn.classList.toggle('active', btn.getAttribute('data-day-id') === dayId);
-    });
 
     // Update Date Picker input
     const datePicker = document.getElementById('dateSelectInput');
@@ -247,6 +227,7 @@ class HealthPosterApp {
   async setFormat(format) {
     if (this.currentFormat === format) return;
     this.currentFormat = format;
+    this.zoomLevel = 1.0;
 
     // Update button states
     document.querySelectorAll('[data-format-toggle]').forEach((btn) => {
@@ -254,6 +235,12 @@ class HealthPosterApp {
     });
 
     this.canvasWrapper.setAttribute('data-aspect', format);
+    const aspectBadge = document.getElementById('canvasAspectBadge');
+    if (aspectBadge) {
+      aspectBadge.textContent = format === 'vertical'
+        ? '1080 × 1920 px High-Res'
+        : '1080 × 1080 px High-Res';
+    }
     await this.renderPoster();
   }
 
@@ -304,8 +291,11 @@ class HealthPosterApp {
     const container = this.canvasWrapper;
     if (!container || !this.previewCanvas) return;
 
-    const contW = container.clientWidth - 40;
-    const contH = container.clientHeight - 40;
+    const viewport = container.parentElement;
+    if (!viewport) return;
+
+    const contW = Math.max(1, viewport.clientWidth - 40);
+    const contH = Math.max(1, viewport.clientHeight - 40);
     const canvasW = this.previewCanvas.width;
     const canvasH = this.previewCanvas.height;
 
@@ -314,7 +304,9 @@ class HealthPosterApp {
     const fitScale = Math.min(scaleX, scaleY, 1.0);
 
     const effectiveScale = fitScale * this.zoomLevel;
-    this.previewCanvas.style.transform = `scale(${effectiveScale})`;
+    this.previewCanvas.style.width = `${Math.round(canvasW * effectiveScale)}px`;
+    this.previewCanvas.style.height = `${Math.round(canvasH * effectiveScale)}px`;
+    this.previewCanvas.style.transform = 'none';
   }
 
   adjustZoom(delta) {
@@ -666,82 +658,133 @@ class HealthPosterApp {
     }, 'image/png');
   }
 
-  // Batch Download All 7 Days (Oct 15 - Oct 21)
-  async batchDownloadOctWeek() {
-    const octWeekIds = ['10-15', '10-16', '10-17', '10-18', '10-19', '10-20', '10-21'];
-    const weekDays = this.calendarData.filter((d) => octWeekIds.includes(d.id));
+  // Search filter
+  // Build one search entry per poster title and per pending scheduled observance
+  buildSearchEntries() {
+    const norm = (s) => String(s || '').normalize('NFC').toLowerCase();
+    const entries = [];
+    this.calendarData.forEach((d, order) => {
+      const dateText = `${d.date_en} ${d.date_gu}`;
+      entries.push({
+        day: d, order, pending: false, title: d.title_en, titleGu: d.title_gu,
+        hay: norm(`${d.title_en} ${d.title_gu} ${d.theme_en} ${dateText}`)
+      });
+      (d.observance_schedule_2026 || []).forEach((item) => {
+        if (item.poster_status === 'PENDING_BILINGUAL_CONTENT_AND_IMAGES') {
+          entries.push({
+            day: d, order, pending: true, title: item.title_en, titleGu: '',
+            hay: norm(`${item.title_en} ${dateText}`)
+          });
+        } else if (norm(item.title_en) !== norm(d.title_en)) {
+          entries.push({
+            day: d, order, pending: false, title: item.title_en, titleGu: '',
+            hay: norm(`${item.title_en} ${dateText}`)
+          });
+        }
+      });
+    });
+    return entries;
+  }
 
-    if (weekDays.length === 0) {
-      this.showToast('Oct 15-21 days not found', 'error');
+  // Search observances by English/Gujarati title, theme or date; list every match
+  handleSearch(query) {
+    const input = document.getElementById('searchDayInput');
+    const list = document.getElementById('searchResultsList');
+    const status = document.getElementById('searchStatus');
+    if (!list || !status) return;
+
+    const q = String(query || '').normalize('NFC').toLowerCase().trim();
+    this.searchActive = -1;
+    list.innerHTML = '';
+    input?.removeAttribute('aria-activedescendant');
+
+    if (!q) {
+      list.hidden = true;
+      status.textContent = '';
+      input?.setAttribute('aria-expanded', 'false');
       return;
     }
 
-    this.showProgressModal(true, 'Rendering and downloading full week (Oct 15–21)...');
+    if (!this.searchEntries) this.searchEntries = this.buildSearchEntries();
+    const matches = this.searchEntries
+      .filter((e) => e.hay.includes(q))
+      .sort((a, b) => a.order - b.order);
 
-    for (let i = 0; i < weekDays.length; i++) {
-      const day = weekDays[i];
-      const step = i + 1;
-      this.updateProgressModal(step, weekDays.length, `Generating ${day.date_en} (${day.title_en})...`);
+    list.hidden = false;
+    input?.setAttribute('aria-expanded', 'true');
 
-      // Check if custom photos exist for this day
-      const dayCustomPhotos = {};
-      for (let idx = 1; idx <= 4; idx++) {
-        const saved = await window.appStorage.getPhoto(day.id, idx);
-        if (saved) dayCustomPhotos[idx] = saved;
-      }
-
-      // Render canvas with mandatory card image failure guard
-      let canvas;
-      try {
-        canvas = await this.renderer.exportPoster(day, {
-          format: this.currentFormat,
-          language: this.currentLanguage,
-          settings: this.settings,
-          customPhotos: dayCustomPhotos
-        });
-      } catch (err) {
-        console.error(`Skipping Day ${day.id}:`, err);
-        this.showToast(`⚠️ Skipped Day ${day.id}: card photo missing or unreadable`, 'error');
-        continue;
-      }
-
-      // Download file with short timeout between downloads to prevent browser throttling
-      await new Promise((resolve) => {
-        canvas.toBlob((blob) => {
-          const safeName = day.title_en.replace(/[^a-zA-Z0-9]/g, '_').substring(0, 25);
-          const filename = `${day.id}_${safeName}_${this.currentFormat}.png`;
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          URL.revokeObjectURL(url);
-
-          setTimeout(resolve, 600); // 600ms pause between downloads
-        }, 'image/png');
-      });
+    if (!matches.length) {
+      status.textContent = 'No observances match your search.';
+      const li = document.createElement('li');
+      li.className = 'obs-result-empty';
+      li.textContent = 'No observances match your search.';
+      list.appendChild(li);
+      return;
     }
 
-    this.showProgressModal(false);
-    this.showToast('🎉 All 7 Days (Oct 15–21) downloaded successfully!', 'success');
+    status.textContent = `${matches.length} ${matches.length === 1 ? 'result' : 'results'}. Use arrow keys and Enter to open one.`;
+    matches.forEach((m, i) => {
+      const li = document.createElement('li');
+      li.id = `searchResult${i}`;
+      li.className = 'obs-result';
+      li.setAttribute('role', 'option');
+      li.setAttribute('aria-selected', 'false');
+      li.setAttribute('data-day-id', m.day.id);
+      const badge = m.pending
+        ? '<span class="obs-badge obs-badge-pending">Scheduled, poster pending</span>'
+        : '<span class="obs-badge obs-badge-ready">Poster available</span>';
+      const gu = m.titleGu
+        ? `<span class="obs-result-gu">${this.escapeHtml(m.titleGu)}</span>`
+        : (m.pending
+          ? `<span class="obs-result-gu">No poster for this observance yet. Opens this date's poster: ${this.escapeHtml(m.day.title_en)}</span>`
+          : '');
+      li.innerHTML = `
+        <span class="obs-result-date">${this.escapeHtml(m.day.date_en)} · ${this.escapeHtml(m.day.date_gu)}</span>
+        <span class="obs-result-title">${this.escapeHtml(m.title)}</span>
+        ${gu}${badge}`;
+      list.appendChild(li);
+    });
   }
 
-  // Search filter
-  handleSearch(query) {
-    if (!query) return;
-    const q = query.toLowerCase().trim();
-    const match = this.calendarData.find(
-      (d) =>
-        d.date_en.toLowerCase().includes(q) ||
-        d.title_en.toLowerCase().includes(q) ||
-        d.title_gu.toLowerCase().includes(q) ||
-        d.theme_en.toLowerCase().includes(q)
-    );
-    if (match) {
-      this.selectDay(match.id);
+  escapeHtml(s) {
+    return String(s ?? '').replace(/[&<>"']/g, (c) => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    ));
+  }
+
+  handleSearchKeydown(e) {
+    const list = document.getElementById('searchResultsList');
+    const input = document.getElementById('searchDayInput');
+    const opts = list ? [...list.querySelectorAll('[role="option"]')] : [];
+    if (e.key === 'Escape') {
+      input.value = '';
+      this.handleSearch('');
+      return;
     }
+    if (!opts.length) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const step = e.key === 'ArrowDown' ? 1 : -1;
+      this.searchActive = (this.searchActive + step + opts.length) % opts.length;
+      opts.forEach((o, i) => {
+        o.classList.toggle('active', i === this.searchActive);
+        o.setAttribute('aria-selected', String(i === this.searchActive));
+      });
+      const cur = opts[this.searchActive];
+      input.setAttribute('aria-activedescendant', cur.id);
+      cur.scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && this.searchActive >= 0) {
+      e.preventDefault();
+      this.pickSearchResult(opts[this.searchActive].getAttribute('data-day-id'));
+    }
+  }
+
+  // Load the chosen date through the normal day navigation
+  pickSearchResult(dayId) {
+    const input = document.getElementById('searchDayInput');
+    if (input) input.value = '';
+    this.handleSearch('');
+    this.selectDay(dayId);
   }
 
   // Doctor Branding Modal
@@ -796,26 +839,6 @@ class HealthPosterApp {
     }, 3200);
   }
 
-  // Progress Modal for Batch Download
-  showProgressModal(show, title = '') {
-    const modal = document.getElementById('progressModal');
-    if (!modal) return;
-    if (show) {
-      document.getElementById('progressModalTitle').textContent = title;
-      modal.classList.add('active');
-    } else {
-      modal.classList.remove('active');
-    }
-  }
-
-  updateProgressModal(current, total, detail) {
-    const pct = Math.round((current / total) * 100);
-    const bar = document.getElementById('progressBarFill');
-    const label = document.getElementById('progressDetail');
-    if (bar) bar.style.width = `${pct}%`;
-    if (label) label.textContent = `${detail} (${current}/${total} - ${pct}%)`;
-  }
-
   // Service Worker Registration for PWA Offline Functionality
   registerServiceWorker() {
     if ('serviceWorker' in navigator) {
@@ -838,4 +861,5 @@ class HealthPosterApp {
 // Initialize on DOMContentLoaded
 window.addEventListener('DOMContentLoaded', () => {
   window.healthApp = new HealthPosterApp();
+  window.healthPosterApp = window.healthApp;
 });

@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "01-18",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "01-19",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "01-23",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "02-01",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "સાપ કરડે ત્યારે દર્દીને દોડવા ન દો; દંખવાળા અંગને પાટિયું બાંધી સાવ સ્થિર રાખો જેથી ઝેર આખા શરીરમાં ઝડપથી ન ફેલાય.",
+        "desc_en": "Immobilize bitten extremity with a splint and crepe bandage just like a fracture. Keep limb below heart level; reassure the victim.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Immobilize Bitten Limb with a Rigid Splint",
+        "title_gu": "દંખવાળા હાથ-પગને પાટિયું બાંધી સ્થિર રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "વિલંબ કર્યા વગર ૧૦૮ દ્વારા સીધા સરકારી હોસ્પિટલ પહોંચો; ત્યાં મફત ઉપલબ્ધ એન્ટિ-સ્નેક વેનમ (ASV) જ એકમાત્ર જીવનરક્ષક ઈલાજ છે.",
+        "desc_en": "Anti-Snake Venom (ASV) is the only scientific, life-saving antidote for Indian cobra, krait, Russell's viper, and saw-scaled viper bites.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Rush to CHC / District Hospital for Free ASV",
+        "title_gu": "તાત્કાલિક સરકારી હોસ્પિટલ પહોંચી ASV લો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "દંખ પર બ્લેડથી ચીરો ન મૂકો, મોંથી ચૂસશો નહીં કે કચકચાવીને દોરી ન બાંધો; તેનાથી અંગ સડી જાય છે અને કાપવું પડી શકે છે.",
+        "desc_en": "Tight tourniquets stop arterial blood flow causing gangrene and amputation. Cutting with razor blades introduces fatal tetanus and hemorrhage.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Cut, Suck, Bleed or Tie Tight Tourniquets",
+        "title_gu": "ચીરો મૂકવો, ચૂસવું કે કચકચાવીને દોરી ન બાંધવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "સાપ કરડવા પર ઝાડ-ફૂંક કે પથ્થર ઘસવામાં એક મિનિટ પણ ન બગાડો; સમયસર સક્ષમ હોસ્પિટલ પહોંચી એન્ટિ-સ્નેક વેનમ લેવાથી દર્દીનો જીવ બચાવી શકાય છે.",
+        "desc_en": "Over 70% of snakes are non-venomous; never waste critical minutes on faith healers. Reaching a capable hospital promptly for anti-snake venom is life-saving.",
+        "ai_prompt": "Documentary realistic medical photo: Emergency department staff administering intravenous anti-snake venom under physician monitoring in a Community Health Centre.. Authentic Indian primary healthcare setting.",
+        "title_en": "Prompt Anti-Snake Venom Saves Lives",
+        "title_gu": "સમયસર એન્ટિ-સ્નેક વેનમ જીવન બચાવે છે"
+      }
+    ]
+  },
+  {
+    "id": "02-22",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "02-23",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "02-25",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "02-27",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "03-05",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "સાપ કરડે ત્યારે દર્દીને દોડવા ન દો; દંખવાળા અંગને પાટિયું બાંધી સાવ સ્થિર રાખો જેથી ઝેર આખા શરીરમાં ઝડપથી ન ફેલાય.",
+        "desc_en": "Immobilize bitten extremity with a splint and crepe bandage just like a fracture. Keep limb below heart level; reassure the victim.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Immobilize Bitten Limb with a Rigid Splint",
+        "title_gu": "દંખવાળા હાથ-પગને પાટિયું બાંધી સ્થિર રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "વિલંબ કર્યા વગર ૧૦૮ દ્વારા સીધા સરકારી હોસ્પિટલ પહોંચો; ત્યાં મફત ઉપલબ્ધ એન્ટિ-સ્નેક વેનમ (ASV) જ એકમાત્ર જીવનરક્ષક ઈલાજ છે.",
+        "desc_en": "Anti-Snake Venom (ASV) is the only scientific, life-saving antidote for Indian cobra, krait, Russell's viper, and saw-scaled viper bites.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Rush to CHC / District Hospital for Free ASV",
+        "title_gu": "તાત્કાલિક સરકારી હોસ્પિટલ પહોંચી ASV લો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "દંખ પર બ્લેડથી ચીરો ન મૂકો, મોંથી ચૂસશો નહીં કે કચકચાવીને દોરી ન બાંધો; તેનાથી અંગ સડી જાય છે અને કાપવું પડી શકે છે.",
+        "desc_en": "Tight tourniquets stop arterial blood flow causing gangrene and amputation. Cutting with razor blades introduces fatal tetanus and hemorrhage.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Cut, Suck, Bleed or Tie Tight Tourniquets",
+        "title_gu": "ચીરો મૂકવો, ચૂસવું કે કચકચાવીને દોરી ન બાંધવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "સાપ કરડવા પર ઝાડ-ફૂંક કે પથ્થર ઘસવામાં એક મિનિટ પણ ન બગાડો; સમયસર સક્ષમ હોસ્પિટલ પહોંચી એન્ટિ-સ્નેક વેનમ લેવાથી દર્દીનો જીવ બચાવી શકાય છે.",
+        "desc_en": "Over 70% of snakes are non-venomous; never waste critical minutes on faith healers. Reaching a capable hospital promptly for anti-snake venom is life-saving.",
+        "ai_prompt": "Documentary realistic medical photo: Emergency department staff administering intravenous anti-snake venom under physician monitoring in a Community Health Centre.. Authentic Indian primary healthcare setting.",
+        "title_en": "Prompt Anti-Snake Venom Saves Lives",
+        "title_gu": "સમયસર એન્ટિ-સ્નેક વેનમ જીવન બચાવે છે"
+      }
+    ]
+  },
+  {
+    "id": "03-19",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "શાળા અને આંગણવાડીમાં આવતી આરબીએસકે ટીમ પાસે બાળકની જન્મજાત ખોડખાંપણ, આંખ, કાન અને પોષણની તપાસ કરાવો.",
+        "desc_en": "Support RBSK doctor teams screening children aged 0-18 for Birth Defects, Deficiencies, Childhood Diseases, and Developmental Delays.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Screen for 4Ds with RBSK Mobile Health Teams",
+        "title_gu": "શાળા-આંગણવાડીમાં RBSK તપાસ કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "બોલવામાં, સાંભળવામાં કે ચાલવામાં મુશ્કેલી હોય તો જિલ્લા હોસ્પિટલના DEIC સેન્ટર પર મફત ફિઝિયોથેરાપી અને સ્પીચ થેરાપી મેળવો.",
+        "desc_en": "Refer children with developmental delays or sensory impairments to DEIC for free comprehensive therapy, hearing aids, and surgeries.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Utilize District Early Intervention Centers (DEIC)",
+        "title_gu": "DEIC કેન્દ્ર પર મફત થેરાપી મેળવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બાળકની આંખમાં ત્રાસાદોષ હોય કે મોડું બોલે તો આપમેળે મટી જશે તેમ માની બેસી ન રહો; વહેલી તપાસથી ખામી દૂર થાય છે.",
+        "desc_en": "Do not assume children will naturally outgrow crossed eyes or walking delays; early intervention before age 3 produces best outcomes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Ignore Squint, Limp or Delayed Speech",
+        "title_gu": "આંખનો ત્રાસાદોષ કે બહેરાશ ન અવગણવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "હોઠ ફાટેલો હોય, પગનો પંજો વળેલો હોય કે જન્મજાત મોતિયો હોય તો અંધશ્રદ્ધામાં ન પડો; સરકારી RBSK યોજના હેઠળ નિષ્ણાત સર્જરી અને થેરાપી દ્વારા સુધારાત્મક સારવાર ઉપલબ્ધ છે.",
+        "desc_en": "Conditions like cleft lip, clubfoot, and congenital cataract can be effectively treated with government-supported corrective surgeries and therapy under RBSK.",
+        "ai_prompt": "Documentary realistic medical photo: Pediatric orthopedic surgeon examining an infant treated for clubfoot with gentle casting alongside smiling parents at a DEIC.. Authentic Indian primary healthcare setting.",
+        "title_en": "Free Corrective Surgery & Therapy Under RBSK",
+        "title_gu": "RBSK હેઠળ મફત સુધારાત્મક સર્જરી અને થેરાપી"
+      }
+    ]
+  },
+  {
+    "id": "03-26",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "03-27",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "03-29",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "03-31",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "04-09",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "સાપ કરડે ત્યારે દર્દીને દોડવા ન દો; દંખવાળા અંગને પાટિયું બાંધી સાવ સ્થિર રાખો જેથી ઝેર આખા શરીરમાં ઝડપથી ન ફેલાય.",
+        "desc_en": "Immobilize bitten extremity with a splint and crepe bandage just like a fracture. Keep limb below heart level; reassure the victim.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Immobilize Bitten Limb with a Rigid Splint",
+        "title_gu": "દંખવાળા હાથ-પગને પાટિયું બાંધી સ્થિર રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "વિલંબ કર્યા વગર ૧૦૮ દ્વારા સીધા સરકારી હોસ્પિટલ પહોંચો; ત્યાં મફત ઉપલબ્ધ એન્ટિ-સ્નેક વેનમ (ASV) જ એકમાત્ર જીવનરક્ષક ઈલાજ છે.",
+        "desc_en": "Anti-Snake Venom (ASV) is the only scientific, life-saving antidote for Indian cobra, krait, Russell's viper, and saw-scaled viper bites.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Rush to CHC / District Hospital for Free ASV",
+        "title_gu": "તાત્કાલિક સરકારી હોસ્પિટલ પહોંચી ASV લો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "દંખ પર બ્લેડથી ચીરો ન મૂકો, મોંથી ચૂસશો નહીં કે કચકચાવીને દોરી ન બાંધો; તેનાથી અંગ સડી જાય છે અને કાપવું પડી શકે છે.",
+        "desc_en": "Tight tourniquets stop arterial blood flow causing gangrene and amputation. Cutting with razor blades introduces fatal tetanus and hemorrhage.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Cut, Suck, Bleed or Tie Tight Tourniquets",
+        "title_gu": "ચીરો મૂકવો, ચૂસવું કે કચકચાવીને દોરી ન બાંધવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "સાપ કરડવા પર ઝાડ-ફૂંક કે પથ્થર ઘસવામાં એક મિનિટ પણ ન બગાડો; સમયસર સક્ષમ હોસ્પિટલ પહોંચી એન્ટિ-સ્નેક વેનમ લેવાથી દર્દીનો જીવ બચાવી શકાય છે.",
+        "desc_en": "Over 70% of snakes are non-venomous; never waste critical minutes on faith healers. Reaching a capable hospital promptly for anti-snake venom is life-saving.",
+        "ai_prompt": "Documentary realistic medical photo: Emergency department staff administering intravenous anti-snake venom under physician monitoring in a Community Health Centre.. Authentic Indian primary healthcare setting.",
+        "title_en": "Prompt Anti-Snake Venom Saves Lives",
+        "title_gu": "સમયસર એન્ટિ-સ્નેક વેનમ જીવન બચાવે છે"
+      }
+    ]
+  },
+  {
+    "id": "04-30",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "05-02",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "05-04",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "05-13",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "સાપ કરડે ત્યારે દર્દીને દોડવા ન દો; દંખવાળા અંગને પાટિયું બાંધી સાવ સ્થિર રાખો જેથી ઝેર આખા શરીરમાં ઝડપથી ન ફેલાય.",
+        "desc_en": "Immobilize bitten extremity with a splint and crepe bandage just like a fracture. Keep limb below heart level; reassure the victim.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Immobilize Bitten Limb with a Rigid Splint",
+        "title_gu": "દંખવાળા હાથ-પગને પાટિયું બાંધી સ્થિર રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "વિલંબ કર્યા વગર ૧૦૮ દ્વારા સીધા સરકારી હોસ્પિટલ પહોંચો; ત્યાં મફત ઉપલબ્ધ એન્ટિ-સ્નેક વેનમ (ASV) જ એકમાત્ર જીવનરક્ષક ઈલાજ છે.",
+        "desc_en": "Anti-Snake Venom (ASV) is the only scientific, life-saving antidote for Indian cobra, krait, Russell's viper, and saw-scaled viper bites.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Rush to CHC / District Hospital for Free ASV",
+        "title_gu": "તાત્કાલિક સરકારી હોસ્પિટલ પહોંચી ASV લો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "દંખ પર બ્લેડથી ચીરો ન મૂકો, મોંથી ચૂસશો નહીં કે કચકચાવીને દોરી ન બાંધો; તેનાથી અંગ સડી જાય છે અને કાપવું પડી શકે છે.",
+        "desc_en": "Tight tourniquets stop arterial blood flow causing gangrene and amputation. Cutting with razor blades introduces fatal tetanus and hemorrhage.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Cut, Suck, Bleed or Tie Tight Tourniquets",
+        "title_gu": "ચીરો મૂકવો, ચૂસવું કે કચકચાવીને દોરી ન બાંધવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "સાપ કરડવા પર ઝાડ-ફૂંક કે પથ્થર ઘસવામાં એક મિનિટ પણ ન બગાડો; સમયસર સક્ષમ હોસ્પિટલ પહોંચી એન્ટિ-સ્નેક વેનમ લેવાથી દર્દીનો જીવ બચાવી શકાય છે.",
+        "desc_en": "Over 70% of snakes are non-venomous; never waste critical minutes on faith healers. Reaching a capable hospital promptly for anti-snake venom is life-saving.",
+        "ai_prompt": "Documentary realistic medical photo: Emergency department staff administering intravenous anti-snake venom under physician monitoring in a Community Health Centre.. Authentic Indian primary healthcare setting.",
+        "title_en": "Prompt Anti-Snake Venom Saves Lives",
+        "title_gu": "સમયસર એન્ટિ-સ્નેક વેનમ જીવન બચાવે છે"
+      }
+    ]
+  },
+  {
+    "id": "05-27",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "શાળા અને આંગણવાડીમાં આવતી આરબીએસકે ટીમ પાસે બાળકની જન્મજાત ખોડખાંપણ, આંખ, કાન અને પોષણની તપાસ કરાવો.",
+        "desc_en": "Support RBSK doctor teams screening children aged 0-18 for Birth Defects, Deficiencies, Childhood Diseases, and Developmental Delays.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Screen for 4Ds with RBSK Mobile Health Teams",
+        "title_gu": "શાળા-આંગણવાડીમાં RBSK તપાસ કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "બોલવામાં, સાંભળવામાં કે ચાલવામાં મુશ્કેલી હોય તો જિલ્લા હોસ્પિટલના DEIC સેન્ટર પર મફત ફિઝિયોથેરાપી અને સ્પીચ થેરાપી મેળવો.",
+        "desc_en": "Refer children with developmental delays or sensory impairments to DEIC for free comprehensive therapy, hearing aids, and surgeries.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Utilize District Early Intervention Centers (DEIC)",
+        "title_gu": "DEIC કેન્દ્ર પર મફત થેરાપી મેળવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બાળકની આંખમાં ત્રાસાદોષ હોય કે મોડું બોલે તો આપમેળે મટી જશે તેમ માની બેસી ન રહો; વહેલી તપાસથી ખામી દૂર થાય છે.",
+        "desc_en": "Do not assume children will naturally outgrow crossed eyes or walking delays; early intervention before age 3 produces best outcomes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Ignore Squint, Limp or Delayed Speech",
+        "title_gu": "આંખનો ત્રાસાદોષ કે બહેરાશ ન અવગણવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "હોઠ ફાટેલો હોય, પગનો પંજો વળેલો હોય કે જન્મજાત મોતિયો હોય તો અંધશ્રદ્ધામાં ન પડો; સરકારી RBSK યોજના હેઠળ નિષ્ણાત સર્જરી અને થેરાપી દ્વારા સુધારાત્મક સારવાર ઉપલબ્ધ છે.",
+        "desc_en": "Conditions like cleft lip, clubfoot, and congenital cataract can be effectively treated with government-supported corrective surgeries and therapy under RBSK.",
+        "ai_prompt": "Documentary realistic medical photo: Pediatric orthopedic surgeon examining an infant treated for clubfoot with gentle casting alongside smiling parents at a DEIC.. Authentic Indian primary healthcare setting.",
+        "title_en": "Free Corrective Surgery & Therapy Under RBSK",
+        "title_gu": "RBSK હેઠળ મફત સુધારાત્મક સર્જરી અને થેરાપી"
+      }
+    ]
+  },
+  {
+    "id": "06-03",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "06-04",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "06-06",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "06-08",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "06-17",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "સાપ કરડે ત્યારે દર્દીને દોડવા ન દો; દંખવાળા અંગને પાટિયું બાંધી સાવ સ્થિર રાખો જેથી ઝેર આખા શરીરમાં ઝડપથી ન ફેલાય.",
+        "desc_en": "Immobilize bitten extremity with a splint and crepe bandage just like a fracture. Keep limb below heart level; reassure the victim.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Immobilize Bitten Limb with a Rigid Splint",
+        "title_gu": "દંખવાળા હાથ-પગને પાટિયું બાંધી સ્થિર રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "વિલંબ કર્યા વગર ૧૦૮ દ્વારા સીધા સરકારી હોસ્પિટલ પહોંચો; ત્યાં મફત ઉપલબ્ધ એન્ટિ-સ્નેક વેનમ (ASV) જ એકમાત્ર જીવનરક્ષક ઈલાજ છે.",
+        "desc_en": "Anti-Snake Venom (ASV) is the only scientific, life-saving antidote for Indian cobra, krait, Russell's viper, and saw-scaled viper bites.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Rush to CHC / District Hospital for Free ASV",
+        "title_gu": "તાત્કાલિક સરકારી હોસ્પિટલ પહોંચી ASV લો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "દંખ પર બ્લેડથી ચીરો ન મૂકો, મોંથી ચૂસશો નહીં કે કચકચાવીને દોરી ન બાંધો; તેનાથી અંગ સડી જાય છે અને કાપવું પડી શકે છે.",
+        "desc_en": "Tight tourniquets stop arterial blood flow causing gangrene and amputation. Cutting with razor blades introduces fatal tetanus and hemorrhage.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Cut, Suck, Bleed or Tie Tight Tourniquets",
+        "title_gu": "ચીરો મૂકવો, ચૂસવું કે કચકચાવીને દોરી ન બાંધવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "સાપ કરડવા પર ઝાડ-ફૂંક કે પથ્થર ઘસવામાં એક મિનિટ પણ ન બગાડો; સમયસર સક્ષમ હોસ્પિટલ પહોંચી એન્ટિ-સ્નેક વેનમ લેવાથી દર્દીનો જીવ બચાવી શકાય છે.",
+        "desc_en": "Over 70% of snakes are non-venomous; never waste critical minutes on faith healers. Reaching a capable hospital promptly for anti-snake venom is life-saving.",
+        "ai_prompt": "Documentary realistic medical photo: Emergency department staff administering intravenous anti-snake venom under physician monitoring in a Community Health Centre.. Authentic Indian primary healthcare setting.",
+        "title_en": "Prompt Anti-Snake Venom Saves Lives",
+        "title_gu": "સમયસર એન્ટિ-સ્નેક વેનમ જીવન બચાવે છે"
+      }
+    ]
+  },
+  {
+    "id": "07-07",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "07-10",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "07-12",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "08-11",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "08-12",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "08-14",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "08-16",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "09-08",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "શાળા અને આંગણવાડીમાં આવતી આરબીએસકે ટીમ પાસે બાળકની જન્મજાત ખોડખાંપણ, આંખ, કાન અને પોષણની તપાસ કરાવો.",
+        "desc_en": "Support RBSK doctor teams screening children aged 0-18 for Birth Defects, Deficiencies, Childhood Diseases, and Developmental Delays.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Screen for 4Ds with RBSK Mobile Health Teams",
+        "title_gu": "શાળા-આંગણવાડીમાં RBSK તપાસ કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "બોલવામાં, સાંભળવામાં કે ચાલવામાં મુશ્કેલી હોય તો જિલ્લા હોસ્પિટલના DEIC સેન્ટર પર મફત ફિઝિયોથેરાપી અને સ્પીચ થેરાપી મેળવો.",
+        "desc_en": "Refer children with developmental delays or sensory impairments to DEIC for free comprehensive therapy, hearing aids, and surgeries.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Utilize District Early Intervention Centers (DEIC)",
+        "title_gu": "DEIC કેન્દ્ર પર મફત થેરાપી મેળવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બાળકની આંખમાં ત્રાસાદોષ હોય કે મોડું બોલે તો આપમેળે મટી જશે તેમ માની બેસી ન રહો; વહેલી તપાસથી ખામી દૂર થાય છે.",
+        "desc_en": "Do not assume children will naturally outgrow crossed eyes or walking delays; early intervention before age 3 produces best outcomes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Ignore Squint, Limp or Delayed Speech",
+        "title_gu": "આંખનો ત્રાસાદોષ કે બહેરાશ ન અવગણવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "હોઠ ફાટેલો હોય, પગનો પંજો વળેલો હોય કે જન્મજાત મોતિયો હોય તો અંધશ્રદ્ધામાં ન પડો; સરકારી RBSK યોજના હેઠળ નિષ્ણાત સર્જરી અને થેરાપી દ્વારા સુધારાત્મક સારવાર ઉપલબ્ધ છે.",
+        "desc_en": "Conditions like cleft lip, clubfoot, and congenital cataract can be effectively treated with government-supported corrective surgeries and therapy under RBSK.",
+        "ai_prompt": "Documentary realistic medical photo: Pediatric orthopedic surgeon examining an infant treated for clubfoot with gentle casting alongside smiling parents at a DEIC.. Authentic Indian primary healthcare setting.",
+        "title_en": "Free Corrective Surgery & Therapy Under RBSK",
+        "title_gu": "RBSK હેઠળ મફત સુધારાત્મક સર્જરી અને થેરાપી"
+      }
+    ]
+  },
+  {
+    "id": "09-16",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "09-18",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "09-20",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "11-02",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "સાપ કરડે ત્યારે દર્દીને દોડવા ન દો; દંખવાળા અંગને પાટિયું બાંધી સાવ સ્થિર રાખો જેથી ઝેર આખા શરીરમાં ઝડપથી ન ફેલાય.",
+        "desc_en": "Immobilize bitten extremity with a splint and crepe bandage just like a fracture. Keep limb below heart level; reassure the victim.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Immobilize Bitten Limb with a Rigid Splint",
+        "title_gu": "દંખવાળા હાથ-પગને પાટિયું બાંધી સ્થિર રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "વિલંબ કર્યા વગર ૧૦૮ દ્વારા સીધા સરકારી હોસ્પિટલ પહોંચો; ત્યાં મફત ઉપલબ્ધ એન્ટિ-સ્નેક વેનમ (ASV) જ એકમાત્ર જીવનરક્ષક ઈલાજ છે.",
+        "desc_en": "Anti-Snake Venom (ASV) is the only scientific, life-saving antidote for Indian cobra, krait, Russell's viper, and saw-scaled viper bites.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Rush to CHC / District Hospital for Free ASV",
+        "title_gu": "તાત્કાલિક સરકારી હોસ્પિટલ પહોંચી ASV લો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "દંખ પર બ્લેડથી ચીરો ન મૂકો, મોંથી ચૂસશો નહીં કે કચકચાવીને દોરી ન બાંધો; તેનાથી અંગ સડી જાય છે અને કાપવું પડી શકે છે.",
+        "desc_en": "Tight tourniquets stop arterial blood flow causing gangrene and amputation. Cutting with razor blades introduces fatal tetanus and hemorrhage.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Cut, Suck, Bleed or Tie Tight Tourniquets",
+        "title_gu": "ચીરો મૂકવો, ચૂસવું કે કચકચાવીને દોરી ન બાંધવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "સાપ કરડવા પર ઝાડ-ફૂંક કે પથ્થર ઘસવામાં એક મિનિટ પણ ન બગાડો; સમયસર સક્ષમ હોસ્પિટલ પહોંચી એન્ટિ-સ્નેક વેનમ લેવાથી દર્દીનો જીવ બચાવી શકાય છે.",
+        "desc_en": "Over 70% of snakes are non-venomous; never waste critical minutes on faith healers. Reaching a capable hospital promptly for anti-snake venom is life-saving.",
+        "ai_prompt": "Documentary realistic medical photo: Emergency department staff administering intravenous anti-snake venom under physician monitoring in a Community Health Centre.. Authentic Indian primary healthcare setting.",
+        "title_en": "Prompt Anti-Snake Venom Saves Lives",
+        "title_gu": "સમયસર એન્ટિ-સ્નેક વેનમ જીવન બચાવે છે"
+      }
+    ]
+  },
+  {
+    "id": "11-23",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "11-24",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "11-26",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  },
+  {
+    "id": "11-28",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો; મીટર્ડ-ડોઝ ઇનહેલર (pMDI) સાથે સ્પેસર સાધન વાપરવાથી દવા ફેફસાં સુધી સરળતાથી પહોંચે છે.",
+        "desc_en": "Use prescribed inhalers daily as instructed for your device; for pressurized metered-dose inhalers (pMDIs), a spacer helps deliver medication effectively into the airways.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor or nurse demonstrating correct pMDI with spacer technique to an attentive adult patient in an Ayushman Arogya Mandir.. Authentic Indian primary healthcare setting.",
+        "title_en": "Use Prescribed Inhalers with Proper Device Technique",
+        "title_gu": "ડૉક્ટરની સલાહ મુજબ યોગ્ય પદ્ધતિથી નિયમિત ઇનહેલર લો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "લાકડાંના ચૂલાનો ધુમાડો ફેફસાંને બગાડે છે; રસોડામાં બારી ખુલ્લી રાખો અને ઉજ્જવલા યોજનાનો ગેસ ચૂલો વાપરો.",
+        "desc_en": "Replace wood and dung chulhas with clean LPG stoves; keep kitchen windows open to eliminate chronic biomass smoke lung destruction.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Shift to Clean LPG Gas & Ensure Kitchen Ventilation",
+        "title_gu": "ચૂલાના ધુમાડાથી બચી એલપીજી ગેસ વાપરો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બીડી-સિગારેટનો ધુમાડો શ્વાસનળીઓ કાયમ માટે સંકોચી નાખે છે; તમાકુ મુક્ત બનો જેથી ઉંમર વધતા ઓક્સિજન સિલિન્ડરનો સહારો ન લેવો પડે.",
+        "desc_en": "Smoking destroys delicate lung alveoli, causing irreversible COPD and chronic breathlessness. Quitting halts rapid lung decline.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Smoke Bidis, Cigarettes or Inhale Chillum Smoke",
+        "title_gu": "બીડી, સિગારેટ કે હુક્કો સદંતર બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "ઇનહેલરથી દવા સીધી ફેફસાં સુધી પહોંચતી હોવાથી ગોળીઓ કરતાં ઘણી ઓછી આડઅસર થાય છે અને તેની કોઈ આદત પડતી નથી; સ્ટીરોઈડ ઇનહેલર લીધા પછી હંમેશા મોં સાફ કરી કોગળા કરો.",
+        "desc_en": "Inhalers deliver targeted, low-dose medicine directly to the lungs with far fewer systemic effects than oral steroid tablets; they are non-addictive maintenance therapies. Always rinse your mouth after steroid inhalers.",
+        "ai_prompt": "Documentary realistic medical photo: A clean glass of water beside an inhaler illustrating the crucial step of mouth rinsing after inhaled maintenance medication.. Authentic Indian primary healthcare setting.",
+        "title_en": "Inhalers Deliver Targeted Direct Therapy",
+        "title_gu": "ઇનહેલર સીધી અસરકારક સારવાર આપે છે"
+      }
+    ]
+  },
+  {
+    "id": "12-20",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "શાળા અને આંગણવાડીમાં આવતી આરબીએસકે ટીમ પાસે બાળકની જન્મજાત ખોડખાંપણ, આંખ, કાન અને પોષણની તપાસ કરાવો.",
+        "desc_en": "Support RBSK doctor teams screening children aged 0-18 for Birth Defects, Deficiencies, Childhood Diseases, and Developmental Delays.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Screen for 4Ds with RBSK Mobile Health Teams",
+        "title_gu": "શાળા-આંગણવાડીમાં RBSK તપાસ કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "બોલવામાં, સાંભળવામાં કે ચાલવામાં મુશ્કેલી હોય તો જિલ્લા હોસ્પિટલના DEIC સેન્ટર પર મફત ફિઝિયોથેરાપી અને સ્પીચ થેરાપી મેળવો.",
+        "desc_en": "Refer children with developmental delays or sensory impairments to DEIC for free comprehensive therapy, hearing aids, and surgeries.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Utilize District Early Intervention Centers (DEIC)",
+        "title_gu": "DEIC કેન્દ્ર પર મફત થેરાપી મેળવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "બાળકની આંખમાં ત્રાસાદોષ હોય કે મોડું બોલે તો આપમેળે મટી જશે તેમ માની બેસી ન રહો; વહેલી તપાસથી ખામી દૂર થાય છે.",
+        "desc_en": "Do not assume children will naturally outgrow crossed eyes or walking delays; early intervention before age 3 produces best outcomes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Ignore Squint, Limp or Delayed Speech",
+        "title_gu": "આંખનો ત્રાસાદોષ કે બહેરાશ ન અવગણવી"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "હોઠ ફાટેલો હોય, પગનો પંજો વળેલો હોય કે જન્મજાત મોતિયો હોય તો અંધશ્રદ્ધામાં ન પડો; સરકારી RBSK યોજના હેઠળ નિષ્ણાત સર્જરી અને થેરાપી દ્વારા સુધારાત્મક સારવાર ઉપલબ્ધ છે.",
+        "desc_en": "Conditions like cleft lip, clubfoot, and congenital cataract can be effectively treated with government-supported corrective surgeries and therapy under RBSK.",
+        "ai_prompt": "Documentary realistic medical photo: Pediatric orthopedic surgeon examining an infant treated for clubfoot with gentle casting alongside smiling parents at a DEIC.. Authentic Indian primary healthcare setting.",
+        "title_en": "Free Corrective Surgery & Therapy Under RBSK",
+        "title_gu": "RBSK હેઠળ મફત સુધારાત્મક સર્જરી અને થેરાપી"
+      }
+    ]
+  },
+  {
+    "id": "12-27",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "કોઈ તકલીફ ન હોય તો પણ ૩૦ વર્ષની ઉંમર પછી દર મહિને આરોગ્ય કેન્દ્ર પર બીપી મપાવો; સાયલન્ટ કિલર બીપીથી સાવધાન રહો.",
+        "desc_en": "Visit Ayushman Arogya Mandir monthly for digital BP measurement; hypertension is a silent killer showing zero symptoms until crisis.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Check Blood Pressure Monthly Above Age 30",
+        "title_gu": "૩૦ વર્ષ પછી નિયમિત બીપી ચેક કરાવો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "રોજ સવારે ખુલ્લી હવામાં ૪૫ મિનિટ ઝડપી ચાલવાની ટેવ પાડો; તેનાથી નળીઓ સ્વસ્થ રહે છે અને બીપી કાબૂમાં રહે છે.",
+        "desc_en": "Moderate aerobic activity like brisk walking or cycling improves arterial elasticity and naturally reduces systolic BP by 5-8 mmHg.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Engage in 45 Minutes Daily Brisk Walking",
+        "title_gu": "દરરોજ ૪૫ મિનિટ ઝડપી ચાલો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #3 (સૂચિત સુધારો)",
+        "desc_gu": "દૈનિક મીઠાનો વપરાશ ૧ નાની ચમચી (૫ ગ્રામ મીઠું, જે ૨ ગ્રામ સોડિયમ બરાબર છે) થી ઓછો રાખો; જમવામાં ઉપરથી કાચું મીઠું ન નાખો અને અથાણાં, પાપડ કે ખારી વસ્તુઓ મર્યાદિત કરો.",
+        "desc_en": "Restrict total daily salt intake to less than 1 level teaspoon (5 g), which corresponds to under 2 g (2000 mg) of sodium. Avoid adding raw salt at the table, and limit pickles, papads, and salted snacks.",
+        "ai_prompt": "Documentary realistic medical photo: Healthy low-salt Indian diet presentation with fresh lemon, herbs, and measuring spoon showing 5g salt limit without salt shaker.. Authentic Indian primary healthcare setting.",
+        "title_en": "Restrict Salt to Under 5g Daily",
+        "title_gu": "દૈનિક મીઠાનો વપરાશ ૫ ગ્રામથી ઓછો રાખો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "બીપી કાબૂમાં આવી જાય તેનો અર્થ દવા કામ કરી રહી છે; ડોક્ટરની સલાહ વગર ક્યારેય દવા બંધ ન કરો જેથી લકવો ન થાય.",
+        "desc_en": "Hypertension requires continuous lifelong therapy. Stopping medicines abruptly causes rebound malignant hypertension and strokes.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Discontinue Prescribed BP Medication",
+        "title_gu": "બીપી નોર્મલ આવે તો દવા બંધ ન કરવી"
+      }
+    ]
+  },
+  {
+    "id": "12-28",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #1 (સૂચિત સુધારો)",
+        "desc_gu": "દર ૩ મહિને સુગર અને HbA1c તપાસ કરાવો; ડૉક્ટરે નક્કી કરેલા વ્યક્તિગત લક્ષ્ય (સામાન્ય રીતે ૭% ની અંદર) મુજબ સુગર નિયંત્રણમાં રાખી કિડની, નસો અને આંખો સુરક્ષિત રાખો.",
+        "desc_en": "Monitor fasting blood sugar and quarterly HbA1c; work with your doctor toward your individualized target (typically under 7% for most adults) to prevent microvascular damage.",
+        "ai_prompt": "Documentary realistic medical photo: Doctor discussing glucometer and lab reports with an elderly diabetic patient, explaining individualized targets in a primary clinic.. Authentic Indian primary healthcare setting.",
+        "title_en": "Monitor Blood Glucose & Aim for Individualized HbA1c",
+        "title_gu": "સુગર તપાસો અને વ્યક્તિગત HbA1c લક્ષ્ય રાખો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #2 (યથાવત)",
+        "desc_gu": "ડાયાબિટીસમાં પગની નસો નબળી પડતી હોવાથી ઈજાનો અહેસાસ થતો નથી; રોજ પગના તળિયા અરીસામાં જોઈ ક્યાંય ચાંદું નથી તે તપાસો.",
+        "desc_en": "Diabetic neuropathy impairs pain sensation. Wash feet in lukewarm water, dry between toes, and check soles daily for painless wounds.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Inspect Feet Daily with a Mirror for Cuts",
+        "title_gu": "અરીસામાં પગના તળિયા રોજ તપાસો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "ગોળ અને મધ પણ ખાંડ જેટલી જ સુગર વધારે છે; મીઠાઈઓ અને જ્યુસ બંધ કરી ફણગાવેલા મગ, કાકડી અને મેથીના દાણા લો.",
+        "desc_en": "Jaggery and honey cause blood sugar spikes identical to white sugar. Replace them with fiber-rich salads, sprouted pulses, and millets.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Eliminate Sugar, Jaggery, Sweets & Fruit Juices",
+        "title_gu": "ખાંડ, ગોળ અને પેક્ડ જ્યુસ બંધ કરો"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #4 (યથાવત)",
+        "desc_gu": "ઘરમાં કે બહાર ક્યારેય ઉઘાડા પગે ન ફરો; સોફ્ટ ચંપલ પહેરો જેથી કાંટો કે પથ્થર વાગવાથી થતું ગંભીર ઇન્ફેક્શન અટકે.",
+        "desc_en": "Never walk barefoot on hot floors, stones, or temple grounds; minor unnoticed blisters turn rapidly into gangrenous diabetic ulcers.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Walk Barefoot Even Indoors",
+        "title_gu": "ઘરમાં કે બહાર ખુલ્લા પગે ન ચાલવું"
+      }
+    ]
+  },
+  {
+    "id": "12-30",
+    "source": "annual_review_2026:PROPOSED_REVISION",
+    "cards": [
+      {
+        "index": 1,
+        "badge_en": "Card #1 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #1 (યથાવત)",
+        "desc_gu": "દર મહિને સ્તનમાં કોઈ નવી ગાંઠ, ચામડી ખેંચાતી હોય કે સ્તનની ડીંટડીમાંથી પ્રવાહી નીકળતું હોય તો જાતે તપાસી તુરંત ડોક્ટરને બતાવો.",
+        "desc_en": "Every woman above 20 should inspect and palpate breasts monthly after menstruation for painless lumps, dimpling, or nipple discharge.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Conduct Monthly Breast Self-Examination (BSE)",
+        "title_gu": "માસિક પછી સ્તનની જાતે તપાસ કરો"
+      },
+      {
+        "index": 2,
+        "badge_en": "Card #2 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #2 (સૂચિત સુધારો)",
+        "desc_gu": "૩૦ થી ૬૫ વર્ષની બહેનો દર ૫ વર્ષે આરોગ્ય કેન્દ્ર પર ગર્ભાશયના મુખની મફત તપાસ (VIA) કરાવો; પ્રારંભિક તબક્કે ઓળખ થવાથી સમયસર સફળ સારવાર શક્ય બને છે.",
+        "desc_en": "Women aged 30-65 should undergo free VIA screening every 5 years at Ayushman Arogya Mandir to detect cervical pre-cancer early, when treatment is most effective.",
+        "ai_prompt": "Documentary realistic medical photo: Female Community Health Officer counseling two rural women in a private, respectful clinic setting with educational anatomical chart.. Authentic Indian primary healthcare setting.",
+        "title_en": "Undergo VIA Screening Every 5 Years",
+        "title_gu": "દર ૫ વર્ષે VIA પદ્ધતિથી ગર્ભાશયના મુખની તપાસ કરાવો"
+      },
+      {
+        "index": 3,
+        "badge_en": "Card #3 (Retained Baseline)",
+        "badge_gu": "માર્ગદર્શન #3 (યથાવત)",
+        "desc_gu": "માસિક બંધ થયા પછી અચાનક રક્તસ્ત્રાવ થાય કે દુર્ગંધયુક્ત પાણી પડે તો શરમ રાખ્યા વગર મહિલા ડોક્ટરની સલાહ લો.",
+        "desc_en": "Abnormal vaginal bleeding between periods, post-menopausal spotting, or persistent foul discharge require immediate evaluation.",
+        "ai_prompt": "None - Baseline asset retained.",
+        "title_en": "Never Conceal Intimate Symptoms Due to Shyness",
+        "title_gu": "ખચકાટ રાખી લક્ષણો છુપાવવા નહીં"
+      },
+      {
+        "index": 4,
+        "badge_en": "Card #4 (Proposed Clinical Correction)",
+        "badge_gu": "માર્ગદર્શન #4 (સૂચિત સુધારો)",
+        "desc_gu": "૯ થી ૧૪ વર્ષની કિશોરીઓને HPV રસી અપાવો; આ રસી મોટાભાગના ગર્ભાશયના કેન્સર સામે મજબૂત સુરક્ષા આપે છે, છતાં પુખ્ત વયે નિયમિત તપાસ કરાવવી જરૂરી છે.",
+        "desc_en": "Vaccinating adolescent girls aged 9-14 with Human Papillomavirus (HPV) vaccine prevents up to 90% of cervical cancers; routine adult screening remains recommended.",
+        "ai_prompt": "Documentary realistic medical photo: Adolescent girl receiving vaccination from an ANM at a health centre while mother smiles supportively.. Authentic Indian primary healthcare setting.",
+        "title_en": "HPV Vaccination for Adolescent Girls",
+        "title_gu": "કિશોરીઓ માટે HPV રસીકરણ"
+      }
+    ]
+  }
+]

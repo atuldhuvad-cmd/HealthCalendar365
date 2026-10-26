@@ -1,0 +1,8 @@
+{
+  "renders": 840,
+  "sourcePhotos": 140,
+  "failures": [],
+  "errors": [],
+  "rendererScopeCheck": "PASS: only CPHC photo profiles and optional CPHC vertical badge corners differ from deployed v1.26",
+  "visualReview": "PASS: all 140 source/square/vertical comparisons inspected across 14 bilingual comparison sheets; revised close crops and badge corners rechecked"
+}

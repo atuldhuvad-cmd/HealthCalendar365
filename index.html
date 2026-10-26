@@ -17,6 +17,7 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/review.css">
 </head>
 <body>
 
@@ -74,19 +75,44 @@
     </div>
   </header>
 
-  <!-- Quick-Week Jumper (Oct 15 - Oct 21 Spotlight Week) -->
-  <section class="quick-week-bar">
-    <div class="quick-week-label">
-      <span class="spotlight-tag">⭐ Oct 15–21 Week</span>
+  <!-- Application View Mode Switcher -->
+  <nav class="app-mode-bar" aria-label="Application View Mode">
+    <div class="mode-bar-inner">
+      <div class="mode-switch-group">
+        <button id="viewStudioBtn" class="mode-tab-btn active" type="button" title="Open Poster Studio">
+          <span class="mode-icon">🎨</span>
+          <span class="mode-label">Poster Studio</span>
+          <span class="mode-tag">Active 365</span>
+        </button>
+        <button id="viewReviewBtn" class="mode-tab-btn" type="button" title="Open Annual 2026 Calendar Reference">
+          <span class="mode-icon">📋</span>
+          <span class="mode-label">Calendar Reference</span>
+          <span class="mode-tag review-tag">2026 Sources</span>
+        </button>
+      </div>
+      <div class="mode-status-indicator" id="modeStatusIndicator">
+        <span class="pulse-dot"></span>
+        <span class="indicator-text">Active Studio Mode</span>
+      </div>
     </div>
-    <div class="quick-week-scroll" id="quickWeekPills">
-      <!-- Filled dynamically by app.js -->
+  </nav>
+
+  <!-- Observance Search -->
+  <section class="obs-search" aria-label="Search observances">
+    <label class="obs-search-label" for="searchDayInput">🔍 Search observances</label>
+    <div class="obs-search-field">
+      <input id="searchDayInput" class="obs-search-input" type="search" autocomplete="off"
+             placeholder="Search title or date, English or ગુજરાતી"
+             role="combobox" aria-expanded="false" aria-controls="searchResultsList"
+             aria-autocomplete="list" />
     </div>
+    <p id="searchStatus" class="obs-search-status" role="status" aria-live="polite"></p>
     <div class="date-search-box">
       <select id="dateSelectInput" class="date-select" title="Jump to any of 365 Days">
         <!-- 365 options populated by app.js -->
       </select>
     </div>
+    <ul id="searchResultsList" class="obs-results" role="listbox" aria-label="Matching observances" hidden></ul>
   </section>
 
   <!-- Main Studio Workspace -->
@@ -144,13 +170,6 @@
           </div>
         </button>
 
-        <button id="batchDownloadBtn" class="btn-primary-action btn-batch" title="Download all 7 Days (Oct 15 to Oct 21) in 1 click!">
-          <span class="btn-icon">📦</span>
-          <div class="btn-label-group">
-            <span class="btn-main-label">Download All 7 Days</span>
-            <span class="btn-sub-label">Oct 15–21 Batch (1-Click)</span>
-          </div>
-        </button>
       </div>
     </section>
 
@@ -170,6 +189,116 @@
     </aside>
 
   </main>
+
+  <!-- Annual Calendar 2026 Reference Console -->
+  <main id="calendarReviewView" class="review-layout">
+    <!-- Review Notice & Disclaimer Banner -->
+    <div class="review-banner">
+      <div class="review-banner-text">
+        <h2>Annual Health Calendar 2026 — Reference Console</h2>
+        <p>વાર્ષિક આરોગ્ય કેલેન્ડર ૨૦૨૬ • Bilingual content, sources and placement history • Dr. Atul Dhuvad</p>
+      </div>
+      <div class="review-banner-badges">
+        <span class="banner-badge badge-emerald">ACTIVE PERSONAL USE</span>
+        <span class="banner-badge badge-blue">HISTORICAL RECORDS PRESERVED</span>
+        <span class="banner-badge badge-blue">OFFLINE BUNDLED</span>
+      </div>
+    </div>
+
+    <!-- Controls & Filter Toolbar -->
+    <div class="review-controls-bar">
+      <div class="controls-row-top">
+        <div class="review-search-box">
+          <input type="text" id="reviewSearchInput" placeholder="Search 365 dates (e.g. '10-15', 'October', 'Anemia', 'હાઈપરટેન્શન')..." />
+          <button id="reviewClearSearchBtn" class="search-clear-btn" style="display:none;" title="Clear Search">&times;</button>
+        </div>
+        <select id="reviewMonthSelect" class="review-month-select" title="Filter by Month">
+          <option value="all">All Months (365 Days)</option>
+          <option value="1">January (31)</option>
+          <option value="2">February (28)</option>
+          <option value="3">March (31)</option>
+          <option value="4">April (30)</option>
+          <option value="5">May (31)</option>
+          <option value="6">June (30)</option>
+          <option value="7">July (31)</option>
+          <option value="8">August (31)</option>
+          <option value="9">September (30)</option>
+          <option value="10">October (31)</option>
+          <option value="11">November (30)</option>
+          <option value="12">December (31)</option>
+        </select>
+        <div class="controls-row-actions">
+          <button id="openLegendModalBtn" class="btn-review-action" title="View Reference Legend">
+            <span>ℹ️</span>
+            <span>Reference Legend</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Filter Chips -->
+      <div class="filter-chips-scroll" id="reviewFilterChips">
+        <button class="filter-chip active" data-filter="all">
+          <span>All 365 Dates</span>
+          <span class="chip-count">365</span>
+        </button>
+        <button class="filter-chip" data-filter="placement_conflict">
+          <span>⚠️ Placement Conflicts & Multi-Track</span>
+          <span class="chip-count">10</span>
+        </button>
+        <button class="filter-chip" data-filter="evidence_concern">
+          <span>🔬 Evidence Concerns</span>
+          <span class="chip-count">48</span>
+        </button>
+        <button class="filter-chip" data-filter="retained_correction">
+          <span>🔧 Retained-Content Corrections</span>
+          <span class="chip-count">45</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Master-Detail Review Workspace Grid -->
+    <div class="review-workspace-grid">
+      <!-- Left: Date Navigation List -->
+      <section class="review-list-column">
+        <div class="list-column-header">
+          <h3>2026 Calendar Dates</h3>
+          <span id="reviewListCount" class="list-matching-count">365 / 365</span>
+        </div>
+        <div class="review-date-scroll" id="reviewDateList">
+          <!-- Populated dynamically by review.js -->
+        </div>
+      </section>
+
+      <!-- Right: Date Detail & Side-by-Side Comparison -->
+      <section class="review-detail-column" id="reviewDetailContent">
+        <!-- Populated dynamically by review.js -->
+      </section>
+    </div>
+  </main>
+
+  <!-- Review Legend & Guidelines Modal -->
+  <div class="review-modal-backdrop" id="legendModal">
+    <div class="review-modal-content">
+      <div class="review-modal-header">
+        <h3>ℹ️ Reference Console Legend</h3>
+        <button id="closeLegendModalBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="review-modal-body" style="line-height:1.5;font-size:0.9rem;color:#cbd5e1;">
+        <h4 style="color:#ffffff;margin-top:0;">Personal-Use Boundaries</h4>
+        <ul>
+          <li><strong>Active local calendar:</strong> All 365 dates remain usable. Reference and historical fields do not block poster rendering.</li>
+          <li><strong>Images:</strong> Existing photos remain active until replaced. Optional briefs support future improvements.</li>
+          <li><strong>Offline Access:</strong> All 365 dates and review dossiers are bundled locally into the PWA service worker precache. External guideline links require internet.</li>
+        </ul>
+        <h4 style="color:#ffffff;">Reference Status</h4>
+        <ul>
+          <li><strong style="color:#10b981;">ACTIVE PERSONAL USE:</strong> Current local poster content and image.</li>
+          <li><strong style="color:#f97316;">CORRECTION HISTORY:</strong> Earlier wording concern retained for traceability.</li>
+          <li><strong style="color:#06b6d4;">REFERENCE OPTION:</strong> Optional future content or visual brief; not a blocker.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <!-- Doctor Branding Settings Modal -->
   <div class="modal-backdrop" id="settingsModal">
@@ -229,21 +358,6 @@
     </div>
   </div>
 
-  <!-- Batch Download Progress Modal -->
-  <div class="modal-backdrop" id="progressModal">
-    <div class="modal-card modal-progress-card">
-      <div class="modal-header">
-        <h3 class="modal-title" id="progressModalTitle">Generating Oct 15–21 Posters...</h3>
-      </div>
-      <div class="modal-body">
-        <div class="progress-bar-track">
-          <div class="progress-bar-fill" id="progressBarFill"></div>
-        </div>
-        <p class="progress-detail" id="progressDetail">Starting batch generation...</p>
-      </div>
-    </div>
-  </div>
-
   <!-- Card Action Modal (Direct Canvas Click) -->
   <div class="modal-backdrop" id="cardActionModal">
     <div class="modal-card modal-action-card">
@@ -296,6 +410,8 @@
   <script src="./js/db.js"></script>
   <script src="./js/canvas-renderer.js"></script>
   <script src="./js/app.js"></script>
+  <script src="./js/review-data.js"></script>
+  <script src="./js/review.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "head": "5749793",
+  "staged_files": 437,
+  "staged_deletions": 189,
+  "selected_paths_still_unstaged": [],
+  "unstaged_preserved": [
+    "review/runtime_offline_pwa_test_results.json",
+    "review/screenshots/cold_offline_launch.png",
+    "review/screenshots/network_restored.png",
+    "review/screenshots/offline_360x740.png",
+    "review/screenshots/offline_412x915.png",
+    "review/screenshots/offline_date_navigation.png",
+    "review/screenshots/online_360x740.png",
+    "review/screenshots/online_412x915.png",
+    "review/screenshots/post_update_360x740.png",
+    "review/screenshots/post_update_412x915.png",
+    "scratch/test_runtime_offline_pwa.cjs",
+    "serve.py"
+  ],
+  "staged_missing_except_intended_deletions": [],
+  "blocked_or_private_paths_staged": [],
+  "runtime_cache": "const CACHE_NAME = 'health-poster-v1.28';",
+  "followup_status": "VERIFIED: obsolete fields removed; data parity and unchanged clinical content confirmed; pixel comparison counts recomputed; fresh offline and upgrade checks passed"
+}
