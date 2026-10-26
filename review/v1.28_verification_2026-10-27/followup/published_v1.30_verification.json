@@ -1,0 +1,56 @@
+{
+  "scope": "Published v1.30 at https://healthcalendar365.pages.dev",
+  "results": [
+    {
+      "name": "fresh visit to /index.html loads",
+      "pass": true,
+      "detail": "https://healthcalendar365.pages.dev/"
+    },
+    {
+      "name": "published v1.30 installs all 264 cache entries",
+      "pass": true,
+      "detail": {
+        "health-poster-v1.30": 264
+      }
+    },
+    {
+      "name": "navigation entries stored NOT redirected (the hardening)",
+      "pass": true,
+      "detail": {
+        "./": {
+          "status": 200,
+          "redirected": false
+        },
+        "./index.html": {
+          "status": 200,
+          "redirected": false
+        }
+      }
+    },
+    {
+      "name": "online launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "online launch /",
+      "pass": true
+    },
+    {
+      "name": "OFFLINE launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "OFFLINE launch /",
+      "pass": true
+    },
+    {
+      "name": "offline app has 365 dates",
+      "pass": true
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}
