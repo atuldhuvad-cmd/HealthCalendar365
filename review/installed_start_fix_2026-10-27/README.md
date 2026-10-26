@@ -1,0 +1,11 @@
+# Installed-app startup repair — v1.29
+
+The desktop screenshot exposed a real navigation defect, independently reproduced against the live v1.28 app. Cloudflare redirects `/index.html` to `/` with HTTP 308. Precaching follows that redirect, leaving the cached `/index.html` response marked `redirected: true`. Chrome rejects that cached response for an explicit navigation to `/index.html`, producing `net::ERR_FAILED`; root navigation succeeds. Earlier offline tests followed the initial redirect to `/` and reloaded that root URL, so they missed the installed start URL.
+
+The service worker now turns a cached redirected HTML response into a normal streamed Response for navigation, retaining its status and headers while removing stale transport encoding/length headers. Offline fallback applies the same handling and also tries the cached root; missing shell files produce a readable HTTP 503 instead of resolving the fetch handler to undefined.
+
+The manifest starts at `./` with explicit scope `./`, and adds `id: ./index.html` to preserve the existing app identity derived from the former start URL. See Chrome's manifest identity guidance: https://developer.chrome.com/docs/capabilities/pwa-manifest-id . No app storage, settings, uploaded photos, renderer, or calendar content is cleared or changed. Cache version: `health-poster-v1.29`.
+
+Regression test `scratch/verify_installed_start.cjs` serves the preserved v1.28 and v1.29 bundles behind the real host's index-to-root 308 redirect pattern. It reproduces v1.28 ERR_FAILED, upgrades in the same isolated browser profile, then verifies repeated root and explicit-index launches online and offline, exact uploaded-photo/settings retention, stable manifest identity, cached-root fallback, and readable missing-shell response. All checks PASS; evidence is `regression_verification.json`. This is a redirect-specific browser regression test, not a physical installed-window test.
+
+The app-only bundle `build/cloudflare-pages-v1.29` contains 264 files, all hash-identical to source before publication. Publishing this startup repair continues the owner's requested release and installed-app troubleshooting. Preserve unrelated working changes and include only the manifest, service worker, regression test, this note, regression evidence, and corrected root release documentation in its commit.

@@ -2,9 +2,9 @@
 
 An offline-first, mobile-responsive **Progressive Web App (PWA)** created specifically for Indian Doctors and Public Health Advocates to instantly generate, customize, and share high-resolution bilingual health awareness posters directly to **WhatsApp Posts, Groups, and Status**.
 
-**Live app:** [HealthCalendar365](https://healthcalendar365.pages.dev/index.html) · **Release:** v1.27, published 27 October 2026. The complete 140-photo CPHC framing correction preserves the existing typography and card geometry. [Release verification](review/cphc_framing_2026-10-27/README.md).
+**Live app:** [HealthCalendar365](https://healthcalendar365.pages.dev/) · **Release:** v1.29. The installed-app startup repair handles the host's `/index.html` redirect while preserving the existing app identity and stored data. [Startup regression verification](review/installed_start_fix_2026-10-27/README.md).
 
-**Local source (v1.28 candidate, not yet published):** titles and captions are no longer clipped or silently cut off — a card title wider than its card wraps to a second line (or shrinks only as far as needed in the bilingual card), over-long poster headings and theme lines shrink only as far as needed to fit, and captions that previously lost their last line now show it. Posters that never overflowed render byte-identically. The offline cache is `health-poster-v1.28`.
+**Included v1.28 fixes:** titles and captions are no longer clipped or silently cut off — a card title wider than its card wraps to a second line (or shrinks only as far as needed in the bilingual card), over-long poster headings and theme lines shrink only as far as needed to fit, and captions that previously lost their last line now show it. The retained full-pixel comparison found 1,763 unchanged and 427 changed renders; this is decoded-pixel identity, not PNG-file byte identity. The current offline cache is `health-poster-v1.29`.
 
 **Content workflow:** this is a doctor-owned personal-use app. There is no approval, sign-off or release-gate workflow; edit content and images directly, then rebuild. The 2026 Calendar Reference keeps correction history, date-placement notes and sources for reference only.
 

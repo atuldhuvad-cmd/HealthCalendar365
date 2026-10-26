@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "name": "v1.28 reproduces installed start ERR_FAILED behind host redirect",
+      "pass": true
+    },
+    {
+      "name": "upgrade installs v1.29 and removes old cache",
+      "pass": true
+    },
+    {
+      "name": "online launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "online launch /",
+      "pass": true
+    },
+    {
+      "name": "online launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "offline launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "offline launch /",
+      "pass": true
+    },
+    {
+      "name": "offline launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "settings retained",
+      "pass": true
+    },
+    {
+      "name": "uploaded photo retained exactly",
+      "pass": true
+    },
+    {
+      "name": "canonical launch with preserved original identity",
+      "pass": true
+    },
+    {
+      "name": "offline missing-index fallback uses cached root",
+      "pass": true
+    },
+    {
+      "name": "missing offline shell gives readable 503, not ERR_FAILED",
+      "pass": true
+    }
+  ]
+}

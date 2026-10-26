@@ -3,7 +3,7 @@
  * Complete offline caching for all assets, fonts, JSON, and photo graphics.
  */
 
-const CACHE_NAME = 'health-poster-v1.28';
+const CACHE_NAME = 'health-poster-v1.29';
 
 const PRECACHE_ASSETS = [
   './',
@@ -296,6 +296,20 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// A host may redirect index.html to the directory root during precaching.
+// Navigation requests cannot consume a cached response marked redirected.
+function navigationResponse(response) {
+  if (!response || !response.redirected) return response;
+  const headers = new Headers(response.headers);
+  headers.delete('content-encoding');
+  headers.delete('content-length');
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers
+  });
+}
+
 // Cache-First strategy with background network fallback & caching
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
@@ -303,7 +317,7 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
-        return cachedResponse;
+        return event.request.mode === 'navigate' ? navigationResponse(cachedResponse) : cachedResponse;
       }
 
       return fetch(event.request).then((networkResponse) => {
@@ -320,7 +334,13 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Fallback for navigation requests if offline
         if (event.request.mode === 'navigate') {
-          return caches.match('./index.html');
+          return caches.match('./index.html').then((response) => {
+            if (response) return navigationResponse(response);
+            return caches.match('./').then((root) => root ? navigationResponse(root) :
+              new Response('Offline files are unavailable. Connect to the internet and reopen the app.', {
+                status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+              }));
+          });
         }
       });
     })
