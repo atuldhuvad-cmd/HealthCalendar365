@@ -3,7 +3,7 @@
  * Complete offline caching for all assets, fonts, JSON, and photo graphics.
  */
 
-const CACHE_NAME = 'health-poster-v1.29';
+const CACHE_NAME = 'health-poster-v1.30';
 
 const PRECACHE_ASSETS = [
   './',
@@ -272,11 +272,27 @@ const PRECACHE_ASSETS = [
   './photos/sep21_alzheimer_card4_caregiver.jpg'
 ];
 
+// Entries a navigation can be served from; these must never be stored redirected.
+const NAVIGATION_ASSETS = ['./', './index.html'];
+
+// A host may answer './index.html' with a redirect to the directory root (Cloudflare Pages
+// does). addAll then stores a response marked redirected, which a navigation cannot consume,
+// so the app fails to start with ERR_FAILED. Re-store those entries without the flag.
+function repairNavigationEntries(cache) {
+  return Promise.all(NAVIGATION_ASSETS.map((asset) => {
+    return cache.match(asset).then((response) => {
+      if (!response || !response.redirected) return undefined;
+      console.log('[ServiceWorker] Re-storing redirected navigation entry:', asset);
+      return cache.put(asset, unredirected(response));
+    });
+  }));
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log('[ServiceWorker] Precaching offline assets...');
-      return cache.addAll(PRECACHE_ASSETS);
+      return cache.addAll(PRECACHE_ASSETS).then(() => repairNavigationEntries(cache));
     }).then(() => self.skipWaiting())
   );
 });
@@ -296,9 +312,9 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// A host may redirect index.html to the directory root during precaching.
-// Navigation requests cannot consume a cached response marked redirected.
-function navigationResponse(response) {
+// Copy of a response without the redirected flag. Install uses it so the cache is correct at
+// rest; the fetch handler keeps using it as a safety net for caches written by earlier versions.
+function unredirected(response) {
   if (!response || !response.redirected) return response;
   const headers = new Headers(response.headers);
   headers.delete('content-encoding');
@@ -317,7 +333,7 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
-        return event.request.mode === 'navigate' ? navigationResponse(cachedResponse) : cachedResponse;
+        return event.request.mode === 'navigate' ? unredirected(cachedResponse) : cachedResponse;
       }
 
       return fetch(event.request).then((networkResponse) => {
@@ -325,7 +341,7 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         }
 
-        const responseToCache = networkResponse.clone();
+        const responseToCache = unredirected(networkResponse.clone());
         caches.open(CACHE_NAME).then((cache) => {
           cache.put(event.request, responseToCache);
         });
@@ -335,8 +351,8 @@ self.addEventListener('fetch', (event) => {
         // Fallback for navigation requests if offline
         if (event.request.mode === 'navigate') {
           return caches.match('./index.html').then((response) => {
-            if (response) return navigationResponse(response);
-            return caches.match('./').then((root) => root ? navigationResponse(root) :
+            if (response) return unredirected(response);
+            return caches.match('./').then((root) => root ? unredirected(root) :
               new Response('Offline files are unavailable. Connect to the internet and reopen the app.', {
                 status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' }
               }));

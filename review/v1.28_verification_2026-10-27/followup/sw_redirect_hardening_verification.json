@@ -1,0 +1,171 @@
+{
+  "scope": "sw.js hardening: cache stores non-redirected navigation entries",
+  "results": [
+    {
+      "name": "[redirecting host] installs 264 entries as v1.30",
+      "pass": true
+    },
+    {
+      "name": "[redirecting host] cached navigation entries stored NOT redirected",
+      "pass": true,
+      "detail": {
+        "./": {
+          "status": 200,
+          "redirected": false
+        },
+        "./index.html": {
+          "status": 200,
+          "redirected": false
+        }
+      }
+    },
+    {
+      "name": "[redirecting host] launch /index.html online",
+      "pass": true
+    },
+    {
+      "name": "[redirecting host] launch / online",
+      "pass": true
+    },
+    {
+      "name": "[redirecting host] launch /index.html offline",
+      "pass": true
+    },
+    {
+      "name": "[redirecting host] launch / offline",
+      "pass": true
+    },
+    {
+      "name": "[redirecting host] offline app has 365 dates",
+      "pass": true,
+      "detail": 365
+    },
+    {
+      "name": "[plain host] installs 264 entries as v1.30",
+      "pass": true
+    },
+    {
+      "name": "[plain host] cached navigation entries stored NOT redirected",
+      "pass": true,
+      "detail": {
+        "./": {
+          "status": 200,
+          "redirected": false
+        },
+        "./index.html": {
+          "status": 200,
+          "redirected": false
+        }
+      }
+    },
+    {
+      "name": "[plain host] launch /index.html online",
+      "pass": true
+    },
+    {
+      "name": "[plain host] launch / online",
+      "pass": true
+    },
+    {
+      "name": "[plain host] launch /index.html offline",
+      "pass": true
+    },
+    {
+      "name": "[plain host] launch / offline",
+      "pass": true
+    },
+    {
+      "name": "[plain host] offline app has 365 dates",
+      "pass": true,
+      "detail": 365
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] old worker installed",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] broken worker fails /index.html (reproduces the report)",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] v1.30 cache installed",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] old cache removed after activation",
+      "pass": true,
+      "detail": {
+        "health-poster-v1.30": 264
+      }
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] navigation entries stored NOT redirected",
+      "pass": true,
+      "detail": {
+        "./": {
+          "status": 200,
+          "redirected": false
+        },
+        "./index.html": {
+          "status": 200,
+          "redirected": false
+        }
+      }
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] settings preserved",
+      "pass": true,
+      "detail": "Hardening Check"
+    },
+    {
+      "name": "[upgrade v1.28->v1.30] uploaded photo preserved exactly",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] old worker installed",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] v1.30 cache installed",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] old cache removed after activation",
+      "pass": true,
+      "detail": {
+        "health-poster-v1.30": 264
+      }
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] navigation entries stored NOT redirected",
+      "pass": true,
+      "detail": {
+        "./": {
+          "status": 200,
+          "redirected": false
+        },
+        "./index.html": {
+          "status": 200,
+          "redirected": false
+        }
+      }
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] launch /index.html",
+      "pass": true
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] settings preserved",
+      "pass": true,
+      "detail": "Hardening Check"
+    },
+    {
+      "name": "[upgrade v1.29->v1.30] uploaded photo preserved exactly",
+      "pass": true
+    }
+  ]
+}
